@@ -1,0 +1,28 @@
+[project]
+name = "cinema-pipeline"
+version = "0.1.0"
+description = "Scrapes public Telegram cinema channels, extracts showtimes from posters, publishes schedules.json"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "google-genai>=1.0",
+    "httpx>=0.27",
+    "pillow>=10.0",
+    "pydantic>=2.6",
+    "pyyaml>=6.0",
+    "tzdata>=2024.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

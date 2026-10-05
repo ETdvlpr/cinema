@@ -1,0 +1,14 @@
+# Public Telegram channels to watch.
+#   id:      stable slug used in file paths and in schedules.json (don't change it once published)
+#   name:    display name
+#   channel: the part after https://t.me/  (the channel must be public: https://t.me/s/<channel> must load)
+#
+# The entries below are placeholders. Replace them with the real channels.
+cinemas:
+  - id: edna-mall
+    name: Edna Mall Cinema
+    channel: REPLACE_WITH_CHANNEL_NAME
+
+  - id: example-cinema
+    name: Example Cinema
+    channel: REPLACE_WITH_CHANNEL_NAME_2
