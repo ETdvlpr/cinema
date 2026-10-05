@@ -60,6 +60,11 @@ day/night or am/pm. All conversion happens in `ethiopian.py`, never in the model
 | ambiguity → reject | "10:30" with no am/pm could be 10:30 or 22:30, so it's dropped. "8:00" resolves to 20:00 because 08:00 is outside screening hours. |
 | duplicate slots removed | |
 
+Some posters list screenings by weekday under a date range, for example Alem's heading
+"ከመስከረም 25 – 28" with rows ሰኞ / ማክሰኞ / …. For these, the model reports the range and the
+weekdays as printed, and the code works out each date. A "daily" entry is expanded to every day
+in the range.
+
 When the calendar is unknown (for example "10/8"), every reading is tried. The value is kept
 only if exactly one reading passes. You can tune all thresholds at the top of `config.py`.
 
