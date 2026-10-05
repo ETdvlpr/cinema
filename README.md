@@ -57,6 +57,9 @@ included. The full format is in the [backend README](backend/README.md#output-pu
 
 Posters belong to the cinemas; this project links back to the original post for each one.
 
+Film details and posters for international releases come from [TMDB](https://www.themoviedb.org).
+This product uses the TMDB API but is not endorsed or certified by TMDB.
+
 ## App
 
 [`app/`](app) is a Flutter app (Android, iOS and web) that reads this data. It has a "What's on"

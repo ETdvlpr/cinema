@@ -65,12 +65,21 @@ class RawDateRange(BaseModel):
     end_day: int
 
 
+class RawFilm(BaseModel):
+    film_title_latin: str = Field(description="Same film_title_latin as used in showtimes.")
+    box_2d: list[int] | None = Field(
+        description="Bounding box of this film's own poster artwork on the image: [ymin, xmin, ymax, xmax] "
+        "normalised to 0-1000. Null if the film has no artwork on the image or you are unsure."
+    )
+
+
 class RawExtraction(BaseModel):
     is_schedule: bool = Field(description="True only if the image lists screenings with dates/times.")
     date_range: RawDateRange | None = Field(
         description="The overall date range printed on the poster (e.g. a heading 'Meskerem 25 - 28'), exactly as printed."
     )
     showtimes: list[RawShowtime]
+    films: list[RawFilm] = Field(description="Each film on the schedule, once, with the location of its artwork.")
     notes: str | None = Field(description="Anything unusual or hard to read, briefly.")
 
 
@@ -106,6 +115,10 @@ else unknown.
 - Ethiopian month names: {month_names} (and their Amharic forms). Use date_calendar="ethiopian" \
 with month numbers 1-13 for these.
 - If a value is not printed, use null. Do not guess.
+
+Also list each film once in `films`. If the poster shows that film's own artwork (a small \
+movie poster or still next to its times), give the artwork's box_2d. Box only the artwork \
+itself, not the text or times around it.
 """
 
 

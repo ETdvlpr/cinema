@@ -39,7 +39,8 @@ class _TicketSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     final text = Theme.of(context).textTheme;
     final s = showtime;
-    final title = prettyTitle(s.filmTitleLatin);
+    final info = s.info;
+    final title = info != null && info.fromTmdb ? info.title : prettyTitle(s.filmTitleLatin);
     final original = s.filmTitle != s.filmTitleLatin ? s.filmTitle : null;
     final accent = FilmArt.accentFor(s.filmKey);
 
@@ -68,6 +69,7 @@ class _TicketSheet extends StatelessWidget {
                       title: title,
                       subtitle: original,
                       borderRadius: 0,
+                      imageUrl: s.info?.backdrop('w300') ?? s.info?.poster('w342'),
                       titleStyle: text.headlineSmall,
                     ),
                   ),

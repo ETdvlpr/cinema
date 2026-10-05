@@ -85,4 +85,64 @@ void main() {
     expect(film.title, 'Hulet Fit');
     expect(film.originalTitle, 'ሁለት ፊት');
   });
+
+  test('film details attach to showtimes; TMDB title and poster win over the cinema\'s spelling', () {
+    final json = {
+      'generated_at': '2026-10-05T22:00:00+03:00',
+      'tmdb_image_base': 'https://image.tmdb.org/t/p/',
+      'films': {
+        'spidermanbrandnewday': {
+          'title': 'Spider-Man: Brand New Day',
+          'overview': 'Peter Parker...',
+          'release_date': '2026-07-31',
+          'runtime': 132,
+          'genres': ['Action'],
+          'rating': 7.9,
+          'certification': 'PG-13',
+          'tmdb_id': 1,
+          'tmdb_url': 'https://www.themoviedb.org/movie/1',
+          'trailer_url': null,
+          'poster_path': '/spidey.jpg',
+          'backdrop_path': null,
+          'thumbnail': 'films/spidermanbrandnewday.jpg',
+        },
+        'huletfit': {
+          'title': 'Hulet Fit',
+          'genres': [],
+          'tmdb_url': null,
+          'poster_path': null,
+          'thumbnail': 'films/huletfit.jpg',
+        },
+      },
+      'cinemas': [
+        {
+          'id': 'gast',
+          'name': 'GAST',
+          'channel_url': 'https://t.me/GastCinema',
+          'last_checked': null,
+          'last_error': null,
+          'latest_schedule_posted_at': null,
+          'latest_poster': null,
+          'showtimes': [
+            _showtime('SPIDER MAN: BRAND NEW DAY', '2026-10-06', '12:00'),
+            _showtime('Hulet Fit', '2026-10-06', '15:00'),
+            _showtime('Verity', '2026-10-06', '18:00'),
+          ],
+        },
+      ],
+    };
+    final films = {for (final f in groupFilms(Schedule.fromJson(json).allShowtimes)) f.key: f};
+
+    final spidey = films['spidermanbrandnewday']!;
+    expect(spidey.title, 'Spider-Man: Brand New Day');
+    expect(spidey.info!.year, '2026');
+    expect(spidey.info!.poster('w342'), 'https://image.tmdb.org/t/p/w342/spidey.jpg');
+    expect(spidey.info!.backdrop('w780'), isNull);
+
+    final hulet = films['huletfit']!;
+    expect(hulet.info!.fromTmdb, isFalse);
+    expect(hulet.info!.poster('w342'), endsWith('/cinema/films/huletfit.jpg'));
+
+    expect(films['verity']!.info, isNull);
+  });
 }

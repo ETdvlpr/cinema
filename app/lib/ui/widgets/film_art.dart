@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 /// Generated artwork for a film. The backend has no per-film posters (and downloading them
@@ -12,6 +13,7 @@ class FilmArt extends StatelessWidget {
     this.borderRadius = 20,
     this.titleStyle,
     this.parallax = 0,
+    this.imageUrl,
   });
 
   final String filmKey;
@@ -23,6 +25,10 @@ class FilmArt extends StatelessWidget {
 
   /// -1..1 as the card slides past the centre of a carousel; layers drift at different speeds.
   final double parallax;
+
+  /// Real artwork (TMDB poster or a thumbnail cut from the cinema's poster). The generated art
+  /// stays underneath as the placeholder and as the fallback if it fails to load.
+  final String? imageUrl;
 
   static const _palettes = [
     [Color(0xFF3A1C71), Color(0xFFD76D77), Color(0xFFFFAF7B)],
@@ -95,6 +101,22 @@ class FilmArt extends StatelessWidget {
                     ),
                   ),
                 ),
+                if (imageUrl != null)
+                  Positioned.fill(
+                    child: CachedNetworkImage(
+                      imageUrl: imageUrl!,
+                      fit: BoxFit.cover,
+                      alignment: Alignment(parallax * 0.8, -0.4),
+                      // Decode at display size: less memory on cheap phones.
+                      memCacheWidth: box.maxWidth.isFinite
+                          ? (box.maxWidth * MediaQuery.devicePixelRatioOf(context)).round()
+                          : null,
+                      filterQuality: FilterQuality.medium,
+                      fadeInDuration: const Duration(milliseconds: 300),
+                      placeholder: (_, _) => const SizedBox.shrink(),
+                      errorWidget: (_, _, _) => const SizedBox.shrink(),
+                    ),
+                  ),
                 // Bottom scrim for legibility
                 const DecoratedBox(
                   decoration: BoxDecoration(

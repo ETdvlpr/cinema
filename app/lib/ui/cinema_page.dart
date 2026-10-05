@@ -186,7 +186,13 @@ class _FilmRow extends StatelessWidget {
               height: 72,
               child: Hero(
                 tag: heroTag,
-                child: FilmArt(filmKey: film.key, title: film.title, showTitle: false, borderRadius: 12),
+                child: FilmArt(
+                  filmKey: film.key,
+                  title: film.title,
+                  showTitle: false,
+                  borderRadius: 12,
+                  imageUrl: film.info?.poster('w154'),
+                ),
               ),
             ),
           ),

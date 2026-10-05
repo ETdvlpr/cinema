@@ -66,7 +66,7 @@ def test_year_rollover():
 
 
 def test_duplicates_dropped():
-    extraction = RawExtraction(is_schedule=True, date_range=None, showtimes=[raw(), raw(), raw(confidence=0.1)], notes=None)
+    extraction = RawExtraction(is_schedule=True, date_range=None, films=[], showtimes=[raw(), raw(), raw(confidence=0.1)], notes=None)
     accepted, rejected = validate_extraction(extraction, POSTED_ON)
     assert len(accepted) == 1
     assert len(rejected) == 1
@@ -83,7 +83,7 @@ def alem_entry(weekday, hour, minute):
 
 
 def test_weekday_rows_under_date_range():
-    extraction = RawExtraction(is_schedule=True, date_range=ALEM_RANGE, notes=None, showtimes=[
+    extraction = RawExtraction(is_schedule=True, date_range=ALEM_RANGE, films=[], notes=None, showtimes=[
         alem_entry("monday", 9, 0),      # 9 ሰዓት: 15:00 (03:00 is too early)
         alem_entry("tuesday", 2, 20),    # 02:20/08:20 too early, so 20:20
         alem_entry("thursday", 12, 20),  # 18:20
@@ -100,7 +100,7 @@ def test_weekday_rows_under_date_range():
 
 def test_daily_entry_expands_over_range():
     gregorian_range = RawDateRange(calendar="gregorian", year=2026, start_month=10, start_day=5, end_month=10, end_day=7)
-    extraction = RawExtraction(is_schedule=True, date_range=gregorian_range, notes=None, showtimes=[
+    extraction = RawExtraction(is_schedule=True, date_range=gregorian_range, films=[], notes=None, showtimes=[
         raw(month=None, day=None, weekday=None),
     ])
     accepted, _ = validate_extraction(extraction, date(2026, 10, 4))

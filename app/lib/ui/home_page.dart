@@ -334,6 +334,7 @@ class _FeaturedCarouselState extends State<_FeaturedCarousel> {
                                 title: film.title,
                                 borderRadius: 24,
                                 parallax: reduceMotion ? 0 : offset,
+                                imageUrl: film.info?.poster('w342'),
                                 subtitle:
                                     '$cinemas ${cinemas == 1 ? 'cinema' : 'cinemas'} · ${film.showtimes.length} shows',
                                 titleStyle: Theme.of(context).textTheme.headlineSmall,
@@ -422,7 +423,13 @@ class _FilmScheduleCard extends StatelessWidget {
                     height: 78,
                     child: Hero(
                       tag: heroTag,
-                      child: FilmArt(filmKey: film.key, title: film.title, showTitle: false, borderRadius: 14),
+                      child: FilmArt(
+                        filmKey: film.key,
+                        title: film.title,
+                        showTitle: false,
+                        borderRadius: 14,
+                        imageUrl: film.info?.poster('w154'),
+                      ),
                     ),
                   ),
                   const SizedBox(width: 14),

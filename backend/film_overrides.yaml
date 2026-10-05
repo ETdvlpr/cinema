@@ -1,0 +1,13 @@
+# Corrections for film details from TMDB (https://www.themoviedb.org).
+#
+# Matching is automatic and strict (same title, recent release), so most films need nothing here.
+# Use this when a film gets the wrong poster, or none when TMDB does have it.
+#
+#   "<title as the cinemas write it>": <TMDB movie id>   # the number in themoviedb.org/movie/<id>
+#   "<title>": none                                       # never use TMDB for this film
+#
+# Changes take effect on the next run.
+#
+# Examples:
+# "RUNNER": 1234567
+# "IDIOTS": none

@@ -10,7 +10,8 @@ from PIL import Image, ImageOps
 from . import config
 from .config import Cinema, Settings
 from .extract import ModelsUnavailable, all_models_exhausted, extract_schedule
-from .publish import build_schedules
+from .films import TMDB_IMAGE_BASE, crop_thumbnail, enrich, load_films, offer_thumbnail, prune_films, public_entry, save_films
+from .publish import build_document, showing_films, write_schedules
 from .scrape import USER_AGENT, ChannelImage, ChannelUnavailable, fetch_channel_images
 from .store import delete_poster_image, load_store, prune_store, save_store
 from .validate import validate_extraction
@@ -27,6 +28,7 @@ def run(settings: Settings, cinemas: list[Cinema], *, dry_run: bool = False) -> 
     problems: list[str] = []
     stores: dict[str, dict] = {}
     queue: list[tuple[Cinema, ChannelImage]] = []
+    films = load_films()
 
     with httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=30) as client:
         for cinema in cinemas:
@@ -60,7 +62,7 @@ def run(settings: Settings, cinemas: list[Cinema], *, dry_run: bool = False) -> 
                 log.warning("All models over quota; %d images wait for the next run", len(queue) - n)
                 break
             store = stores[cinema.id]
-            record = _process_image(client, cinema, image, store["posters"].get(image.key), settings)
+            record = _process_image(client, cinema, image, store["posters"].get(image.key), settings, films)
             store["posters"][image.key] = record
             if record["status"] == "failed":
                 problems.append(f"{cinema.id}: {image.post_url}: {record['error']}")
@@ -69,8 +71,23 @@ def run(settings: Settings, cinemas: list[Cinema], *, dry_run: bool = False) -> 
         problems += _expire_or_flag_stuck(cinema_id, store, now)
         prune_store(store, now)
         save_store(store)
-    build_schedules(cinemas, now)
+    publish(cinemas, now, settings, films)
     return problems
+
+
+def publish(cinemas: list[Cinema], now: datetime, settings: Settings, films: dict | None = None) -> dict:
+    """Writes schedules.json, with details for every film that's showing."""
+    films = load_films() if films is None else films
+    doc = build_document(cinemas, now)
+    showing = showing_films(doc)
+    with httpx.Client(headers={"User-Agent": USER_AGENT}) as http:
+        enrich(films, showing, now, settings.tmdb_api_key, http)
+    prune_films(films, now)
+    save_films(films)
+    doc["tmdb_image_base"] = TMDB_IMAGE_BASE
+    doc["films"] = {key: public_entry(films[key]) for key in sorted(showing) if key in films}
+    write_schedules(doc)
+    return doc
 
 
 def _needs_processing(image: ChannelImage, store: dict, now: datetime) -> bool:
@@ -98,7 +115,7 @@ def _expire_or_flag_stuck(cinema_id: str, store: dict, now: datetime) -> list[st
 
 
 def _process_image(
-    client: httpx.Client, cinema: Cinema, image: ChannelImage, record: dict | None, settings: Settings
+    client: httpx.Client, cinema: Cinema, image: ChannelImage, record: dict | None, settings: Settings, films: dict
 ) -> dict:
     now = datetime.now(config.TZ).isoformat(timespec="seconds")
     record = record or {
@@ -153,11 +170,23 @@ def _process_image(
         delete_poster_image(record)
     else:
         record["status"] = "ok" if showtimes else "unreadable"
+        _save_film_thumbnails(films, extraction, resp.content, image)
     log.info(
         "%s: %s -> %s via %s (%d showtimes, %d rejected)",
         cinema.id, image.post_url, record["status"], model, len(showtimes), len(rejected),
     )
     return record
+
+
+def _save_film_thumbnails(films: dict, extraction, image_bytes: bytes, image: ChannelImage) -> None:
+    for film in extraction.films:
+        try:
+            thumb = crop_thumbnail(image_bytes, film.box_2d)
+        except Exception as e:  # a bad crop must never fail the poster
+            log.warning("Thumbnail crop failed for %r: %s", film.film_title_latin, e)
+            continue
+        if thumb:
+            offer_thumbnail(films, film.film_title_latin, thumb, image.post_url, image.posted_at.isoformat())
 
 
 def _save_poster(data: bytes, cinema_id: str, key: str) -> str:

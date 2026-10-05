@@ -14,6 +14,9 @@ STORE_DIR = ROOT / "data" / "extractions"
 PUBLIC_DIR = ROOT / "public"
 POSTERS_DIR = PUBLIC_DIR / "posters"
 SCHEDULES_FILE = PUBLIC_DIR / "schedules.json"
+FILMS_FILE = ROOT / "data" / "films.json"
+FILM_OVERRIDES_FILE = ROOT / "film_overrides.yaml"
+THUMBS_DIR = PUBLIC_DIR / "films"
 
 TZ = ZoneInfo("Africa/Addis_Ababa")
 
@@ -59,6 +62,7 @@ class Settings:
     gemini_models: list[str]  # tried in order; each has its own free-tier quota
     max_images_per_run: int
     min_seconds_between_calls: float
+    tmdb_api_key: str | None
 
     @classmethod
     def from_env(cls) -> Settings:
@@ -74,4 +78,6 @@ class Settings:
             max_images_per_run=int(os.environ.get("MAX_IMAGES_PER_RUN") or 40),
             # Keeps us under free-tier requests-per-minute limits.
             min_seconds_between_calls=float(os.environ.get("MIN_SECONDS_BETWEEN_CALLS") or 7),
+            # Optional: film posters and details from TMDB. Either a v3 API key or a v4 read token.
+            tmdb_api_key=os.environ.get("TMDB_API_KEY") or None,
         )

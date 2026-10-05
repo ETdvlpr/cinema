@@ -7,8 +7,13 @@ class Film {
   final String key;
   final List<Showtime> showtimes;
 
-  /// The most common spelling, made pleasant to read ("RESIDENT EVIL" -> "Resident Evil").
+  FilmInfo? get info => showtimes.first.info;
+
+  /// TMDB's title when known, else the most common spelling, made pleasant to read
+  /// ("RESIDENT EVIL" -> "Resident Evil").
   String get title {
+    final known = info;
+    if (known != null && known.fromTmdb) return known.title;
     // Vote case-insensitively, so "BRAND NEW DAY" and "BRAND New DAY" count as one spelling.
     final counts = <String, int>{};
     final spelling = <String, String>{};

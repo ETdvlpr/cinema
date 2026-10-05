@@ -9,9 +9,10 @@ from cinema_pipeline.config import Cinema, Settings
 from cinema_pipeline.scrape import ChannelImage
 
 SETTINGS = Settings(
-    gemini_api_key="test", gemini_models=["primary", "fallback"], max_images_per_run=40, min_seconds_between_calls=0
+    gemini_api_key="test", gemini_models=["primary", "fallback"], max_images_per_run=40, min_seconds_between_calls=0,
+    tmdb_api_key=None,
 )
-OK_JSON = '{"is_schedule": false, "showtimes": [], "notes": null}'
+OK_JSON = '{"is_schedule": false, "date_range": null, "showtimes": [], "films": [], "notes": null}'
 
 
 @pytest.fixture(autouse=True)
@@ -65,7 +66,7 @@ def _image(post_id: int, age: timedelta) -> ChannelImage:
 
 
 def test_quota_errors_dont_use_attempts_and_stop_the_run(tmp_path, monkeypatch):
-    for name in ("STORE_DIR", "PUBLIC_DIR", "POSTERS_DIR", "SCHEDULES_FILE"):
+    for name in ("STORE_DIR", "PUBLIC_DIR", "POSTERS_DIR", "SCHEDULES_FILE", "FILMS_FILE", "THUMBS_DIR", "FILM_OVERRIDES_FILE"):
         monkeypatch.setattr(config, name, tmp_path / name)
 
     images = [_image(1, timedelta(days=3)), _image(2, timedelta(hours=1)), _image(3, timedelta(days=20))]

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../data/addis_time.dart';
 import '../data/models.dart';
@@ -71,7 +72,13 @@ class MoviePage extends StatelessWidget {
                 children: [
                   Hero(
                     tag: heroTag,
-                    child: FilmArt(filmKey: film.key, title: film.title, showTitle: false, borderRadius: 0),
+                    child: FilmArt(
+                      filmKey: film.key,
+                      title: film.title,
+                      showTitle: false,
+                      borderRadius: 0,
+                      imageUrl: film.info?.backdrop('w780') ?? film.info?.poster('w500'),
+                    ),
                   ),
                   const DecoratedBox(
                     decoration: BoxDecoration(
@@ -115,6 +122,7 @@ class MoviePage extends StatelessWidget {
               ),
             ),
           ),
+          if (film.info != null && film.info!.fromTmdb) SliverToBoxAdapter(child: _FilmDetails(info: film.info!)),
           for (final dateEntry in byDate.entries) ...[
             SliverToBoxAdapter(
               child: Padding(
@@ -151,6 +159,10 @@ class MoviePage extends StatelessWidget {
               ],
             ),
           ],
+          if (film.info != null && film.info!.fromTmdb)
+            const SliverToBoxAdapter(
+              child: Padding(padding: EdgeInsets.fromLTRB(20, 24, 20, 0), child: _TmdbAttribution()),
+            ),
           const SliverToBoxAdapter(child: SizedBox(height: 32)),
         ],
       ),
@@ -181,4 +193,143 @@ class _Pill extends StatelessWidget {
       ],
     ),
   );
+}
+
+/// Year, runtime, rating, genres, synopsis and links, from TMDB.
+class _FilmDetails extends StatefulWidget {
+  const _FilmDetails({required this.info});
+
+  final FilmInfo info;
+
+  @override
+  State<_FilmDetails> createState() => _FilmDetailsState();
+}
+
+class _FilmDetailsState extends State<_FilmDetails> {
+  bool _expanded = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final text = Theme.of(context).textTheme;
+    final info = widget.info;
+    final runtime = info.runtime == null ? null : '${info.runtime! ~/ 60}h ${info.runtime! % 60}m';
+    final facts = [?info.year, ?runtime, ?info.certification];
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 4, 20, 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              if (info.rating != null) ...[
+                const Icon(Icons.star_rounded, size: 18, color: AppColors.gold),
+                const SizedBox(width: 4),
+                Text(info.rating!.toStringAsFixed(1), style: text.titleSmall?.copyWith(color: AppColors.gold)),
+                if (facts.isNotEmpty) Text('  ·  ', style: text.bodySmall),
+              ],
+              Expanded(
+                child: Text(facts.join('  ·  '), style: text.bodyMedium?.copyWith(color: AppColors.textMuted)),
+              ),
+            ],
+          ),
+          if (info.genres.isNotEmpty) ...[
+            const SizedBox(height: 10),
+            Wrap(
+              spacing: 6,
+              runSpacing: 6,
+              children: [
+                for (final g in info.genres)
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                    decoration: BoxDecoration(
+                      color: AppColors.surfaceHigh,
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(color: AppColors.outline),
+                    ),
+                    child: Text(g, style: text.labelMedium),
+                  ),
+              ],
+            ),
+          ],
+          if (info.overview != null) ...[
+            const SizedBox(height: 14),
+            GestureDetector(
+              onTap: () => setState(() => _expanded = !_expanded),
+              child: AnimatedSize(
+                duration: const Duration(milliseconds: 250),
+                curve: Curves.easeOutCubic,
+                alignment: Alignment.topCenter,
+                child: Text(
+                  info.overview!,
+                  maxLines: _expanded ? null : 3,
+                  overflow: _expanded ? TextOverflow.visible : TextOverflow.ellipsis,
+                  style: text.bodyMedium?.copyWith(height: 1.5, color: AppColors.text.withValues(alpha: 0.85)),
+                ),
+              ),
+            ),
+            if (!_expanded && info.overview!.length > 160)
+              TextButton(
+                onPressed: () => setState(() => _expanded = true),
+                style: TextButton.styleFrom(padding: EdgeInsets.zero, minimumSize: const Size(0, 32)),
+                child: const Text('More'),
+              ),
+          ],
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              if (info.trailerUrl != null) ...[
+                FilledButton.icon(
+                  onPressed: () => launchUrl(Uri.parse(info.trailerUrl!), mode: LaunchMode.externalApplication),
+                  icon: const Icon(Icons.play_arrow_rounded),
+                  label: const Text('Trailer'),
+                ),
+                const SizedBox(width: 10),
+              ],
+              if (info.tmdbUrl != null)
+                OutlinedButton(
+                  onPressed: () => launchUrl(Uri.parse(info.tmdbUrl!), mode: LaunchMode.externalApplication),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: AppColors.text,
+                    side: const BorderSide(color: AppColors.outline),
+                  ),
+                  child: const Text('More on TMDB'),
+                ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Required by TMDB's terms wherever their data is shown.
+class _TmdbAttribution extends StatelessWidget {
+  const _TmdbAttribution();
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+          decoration: BoxDecoration(
+            gradient: const LinearGradient(colors: [Color(0xFF90CEA1), Color(0xFF01B4E4)]),
+            borderRadius: BorderRadius.circular(4),
+          ),
+          child: const Text(
+            'TMDB',
+            style: TextStyle(color: Color(0xFF0D253F), fontWeight: FontWeight.w900, fontSize: 11, letterSpacing: 1),
+          ),
+        ),
+        const SizedBox(width: 10),
+        Expanded(
+          child: Text(
+            'Film details and posters from TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(fontSize: 11),
+          ),
+        ),
+      ],
+    );
+  }
 }

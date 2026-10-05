@@ -3,12 +3,10 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'api.dart';
 import 'models.dart';
 
-/// Where the backend publishes. Override with --dart-define=API_BASE=https://.../
-const apiBase = String.fromEnvironment('API_BASE', defaultValue: 'https://etdvlpr.github.io/cinema/');
-
-String assetUrl(String relativePath) => Uri.parse(apiBase).resolve(relativePath).toString();
+export 'api.dart' show apiBase, assetUrl;
 
 class ScheduleResult {
   ScheduleResult(this.schedule, {required this.fromCache});

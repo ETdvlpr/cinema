@@ -8,18 +8,42 @@ from datetime import datetime
 
 from . import config
 from .config import Cinema
+from .films_key import film_key, has_ethiopic, representative_title
 from .store import load_store
 
 
-def build_schedules(cinemas: list[Cinema], now: datetime) -> dict:
+def build_document(cinemas: list[Cinema], now: datetime) -> dict:
     today = now.astimezone(config.TZ).date().isoformat()
-    doc = {
+    return {
         "generated_at": now.isoformat(timespec="seconds"),
         "timezone": "Africa/Addis_Ababa",
         "cinemas": [_build_cinema(cinema, load_store(cinema.id), today) for cinema in cinemas],
     }
+
+
+def showing_films(doc: dict) -> dict[str, dict]:
+    """Films with upcoming showtimes: key -> {title, amharic}."""
+    titles: dict[str, list[str]] = defaultdict(list)
+    amharic: dict[str, bool] = defaultdict(bool)
+    for cinema in doc["cinemas"]:
+        for s in cinema["showtimes"]:
+            key = film_key(s["film_title_latin"])
+            if not key:
+                continue
+            titles[key].append(s["film_title_latin"])
+            amharic[key] |= has_ethiopic(s["film_title"])
+    return {key: {"title": representative_title(t), "amharic": amharic[key]} for key, t in titles.items()}
+
+
+def write_schedules(doc: dict) -> None:
     config.PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     config.SCHEDULES_FILE.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+def build_schedules(cinemas: list[Cinema], now: datetime) -> dict:
+    """Schedules only, without film details (used by tests)."""
+    doc = build_document(cinemas, now)
+    write_schedules(doc)
     return doc
 
 

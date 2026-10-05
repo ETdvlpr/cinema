@@ -9,7 +9,13 @@ A mobile and web app for the showtimes the [backend](../backend) publishes at
   screening grouped by film and then by cinema.
 - **Cinemas tab:** each cinema's films for the day. If none could be read, it offers the
   cinema's latest poster instead.
-- **Film page:** every upcoming screening of a film across all cinemas, by day.
+- **Film page:** every upcoming screening of a film across all cinemas, by day. When TMDB knows
+  the film, the page also shows the backdrop, rating, year, runtime, certification, genres, the
+  summary and a trailer link, with TMDB credited as its terms require.
+- **Real artwork:** the TMDB poster when there is one, otherwise the artwork cropped from the
+  cinema's own schedule poster (this covers Amharic films too), otherwise generated art. Image
+  sizes are matched to where they're shown (a 154px list thumbnail, a 342px carousel card), so
+  they stay light on data.
 - **Cinema page:** the cinema's schedule by day, its latest poster and a Telegram link. It warns if
   the schedule is stale or the channel couldn't be read.
 - **Showtime sheet:** tap any time to see the date, the time on both the western and Ethiopian

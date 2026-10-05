@@ -5,13 +5,13 @@ import json
 import logging
 import mimetypes
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from . import config, pipeline
 from .config import Settings, load_cinemas
 from .extract import extract_schedule
-from .publish import build_schedules
+from .store import load_store, save_store
 from .validate import validate_extraction
 
 
@@ -24,7 +24,11 @@ def main() -> int:
     run_p.add_argument("--dry-run", action="store_true", help="scrape only; don't call the model or write files")
     run_p.add_argument("--problems-file", type=Path, help="write problems here, one per line")
 
-    sub.add_parser("build", help="rebuild schedules.json from stored extractions")
+    sub.add_parser("build", help="rebuild schedules.json from stored extractions (and refresh film details)")
+
+    re_p = sub.add_parser("reextract", help="mark recent posters to be extracted again on the next run")
+    re_p.add_argument("--days", type=int, default=3, help="posters posted within this many days")
+    re_p.add_argument("--cinema", action="append", help="only this cinema id (repeatable)")
 
     ext_p = sub.add_parser("extract", help="run extraction + validation on a local image (for tuning)")
     ext_p.add_argument("image", type=Path)
@@ -46,7 +50,22 @@ def main() -> int:
         return 0
 
     if args.command == "build":
-        build_schedules(load_cinemas(), datetime.now(config.TZ))
+        pipeline.publish(load_cinemas(), datetime.now(config.TZ), Settings.from_env())
+        return 0
+
+    if args.command == "reextract":
+        cutoff = datetime.now(config.TZ) - timedelta(days=args.days)
+        for cinema in load_cinemas():
+            if args.cinema and cinema.id not in args.cinema:
+                continue
+            store = load_store(cinema.id)
+            marked = 0
+            for record in store["posters"].values():
+                if record["status"] in ("ok", "unreadable") and datetime.fromisoformat(record["posted_at"]) >= cutoff:
+                    record.update(status="error", attempts=0, error="marked for re-extraction")
+                    marked += 1
+            save_store(store)
+            logging.info("%s: %d posters marked for re-extraction", cinema.id, marked)
         return 0
 
     if args.command == "extract":

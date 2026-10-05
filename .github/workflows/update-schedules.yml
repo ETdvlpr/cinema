@@ -40,6 +40,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python -m cinema_pipeline run --problems-file "$RUNNER_TEMP/problems.txt"
 
       - name: Commit results

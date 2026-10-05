@@ -26,6 +26,9 @@ Optional: set the repository variable `GEMINI_MODEL` to a comma-separated list o
 tried in order, and each has its own free-tier quota. The default is
 `gemini-flash-latest,gemini-flash-lite-latest`, which keeps working when Google retires older models.
 
+Optional: add a `TMDB_API_KEY` secret to get film posters and details (see [Film details](#film-details)).
+Without it, everything else still works.
+
 ## Local development
 
 ```bash
@@ -40,7 +43,13 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 GEMINI_API_KEY=... .venv/bin/python -m cinema_pipeline extract poster.jpg --posted-on 2026-10-05
 
 # Full run (writes data/ and public/):
-GEMINI_API_KEY=... .venv/bin/python -m cinema_pipeline run [--cinema edna-mall]
+GEMINI_API_KEY=... TMDB_API_KEY=... .venv/bin/python -m cinema_pipeline run [--cinema alem]
+
+# Rebuild schedules.json and refresh film details, without touching posters:
+TMDB_API_KEY=... .venv/bin/python -m cinema_pipeline build
+
+# Re-read recent posters on the next run (e.g. after improving the prompt):
+.venv/bin/python -m cinema_pipeline reextract --days 3 [--cinema alem]
 ```
 
 ## How extraction stays trustworthy
@@ -77,6 +86,33 @@ showtimes for that date are discarded.
 **There's always something to show.** Every cinema in `schedules.json` has a `latest_poster`
 (the original image, plus a link to the Telegram post), even when extraction failed.
 
+## Film details
+
+Each film that's showing gets an entry in `schedules.json` → `films`, from two sources.
+
+**TMDB** ([themoviedb.org](https://www.themoviedb.org)) provides the poster, backdrop, summary,
+runtime, genres, rating, US certification and trailer.
+- **Setup:** create a free account, go to Settings → API, and add either the "API Key" or the
+  "API Read Access Token" as the `TMDB_API_KEY` repository secret.
+- **Strict matching.** A film is matched only if TMDB has a film with the same title (ignoring
+  case and punctuation) released within about a year. Otherwise it's left unmatched, because a
+  wrong poster is worse than none. Unmatched films are rechecked weekly.
+- **Amharic films are skipped,** since TMDB rarely has them.
+- **Lookups happen once per film,** and the results are saved in `data/films.json`.
+- **Fixing a match:** edit `film_overrides.yaml` to pin a film to a TMDB id, or block it with `none`.
+- **Attribution is required.** TMDB's free API is for non-commercial use, and wherever its data is
+  shown you must credit it: "This product uses the TMDB API but is not endorsed or certified by
+  TMDB." The app shows this on each film page. Commercial use needs a TMDB commercial licence.
+
+**The cinema's own artwork.** The vision model also returns the position of each film's artwork on
+the schedule poster, and the pipeline crops it out as `public/films/<key>.jpg`.
+- This works for every film, including Amharic ones.
+- The newest poster's crop wins.
+- Crops that are tiny, cover most of the poster or aren't poster-shaped are discarded.
+
+The app uses the TMDB poster when there is one, then the cropped thumbnail, then its own
+generated artwork.
+
 ## Output: `public/schedules.json`
 
 ```jsonc
@@ -103,16 +139,30 @@ showtimes for that date are discarded.
         }
       ]
     }
-  ]
+  ],
+  "tmdb_image_base": "https://image.tmdb.org/t/p/",   // + size (w154, w342, w500, w780) + poster_path
+  "films": {
+    "residentevil": {                                // key: film_title_latin, lowercased, letters and digits only
+      "title": "Resident Evil",
+      "overview": "...", "release_date": "2026-09-18", "runtime": 107,
+      "genres": ["Horror", "Action"], "rating": 6.4, "certification": "R",
+      "tmdb_id": 123, "tmdb_url": "https://www.themoviedb.org/movie/123",
+      "trailer_url": "https://www.youtube.com/watch?v=...",
+      "poster_path": "/abc.jpg", "backdrop_path": "/def.jpg",
+      "thumbnail": "films/residentevil.jpg"          // cropped from the cinema's poster, or null
+    }
+  }
 }
 ```
 
-Only showtimes from today onward are included.
+Only showtimes from today onward are included. Films without a TMDB match have only `title` and
+maybe `thumbnail`; every other field is null or empty.
 
 ## Layout
 
 ```
 cinemas.yaml                 channels to watch
+film_overrides.yaml          fix or block TMDB matches
 src/cinema_pipeline/
   scrape.py                  t.me/s/<channel> → images (public preview, no login)
   extract.py                 vision model call + response schema (swap providers in _call_model)
@@ -120,8 +170,11 @@ src/cinema_pipeline/
   validate.py                raw model output → accepted showtimes / rejections
   store.py                   per-cinema memory in data/extractions/
   publish.py                 builds public/schedules.json
+  films.py                   film details: TMDB lookups, thumbnails cropped from posters
+  tmdb.py                    TMDB client and matching rules
   pipeline.py                orchestration
 data/extractions/            committed state: every poster seen, its status and results
+data/films.json              committed state: TMDB results and thumbnails per film
 public/                      published to GitHub Pages
 ```
 
