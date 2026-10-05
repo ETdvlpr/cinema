@@ -17,8 +17,9 @@ from .ethiopian import (
     gregorian_to_ethiopian,
     western_hour_candidates,
 )
-from .extract import RawExtraction, RawShowtime
+from .extract import RawDateRange, RawExtraction, RawShowtime
 
+MAX_RANGE_DAYS = 31
 WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 
 
@@ -48,19 +49,20 @@ def validate_extraction(extraction: RawExtraction, posted_on: date) -> tuple[lis
     seen: set[tuple] = set()
     for raw in extraction.showtimes:
         try:
-            showtime = resolve_showtime(raw, posted_on)
+            showtimes = resolve_showtime(raw, posted_on, extraction.date_range)
         except Rejected as e:
             rejected.append({"reason": str(e), "raw": raw.model_dump()})
             continue
-        slot = (showtime.date, showtime.time, (showtime.hall or "").lower(), showtime.film_title_latin.lower())
-        if slot in seen:
-            continue
-        seen.add(slot)
-        accepted.append(showtime)
+        for showtime in showtimes:
+            slot = (showtime.date, showtime.time, (showtime.hall or "").lower(), showtime.film_title_latin.lower())
+            if slot not in seen:
+                seen.add(slot)
+                accepted.append(showtime)
     return accepted, rejected
 
 
-def resolve_showtime(raw: RawShowtime, posted_on: date) -> Showtime:
+def resolve_showtime(raw: RawShowtime, posted_on: date, date_range: RawDateRange | None = None) -> list[Showtime]:
+    """One raw entry usually yields one showtime; a "daily" entry under a date range yields one per day."""
     if raw.confidence < config.MIN_CONFIDENCE:
         raise Rejected(f"low confidence ({raw.confidence:.2f})")
     title = raw.film_title.strip()
@@ -68,41 +70,50 @@ def resolve_showtime(raw: RawShowtime, posted_on: date) -> Showtime:
     if not title_latin:
         raise Rejected("missing title")
 
-    return Showtime(
-        date=_resolve_date(raw, posted_on).isoformat(),
-        time=_resolve_time(raw),
-        film_title=title or title_latin,
-        film_title_latin=title_latin,
-        hall=_clean(raw.hall),
-        format=_clean(raw.format),
-        language=_clean(raw.language),
-        price_birr=raw.price_birr if raw.price_birr and raw.price_birr > 0 else None,
-        confidence=round(raw.confidence, 2),
-    )
+    time = _resolve_time(raw)
+    return [
+        Showtime(
+            date=day.isoformat(),
+            time=time,
+            film_title=title or title_latin,
+            film_title_latin=title_latin,
+            hall=_clean(raw.hall),
+            format=_clean(raw.format),
+            language=_clean(raw.language),
+            price_birr=raw.price_birr if raw.price_birr and raw.price_birr > 0 else None,
+            confidence=round(raw.confidence, 2),
+        )
+        for day in _resolve_dates(raw, posted_on, date_range)
+    ]
 
 
-def _resolve_date(raw: RawShowtime, posted_on: date) -> date:
-    if raw.month is None or raw.day is None:
+def _resolve_dates(raw: RawShowtime, posted_on: date, date_range: RawDateRange | None) -> list[date]:
+    if raw.month is not None and raw.day is not None:
+        return [_resolve_single_date(raw, posted_on)]
+    if date_range is None:
         raise Rejected("missing date")
 
-    calendars = ["gregorian", "ethiopian"] if raw.date_calendar == "unknown" else [raw.date_calendar]
-    candidates: set[date] = set()
-    for calendar in calendars:
-        if calendar == "gregorian":
-            base_year, convert = posted_on.year, date
-        else:
-            base_year, convert = gregorian_to_ethiopian(posted_on)[0], ethiopian_to_gregorian
-        years = [raw.year] if raw.year else [base_year - 1, base_year, base_year + 1]
-        for year in years:
-            try:
-                candidates.add(convert(year, raw.month, raw.day))
-            except ValueError:
-                pass
+    days = _resolve_range(date_range, posted_on)
+    if raw.weekday is None:  # "daily" across the range
+        return days
+    matching = [d for d in days if WEEKDAYS[d.weekday()] == raw.weekday]
+    if not matching:
+        raise Rejected("weekday not in date range")
+    if len(matching) > 1:
+        raise Rejected("weekday occurs more than once in date range")
+    return matching
+
+
+def _resolve_single_date(raw: RawShowtime, posted_on: date) -> date:
+    candidates = {
+        d
+        for calendar in _calendars(raw.date_calendar)
+        for d in _date_candidates(calendar, raw.year, raw.month, raw.day, posted_on)
+    }
     if not candidates:
         raise Rejected("invalid date")
 
-    earliest = posted_on - timedelta(days=config.LOOKBEHIND_DAYS)
-    latest = posted_on + timedelta(days=config.LOOKAHEAD_DAYS)
+    earliest, latest = _window(posted_on)
     in_window = {d for d in candidates if earliest <= d <= latest}
     if not in_window:
         raise Rejected("date outside plausible window")
@@ -116,6 +127,54 @@ def _resolve_date(raw: RawShowtime, posted_on: date) -> date:
     if len(in_window) > 1:
         raise Rejected("ambiguous date")
     return in_window.pop()
+
+
+def _resolve_range(date_range: RawDateRange, posted_on: date) -> list[date]:
+    """Resolves a printed range to its days, clipped to the plausible window."""
+    earliest, latest = _window(posted_on)
+    ranges = set()
+    for calendar in _calendars(date_range.calendar):
+        starts = _date_candidates(calendar, date_range.year, date_range.start_month, date_range.start_day, posted_on)
+        ends = _date_candidates(calendar, date_range.year, date_range.end_month, date_range.end_day, posted_on)
+        ranges |= {
+            (start, end)
+            for start in starts
+            for end in ends
+            if 0 <= (end - start).days <= MAX_RANGE_DAYS and start <= latest and end >= earliest
+        }
+    if not ranges:
+        raise Rejected("date range invalid or outside plausible window")
+    if len(ranges) > 1:
+        raise Rejected("ambiguous date range")
+    start, end = ranges.pop()
+    days = (start + timedelta(days=i) for i in range((end - start).days + 1))
+    return [d for d in days if earliest <= d <= latest]
+
+
+def _calendars(calendar: str) -> list[str]:
+    return ["gregorian", "ethiopian"] if calendar == "unknown" else [calendar]
+
+
+def _date_candidates(calendar: str, year: int | None, month: int, day: int, posted_on: date) -> set[date]:
+    """Every valid Gregorian date the printed values could mean, trying adjacent years if none is printed."""
+    if calendar == "gregorian":
+        base_year, convert = posted_on.year, date
+    else:
+        base_year, convert = gregorian_to_ethiopian(posted_on)[0], ethiopian_to_gregorian
+    candidates = set()
+    for y in [year] if year else [base_year - 1, base_year, base_year + 1]:
+        try:
+            candidates.add(convert(y, month, day))
+        except ValueError:
+            pass
+    return candidates
+
+
+def _window(posted_on: date) -> tuple[date, date]:
+    return (
+        posted_on - timedelta(days=config.LOOKBEHIND_DAYS),
+        posted_on + timedelta(days=config.LOOKAHEAD_DAYS),
+    )
 
 
 def _resolve_time(raw: RawShowtime) -> str:

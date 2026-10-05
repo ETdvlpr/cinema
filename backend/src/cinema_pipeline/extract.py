@@ -35,8 +35,11 @@ class RawShowtime(BaseModel):
         description="Calendar of the printed date. 'unknown' if only bare numbers are printed and the calendar cannot be told."
     )
     year: int | None = Field(description="Year as printed, or null if not printed.")
-    month: int | None = Field(description="Month number in the stated calendar (Ethiopian: 1=Meskerem ... 13=Pagume).")
-    day: int | None = Field(description="Day of month as printed.")
+    month: int | None = Field(
+        description="Month number in the stated calendar (Ethiopian: 1=Meskerem ... 13=Pagume). "
+        "Null if this screening is only listed under a weekday."
+    )
+    day: int | None = Field(description="Day of month as printed. Null if only a weekday is printed for this screening.")
     weekday: Literal["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"] | None = Field(
         description="Weekday if printed, in English; otherwise null."
     )
@@ -46,15 +49,27 @@ class RawShowtime(BaseModel):
     period: Literal["am", "pm", "day", "night", "unknown"] = Field(
         description="am/pm for western times; day/night for Ethiopian times; unknown if not indicated."
     )
-    hall: str | None = Field(description="Hall/screen name or number, if printed.")
+    hall: str | None = Field(description="Hall/screen name or number (e.g. C1, GOLD 2), if printed. Never a weekday.")
     format: str | None = Field(description="Screening format such as 2D, 3D, IMAX, if printed.")
     language: str | None = Field(description="Language or subtitles, if printed.")
     price_birr: float | None = Field(description="Ticket price in birr, if printed.")
     confidence: float = Field(description="0 to 1: how sure you are this entry is read correctly.")
 
 
+class RawDateRange(BaseModel):
+    calendar: Literal["gregorian", "ethiopian", "unknown"]
+    year: int | None = Field(description="Year as printed, or null.")
+    start_month: int
+    start_day: int
+    end_month: int
+    end_day: int
+
+
 class RawExtraction(BaseModel):
     is_schedule: bool = Field(description="True only if the image lists screenings with dates/times.")
+    date_range: RawDateRange | None = Field(
+        description="The overall date range printed on the poster (e.g. a heading 'Meskerem 25 - 28'), exactly as printed."
+    )
     showtimes: list[RawShowtime]
     notes: str | None = Field(description="Anything unusual or hard to read, briefly.")
 
@@ -66,16 +81,26 @@ This image was posted by {cinema_name}, a cinema in Ethiopia, on {posted_on} \
 Decide whether the image is a showtime schedule. Trailers, promos, single-film ads \
 without times, food menus, etc. are not: return is_schedule=false and no showtimes.
 
-If it is a schedule, return one entry per screening (one film, one date, one time). \
-If a date range or "daily" is printed, expand it into one entry per date, but only when \
-the dates are explicit.
+If it is a schedule, return one entry per screening (one film, one date, one time).
+
+Dates:
+- If the poster prints a date for each screening, give it in month/day.
+- If screenings are listed by weekday under an overall date range (e.g. heading \
+"ከመስከረም 25 - 28" with rows ሰኞ / ማክሰኞ / ...), put the range in date_range and give each \
+screening its weekday with month and day null. Do NOT work out the dates yourself.
+- If a screening applies to every day of an explicit range ("daily"), put the range in \
+date_range and return that screening once with weekday, month and day all null.
 
 Rules:
+- Running times / durations (e.g. "1:40" next to the genre, "1hr 50 min") are NOT \
+showtimes. Ignore them.
+- If the same screening is printed in both western and local time (e.g. "2:30 PM / 8:30 LT"; \
+LT = local Ethiopian time), return it ONCE, using the western time.
 - Transcribe numbers exactly as printed. NEVER convert between Ethiopian and western \
 time or calendar. Report which system each value uses and we convert it.
 - Ethiopian clock (e.g. "3 ሰዓት", "ከምሽቱ 2:30"): time_clock="ethiopian", the printed hour, \
 and period="day" for ጠዋት/ከሰዓት/ከቀኑ (morning/afternoon), "night" for ምሽት/ማታ/ለሊት \
-(evening/night), "unknown" if not stated.
+(evening/night). Use "unknown" unless one of these words is actually printed; never infer it.
 - Western clock (e.g. "8:30 PM", "20:30"): time_clock="western", period am/pm if printed, \
 else unknown.
 - Ethiopian month names: {month_names} (and their Amharic forms). Use date_calendar="ethiopian" \
