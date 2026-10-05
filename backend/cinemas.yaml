@@ -3,12 +3,20 @@
 #   name:    display name
 #   channel: the part after https://t.me/  (the channel must be public: https://t.me/s/<channel> must load)
 #
-# The entries below are placeholders. Replace them with the real channels.
+# Not included (checked 2026-10-05):
+#   EB/EW Multiplex  @ebmultiplex       last post 2021
+#   Ambassador       @ambassadorcinema  channel exists but has no posts yet
+#   Sebastopol, Matti Multiplex         no public channel found
+#   Edna Mall                           closed December 2021
 cinemas:
-  - id: edna-mall
-    name: Edna Mall Cinema
-    channel: REPLACE_WITH_CHANNEL_NAME
+  - id: alem
+    name: Alem Cinema
+    channel: alem_cinema
 
-  - id: example-cinema
-    name: Example Cinema
-    channel: REPLACE_WITH_CHANNEL_NAME_2
+  - id: century
+    name: Century Cinema
+    channel: Century_Cinema
+
+  - id: gast
+    name: GAST Cinema
+    channel: GastCinema
