@@ -57,6 +57,12 @@ included. The full format is in the [backend README](backend/README.md#output-pu
 
 Posters belong to the cinemas; this project links back to the original post for each one.
 
+## App
+
+[`app/`](app) is a Flutter app (Android, iOS and web) that reads this data. It has a "What's on"
+view by film, a view by cinema, and, for every showtime, the original poster and Telegram post one
+tap away. See [`app/README.md`](app/README.md).
+
 ## Development
 
 See [`backend/README.md`](backend/README.md) for setup, running locally, the validation rules and
