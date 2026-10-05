@@ -1,18 +1,383 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-10-05T21:51:42+03:00",
+ "last_checked": "2026-10-05T22:03:47+03:00",
  "last_error": null,
  "posters": {
+  "65-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-05T22:06:41+03:00",
+   "image": "posters/chewata/65-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 65,
+   "post_url": "https://t.me/chewatacinema/65",
+   "posted_at": "2026-10-01T12:58:18+00:00",
+   "processed_at": "2026-10-05T22:06:41+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 2,
+      "film_title": "Evil Dead Burn",
+      "film_title_latin": "Evil Dead Burn",
+      "format": null,
+      "hall": "C1",
+      "hour": 8,
+      "language": null,
+      "minute": 30,
+      "month": 10,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2026
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 2,
+      "film_title": "The End of Oak Street",
+      "film_title_latin": "The End of Oak Street",
+      "format": null,
+      "hall": "C1",
+      "hour": 11,
+      "language": null,
+      "minute": 30,
+      "month": 10,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2026
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 3,
+      "film_title": "Runner",
+      "film_title_latin": "Runner",
+      "format": null,
+      "hall": "C1",
+      "hour": 8,
+      "language": null,
+      "minute": 30,
+      "month": 10,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "saturday",
+      "year": 2026
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 3,
+      "film_title": "Idiots",
+      "film_title_latin": "Idiots",
+      "format": null,
+      "hall": "C1",
+      "hour": 11,
+      "language": null,
+      "minute": 30,
+      "month": 10,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "saturday",
+      "year": 2026
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 4,
+      "film_title": "One Last Shot",
+      "film_title_latin": "One Last Shot",
+      "format": null,
+      "hall": "C1",
+      "hour": 8,
+      "language": null,
+      "minute": 30,
+      "month": 10,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "sunday",
+      "year": 2026
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 4,
+      "film_title": "Evil Dead Burn",
+      "film_title_latin": "Evil Dead Burn",
+      "format": null,
+      "hall": "C1",
+      "hour": 11,
+      "language": null,
+      "minute": 30,
+      "month": 10,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "sunday",
+      "year": 2026
+     },
+     "reason": "time outside screening hours"
+    }
+   ],
+   "showtimes": [
+    {
+     "confidence": 0.99,
+     "date": "2026-10-02",
+     "film_title": "Evil Dead Burn",
+     "film_title_latin": "Evil Dead Burn",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-02",
+     "film_title": "The End of Oak Street",
+     "film_title_latin": "The End of Oak Street",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-03",
+     "film_title": "Runner",
+     "film_title_latin": "Runner",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-03",
+     "film_title": "Idiots",
+     "film_title_latin": "Idiots",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-04",
+     "film_title": "One Last Shot",
+     "film_title_latin": "One Last Shot",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-04",
+     "film_title": "Evil Dead Burn",
+     "film_title_latin": "Evil Dead Burn",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    }
+   ],
+   "status": "ok"
+  },
   "66-0": {
-   "attempts": 0,
-   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h40.462136858s.', 'status': 'RES",
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-05T22:05:35+03:00",
    "image": "posters/chewata/66-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "Note that the month abbreviation for October 08 is printed as OCT, while earlier dates say SEP (likely a typo on the schedule designer's part for the Sep/Oct transition).",
    "post_id": 66,
    "post_url": "https://t.me/chewatacinema/66",
    "posted_at": "2026-10-04T14:56:09+00:00",
-   "processed_at": "2026-10-05T21:59:12+03:00",
-   "status": "error"
+   "processed_at": "2026-10-05T22:05:35+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 5,
+      "film_title": "Runner",
+      "film_title_latin": "Runner",
+      "format": null,
+      "hall": "C1",
+      "hour": 2,
+      "language": null,
+      "minute": 30,
+      "month": 9,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": "monday",
+      "year": 2026
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 5,
+      "film_title": "One Last Shot",
+      "film_title_latin": "One Last Shot",
+      "format": null,
+      "hall": "C1",
+      "hour": 5,
+      "language": null,
+      "minute": 30,
+      "month": 9,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": "monday",
+      "year": 2026
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 6,
+      "film_title": "Idiots",
+      "film_title_latin": "Idiots",
+      "format": null,
+      "hall": "C1",
+      "hour": 2,
+      "language": null,
+      "minute": 30,
+      "month": 9,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": "tuesday",
+      "year": 2026
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 6,
+      "film_title": "Mayday",
+      "film_title_latin": "Mayday",
+      "format": null,
+      "hall": "C1",
+      "hour": 5,
+      "language": null,
+      "minute": 30,
+      "month": 9,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": "tuesday",
+      "year": 2026
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 7,
+      "film_title": "The Last Sunrise",
+      "film_title_latin": "The Last Sunrise",
+      "format": null,
+      "hall": "C1",
+      "hour": 2,
+      "language": null,
+      "minute": 30,
+      "month": 9,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": "wednesday",
+      "year": 2026
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 0.99,
+      "date_calendar": "gregorian",
+      "day": 7,
+      "film_title": "Evil Dead Burn",
+      "film_title_latin": "Evil Dead Burn",
+      "format": null,
+      "hall": "C1",
+      "hour": 5,
+      "language": null,
+      "minute": 30,
+      "month": 9,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": "wednesday",
+      "year": 2026
+     },
+     "reason": "date outside plausible window"
+    }
+   ],
+   "showtimes": [
+    {
+     "confidence": 0.99,
+     "date": "2026-10-08",
+     "film_title": "One Last Shot",
+     "film_title_latin": "One Last Shot",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-08",
+     "film_title": "Evil Dead Burn",
+     "film_title_latin": "Evil Dead Burn",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    }
+   ],
+   "status": "ok"
   }
  }
 }

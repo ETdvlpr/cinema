@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-05T21:51:42+03:00",
+ "last_checked": "2026-10-05T22:03:47+03:00",
  "last_error": null,
  "posters": {
   "2294-0": {
@@ -12,7 +12,7 @@
    "post_url": "https://t.me/alem_cinema/2294",
    "posted_at": "2026-09-06T12:18:29+00:00",
    "processed_at": "2026-10-05T21:55:46+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2295-0": {
    "attempts": 0,
@@ -23,7 +23,7 @@
    "post_url": "https://t.me/alem_cinema/2295",
    "posted_at": "2026-09-06T19:48:06+00:00",
    "processed_at": "2026-10-05T21:55:36+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2296-0": {
    "attempts": 0,
@@ -34,7 +34,7 @@
    "post_url": "https://t.me/alem_cinema/2296",
    "posted_at": "2026-09-09T05:16:56+00:00",
    "processed_at": "2026-10-05T21:55:27+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2297-0": {
    "attempts": 1,
@@ -82,7 +82,7 @@
    "post_url": "https://t.me/alem_cinema/2298",
    "posted_at": "2026-09-10T18:20:22+00:00",
    "processed_at": "2026-10-05T21:54:54+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2299-0": {
    "attempts": 0,
@@ -93,7 +93,7 @@
    "post_url": "https://t.me/alem_cinema/2299",
    "posted_at": "2026-09-13T13:46:21+00:00",
    "processed_at": "2026-10-05T21:54:41+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2300-0": {
    "attempts": 0,
@@ -104,7 +104,7 @@
    "post_url": "https://t.me/alem_cinema/2300",
    "posted_at": "2026-09-13T19:22:15+00:00",
    "processed_at": "2026-10-05T21:54:23+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2301-0": {
    "attempts": 0,
@@ -115,7 +115,7 @@
    "post_url": "https://t.me/alem_cinema/2301",
    "posted_at": "2026-09-15T16:19:20+00:00",
    "processed_at": "2026-10-05T21:53:27+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2302-0": {
    "attempts": 0,
@@ -126,7 +126,7 @@
    "post_url": "https://t.me/alem_cinema/2302",
    "posted_at": "2026-09-17T13:17:37+00:00",
    "processed_at": "2026-10-05T21:53:19+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2303-0": {
    "attempts": 0,
@@ -137,7 +137,7 @@
    "post_url": "https://t.me/alem_cinema/2303",
    "posted_at": "2026-09-17T19:04:45+00:00",
    "processed_at": "2026-10-05T21:53:06+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2304-0": {
    "attempts": 1,
@@ -472,7 +472,7 @@
    "post_url": "https://t.me/alem_cinema/2305",
    "posted_at": "2026-09-22T19:25:49+00:00",
    "processed_at": "2026-10-05T21:52:26+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2308-0": {
    "attempts": 0,
@@ -483,40 +483,1617 @@
    "post_url": "https://t.me/alem_cinema/2308",
    "posted_at": "2026-09-24T18:33:52+00:00",
    "processed_at": "2026-10-05T21:52:17+03:00",
-   "status": "error"
+   "status": "expired"
   },
   "2312-0": {
-   "attempts": 0,
-   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-05T22:07:52+03:00",
    "image": "posters/alem/2312-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "Expanded schedule for Meskerem 20-24, 2019 using day names from top to bottom (Monday to Friday).",
    "post_id": 2312,
    "post_url": "https://t.me/alem_cinema/2312",
    "posted_at": "2026-09-29T18:32:23+00:00",
-   "processed_at": "2026-10-05T21:51:57+03:00",
-   "status": "error"
+   "processed_at": "2026-10-05T22:07:52+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 20,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 20,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 20,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 20,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 21,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 21,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 21,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 21,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 22,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 22,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 22,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 22,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 23,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 23,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 23,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 23,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 24,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 24,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 24,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 24,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 20,
+      "film_title": "ወንጀሎች ከተደራረቡ",
+      "film_title_latin": "Wenjeloch Ketedarebu",
+      "format": null,
+      "hall": null,
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 21,
+      "film_title": "ወንጀሎች ከተደራረቡ",
+      "film_title_latin": "Wenjeloch Ketedarebu",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 22,
+      "film_title": "ወንጀሎች ከተደራረቡ",
+      "film_title_latin": "Wenjeloch Ketedarebu",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 23,
+      "film_title": "ወንጀሎች ከተደራረቡ",
+      "film_title_latin": "Wenjeloch Ketedarebu",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 24,
+      "film_title": "ወንጀሎች ከተደራረቡ",
+      "film_title_latin": "Wenjeloch Ketedarebu",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 20,
+      "film_title": "ሳላፖት",
+      "film_title_latin": "Salapot",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 21,
+      "film_title": "ሳላፖት",
+      "film_title_latin": "Salapot",
+      "format": null,
+      "hall": null,
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 22,
+      "film_title": "ሳላፖት",
+      "film_title_latin": "Salapot",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 23,
+      "film_title": "ሳላፖት",
+      "film_title_latin": "Salapot",
+      "format": null,
+      "hall": null,
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 24,
+      "film_title": "ሳላፖት",
+      "film_title_latin": "Salapot",
+      "format": null,
+      "hall": null,
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 20,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Qen Zerafi",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 21,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Qen Zerafi",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 22,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Qen Zerafi",
+      "format": null,
+      "hall": null,
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 23,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Qen Zerafi",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 24,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Qen Zerafi",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2019
+     },
+     "reason": "weekday does not match date"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   },
   "2313-0": {
-   "attempts": 0,
-   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-05T22:05:12+03:00",
    "image": "posters/alem/2313-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "Schedule covers Meskerem 25-28, 2019 (Monday to Thursday).",
    "post_id": 2313,
    "post_url": "https://t.me/alem_cinema/2313",
    "posted_at": "2026-10-04T15:31:57+00:00",
-   "processed_at": "2026-10-05T21:51:46+03:00",
-   "status": "error"
+   "processed_at": "2026-10-05T22:05:12+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 25,
+      "film_title": "መልአክ",
+      "film_title_latin": "Melak",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 40,
+      "month": 1,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 26,
+      "film_title": "መልአክ",
+      "film_title_latin": "Melak",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 40,
+      "month": 1,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "መልአክ",
+      "film_title_latin": "Melak",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 40,
+      "month": 1,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 28,
+      "film_title": "መልአክ",
+      "film_title_latin": "Melak",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 40,
+      "month": 1,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 25,
+      "film_title": "መልአክ",
+      "film_title_latin": "Melak",
+      "format": null,
+      "hall": "ሰኞ",
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 26,
+      "film_title": "መልአክ",
+      "film_title_latin": "Melak",
+      "format": null,
+      "hall": "ሰኞ",
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "መልአክ",
+      "film_title_latin": "Melak",
+      "format": null,
+      "hall": "ሰኞ",
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 28,
+      "film_title": "መልአክ",
+      "film_title_latin": "Melak",
+      "format": null,
+      "hall": "ሰኞ",
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 25,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 50,
+      "month": 1,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 26,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 50,
+      "month": 1,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 50,
+      "month": 1,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 28,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 50,
+      "month": 1,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 25,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": "ማክሰኞ",
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 26,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": "ማክሰኞ",
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": "ማክሰኞ",
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 28,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": "ማክሰኞ",
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 25,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": "ሰኞ",
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 25,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": "ሰኞ",
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 26,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": "ማክሰኞ",
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 26,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": "ማክሰኞ",
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": "ሮድ",
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": "ሮድ",
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 28,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": "ሐሙስ",
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 25,
+      "film_title": "መንገዶች አስታዋሽም",
+      "film_title_latin": "Mengedoch Astawashim",
+      "format": null,
+      "hall": "ሰኞ",
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 26,
+      "film_title": "መንገዶች አስታዋሽም",
+      "film_title_latin": "Mengedoch Astawashim",
+      "format": null,
+      "hall": "ማክሰኞ",
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "መንገዶች አስታዋሽም",
+      "film_title_latin": "Mengedoch Astawashim",
+      "format": null,
+      "hall": "ሮድ",
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 28,
+      "film_title": "መንገዶች አስታዋሽም",
+      "film_title_latin": "Mengedoch Astawashim",
+      "format": null,
+      "hall": "ሐሙስ",
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 25,
+      "film_title": "ሳባዊት",
+      "film_title_latin": "Sabawit",
+      "format": null,
+      "hall": "ሰኞ",
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 28,
+      "film_title": "ሳባዊት",
+      "film_title_latin": "Sabawit",
+      "format": null,
+      "hall": "ሐሙስ",
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Qen Zerafi",
+      "format": null,
+      "hall": "ማክሰኞ",
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Qen Zerafi",
+      "format": null,
+      "hall": "ሮድ",
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 28,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Qen Zerafi",
+      "format": null,
+      "hall": "ሐሙስ",
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 27,
+      "film_title": "እስተሀበ",
+      "film_title_latin": "Estehabe",
+      "format": null,
+      "hall": "ሮድ",
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 28,
+      "film_title": "እስተሀበ",
+      "film_title_latin": "Estehabe",
+      "format": null,
+      "hall": "ሐሙስ",
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    }
+   ],
+   "showtimes": [
+    {
+     "confidence": 0.95,
+     "date": "2026-10-07",
+     "film_title": "ሁለት ፊት",
+     "film_title_latin": "Hulet Fit",
+     "format": null,
+     "hall": "ሮድ",
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-08",
+     "film_title": "ሁለት ፊት",
+     "film_title_latin": "Hulet Fit",
+     "format": null,
+     "hall": "ሐሙስ",
+     "language": null,
+     "price_birr": null,
+     "time": "20:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-05",
+     "film_title": "መንገዶች አስታዋሽም",
+     "film_title_latin": "Mengedoch Astawashim",
+     "format": null,
+     "hall": "ሰኞ",
+     "language": null,
+     "price_birr": null,
+     "time": "20:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-06",
+     "film_title": "መንገዶች አስታዋሽም",
+     "film_title_latin": "Mengedoch Astawashim",
+     "format": null,
+     "hall": "ማክሰኞ",
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-07",
+     "film_title": "መንገዶች አስታዋሽም",
+     "film_title_latin": "Mengedoch Astawashim",
+     "format": null,
+     "hall": "ሮድ",
+     "language": null,
+     "price_birr": null,
+     "time": "20:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-08",
+     "film_title": "መንገዶች አስታዋሽም",
+     "film_title_latin": "Mengedoch Astawashim",
+     "format": null,
+     "hall": "ሐሙስ",
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-05",
+     "film_title": "እስተሀበ",
+     "film_title_latin": "Estehabe",
+     "format": null,
+     "hall": "ሰኞ",
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-06",
+     "film_title": "እስተሀበ",
+     "film_title_latin": "Estehabe",
+     "format": null,
+     "hall": "ማክሰኞ",
+     "language": null,
+     "price_birr": null,
+     "time": "20:30"
+    }
+   ],
+   "status": "ok"
   },
   "2314-0": {
-   "attempts": 0,
-   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-05T22:03:49+03:00",
    "image": "posters/alem/2314-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image promotes a recurring Tuesday theater play titled Baloch Ena Mistoch at Alem Cinema Bole, at 12:00 Ethiopian time (night).",
    "post_id": 2314,
    "post_url": "https://t.me/alem_cinema/2314",
    "posted_at": "2026-10-05T18:04:34+00:00",
-   "processed_at": "2026-10-05T21:51:43+03:00",
-   "status": "error"
+   "processed_at": "2026-10-05T22:03:49+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": "ዓለም ሲኒማ ቦሌ",
+      "hour": 12,
+      "language": "Amharic",
+      "minute": 0,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": null
+     },
+     "reason": "missing date"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   }
  }
 }
