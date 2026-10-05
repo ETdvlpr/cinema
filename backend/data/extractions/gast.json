@@ -593,8 +593,8 @@
    "status": "ok"
   },
   "4797-0": {
-   "attempts": 1,
-   "error": null,
+   "attempts": 0,
+   "error": "marked for re-extraction",
    "first_attempt_at": "2026-10-05T22:05:57+03:00",
    "image": "posters/gast/4797-0.jpg",
    "index": 0,
@@ -827,7 +827,7 @@
      "time": "21:00"
     }
    ],
-   "status": "ok"
+   "status": "error"
   },
   "4799-0": {
    "attempts": 1,
@@ -846,8 +846,8 @@
    "status": "not_schedule"
   },
   "4800-0": {
-   "attempts": 1,
-   "error": null,
+   "attempts": 0,
+   "error": "marked for re-extraction",
    "first_attempt_at": "2026-10-05T22:04:11+03:00",
    "image": "posters/gast/4800-0.jpg",
    "index": 0,
@@ -1586,7 +1586,7 @@
      "time": "21:00"
     }
    ],
-   "status": "ok"
+   "status": "error"
   }
  }
 }

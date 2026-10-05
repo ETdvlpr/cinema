@@ -1238,8 +1238,8 @@
    "status": "unreadable"
   },
   "2313-0": {
-   "attempts": 1,
-   "error": null,
+   "attempts": 0,
+   "error": "marked for re-extraction",
    "first_attempt_at": "2026-10-05T22:05:12+03:00",
    "image": "posters/alem/2313-0.jpg",
    "index": 0,
@@ -1560,11 +1560,11 @@
      "time": "14:00"
     }
    ],
-   "status": "ok"
+   "status": "error"
   },
   "2314-0": {
-   "attempts": 1,
-   "error": null,
+   "attempts": 0,
+   "error": "marked for re-extraction",
    "first_attempt_at": "2026-10-05T22:03:49+03:00",
    "image": "posters/alem/2314-0.jpg",
    "index": 0,
@@ -1598,7 +1598,7 @@
     }
    ],
    "showtimes": [],
-   "status": "unreadable"
+   "status": "error"
   }
  }
 }

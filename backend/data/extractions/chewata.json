@@ -214,8 +214,8 @@
    "status": "ok"
   },
   "66-0": {
-   "attempts": 1,
-   "error": null,
+   "attempts": 0,
+   "error": "marked for re-extraction",
    "first_attempt_at": "2026-10-05T22:05:35+03:00",
    "image": "posters/chewata/66-0.jpg",
    "index": 0,
@@ -377,7 +377,7 @@
      "time": "17:30"
     }
    ],
-   "status": "ok"
+   "status": "error"
   }
  }
 }

@@ -621,8 +621,8 @@
    "status": "ok"
   },
   "2328-0": {
-   "attempts": 1,
-   "error": null,
+   "attempts": 0,
+   "error": "marked for re-extraction",
    "first_attempt_at": "2026-10-05T22:04:41+03:00",
    "image": "posters/century/2328-0.jpg",
    "index": 0,
@@ -1031,7 +1031,7 @@
      "time": "14:45"
     }
    ],
-   "status": "ok"
+   "status": "error"
   }
  }
 }
