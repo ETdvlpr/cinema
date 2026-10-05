@@ -9,6 +9,7 @@ Poster statuses:
   not_schedule  promo/trailer/etc.; its image is deleted
   error         download or model call failed; retried next run
   failed        still erroring after MAX_ATTEMPTS; left alone
+  expired       still erroring when it aged out of PROCESS_MAX_AGE_DAYS; left alone
 """
 
 from __future__ import annotations

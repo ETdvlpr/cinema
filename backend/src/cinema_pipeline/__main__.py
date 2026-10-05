@@ -51,7 +51,7 @@ def main() -> int:
 
     if args.command == "extract":
         mime_type = mimetypes.guess_type(args.image.name)[0] or "image/jpeg"
-        extraction = extract_schedule(
+        extraction, model = extract_schedule(
             args.image.read_bytes(),
             mime_type,
             cinema_name=args.cinema_name,
@@ -62,6 +62,7 @@ def main() -> int:
         showtimes, rejected = validate_extraction(extraction, args.posted_on)
         print(json.dumps(
             {
+                "model": model,
                 "raw": extraction.model_dump(),
                 "accepted": [s.to_dict() for s in showtimes],
                 "rejected": [{"reason": r["reason"], "film": r["raw"]["film_title_latin"]} for r in rejected],

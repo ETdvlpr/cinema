@@ -4,7 +4,7 @@
  "last_error": null,
  "posters": {
   "2294-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2294-0.jpg",
    "index": 0,
@@ -15,7 +15,7 @@
    "status": "error"
   },
   "2295-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2295-0.jpg",
    "index": 0,
@@ -26,7 +26,7 @@
    "status": "error"
   },
   "2296-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2296-0.jpg",
    "index": 0,
@@ -74,7 +74,7 @@
    "status": "unreadable"
   },
   "2298-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2298-0.jpg",
    "index": 0,
@@ -85,7 +85,7 @@
    "status": "error"
   },
   "2299-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2299-0.jpg",
    "index": 0,
@@ -96,7 +96,7 @@
    "status": "error"
   },
   "2300-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2300-0.jpg",
    "index": 0,
@@ -107,7 +107,7 @@
    "status": "error"
   },
   "2301-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2301-0.jpg",
    "index": 0,
@@ -118,7 +118,7 @@
    "status": "error"
   },
   "2302-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2302-0.jpg",
    "index": 0,
@@ -129,7 +129,7 @@
    "status": "error"
   },
   "2303-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2303-0.jpg",
    "index": 0,
@@ -464,7 +464,7 @@
    "status": "ok"
   },
   "2305-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2305-0.jpg",
    "index": 0,
@@ -475,7 +475,7 @@
    "status": "error"
   },
   "2308-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2308-0.jpg",
    "index": 0,
@@ -486,7 +486,7 @@
    "status": "error"
   },
   "2312-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2312-0.jpg",
    "index": 0,
@@ -497,7 +497,7 @@
    "status": "error"
   },
   "2313-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2313-0.jpg",
    "index": 0,
@@ -508,7 +508,7 @@
    "status": "error"
   },
   "2314-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/alem/2314-0.jpg",
    "index": 0,

@@ -22,8 +22,9 @@ and GitHub emails you.
 The app then reads `https://<user>.github.io/<repo>/schedules.json`. GitHub Pages sends
 `Access-Control-Allow-Origin: *`, so a PWA hosted elsewhere can fetch it.
 
-Optional: set the repository variable `GEMINI_MODEL` to pin a model. By default it uses
-`gemini-flash-latest`, which keeps working when Google retires older models.
+Optional: set the repository variable `GEMINI_MODEL` to a comma-separated list of models. They're
+tried in order, and each has its own free-tier quota. The default is
+`gemini-flash-latest,gemini-flash-lite-latest`, which keeps working when Google retires older models.
 
 ## Local development
 
@@ -122,11 +123,19 @@ public/                      published to GitHub Pages
 ## Maintenance notes
 
 - **Failure emails.** A run fails, and GitHub emails you, when a channel can't be read (renamed,
-  went private, or Telegram changed the page) or when extraction keeps erroring. It fails only
-  *after* publishing, so other cinemas still update. The run summary lists the problems.
-- **Retries.** A failed model call is retried on later runs, up to 3 attempts per image. Each run
-  processes at most `MAX_IMAGES_PER_RUN` (default 40) images and waits 7s between calls to stay
-  within free-tier limits.
+  went private, or Telegram changed the page), when an image fails 3 times, or when a poster still
+  hasn't been extracted 24h after the first try. Temporary quota or overload errors don't trigger
+  an email on their own. The run fails only *after* publishing, so other cinemas still update.
+  The run summary lists the problems.
+- **Free-tier quota.** Free Gemini tiers can be as low as 20 requests per model per day, so the
+  pipeline is careful with them:
+  - It only sends posters from the last 7 days to the model.
+  - It processes the newest posters first, across all cinemas.
+  - When a model is over quota (429) or overloaded (503), it falls back to the next model.
+  - It stops calling the model for the rest of the run once every model is over quota.
+  - Quota and overload errors don't count toward an image's 3 attempts.
+
+  Five cinemas post roughly 5–10 new images a day, which fits within the free tiers.
 - **Pruning.** Posters and records older than 30 days are deleted. Images that aren't schedules
   are deleted right away. Posters are resized to ≤1280px JPEG, about 75–150 KB each.
 - **Repo size.** Posters are committed, so git history grows slowly, roughly a few MB per month

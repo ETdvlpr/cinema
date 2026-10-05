@@ -2,11 +2,13 @@
 
 The model only transcribes. It reports which calendar/clock each value uses, and
 all conversion and sanity checks happen in validate.py. To switch providers,
-replace `_call_model` and keep its signature: (image, mime_type, prompt, settings) -> JSON text.
+replace `_call_model` and keep its contract: return (JSON text, model name), and raise
+ModelsUnavailable for quota/overload problems that should simply be retried later.
 """
 
 from __future__ import annotations
 
+import logging
 import time
 from datetime import date
 from typing import Literal
@@ -15,6 +17,13 @@ from pydantic import BaseModel, Field
 
 from .config import Settings
 from .ethiopian import MONTH_NAMES, format_ethiopian
+
+log = logging.getLogger(__name__)
+
+
+class ModelsUnavailable(Exception):
+    """Every configured model is over quota or overloaded. Not the image's fault; retry later."""
+
 
 # Note: no field defaults. Gemini's response_schema rejects them.
 
@@ -87,6 +96,12 @@ def build_prompt(cinema_name: str, posted_on: date, caption: str) -> str:
 
 
 _last_call = 0.0
+# Models that hit their quota (or don't exist) during this run; skipped for the rest of it.
+_exhausted_models: set[str] = set()
+
+
+def all_models_exhausted(settings: Settings) -> bool:
+    return all(m in _exhausted_models for m in settings.gemini_models)
 
 
 def extract_schedule(
@@ -97,34 +112,50 @@ def extract_schedule(
     posted_on: date,
     caption: str,
     settings: Settings,
-) -> RawExtraction:
+) -> tuple[RawExtraction, str]:
+    """Returns the extraction and the name of the model that produced it."""
     global _last_call
     wait = settings.min_seconds_between_calls - (time.monotonic() - _last_call)
     if wait > 0:
         time.sleep(wait)
     try:
-        text = _call_model(image, mime_type, build_prompt(cinema_name, posted_on, caption), settings)
+        text, model = _call_model(image, mime_type, build_prompt(cinema_name, posted_on, caption), settings)
     finally:
         _last_call = time.monotonic()
-    return RawExtraction.model_validate_json(text)
+    return RawExtraction.model_validate_json(text), model
 
 
-def _call_model(image: bytes, mime_type: str, prompt: str, settings: Settings) -> str:
+def _call_model(image: bytes, mime_type: str, prompt: str, settings: Settings) -> tuple[str, str]:
     from google import genai
-    from google.genai import types
+    from google.genai import errors, types
 
     if not settings.gemini_api_key:
         raise RuntimeError("GEMINI_API_KEY is not set")
     client = genai.Client(api_key=settings.gemini_api_key)
-    response = client.models.generate_content(
-        model=settings.gemini_model,
-        contents=[types.Part.from_bytes(data=image, mime_type=mime_type), prompt],
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            response_schema=RawExtraction,
-            temperature=0,
-        ),
+    contents = [types.Part.from_bytes(data=image, mime_type=mime_type), prompt]
+    config = types.GenerateContentConfig(
+        response_mime_type="application/json",
+        response_schema=RawExtraction,
+        temperature=0,
     )
-    if not response.text:
-        raise RuntimeError("Model returned an empty response")
-    return response.text
+
+    last_error: Exception | None = None
+    for model in settings.gemini_models:
+        if model in _exhausted_models:
+            continue
+        try:
+            response = client.models.generate_content(model=model, contents=contents, config=config)
+        except errors.APIError as e:
+            last_error = e
+            if e.code in (404, 429):  # unknown model / quota used up: skip it for the rest of the run
+                log.warning("%s unavailable for this run (%s %s)", model, e.code, e.status)
+                _exhausted_models.add(model)
+                continue
+            if e.code in (500, 502, 503, 504):  # overloaded: try the next model for this image
+                log.warning("%s overloaded (%s), trying next model", model, e.code)
+                continue
+            raise
+        if not response.text:
+            raise RuntimeError(f"{model} returned an empty response")
+        return response.text, model
+    raise ModelsUnavailable(f"all models over quota or overloaded; last error: {last_error}")

@@ -4,7 +4,7 @@
  "last_error": null,
  "posters": {
   "2314-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m19.302408073s.', 'status': 'R",
    "image": "posters/century/2314-0.jpg",
    "index": 0,
@@ -15,7 +15,7 @@
    "status": "error"
   },
   "2318-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m26.497463716s.', 'status': 'R",
    "image": "posters/century/2318-0.jpg",
    "index": 0,
@@ -26,7 +26,7 @@
    "status": "error"
   },
   "2319-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m33.702359568s.', 'status': 'R",
    "image": "posters/century/2319-0.jpg",
    "index": 0,
@@ -37,7 +37,7 @@
    "status": "error"
   },
   "2320-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/century/2320-0.jpg",
    "index": 0,
@@ -48,7 +48,7 @@
    "status": "error"
   },
   "2321-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m50.096541663s.', 'status': 'R",
    "image": "posters/century/2321-0.jpg",
    "index": 0,
@@ -59,7 +59,7 @@
    "status": "error"
   },
   "2322-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/century/2322-0.jpg",
    "index": 0,
@@ -70,7 +70,7 @@
    "status": "error"
   },
   "2323-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/century/2323-0.jpg",
    "index": 0,
@@ -81,7 +81,7 @@
    "status": "error"
   },
   "2324-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/century/2324-0.jpg",
    "index": 0,
@@ -92,7 +92,7 @@
    "status": "error"
   },
   "2325-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/century/2325-0.jpg",
    "index": 0,
@@ -103,7 +103,7 @@
    "status": "error"
   },
   "2326-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/century/2326-0.jpg",
    "index": 0,
@@ -114,7 +114,7 @@
    "status": "error"
   },
   "2328-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/century/2328-0.jpg",
    "index": 0,

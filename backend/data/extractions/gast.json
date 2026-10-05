@@ -4,7 +4,7 @@
  "last_error": null,
  "posters": {
   "4782-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h47.709402397s.', 'status': 'RES",
    "image": "posters/gast/4782-0.jpg",
    "index": 0,
@@ -15,7 +15,7 @@
    "status": "error"
   },
   "4784-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h54.938710804s.', 'status': 'RES",
    "image": "posters/gast/4784-0.jpg",
    "index": 0,
@@ -26,7 +26,7 @@
    "status": "error"
   },
   "4786-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m2.159915703s.', 'status': 'RE",
    "image": "posters/gast/4786-0.jpg",
    "index": 0,
@@ -37,7 +37,7 @@
    "status": "error"
   },
   "4787-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m9.460892602s.', 'status': 'RE",
    "image": "posters/gast/4787-0.jpg",
    "index": 0,
@@ -48,7 +48,7 @@
    "status": "error"
   },
   "4788-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m16.670937197s.', 'status': 'R",
    "image": "posters/gast/4788-0.jpg",
    "index": 0,
@@ -59,7 +59,7 @@
    "status": "error"
   },
   "4790-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m23.887638931s.', 'status': 'R",
    "image": "posters/gast/4790-0.jpg",
    "index": 0,
@@ -70,7 +70,7 @@
    "status": "error"
   },
   "4792-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m31.081051205s.', 'status': 'R",
    "image": "posters/gast/4792-0.jpg",
    "index": 0,
@@ -81,7 +81,7 @@
    "status": "error"
   },
   "4793-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m38.414265454s.', 'status': 'R",
    "image": "posters/gast/4793-0.jpg",
    "index": 0,
@@ -92,7 +92,7 @@
    "status": "error"
   },
   "4795-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m45.630348872s.', 'status': 'R",
    "image": "posters/gast/4795-0.jpg",
    "index": 0,
@@ -103,7 +103,7 @@
    "status": "error"
   },
   "4797-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
    "image": "posters/gast/4797-0.jpg",
    "index": 0,
@@ -114,7 +114,7 @@
    "status": "error"
   },
   "4799-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m4.673440717s.', 'status': 'RE",
    "image": "posters/gast/4799-0.jpg",
    "index": 0,
@@ -125,7 +125,7 @@
    "status": "error"
   },
   "4800-0": {
-   "attempts": 1,
+   "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m12.092051351s.', 'status': 'R",
    "image": "posters/gast/4800-0.jpg",
    "index": 0,

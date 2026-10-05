@@ -29,7 +29,12 @@ LATEST_SHOW_HOUR = 23
 
 # --- Housekeeping -----------------------------------------------------------
 RETENTION_DAYS = 30  # posters/extractions older than this are pruned
-MAX_ATTEMPTS = 3  # extraction attempts per image before giving up
+# Only posters this recent are sent to the model; older ones mostly list past showtimes
+# and would waste the free-tier daily quota.
+PROCESS_MAX_AGE_DAYS = 7
+MAX_ATTEMPTS = 3  # extraction attempts per image before giving up (quota/overload errors don't count)
+# Alert if a poster still hasn't been extracted this long after the first attempt.
+ALERT_AFTER_HOURS = 24
 
 
 @dataclass(frozen=True)
@@ -51,7 +56,7 @@ def load_cinemas(path: Path = CINEMAS_FILE) -> list[Cinema]:
 @dataclass(frozen=True)
 class Settings:
     gemini_api_key: str | None
-    gemini_model: str
+    gemini_models: list[str]  # tried in order; each has its own free-tier quota
     max_images_per_run: int
     min_seconds_between_calls: float
 
@@ -59,8 +64,13 @@ class Settings:
     def from_env(cls) -> Settings:
         return cls(
             gemini_api_key=os.environ.get("GEMINI_API_KEY") or None,
-            # A "-latest" alias survives model retirements; pin a specific model if you prefer stability.
-            gemini_model=os.environ.get("GEMINI_MODEL") or "gemini-flash-latest",
+            # Comma-separated. "-latest" aliases survive model retirements; pin specific models
+            # if you prefer stability.
+            gemini_models=[
+                m.strip()
+                for m in (os.environ.get("GEMINI_MODEL") or "gemini-flash-latest,gemini-flash-lite-latest").split(",")
+                if m.strip()
+            ],
             max_images_per_run=int(os.environ.get("MAX_IMAGES_PER_RUN") or 40),
             # Keeps us under free-tier requests-per-minute limits.
             min_seconds_between_calls=float(os.environ.get("MIN_SECONDS_BETWEEN_CALLS") or 7),
