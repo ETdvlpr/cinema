@@ -6,8 +6,11 @@
 # Not included (checked 2026-10-05):
 #   EB/EW Multiplex  @ebmultiplex       last post 2021
 #   Ambassador       @ambassadorcinema  channel exists but has no posts yet
-#   Sebastopol, Matti Multiplex         no public channel found
-#   Edna Mall                           closed December 2021
+#   Abel Cinema      @abelcinema        last post 2021
+#   Sebastopol, Ambassador, Cinema Empire, Agona, Addis Cinema Complex, Videobet:
+#                                       no public Telegram channel found (Videobet is Instagram-only)
+#   Edna Mall / Matti Multiplex         closed December 2021
+#   @addis_cinema, @etmdb, @FourtySecond  film-sharing / database / events channels, not venues
 cinemas:
   - id: alem
     name: Alem Cinema
@@ -20,3 +23,11 @@ cinemas:
   - id: gast
     name: GAST Cinema
     channel: GastCinema
+
+  - id: chewata
+    name: Laphto Chewata Cinema
+    channel: chewatacinema
+
+  - id: garad
+    name: Garad Multi Cinema
+    channel: garadmulticinema
