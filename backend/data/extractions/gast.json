@@ -1,0 +1,139 @@
+{
+ "cinema_id": "gast",
+ "last_checked": "2026-10-05T21:51:42+03:00",
+ "last_error": null,
+ "posters": {
+  "4782-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h47.709402397s.', 'status': 'RES",
+   "image": "posters/gast/4782-0.jpg",
+   "index": 0,
+   "post_id": 4782,
+   "post_url": "https://t.me/GastCinema/4782",
+   "posted_at": "2026-09-18T19:02:59+00:00",
+   "processed_at": "2026-10-05T21:59:05+03:00",
+   "status": "error"
+  },
+  "4784-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h54.938710804s.', 'status': 'RES",
+   "image": "posters/gast/4784-0.jpg",
+   "index": 0,
+   "post_id": 4784,
+   "post_url": "https://t.me/GastCinema/4784",
+   "posted_at": "2026-09-20T19:02:29+00:00",
+   "processed_at": "2026-10-05T21:58:57+03:00",
+   "status": "error"
+  },
+  "4786-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m2.159915703s.', 'status': 'RE",
+   "image": "posters/gast/4786-0.jpg",
+   "index": 0,
+   "post_id": 4786,
+   "post_url": "https://t.me/GastCinema/4786",
+   "posted_at": "2026-09-22T13:23:28+00:00",
+   "processed_at": "2026-10-05T21:58:50+03:00",
+   "status": "error"
+  },
+  "4787-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m9.460892602s.', 'status': 'RE",
+   "image": "posters/gast/4787-0.jpg",
+   "index": 0,
+   "post_id": 4787,
+   "post_url": "https://t.me/GastCinema/4787",
+   "posted_at": "2026-09-23T07:57:10+00:00",
+   "processed_at": "2026-10-05T21:58:43+03:00",
+   "status": "error"
+  },
+  "4788-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m16.670937197s.', 'status': 'R",
+   "image": "posters/gast/4788-0.jpg",
+   "index": 0,
+   "post_id": 4788,
+   "post_url": "https://t.me/GastCinema/4788",
+   "posted_at": "2026-09-23T18:32:00+00:00",
+   "processed_at": "2026-10-05T21:58:36+03:00",
+   "status": "error"
+  },
+  "4790-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m23.887638931s.', 'status': 'R",
+   "image": "posters/gast/4790-0.jpg",
+   "index": 0,
+   "post_id": 4790,
+   "post_url": "https://t.me/GastCinema/4790",
+   "posted_at": "2026-09-25T18:13:36+00:00",
+   "processed_at": "2026-10-05T21:58:28+03:00",
+   "status": "error"
+  },
+  "4792-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m31.081051205s.', 'status': 'R",
+   "image": "posters/gast/4792-0.jpg",
+   "index": 0,
+   "post_id": 4792,
+   "post_url": "https://t.me/GastCinema/4792",
+   "posted_at": "2026-09-26T04:49:46+00:00",
+   "processed_at": "2026-10-05T21:58:21+03:00",
+   "status": "error"
+  },
+  "4793-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m38.414265454s.', 'status': 'R",
+   "image": "posters/gast/4793-0.jpg",
+   "index": 0,
+   "post_id": 4793,
+   "post_url": "https://t.me/GastCinema/4793",
+   "posted_at": "2026-09-27T18:47:36+00:00",
+   "processed_at": "2026-10-05T21:58:14+03:00",
+   "status": "error"
+  },
+  "4795-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m45.630348872s.', 'status': 'R",
+   "image": "posters/gast/4795-0.jpg",
+   "index": 0,
+   "post_id": 4795,
+   "post_url": "https://t.me/GastCinema/4795",
+   "posted_at": "2026-09-30T21:00:54+00:00",
+   "processed_at": "2026-10-05T21:58:07+03:00",
+   "status": "error"
+  },
+  "4797-0": {
+   "attempts": 1,
+   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "image": "posters/gast/4797-0.jpg",
+   "index": 0,
+   "post_id": 4797,
+   "post_url": "https://t.me/GastCinema/4797",
+   "posted_at": "2026-10-02T20:40:07+00:00",
+   "processed_at": "2026-10-05T21:57:55+03:00",
+   "status": "error"
+  },
+  "4799-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m4.673440717s.', 'status': 'RE",
+   "image": "posters/gast/4799-0.jpg",
+   "index": 0,
+   "post_id": 4799,
+   "post_url": "https://t.me/GastCinema/4799",
+   "posted_at": "2026-10-03T05:34:29+00:00",
+   "processed_at": "2026-10-05T21:57:47+03:00",
+   "status": "error"
+  },
+  "4800-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m12.092051351s.', 'status': 'R",
+   "image": "posters/gast/4800-0.jpg",
+   "index": 0,
+   "post_id": 4800,
+   "post_url": "https://t.me/GastCinema/4800",
+   "posted_at": "2026-10-04T18:38:47+00:00",
+   "processed_at": "2026-10-05T21:57:41+03:00",
+   "status": "error"
+  }
+ }
+}

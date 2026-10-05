@@ -1,0 +1,128 @@
+{
+ "cinema_id": "century",
+ "last_checked": "2026-10-05T21:51:42+03:00",
+ "last_error": null,
+ "posters": {
+  "2314-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m19.302408073s.', 'status': 'R",
+   "image": "posters/century/2314-0.jpg",
+   "index": 0,
+   "post_id": 2314,
+   "post_url": "https://t.me/Century_Cinema/2314",
+   "posted_at": "2026-09-06T20:38:18+00:00",
+   "processed_at": "2026-10-05T21:57:33+03:00",
+   "status": "error"
+  },
+  "2318-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m26.497463716s.', 'status': 'R",
+   "image": "posters/century/2318-0.jpg",
+   "index": 0,
+   "post_id": 2318,
+   "post_url": "https://t.me/Century_Cinema/2318",
+   "posted_at": "2026-09-10T23:22:36+00:00",
+   "processed_at": "2026-10-05T21:57:26+03:00",
+   "status": "error"
+  },
+  "2319-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m33.702359568s.', 'status': 'R",
+   "image": "posters/century/2319-0.jpg",
+   "index": 0,
+   "post_id": 2319,
+   "post_url": "https://t.me/Century_Cinema/2319",
+   "posted_at": "2026-09-14T04:57:40+00:00",
+   "processed_at": "2026-10-05T21:57:19+03:00",
+   "status": "error"
+  },
+  "2320-0": {
+   "attempts": 1,
+   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "image": "posters/century/2320-0.jpg",
+   "index": 0,
+   "post_id": 2320,
+   "post_url": "https://t.me/Century_Cinema/2320",
+   "posted_at": "2026-09-17T05:27:08+00:00",
+   "processed_at": "2026-10-05T21:57:09+03:00",
+   "status": "error"
+  },
+  "2321-0": {
+   "attempts": 1,
+   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m50.096541663s.', 'status': 'R",
+   "image": "posters/century/2321-0.jpg",
+   "index": 0,
+   "post_id": 2321,
+   "post_url": "https://t.me/Century_Cinema/2321",
+   "posted_at": "2026-09-21T05:01:41+00:00",
+   "processed_at": "2026-10-05T21:57:02+03:00",
+   "status": "error"
+  },
+  "2322-0": {
+   "attempts": 1,
+   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "image": "posters/century/2322-0.jpg",
+   "index": 0,
+   "post_id": 2322,
+   "post_url": "https://t.me/Century_Cinema/2322",
+   "posted_at": "2026-09-24T05:40:02+00:00",
+   "processed_at": "2026-10-05T21:56:54+03:00",
+   "status": "error"
+  },
+  "2323-0": {
+   "attempts": 1,
+   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "image": "posters/century/2323-0.jpg",
+   "index": 0,
+   "post_id": 2323,
+   "post_url": "https://t.me/Century_Cinema/2323",
+   "posted_at": "2026-09-25T20:43:06+00:00",
+   "processed_at": "2026-10-05T21:56:43+03:00",
+   "status": "error"
+  },
+  "2324-0": {
+   "attempts": 1,
+   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "image": "posters/century/2324-0.jpg",
+   "index": 0,
+   "post_id": 2324,
+   "post_url": "https://t.me/Century_Cinema/2324",
+   "posted_at": "2026-09-27T16:44:51+00:00",
+   "processed_at": "2026-10-05T21:56:30+03:00",
+   "status": "error"
+  },
+  "2325-0": {
+   "attempts": 1,
+   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "image": "posters/century/2325-0.jpg",
+   "index": 0,
+   "post_id": 2325,
+   "post_url": "https://t.me/Century_Cinema/2325",
+   "posted_at": "2026-10-01T10:07:48+00:00",
+   "processed_at": "2026-10-05T21:56:20+03:00",
+   "status": "error"
+  },
+  "2326-0": {
+   "attempts": 1,
+   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "image": "posters/century/2326-0.jpg",
+   "index": 0,
+   "post_id": 2326,
+   "post_url": "https://t.me/Century_Cinema/2326",
+   "posted_at": "2026-10-02T12:13:25+00:00",
+   "processed_at": "2026-10-05T21:56:12+03:00",
+   "status": "error"
+  },
+  "2328-0": {
+   "attempts": 1,
+   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "image": "posters/century/2328-0.jpg",
+   "index": 0,
+   "post_id": 2328,
+   "post_url": "https://t.me/Century_Cinema/2328",
+   "posted_at": "2026-10-04T18:02:35+00:00",
+   "processed_at": "2026-10-05T21:56:02+03:00",
+   "status": "error"
+  }
+ }
+}

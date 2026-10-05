@@ -1,0 +1,76 @@
+{
+ "generated_at": "2026-10-05T21:51:42+03:00",
+ "timezone": "Africa/Addis_Ababa",
+ "cinemas": [
+  {
+   "id": "alem",
+   "name": "Alem Cinema",
+   "channel_url": "https://t.me/alem_cinema",
+   "last_checked": "2026-10-05T21:51:42+03:00",
+   "last_error": null,
+   "latest_schedule_posted_at": "2026-09-20T17:05:02+00:00",
+   "latest_poster": {
+    "image": "posters/alem/2314-0.jpg",
+    "post_url": "https://t.me/alem_cinema/2314",
+    "posted_at": "2026-10-05T18:04:34+00:00",
+    "status": "error"
+   },
+   "showtimes": []
+  },
+  {
+   "id": "century",
+   "name": "Century Cinema",
+   "channel_url": "https://t.me/Century_Cinema",
+   "last_checked": "2026-10-05T21:51:42+03:00",
+   "last_error": null,
+   "latest_schedule_posted_at": null,
+   "latest_poster": {
+    "image": "posters/century/2328-0.jpg",
+    "post_url": "https://t.me/Century_Cinema/2328",
+    "posted_at": "2026-10-04T18:02:35+00:00",
+    "status": "error"
+   },
+   "showtimes": []
+  },
+  {
+   "id": "gast",
+   "name": "GAST Cinema",
+   "channel_url": "https://t.me/GastCinema",
+   "last_checked": "2026-10-05T21:51:42+03:00",
+   "last_error": null,
+   "latest_schedule_posted_at": null,
+   "latest_poster": {
+    "image": "posters/gast/4800-0.jpg",
+    "post_url": "https://t.me/GastCinema/4800",
+    "posted_at": "2026-10-04T18:38:47+00:00",
+    "status": "error"
+   },
+   "showtimes": []
+  },
+  {
+   "id": "chewata",
+   "name": "Laphto Chewata Cinema",
+   "channel_url": "https://t.me/chewatacinema",
+   "last_checked": "2026-10-05T21:51:42+03:00",
+   "last_error": null,
+   "latest_schedule_posted_at": null,
+   "latest_poster": {
+    "image": "posters/chewata/66-0.jpg",
+    "post_url": "https://t.me/chewatacinema/66",
+    "posted_at": "2026-10-04T14:56:09+00:00",
+    "status": "error"
+   },
+   "showtimes": []
+  },
+  {
+   "id": "garad",
+   "name": "Garad Multi Cinema",
+   "channel_url": "https://t.me/garadmulticinema",
+   "last_checked": "2026-10-05T21:51:42+03:00",
+   "last_error": null,
+   "latest_schedule_posted_at": null,
+   "latest_poster": null,
+   "showtimes": []
+  }
+ ]
+}
