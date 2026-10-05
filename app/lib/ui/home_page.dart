@@ -11,6 +11,7 @@ import 'poster_page.dart';
 import 'theme.dart';
 import 'widgets/day_selector.dart';
 import 'widgets/film_art.dart';
+import 'widgets/spring_press.dart';
 import 'widgets/status_banner.dart';
 import 'widgets/time_chip.dart';
 
@@ -242,41 +243,149 @@ class MoviesTab extends StatelessWidget {
   }
 }
 
-class _FeaturedCarousel extends StatelessWidget {
+class _FeaturedCarousel extends StatefulWidget {
   const _FeaturedCarousel({required this.films});
 
   final List<Film> films;
 
   @override
+  State<_FeaturedCarousel> createState() => _FeaturedCarouselState();
+}
+
+class _FeaturedCarouselState extends State<_FeaturedCarousel> {
+  static const _cardWidth = 230.0;
+
+  PageController _controller = PageController(viewportFraction: 0.62);
+
+  /// Keep cards poster-shaped at any screen width: each one gets ~230px of the viewport.
+  void _fitTo(double width) {
+    final fraction = (_cardWidth / width).clamp(0.3, 0.75);
+    if ((fraction - _controller.viewportFraction).abs() < 0.01) return;
+    final page = _controller.hasClients ? _controller.page?.round() ?? 0 : 0;
+    _controller.dispose();
+    _controller = PageController(viewportFraction: fraction, initialPage: page);
+  }
+
+  @override
+  void didUpdateWidget(_FeaturedCarousel old) {
+    super.didUpdateWidget(old);
+    // A different day was picked: start again from the first film.
+    if (old.films.firstOrNull?.key != widget.films.firstOrNull?.key && _controller.hasClients) {
+      _controller.jumpToPage(0);
+    }
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  /// Fractional page position, e.g. 1.4 while swiping from the 2nd card to the 3rd.
+  double get _page => _controller.hasClients && _controller.position.haveDimensions ? _controller.page ?? 0 : 0;
+
+  @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 250,
-      child: ListView.separated(
-        scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(horizontal: 16),
-        itemCount: films.length,
-        separatorBuilder: (_, _) => const SizedBox(width: 12),
-        itemBuilder: (context, i) {
-          final film = films[i];
-          final heroTag = 'featured-${film.key}';
-          final cinemas = film.cinemaIds.length;
-          return GestureDetector(
-            onTap: () => openMovie(context, film.key, heroTag: heroTag),
-            child: SizedBox(
-              width: 170,
-              child: Hero(
-                tag: heroTag,
-                child: FilmArt(
-                  filmKey: film.key,
-                  title: film.title,
-                  subtitle: '$cinemas ${cinemas == 1 ? 'cinema' : 'cinemas'} · ${film.showtimes.length} shows',
-                  titleStyle: Theme.of(context).textTheme.titleLarge?.copyWith(fontSize: 20),
+    final films = widget.films;
+    final reduceMotion = MediaQuery.disableAnimationsOf(context);
+    _fitTo(MediaQuery.sizeOf(context).width.clamp(0, 720).toDouble());
+    return Column(
+      children: [
+        SizedBox(
+          height: 336,
+          child: PageView.builder(
+            controller: _controller,
+            itemCount: films.length,
+            physics: const BouncingScrollPhysics(),
+            itemBuilder: (context, i) {
+              final film = films[i];
+              final heroTag = 'featured-${film.key}';
+              final cinemas = film.cinemaIds.length;
+              return AnimatedBuilder(
+                animation: _controller,
+                builder: (context, child) {
+                  // 0 when centred, 1 one card away. Cards beside the centre recede.
+                  final offset = (i - _page).clamp(-1.0, 1.0);
+                  final distance = reduceMotion ? 0.0 : offset.abs();
+                  return Transform.scale(
+                    scale: 1 - 0.14 * distance,
+                    child: Opacity(
+                      opacity: 1 - 0.45 * distance,
+                      child: SpringPress(
+                        onTap: () => openMovie(context, film.key, heroTag: heroTag),
+                        child: Padding(
+                          // Vertical room so the glow fades out instead of being clipped by the PageView.
+                          padding: const EdgeInsets.fromLTRB(6, 8, 6, 28),
+                          child: DecoratedBox(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(24),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: FilmArt.accentFor(film.key).withValues(alpha: 0.35 * (1 - distance)),
+                                  blurRadius: 28,
+                                  offset: const Offset(0, 12),
+                                ),
+                              ],
+                            ),
+                            child: Hero(
+                              tag: heroTag,
+                              child: FilmArt(
+                                filmKey: film.key,
+                                title: film.title,
+                                borderRadius: 24,
+                                parallax: reduceMotion ? 0 : offset,
+                                subtitle:
+                                    '$cinemas ${cinemas == 1 ? 'cinema' : 'cinemas'} · ${film.showtimes.length} shows',
+                                titleStyle: Theme.of(context).textTheme.headlineSmall,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  );
+                },
+              );
+            },
+          ),
+        ),
+        AnimatedBuilder(
+          animation: _controller,
+          builder: (context, _) => _PageDots(count: films.length, page: _page),
+        ),
+      ],
+    );
+  }
+}
+
+/// Dots that stretch into a pill for the current card, following the swipe continuously.
+class _PageDots extends StatelessWidget {
+  const _PageDots({required this.count, required this.page});
+
+  final int count;
+  final double page;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        for (var i = 0; i < count; i++)
+          Builder(
+            builder: (context) {
+              final active = (1 - (page - i).abs()).clamp(0.0, 1.0);
+              return Container(
+                width: 6 + 14 * active,
+                height: 6,
+                margin: const EdgeInsets.symmetric(horizontal: 3),
+                decoration: BoxDecoration(
+                  color: Color.lerp(AppColors.outline, AppColors.gold, active),
+                  borderRadius: BorderRadius.circular(3),
                 ),
-              ),
-            ),
-          );
-        },
-      ),
+              );
+            },
+          ),
+      ],
     );
   }
 }
@@ -301,8 +410,8 @@ class _FilmScheduleCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          InkWell(
-            borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+          SpringPress(
+            pressedScale: 0.98,
             onTap: () => openMovie(context, film.key, heroTag: heroTag),
             child: Padding(
               padding: const EdgeInsets.all(14),
@@ -440,15 +549,15 @@ class _CinemaCard extends StatelessWidget {
     final text = Theme.of(context).textTheme;
     final films = groupFilms(showtimes);
 
-    return Material(
-      color: AppColors.surface,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(24),
-        side: const BorderSide(color: AppColors.outline),
-      ),
-      clipBehavior: Clip.antiAlias,
-      child: InkWell(
-        onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => CinemaPage(cinemaId: cinema.id))),
+    return SpringPress(
+      pressedScale: 0.97,
+      onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => CinemaPage(cinemaId: cinema.id))),
+      child: Container(
+        decoration: BoxDecoration(
+          color: AppColors.surface,
+          borderRadius: BorderRadius.circular(24),
+          border: Border.all(color: AppColors.outline),
+        ),
         child: Padding(
           padding: const EdgeInsets.all(16),
           child: Column(

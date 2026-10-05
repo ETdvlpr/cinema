@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../data/addis_time.dart';
 import '../theme.dart';
+import 'spring_press.dart';
 
 class DaySelector extends StatelessWidget {
   const DaySelector({super.key, required this.dates, required this.selected, required this.onSelected});
@@ -29,7 +30,8 @@ class DaySelector extends StatelessWidget {
             selected: isSelected,
             button: true,
             label: friendlyDate(date),
-            child: GestureDetector(
+            child: SpringPress(
+              pressedScale: 0.9,
               onTap: () => onSelected(date),
               child: AnimatedContainer(
                 duration: const Duration(milliseconds: 220),

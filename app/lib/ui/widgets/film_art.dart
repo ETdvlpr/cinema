@@ -11,6 +11,7 @@ class FilmArt extends StatelessWidget {
     this.showTitle = true,
     this.borderRadius = 20,
     this.titleStyle,
+    this.parallax = 0,
   });
 
   final String filmKey;
@@ -19,6 +20,9 @@ class FilmArt extends StatelessWidget {
   final bool showTitle;
   final double borderRadius;
   final TextStyle? titleStyle;
+
+  /// -1..1 as the card slides past the centre of a carousel; layers drift at different speeds.
+  final double parallax;
 
   static const _palettes = [
     [Color(0xFF3A1C71), Color(0xFFD76D77), Color(0xFFFFAF7B)],
@@ -64,7 +68,7 @@ class FilmArt extends StatelessWidget {
               children: [
                 // Soft spotlight
                 Positioned(
-                  right: -box.maxWidth * 0.3,
+                  right: -box.maxWidth * 0.3 + parallax * box.maxWidth * 0.35,
                   top: -box.maxHeight * 0.25,
                   child: Container(
                     width: box.maxWidth * 0.95,
@@ -79,7 +83,7 @@ class FilmArt extends StatelessWidget {
                 ),
                 // Oversized initial as a graphic element
                 Positioned(
-                  left: -big * 0.08,
+                  left: -big * 0.08 - parallax * box.maxWidth * 0.2,
                   bottom: -big * 0.28,
                   child: Text(
                     initial,

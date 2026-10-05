@@ -12,6 +12,7 @@ import 'widgets/day_selector.dart';
 import 'widgets/film_art.dart';
 import 'widgets/status_banner.dart';
 import 'widgets/time_chip.dart';
+import 'widgets/spring_press.dart';
 
 class CinemaPage extends StatefulWidget {
   const CinemaPage({super.key, required this.cinemaId});
@@ -178,7 +179,7 @@ class _FilmRow extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          GestureDetector(
+          SpringPress(
             onTap: () => openMovie(context, film.key, heroTag: heroTag),
             child: SizedBox(
               width: 54,
@@ -194,7 +195,7 @@ class _FilmRow extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                GestureDetector(
+                SpringPress(
                   onTap: () => openMovie(context, film.key, heroTag: heroTag),
                   child: Text(film.title, style: text.titleMedium),
                 ),

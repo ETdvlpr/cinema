@@ -4,6 +4,7 @@ import '../../data/addis_time.dart';
 import '../../data/models.dart';
 import '../theme.dart';
 import 'showtime_sheet.dart';
+import 'spring_press.dart';
 
 /// A tappable showtime. Starting within the hour = highlighted.
 class TimeChip extends StatelessWidget {
@@ -28,15 +29,15 @@ class TimeChip extends StatelessWidget {
       if (showtime.format != null && showtime.format!.toUpperCase() != '2D') showtime.format!.toUpperCase(),
     ].join(' · ');
 
-    return Material(
-      color: soon ? AppColors.gold.withValues(alpha: 0.14) : AppColors.surfaceHigh,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(14),
-        side: BorderSide(color: soon ? AppColors.gold : AppColors.outline),
-      ),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(14),
-        onTap: () => showShowtimeSheet(context, showtime),
+    return SpringPress(
+      pressedScale: 0.9,
+      onTap: () => showShowtimeSheet(context, showtime),
+      child: Container(
+        decoration: BoxDecoration(
+          color: soon ? AppColors.gold.withValues(alpha: 0.14) : AppColors.surfaceHigh,
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: soon ? AppColors.gold : AppColors.outline),
+        ),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 9),
           child: Column(
