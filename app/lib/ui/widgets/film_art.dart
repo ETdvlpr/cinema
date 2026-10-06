@@ -14,6 +14,7 @@ class FilmArt extends StatelessWidget {
     this.titleStyle,
     this.parallax = 0,
     this.imageUrl,
+    this.placeholderUrl,
   });
 
   final String filmKey;
@@ -29,6 +30,10 @@ class FilmArt extends StatelessWidget {
   /// Real artwork (TMDB poster or a thumbnail cut from the cinema's poster). The generated art
   /// stays underneath as the placeholder and as the fallback if it fails to load.
   final String? imageUrl;
+
+  /// An image that's already loaded (e.g. the poster the user just tapped), shown underneath
+  /// [imageUrl] until it arrives, so a page doesn't flash the generated art.
+  final String? placeholderUrl;
 
   static const _palettes = [
     [Color(0xFF3A1C71), Color(0xFFD76D77), Color(0xFFFFAF7B)],
@@ -101,22 +106,10 @@ class FilmArt extends StatelessWidget {
                     ),
                   ),
                 ),
+                if (placeholderUrl != null && placeholderUrl != imageUrl)
+                  Positioned.fill(child: _image(placeholderUrl!, fadeIn: Duration.zero)),
                 if (imageUrl != null)
-                  Positioned.fill(
-                    child: CachedNetworkImage(
-                      imageUrl: imageUrl!,
-                      fit: BoxFit.cover,
-                      alignment: Alignment(parallax * 0.8, -0.4),
-                      // Decode at display size: less memory on cheap phones.
-                      memCacheWidth: box.maxWidth.isFinite
-                          ? (box.maxWidth * MediaQuery.devicePixelRatioOf(context)).round()
-                          : null,
-                      filterQuality: FilterQuality.medium,
-                      fadeInDuration: const Duration(milliseconds: 300),
-                      placeholder: (_, _) => const SizedBox.shrink(),
-                      errorWidget: (_, _, _) => const SizedBox.shrink(),
-                    ),
-                  ),
+                  Positioned.fill(child: _image(imageUrl!, fadeIn: const Duration(milliseconds: 300))),
                 // Bottom scrim for legibility
                 const DecoratedBox(
                   decoration: BoxDecoration(
@@ -164,4 +157,17 @@ class FilmArt extends StatelessWidget {
       ),
     );
   }
+
+  // No memCacheWidth: the URLs are already sized per surface (w154, w342, w780). Tying the
+  // decode size to the layout made every frame of a Hero flight load a new copy, which
+  // flickered and could evict the image being shown.
+  Widget _image(String url, {required Duration fadeIn}) => CachedNetworkImage(
+    imageUrl: url,
+    fit: BoxFit.cover,
+    alignment: Alignment(parallax * 0.8, -0.4),
+    filterQuality: FilterQuality.medium,
+    fadeInDuration: fadeIn,
+    placeholder: (_, _) => const SizedBox.shrink(),
+    errorWidget: (_, _, _) => const SizedBox.shrink(),
+  );
 }
