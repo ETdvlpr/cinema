@@ -14,7 +14,9 @@ import 'widgets/time_chip.dart';
 /// shows it until its larger backdrop arrives.
 void openMovie(BuildContext context, String filmKey, {required String heroTag, String? fromImageUrl}) {
   final backdrop = ScheduleScope.of(context).film(filmKey)?.info?.backdrop(_backdropSize);
-  if (backdrop != null) precacheImage(CachedNetworkImageProvider(backdrop), context);
+  if (backdrop != null) {
+    precacheImage(CachedNetworkImageProvider(backdrop, imageRenderMethodForWeb: webImageLoading), context);
+  }
   Navigator.of(context).pushNamed(
     MoviePage.path(filmKey),
     arguments: MovieRouteArgs(heroTag: heroTag, fromImageUrl: fromImageUrl),

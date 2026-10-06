@@ -1,5 +1,14 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:cached_network_image_platform_interface/cached_network_image_platform_interface.dart'
+    show ImageRenderMethodForWeb;
 import 'package:flutter/material.dart';
+
+/// How images load on the web, for every CachedNetworkImage and its provider (they share one
+/// cache, so they must agree). The default (an <img> element handed to CanvasKit) intermittently
+/// fails to become a texture and paints black, e.g. a film's backdrop after a page transition.
+/// Downloading the bytes and decoding them in CanvasKit avoids that. TMDB and GitHub Pages both
+/// allow cross-origin requests.
+const webImageLoading = ImageRenderMethodForWeb.HttpGet;
 
 /// Generated artwork for a film. The backend has no per-film posters (and downloading them
 /// would cost users data), so each title gets its own deterministic gradient and typography.
@@ -163,6 +172,7 @@ class FilmArt extends StatelessWidget {
   // flickered and could evict the image being shown.
   Widget _image(String url, {required Duration fadeIn}) => CachedNetworkImage(
     imageUrl: url,
+    imageRenderMethodForWeb: webImageLoading,
     fit: BoxFit.cover,
     alignment: Alignment(parallax * 0.8, -0.4),
     filterQuality: FilterQuality.medium,

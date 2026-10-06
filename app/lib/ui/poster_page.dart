@@ -4,6 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../data/repository.dart';
 import 'theme.dart';
+import 'widgets/film_art.dart';
 
 void openPoster(
   BuildContext context, {
@@ -51,6 +52,7 @@ class PosterPage extends StatelessWidget {
         child: Center(
           child: CachedNetworkImage(
             imageUrl: imageUrl,
+            imageRenderMethodForWeb: webImageLoading,
             fit: BoxFit.contain,
             placeholder: (_, _) => const CircularProgressIndicator(color: AppColors.gold),
             errorWidget: (_, _, _) => const Column(
