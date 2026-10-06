@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-05T22:12:14+03:00",
+ "last_checked": "2026-10-06T09:24:23+03:00",
  "last_error": null,
  "posters": {
   "2314-0": {
@@ -621,21 +621,21 @@
    "status": "ok"
   },
   "2328-0": {
-   "attempts": 0,
-   "error": "marked for re-extraction",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-10-05T22:04:41+03:00",
    "image": "posters/century/2328-0.jpg",
    "index": 0,
    "model": "gemini-flash-lite-latest",
-   "notes": "Schedule covers October 5-8 (Meskerem 25-28). Expanded for all explicitly listed dates.",
+   "notes": null,
    "post_id": 2328,
    "post_url": "https://t.me/Century_Cinema/2328",
    "posted_at": "2026-10-04T18:02:35+00:00",
-   "processed_at": "2026-10-05T22:04:41+03:00",
+   "processed_at": "2026-10-06T09:25:15+03:00",
    "rejected": [],
    "showtimes": [
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -646,7 +646,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-06",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -657,7 +657,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-07",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -668,7 +668,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -679,7 +679,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -690,7 +690,7 @@
      "time": "15:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-06",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -701,7 +701,7 @@
      "time": "15:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-07",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -712,7 +712,7 @@
      "time": "15:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -723,7 +723,7 @@
      "time": "15:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -734,7 +734,7 @@
      "time": "19:30"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-06",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -745,7 +745,7 @@
      "time": "19:30"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-07",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -756,7 +756,7 @@
      "time": "19:30"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -767,7 +767,7 @@
      "time": "19:30"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "RUNNER",
      "film_title_latin": "RUNNER",
@@ -778,7 +778,7 @@
      "time": "17:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-06",
      "film_title": "RUNNER",
      "film_title_latin": "RUNNER",
@@ -789,7 +789,7 @@
      "time": "17:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-07",
      "film_title": "RUNNER",
      "film_title_latin": "RUNNER",
@@ -800,7 +800,7 @@
      "time": "17:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "RUNNER",
      "film_title_latin": "RUNNER",
@@ -811,7 +811,7 @@
      "time": "17:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -822,7 +822,7 @@
      "time": "13:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-06",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -833,7 +833,7 @@
      "time": "13:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-07",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -844,7 +844,7 @@
      "time": "13:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -855,7 +855,7 @@
      "time": "13:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -866,7 +866,7 @@
      "time": "19:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-06",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -877,7 +877,7 @@
      "time": "19:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-07",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -888,7 +888,7 @@
      "time": "19:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -899,7 +899,7 @@
      "time": "19:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -910,7 +910,7 @@
      "time": "13:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-06",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -921,7 +921,7 @@
      "time": "13:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-07",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -932,7 +932,7 @@
      "time": "13:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -943,7 +943,7 @@
      "time": "13:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -954,7 +954,7 @@
      "time": "17:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-06",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -965,7 +965,7 @@
      "time": "17:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-07",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -976,7 +976,7 @@
      "time": "17:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -987,7 +987,7 @@
      "time": "17:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
@@ -998,7 +998,7 @@
      "time": "14:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-06",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
@@ -1009,7 +1009,7 @@
      "time": "14:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-07",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
@@ -1020,7 +1020,7 @@
      "time": "14:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
@@ -1031,7 +1031,7 @@
      "time": "14:45"
     }
    ],
-   "status": "error"
+   "status": "ok"
   }
  }
 }

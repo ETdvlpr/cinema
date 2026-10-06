@@ -1,0 +1,509 @@
+{
+ "astehah": {
+  "first_seen": "2026-10-04T15:31:57+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/astehah.jpg",
+   "post_url": "https://t.me/alem_cinema/2313",
+   "posted_at": "2026-10-04T15:31:57+00:00"
+  },
+  "title": "Astehah",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "balochenamistoch": {
+  "first_seen": "2026-10-04T15:31:57+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/balochenamistoch.jpg",
+   "post_url": "https://t.me/alem_cinema/2313",
+   "posted_at": "2026-10-04T15:31:57+00:00"
+  },
+  "title": "Baloch Ena Mistoch",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "comingsoon2": {
+  "first_seen": "2026-10-05T15:00:04+00:00",
+  "last_seen": "2026-10-05T15:00:04+00:00",
+  "thumbnail": {
+   "image": "films/comingsoon2.jpg",
+   "post_url": "https://t.me/garadmulticinema/426",
+   "posted_at": "2026-10-05T15:00:04+00:00"
+  },
+  "title": "Coming Soon 2"
+ },
+ "comingsoonunidentified1": {
+  "first_seen": "2026-10-04T16:12:45+00:00",
+  "last_seen": "2026-10-04T16:12:45+00:00",
+  "thumbnail": {
+   "image": "films/comingsoonunidentified1.jpg",
+   "post_url": "https://t.me/garadmulticinema/424",
+   "posted_at": "2026-10-04T16:12:45+00:00"
+  },
+  "title": "Coming Soon Unidentified 1"
+ },
+ "coyotevsacme": {
+  "first_seen": "2026-10-04T18:38:47+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/coyotevsacme.jpg",
+   "post_url": "https://t.me/GastCinema/4800",
+   "posted_at": "2026-10-04T18:38:47+00:00"
+  },
+  "title": "COYOTE VS ACME",
+  "tmdb": {
+   "backdrop_path": "/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
+   "certification": "PG",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "id": 1204680,
+   "overview": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
+   "poster_path": "/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
+   "rating": 7.5,
+   "release_date": "2026-08-17",
+   "runtime": 103,
+   "status": "matched",
+   "title": "Coyote vs. Acme",
+   "trailer_youtube_key": "H-43VeYGiPM"
+  }
+ },
+ "evildeadburn": {
+  "first_seen": "2026-10-05T21:21:37+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/evildeadburn.jpg",
+   "post_url": "https://t.me/chewatacinema/68",
+   "posted_at": "2026-10-05T21:21:37+00:00"
+  },
+  "title": "Evil Dead Burn",
+  "tmdb": {
+   "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
+   "certification": "R",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Horror"
+   ],
+   "id": 1212763,
+   "overview": "After her husband's abrupt death, Alice seeks solace with his remaining family — descendants of a leading researcher on demonic possession. As her in-laws transform one by one into creatures that feed on fear, she comes to discover that the vows she took in life survive even in death.",
+   "poster_path": "/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg",
+   "rating": 7.6,
+   "release_date": "2026-07-07",
+   "runtime": 110,
+   "status": "matched",
+   "title": "Evil Dead Burn",
+   "trailer_youtube_key": "nMzhf6qYJ4I"
+  }
+ },
+ "heartofthebeast": {
+  "first_seen": "2026-10-04T18:38:47+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/heartofthebeast.jpg",
+   "post_url": "https://t.me/GastCinema/4800",
+   "posted_at": "2026-10-04T18:38:47+00:00"
+  },
+  "title": "HEART OF THE BEAST",
+  "tmdb": {
+   "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Adventure",
+    "Thriller"
+   ],
+   "id": 1263337,
+   "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+   "poster_path": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+   "rating": 7.5,
+   "release_date": "2026-09-19",
+   "runtime": 101,
+   "status": "matched",
+   "title": "Heart of the Beast",
+   "trailer_youtube_key": "JFQcDFhNh4o"
+  }
+ },
+ "iceageboilingpoint": {
+  "first_seen": "2026-10-05T15:00:04+00:00",
+  "last_seen": "2026-10-05T15:00:04+00:00",
+  "thumbnail": {
+   "image": "films/iceageboilingpoint.jpg",
+   "post_url": "https://t.me/garadmulticinema/426",
+   "posted_at": "2026-10-05T15:00:04+00:00"
+  },
+  "title": "Ice Age: Boiling Point"
+ },
+ "idiots": {
+  "first_seen": "2026-10-05T15:00:04+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/idiots.jpg",
+   "post_url": "https://t.me/garadmulticinema/426",
+   "posted_at": "2026-10-05T15:00:04+00:00"
+  },
+  "title": "Idiots",
+  "tmdb": {
+   "backdrop_path": "/v65hwf9S6mxFtobq4w6SlLnWgLq.jpg",
+   "certification": "R",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Comedy",
+    "Crime"
+   ],
+   "id": 445466,
+   "overview": "Two rock-bottom drivers transport a wealthy teen to rehab, but their simple job spirals into a chaotic journey of drugs, danger, and crime as their passenger derails their plans.",
+   "poster_path": "/l1JFNC1SdgyXVr7BaD5ehaYBvOC.jpg",
+   "rating": 6.2,
+   "release_date": "2026-08-20",
+   "runtime": 100,
+   "status": "matched",
+   "title": "Idiots",
+   "trailer_youtube_key": "8MVqh5L93Bs"
+  }
+ },
+ "insidiousoutofthefurther": {
+  "first_seen": "2026-10-05T21:21:37+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/insidiousoutofthefurther.jpg",
+   "post_url": "https://t.me/chewatacinema/68",
+   "posted_at": "2026-10-05T21:21:37+00:00"
+  },
+  "title": "Insidious: Out of the Further",
+  "tmdb": {
+   "backdrop_path": "/p40lmrdI4blcAPZQMTPaiy5v5Ym.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "id": 1291595,
+   "overview": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
+   "poster_path": "/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+   "rating": 6.5,
+   "release_date": "2026-08-19",
+   "runtime": 106,
+   "status": "matched",
+   "title": "Insidious: Out of the Further",
+   "trailer_youtube_key": "jxU8FU3o75A"
+  }
+ },
+ "mayday": {
+  "first_seen": "2026-10-04T14:56:09+00:00",
+  "last_seen": "2026-10-04T14:56:09+00:00",
+  "thumbnail": {
+   "image": "films/mayday.jpg",
+   "post_url": "https://t.me/chewatacinema/66",
+   "posted_at": "2026-10-04T14:56:09+00:00"
+  },
+  "title": "Mayday"
+ },
+ "melak": {
+  "first_seen": "2026-10-04T15:31:57+00:00",
+  "last_seen": "2026-10-04T15:31:57+00:00",
+  "thumbnail": {
+   "image": "films/melak.jpg",
+   "post_url": "https://t.me/alem_cinema/2313",
+   "posted_at": "2026-10-04T15:31:57+00:00"
+  },
+  "title": "Melak"
+ },
+ "onelastshot": {
+  "first_seen": "2026-10-05T21:21:37+00:00",
+  "last_seen": "2026-10-05T21:21:37+00:00",
+  "thumbnail": {
+   "image": "films/onelastshot.jpg",
+   "post_url": "https://t.me/chewatacinema/68",
+   "posted_at": "2026-10-05T21:21:37+00:00"
+  },
+  "title": "One Last Shot"
+ },
+ "qenzerafi": {
+  "first_seen": "2026-10-04T15:31:57+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/qenzerafi.jpg",
+   "post_url": "https://t.me/alem_cinema/2313",
+   "posted_at": "2026-10-04T15:31:57+00:00"
+  },
+  "title": "Qen Zerafi",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "residentevil": {
+  "first_seen": "2026-10-05T15:00:04+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/residentevil.jpg",
+   "post_url": "https://t.me/garadmulticinema/426",
+   "posted_at": "2026-10-05T15:00:04+00:00"
+  },
+  "title": "RESIDENT EVIL",
+  "tmdb": {
+   "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+   "certification": "R",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Horror",
+    "Science Fiction",
+    "Adventure"
+   ],
+   "id": 1423191,
+   "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+   "poster_path": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+   "rating": 7.3,
+   "release_date": "2026-09-16",
+   "runtime": 95,
+   "status": "matched",
+   "title": "Resident Evil",
+   "trailer_youtube_key": "SJPu1spHqfk"
+  }
+ },
+ "runner": {
+  "first_seen": "2026-10-04T18:02:35+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/runner.jpg",
+   "post_url": "https://t.me/Century_Cinema/2328",
+   "posted_at": "2026-10-04T18:02:35+00:00"
+  },
+  "title": "RUNNER",
+  "tmdb": {
+   "backdrop_path": "/2c9zNZJL0ZdagD6JbmU3hH4hovs.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Action",
+    "Comedy"
+   ],
+   "id": 1377237,
+   "overview": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+   "poster_path": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
+   "rating": 8.3,
+   "release_date": "2026-09-07",
+   "runtime": 97,
+   "status": "matched",
+   "title": "Runner",
+   "trailer_youtube_key": "m8JUmBgHejI"
+  }
+ },
+ "sabawit": {
+  "first_seen": "2026-10-04T15:31:57+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/sabawit.jpg",
+   "post_url": "https://t.me/alem_cinema/2313",
+   "posted_at": "2026-10-04T15:31:57+00:00"
+  },
+  "title": "Sabawit",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "selatfet": {
+  "first_seen": "2026-10-04T15:31:57+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/selatfet.jpg",
+   "post_url": "https://t.me/alem_cinema/2313",
+   "posted_at": "2026-10-04T15:31:57+00:00"
+  },
+  "title": "Selat Fet",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "spidermanbrandnewday": {
+  "first_seen": "2026-10-05T21:21:37+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/spidermanbrandnewday.jpg",
+   "post_url": "https://t.me/chewatacinema/68",
+   "posted_at": "2026-10-05T21:21:37+00:00"
+  },
+  "title": "SPIDER-MAN: BRAND NEW DAY",
+  "tmdb": {
+   "backdrop_path": "/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Science Fiction",
+    "Action",
+    "Adventure"
+   ],
+   "id": 969681,
+   "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+   "poster_path": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+   "rating": 8.0,
+   "release_date": "2026-07-29",
+   "runtime": 145,
+   "status": "matched",
+   "title": "Spider-Man: Brand New Day",
+   "trailer_youtube_key": "8TZMtslA3UY"
+  }
+ },
+ "thedogstars": {
+  "first_seen": "2026-10-04T14:56:09+00:00",
+  "last_seen": "2026-10-04T14:56:09+00:00",
+  "thumbnail": {
+   "image": "films/thedogstars.jpg",
+   "post_url": "https://t.me/chewatacinema/66",
+   "posted_at": "2026-10-04T14:56:09+00:00"
+  },
+  "title": "The Dog Stars"
+ },
+ "theendofoakstreet": {
+  "first_seen": "2026-10-04T18:38:47+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/theendofoakstreet.jpg",
+   "post_url": "https://t.me/GastCinema/4800",
+   "posted_at": "2026-10-04T18:38:47+00:00"
+  },
+  "title": "THE END OF OAK STREET",
+  "tmdb": {
+   "backdrop_path": "/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Science Fiction",
+    "Mystery",
+    "Thriller"
+   ],
+   "id": 1101383,
+   "overview": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
+   "poster_path": "/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
+   "rating": 7.1,
+   "release_date": "2026-08-12",
+   "runtime": 100,
+   "status": "matched",
+   "title": "The End of Oak Street",
+   "trailer_youtube_key": "s9GKXTbChjE"
+  }
+ },
+ "thelastsunrise": {
+  "first_seen": "2026-10-05T21:21:37+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/thelastsunrise.jpg",
+   "post_url": "https://t.me/chewatacinema/68",
+   "posted_at": "2026-10-05T21:21:37+00:00"
+  },
+  "title": "The Last Sunrise",
+  "tmdb": {
+   "backdrop_path": "/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
+   "certification": "R",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Romance",
+    "Drama"
+   ],
+   "id": 1516698,
+   "overview": "Ry, a college student with a chronic illness, escapes to Mallorca for the summer with her mother, where she unexpectedly falls for a local and begins to embrace living in the moment. But as her condition worsens and long-hidden family secrets come to light, everything she has found before summer's end is threatened.",
+   "poster_path": "/3PWJqDfygN0YNNjWsDUOXclCp3h.jpg",
+   "rating": 6.9,
+   "release_date": "2026-08-26",
+   "runtime": 107,
+   "status": "matched",
+   "title": "The Last Sunrise",
+   "trailer_youtube_key": "NhI2UpkFAFw"
+  }
+ },
+ "thelovehypothesis": {
+  "first_seen": "2026-10-05T15:00:04+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/thelovehypothesis.jpg",
+   "post_url": "https://t.me/garadmulticinema/426",
+   "posted_at": "2026-10-05T15:00:04+00:00"
+  },
+  "title": "The Love Hypothesis",
+  "tmdb": {
+   "backdrop_path": "/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
+   "certification": "R",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Romance",
+    "Comedy"
+   ],
+   "id": 1032863,
+   "overview": "Olive Smith, a biology PhD candidate, and Dr. Adam Carlsen, a hotshot professor and well-known tyrant, enter into a fake relationship, seeing each of their carefully calculated theories on love get thrown into chaos.",
+   "poster_path": "/vfZxVHextAGC70zrNhS8lsROqP1.jpg",
+   "rating": 8.1,
+   "release_date": "2026-09-23",
+   "runtime": 112,
+   "status": "matched",
+   "title": "The Love Hypothesis",
+   "trailer_youtube_key": "xwdamnfS6IM"
+  }
+ },
+ "theodyssey": {
+  "first_seen": "2026-10-04T14:56:09+00:00",
+  "last_seen": "2026-10-04T14:56:09+00:00",
+  "thumbnail": {
+   "image": "films/theodyssey.jpg",
+   "post_url": "https://t.me/chewatacinema/66",
+   "posted_at": "2026-10-04T14:56:09+00:00"
+  },
+  "title": "The Odyssey"
+ },
+ "verity": {
+  "first_seen": "2026-10-05T15:00:04+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/verity.jpg",
+   "post_url": "https://t.me/garadmulticinema/426",
+   "posted_at": "2026-10-05T15:00:04+00:00"
+  },
+  "title": "VERITY",
+  "tmdb": {
+   "backdrop_path": "/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+   "certification": "R",
+   "checked_at": "2026-10-06T09:24:23+03:00",
+   "genres": [
+    "Mystery",
+    "Thriller"
+   ],
+   "id": 1283515,
+   "overview": "Lowen Ashleigh is hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who is unable to finish following an accident. Lowen gradually uncovers Verity's disturbing truths while residing at the Crawfords' home to work.",
+   "poster_path": "/97y0RdzRIeZ2j6se98hRQpxz3eR.jpg",
+   "rating": 6.6,
+   "release_date": "2026-09-30",
+   "runtime": 114,
+   "status": "matched",
+   "title": "Verity",
+   "trailer_youtube_key": "xdPMKhjMSFs"
+  }
+ },
+ "wengelnyaastewledom": {
+  "first_seen": "2026-10-04T15:31:57+00:00",
+  "last_seen": "2026-10-06T09:24:23+03:00",
+  "thumbnail": {
+   "image": "films/wengelnyaastewledom.jpg",
+   "post_url": "https://t.me/alem_cinema/2313",
+   "posted_at": "2026-10-04T15:31:57+00:00"
+  },
+  "title": "Wengelnya Astewledom",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "whalefall": {
+  "first_seen": "2026-10-05T15:00:04+00:00",
+  "last_seen": "2026-10-05T15:00:04+00:00",
+  "thumbnail": {
+   "image": "films/whalefall.jpg",
+   "post_url": "https://t.me/garadmulticinema/426",
+   "posted_at": "2026-10-05T15:00:04+00:00"
+  },
+  "title": "Whalefall"
+ }
+}

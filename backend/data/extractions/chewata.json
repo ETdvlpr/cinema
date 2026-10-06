@@ -1,6 +1,6 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-10-05T22:12:14+03:00",
+ "last_checked": "2026-10-06T09:24:23+03:00",
  "last_error": null,
  "posters": {
   "65-0": {
@@ -214,21 +214,21 @@
    "status": "ok"
   },
   "66-0": {
-   "attempts": 0,
-   "error": "marked for re-extraction",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-10-05T22:05:35+03:00",
    "image": "posters/chewata/66-0.jpg",
    "index": 0,
    "model": "gemini-flash-lite-latest",
-   "notes": "Note that the month abbreviation for October 08 is printed as OCT, while earlier dates say SEP (likely a typo on the schedule designer's part for the Sep/Oct transition).",
+   "notes": "Poster displays dates as SEP (September) alongside month title October in header; showtimes listed with both western and local times.",
    "post_id": 66,
    "post_url": "https://t.me/chewatacinema/66",
    "posted_at": "2026-10-04T14:56:09+00:00",
-   "processed_at": "2026-10-05T22:05:35+03:00",
+   "processed_at": "2026-10-06T09:25:59+03:00",
    "rejected": [
     {
      "raw": {
-      "confidence": 0.99,
+      "confidence": 0.95,
       "date_calendar": "gregorian",
       "day": 5,
       "film_title": "Runner",
@@ -249,7 +249,7 @@
     },
     {
      "raw": {
-      "confidence": 0.99,
+      "confidence": 0.95,
       "date_calendar": "gregorian",
       "day": 5,
       "film_title": "One Last Shot",
@@ -270,7 +270,7 @@
     },
     {
      "raw": {
-      "confidence": 0.99,
+      "confidence": 0.95,
       "date_calendar": "gregorian",
       "day": 6,
       "film_title": "Idiots",
@@ -291,7 +291,7 @@
     },
     {
      "raw": {
-      "confidence": 0.99,
+      "confidence": 0.95,
       "date_calendar": "gregorian",
       "day": 6,
       "film_title": "Mayday",
@@ -312,7 +312,7 @@
     },
     {
      "raw": {
-      "confidence": 0.99,
+      "confidence": 0.95,
       "date_calendar": "gregorian",
       "day": 7,
       "film_title": "The Last Sunrise",
@@ -333,7 +333,7 @@
     },
     {
      "raw": {
-      "confidence": 0.99,
+      "confidence": 0.95,
       "date_calendar": "gregorian",
       "day": 7,
       "film_title": "Evil Dead Burn",
@@ -351,14 +351,72 @@
       "year": 2026
      },
      "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "gregorian",
+      "day": 8,
+      "film_title": "One Last Shot",
+      "film_title_latin": "One Last Shot",
+      "format": null,
+      "hall": "C1",
+      "hour": 2,
+      "language": null,
+      "minute": 30,
+      "month": 9,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": "thursday",
+      "year": 2026
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "gregorian",
+      "day": 8,
+      "film_title": "Evil Dead Burn",
+      "film_title_latin": "Evil Dead Burn",
+      "format": null,
+      "hall": "C1",
+      "hour": 5,
+      "language": null,
+      "minute": 30,
+      "month": 9,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": "thursday",
+      "year": 2026
+     },
+     "reason": "date outside plausible window"
     }
    ],
+   "showtimes": [],
+   "status": "unreadable"
+  },
+  "68-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-06T09:24:25+03:00",
+   "image": "posters/chewata/68-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 68,
+   "post_url": "https://t.me/chewatacinema/68",
+   "posted_at": "2026-10-05T21:21:37+00:00",
+   "processed_at": "2026-10-06T09:24:25+03:00",
+   "rejected": [],
    "showtimes": [
     {
-     "confidence": 0.99,
-     "date": "2026-10-08",
-     "film_title": "One Last Shot",
-     "film_title_latin": "One Last Shot",
+     "confidence": 1.0,
+     "date": "2026-10-05",
+     "film_title": "Runner",
+     "film_title_latin": "Runner",
      "format": null,
      "hall": "C1",
      "language": null,
@@ -366,7 +424,73 @@
      "time": "14:30"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
+     "date": "2026-10-05",
+     "film_title": "One Last Shot",
+     "film_title_latin": "One Last Shot",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-06",
+     "film_title": "Insidious: Out of the Further",
+     "film_title_latin": "Insidious: Out of the Further",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-06",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-07",
+     "film_title": "The Last Sunrise",
+     "film_title_latin": "The Last Sunrise",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-07",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-08",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "Evil Dead Burn",
      "film_title_latin": "Evil Dead Burn",
@@ -377,7 +501,7 @@
      "time": "17:30"
     }
    ],
-   "status": "error"
+   "status": "ok"
   }
  }
 }

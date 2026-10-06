@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-10-05T22:12:14+03:00",
+ "last_checked": "2026-10-06T09:24:23+03:00",
  "last_error": null,
  "posters": {
   "420-0": {
@@ -493,24 +493,24 @@
    "status": "not_schedule"
   },
   "424-0": {
-   "attempts": 0,
-   "error": "marked for re-extraction",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-10-05T22:05:00+03:00",
    "image": "posters/garad/424-0.jpg",
    "index": 0,
    "model": "gemini-flash-lite-latest",
-   "notes": "Date given as OCT - 5 at the top of the schedule.",
+   "notes": null,
    "post_id": 424,
    "post_url": "https://t.me/garadmulticinema/424",
    "posted_at": "2026-10-04T16:12:45+00:00",
-   "processed_at": "2026-10-05T22:05:00+03:00",
+   "processed_at": "2026-10-06T09:25:28+03:00",
    "rejected": [],
    "showtimes": [
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "VERITY",
-     "film_title_latin": "VERITY",
+     "film_title_latin": "Verity",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -518,10 +518,10 @@
      "time": "17:45"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "VERITY",
-     "film_title_latin": "VERITY",
+     "film_title_latin": "Verity",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -529,10 +529,10 @@
      "time": "11:00"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -540,10 +540,10 @@
      "time": "20:00"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -551,10 +551,10 @@
      "time": "15:00"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "THE LOVE HYPOTHESIS",
-     "film_title_latin": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -562,10 +562,10 @@
      "time": "13:45"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "THE LOVE HYPOTHESIS",
-     "film_title_latin": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -573,10 +573,10 @@
      "time": "19:45"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "IDIOTS",
-     "film_title_latin": "IDIOTS",
+     "film_title_latin": "Idiots",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -584,10 +584,10 @@
      "time": "15:45"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "IDIOTS",
-     "film_title_latin": "IDIOTS",
+     "film_title_latin": "Idiots",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -595,10 +595,10 @@
      "time": "13:15"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -606,10 +606,10 @@
      "time": "11:00"
     },
     {
-     "confidence": 0.99,
+     "confidence": 1.0,
      "date": "2026-10-05",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -617,27 +617,27 @@
      "time": "17:00"
     }
    ],
-   "status": "error"
+   "status": "ok"
   },
   "426-0": {
-   "attempts": 0,
-   "error": "marked for re-extraction",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-10-05T22:03:56+03:00",
    "image": "posters/garad/426-0.jpg",
    "index": 0,
    "model": "gemini-flash-lite-latest",
-   "notes": "Dates given as OCT 6 - 7 and expanded for both dates. Year 2026 obtained from post context.",
+   "notes": null,
    "post_id": 426,
    "post_url": "https://t.me/garadmulticinema/426",
    "posted_at": "2026-10-05T15:00:04+00:00",
-   "processed_at": "2026-10-05T22:03:56+03:00",
+   "processed_at": "2026-10-06T09:24:44+03:00",
    "rejected": [],
    "showtimes": [
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "VERITY",
-     "film_title_latin": "VERITY",
+     "film_title_latin": "Verity",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -645,10 +645,10 @@
      "time": "17:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "VERITY",
-     "film_title_latin": "VERITY",
+     "film_title_latin": "Verity",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -656,10 +656,10 @@
      "time": "17:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "VERITY",
-     "film_title_latin": "VERITY",
+     "film_title_latin": "Verity",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -667,10 +667,10 @@
      "time": "11:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "VERITY",
-     "film_title_latin": "VERITY",
+     "film_title_latin": "Verity",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -678,10 +678,10 @@
      "time": "11:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -689,10 +689,10 @@
      "time": "20:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -700,10 +700,10 @@
      "time": "20:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -711,10 +711,10 @@
      "time": "15:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -722,10 +722,10 @@
      "time": "15:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "THE LOVE HYPOTHESIS",
-     "film_title_latin": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -733,10 +733,10 @@
      "time": "13:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "THE LOVE HYPOTHESIS",
-     "film_title_latin": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -744,10 +744,10 @@
      "time": "13:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "THE LOVE HYPOTHESIS",
-     "film_title_latin": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -755,10 +755,10 @@
      "time": "19:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "THE LOVE HYPOTHESIS",
-     "film_title_latin": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -766,10 +766,10 @@
      "time": "19:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "IDIOTS",
-     "film_title_latin": "IDIOTS",
+     "film_title_latin": "Idiots",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -777,10 +777,10 @@
      "time": "15:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "IDIOTS",
-     "film_title_latin": "IDIOTS",
+     "film_title_latin": "Idiots",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -788,10 +788,10 @@
      "time": "15:45"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "IDIOTS",
-     "film_title_latin": "IDIOTS",
+     "film_title_latin": "Idiots",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -799,10 +799,10 @@
      "time": "13:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "IDIOTS",
-     "film_title_latin": "IDIOTS",
+     "film_title_latin": "Idiots",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -810,10 +810,10 @@
      "time": "13:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -821,10 +821,10 @@
      "time": "11:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
      "format": "2D",
      "hall": "CINEMA 1",
      "language": null,
@@ -832,10 +832,10 @@
      "time": "11:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND New DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -843,10 +843,10 @@
      "time": "17:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
@@ -854,7 +854,7 @@
      "time": "17:00"
     }
    ],
-   "status": "error"
+   "status": "ok"
   }
  }
 }

@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-10-05T22:12:14+03:00",
+ "last_checked": "2026-10-06T09:24:23+03:00",
  "last_error": null,
  "posters": {
   "4782-0": {
@@ -593,21 +593,21 @@
    "status": "ok"
   },
   "4797-0": {
-   "attempts": 0,
-   "error": "marked for re-extraction",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-10-05T22:05:57+03:00",
    "image": "posters/gast/4797-0.jpg",
    "index": 0,
    "model": "gemini-flash-lite-latest",
-   "notes": "Schedule image for Oct 04, 2026.",
+   "notes": null,
    "post_id": 4797,
    "post_url": "https://t.me/GastCinema/4797",
    "posted_at": "2026-10-02T20:40:07+00:00",
-   "processed_at": "2026-10-05T22:05:57+03:00",
+   "processed_at": "2026-10-06T09:26:11+03:00",
    "rejected": [],
    "showtimes": [
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -618,7 +618,7 @@
      "time": "14:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -629,7 +629,7 @@
      "time": "16:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -640,7 +640,7 @@
      "time": "18:30"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -651,7 +651,7 @@
      "time": "21:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -662,7 +662,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -673,7 +673,7 @@
      "time": "14:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -684,7 +684,7 @@
      "time": "19:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -695,7 +695,7 @@
      "time": "21:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -706,7 +706,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -717,7 +717,7 @@
      "time": "14:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -728,7 +728,7 @@
      "time": "16:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -739,7 +739,7 @@
      "time": "18:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -750,7 +750,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -761,7 +761,7 @@
      "time": "15:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -772,7 +772,7 @@
      "time": "18:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -783,7 +783,7 @@
      "time": "16:30"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -794,7 +794,7 @@
      "time": "13:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -805,7 +805,7 @@
      "time": "20:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -816,7 +816,18 @@
      "time": "21:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
+     "date": "2026-10-04",
+     "film_title": "THE END OF OAK STREET",
+     "film_title_latin": "THE END OF OAK STREET",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
      "date": "2026-10-04",
      "film_title": "THE END OF OAK STREET",
      "film_title_latin": "THE END OF OAK STREET",
@@ -827,7 +838,7 @@
      "time": "21:00"
     }
    ],
-   "status": "error"
+   "status": "ok"
   },
   "4799-0": {
    "attempts": 1,
@@ -846,21 +857,21 @@
    "status": "not_schedule"
   },
   "4800-0": {
-   "attempts": 0,
-   "error": "marked for re-extraction",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-10-05T22:04:11+03:00",
    "image": "posters/gast/4800-0.jpg",
    "index": 0,
    "model": "gemini-flash-lite-latest",
-   "notes": "Schedule spans Oct 05 to Oct 07, date range expanded for each movie based on the top header.",
+   "notes": null,
    "post_id": 4800,
    "post_url": "https://t.me/GastCinema/4800",
    "posted_at": "2026-10-04T18:38:47+00:00",
-   "processed_at": "2026-10-05T22:04:11+03:00",
+   "processed_at": "2026-10-06T09:24:59+03:00",
    "rejected": [],
    "showtimes": [
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-05",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -871,40 +882,7 @@
      "time": "14:00"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "16:15"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "18:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -915,7 +893,29 @@
      "time": "14:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-07",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "16:15"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -926,40 +926,7 @@
      "time": "16:15"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "18:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -970,7 +937,29 @@
      "time": "16:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -981,7 +970,29 @@
      "time": "18:30"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "21:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "21:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -992,7 +1003,7 @@
      "time": "21:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-05",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -1003,7 +1014,29 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-07",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-05",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -1014,7 +1047,29 @@
      "time": "14:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-07",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-05",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -1025,40 +1080,7 @@
      "time": "19:00"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "21:15"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -1069,40 +1091,7 @@
      "time": "19:00"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "21:15"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -1113,7 +1102,29 @@
      "time": "19:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "21:15"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "21:15"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -1124,7 +1135,7 @@
      "time": "21:15"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-05",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -1135,40 +1146,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "COYOTE VS ACME",
-     "film_title_latin": "COYOTE VS ACME",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "COYOTE VS ACME",
-     "film_title_latin": "COYOTE VS ACME",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "COYOTE VS ACME",
-     "film_title_latin": "COYOTE VS ACME",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -1179,40 +1157,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "COYOTE VS ACME",
-     "film_title_latin": "COYOTE VS ACME",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "COYOTE VS ACME",
-     "film_title_latin": "COYOTE VS ACME",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "COYOTE VS ACME",
-     "film_title_latin": "COYOTE VS ACME",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -1223,7 +1168,29 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "COYOTE VS ACME",
+     "film_title_latin": "COYOTE VS ACME",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "COYOTE VS ACME",
+     "film_title_latin": "COYOTE VS ACME",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -1234,7 +1201,29 @@
      "time": "14:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "COYOTE VS ACME",
+     "film_title_latin": "COYOTE VS ACME",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "COYOTE VS ACME",
+     "film_title_latin": "COYOTE VS ACME",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -1245,7 +1234,29 @@
      "time": "16:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "COYOTE VS ACME",
+     "film_title_latin": "COYOTE VS ACME",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "COYOTE VS ACME",
+     "film_title_latin": "COYOTE VS ACME",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
@@ -1256,7 +1267,7 @@
      "time": "18:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-05",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -1267,7 +1278,29 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-07",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-05",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -1278,40 +1311,7 @@
      "time": "15:00"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "16:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -1322,40 +1322,7 @@
      "time": "15:00"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "16:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -1366,7 +1333,29 @@
      "time": "15:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -1377,7 +1366,29 @@
      "time": "18:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -1388,7 +1399,7 @@
      "time": "16:30"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-05",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -1399,51 +1410,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-05",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -1454,51 +1421,7 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-06",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -1509,7 +1432,29 @@
      "time": "12:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -1520,7 +1465,29 @@
      "time": "14:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -1531,7 +1498,29 @@
      "time": "16:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -1542,7 +1531,29 @@
      "time": "18:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "21:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "21:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -1553,7 +1564,40 @@
      "time": "21:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
+     "date": "2026-10-05",
+     "film_title": "THE END OF OAK STREET",
+     "film_title_latin": "THE END OF OAK STREET",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-06",
+     "film_title": "THE END OF OAK STREET",
+     "film_title_latin": "THE END OF OAK STREET",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-07",
+     "film_title": "THE END OF OAK STREET",
+     "film_title_latin": "THE END OF OAK STREET",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
      "date": "2026-10-05",
      "film_title": "THE END OF OAK STREET",
      "film_title_latin": "THE END OF OAK STREET",
@@ -1564,7 +1608,7 @@
      "time": "21:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-06",
      "film_title": "THE END OF OAK STREET",
      "film_title_latin": "THE END OF OAK STREET",
@@ -1575,7 +1619,7 @@
      "time": "21:00"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.99,
      "date": "2026-10-07",
      "film_title": "THE END OF OAK STREET",
      "film_title_latin": "THE END OF OAK STREET",
@@ -1586,7 +1630,7 @@
      "time": "21:00"
     }
    ],
-   "status": "error"
+   "status": "ok"
   }
  }
 }
