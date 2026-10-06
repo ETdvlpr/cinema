@@ -53,16 +53,19 @@ class _SpringPressState extends State<SpringPress> with SingleTickerProviderStat
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      behavior: HitTestBehavior.opaque,
-      onTapDown: widget.onTap == null ? null : _onTapDown,
-      onTapUp: widget.onTap == null ? null : _onTapUp,
-      onTapCancel: widget.onTap == null ? null : _onTapCancel,
-      onTap: widget.onTap == null ? null : _onTap,
-      child: AnimatedBuilder(
-        animation: _scale,
-        builder: (context, child) => Transform.scale(scale: _scale.value, child: child),
-        child: widget.child,
+    return MouseRegion(
+      cursor: widget.onTap == null ? MouseCursor.defer : SystemMouseCursors.click,
+      child: GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTapDown: widget.onTap == null ? null : _onTapDown,
+        onTapUp: widget.onTap == null ? null : _onTapUp,
+        onTapCancel: widget.onTap == null ? null : _onTapCancel,
+        onTap: widget.onTap == null ? null : _onTap,
+        child: AnimatedBuilder(
+          animation: _scale,
+          builder: (context, child) => Transform.scale(scale: _scale.value, child: child),
+          child: widget.child,
+        ),
       ),
     );
   }

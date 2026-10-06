@@ -1,3 +1,5 @@
+import 'dart:ui' show PointerDeviceKind;
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -55,6 +57,8 @@ class _CinemaAppState extends State<CinemaApp> with WidgetsBindingObserver {
         title: 'Addis Cinema',
         debugShowCheckedModeBanner: false,
         theme: buildTheme(),
+        // Let mouse users drag carousels and day lists on the web, not just touch users.
+        scrollBehavior: const MaterialScrollBehavior().copyWith(dragDevices: PointerDeviceKind.values.toSet()),
         // Phone-shaped column on tablets and desktop browsers.
         builder: (context, child) => ColoredBox(
           color: AppColors.background,
