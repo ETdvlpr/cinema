@@ -2,15 +2,20 @@ import 'dart:ui' show PointerDeviceKind;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_web_plugins/url_strategy.dart';
 
 import 'data/repository.dart';
 import 'state/schedule_controller.dart';
 import 'state/schedule_scope.dart';
+import 'ui/cinema_page.dart';
 import 'ui/home_page.dart';
+import 'ui/movie_page.dart';
 import 'ui/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  // Web: real URLs (/movie/<key>, /cinema/<id>) so refreshing or sharing keeps the page.
+  usePathUrlStrategy();
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
@@ -67,7 +72,26 @@ class _CinemaAppState extends State<CinemaApp> with WidgetsBindingObserver {
           ),
         ),
         home: const HomeShell(),
+        onGenerateRoute: _route,
       ),
     );
   }
+}
+
+/// `/movie/<filmKey>` and `/cinema/<cinemaId>`. Anything else falls back to the home screen.
+Route<void>? _route(RouteSettings settings) {
+  final segments = Uri.parse(settings.name ?? '/').pathSegments;
+  final page = switch (segments) {
+    ['movie', final key] => switch (settings.arguments) {
+      MovieRouteArgs(:final heroTag, :final fromImageUrl) => MoviePage(
+        filmKey: key,
+        heroTag: heroTag,
+        fromImageUrl: fromImageUrl,
+      ),
+      _ => MoviePage(filmKey: key),
+    },
+    ['cinema', final id] => CinemaPage(cinemaId: id),
+    _ => null,
+  };
+  return page == null ? null : MaterialPageRoute(settings: settings, builder: (_) => page);
 }

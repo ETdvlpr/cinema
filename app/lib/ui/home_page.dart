@@ -314,7 +314,8 @@ class _FeaturedCarouselState extends State<_FeaturedCarousel> {
                     child: Opacity(
                       opacity: 1 - 0.45 * distance,
                       child: SpringPress(
-                        onTap: () => openMovie(context, film.key, heroTag: heroTag),
+                        onTap: () =>
+                            openMovie(context, film.key, heroTag: heroTag, fromImageUrl: film.info?.poster('w342')),
                         child: Padding(
                           // Vertical room so the glow fades out instead of being clipped by the PageView.
                           padding: const EdgeInsets.fromLTRB(6, 8, 6, 28),
@@ -415,7 +416,7 @@ class _FilmScheduleCard extends StatelessWidget {
         children: [
           SpringPress(
             pressedScale: 0.98,
-            onTap: () => openMovie(context, film.key, heroTag: heroTag),
+            onTap: () => openMovie(context, film.key, heroTag: heroTag, fromImageUrl: film.info?.poster('w154')),
             child: Padding(
               padding: const EdgeInsets.all(14),
               child: Row(
@@ -560,7 +561,7 @@ class _CinemaCard extends StatelessWidget {
 
     return SpringPress(
       pressedScale: 0.97,
-      onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => CinemaPage(cinemaId: cinema.id))),
+      onTap: () => Navigator.of(context).pushNamed(CinemaPage.path(cinema.id)),
       child: Container(
         decoration: BoxDecoration(
           color: AppColors.surface,

@@ -17,6 +17,8 @@ import 'widgets/spring_press.dart';
 class CinemaPage extends StatefulWidget {
   const CinemaPage({super.key, required this.cinemaId});
 
+  static String path(String cinemaId) => '/cinema/$cinemaId';
+
   final String cinemaId;
 
   @override
@@ -31,7 +33,20 @@ class _CinemaPageState extends State<CinemaPage> {
     final controller = ScheduleScope.of(context);
     final cinema = controller.cinema(widget.cinemaId);
     final text = Theme.of(context).textTheme;
-    if (cinema == null) return Scaffold(appBar: AppBar());
+    if (cinema == null) {
+      // Opened from a link or a refresh: the schedule is still loading.
+      final loading = controller.schedule == null && controller.error == null;
+      return Scaffold(
+        appBar: AppBar(),
+        body: loading
+            ? const Center(child: CircularProgressIndicator(color: AppColors.gold))
+            : const EmptyState(
+                icon: Icons.theaters_outlined,
+                title: 'Cinema not found',
+                message: 'This cinema isn\'t listed any more.',
+              ),
+      );
+    }
 
     final upcoming = [
       for (final s in controller.upcoming)
@@ -198,7 +213,7 @@ class _FilmRow extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SpringPress(
-            onTap: () => openMovie(context, film.key, heroTag: heroTag),
+            onTap: () => openMovie(context, film.key, heroTag: heroTag, fromImageUrl: film.info?.poster('w154')),
             child: SizedBox(
               width: 54,
               height: 72,
@@ -220,7 +235,7 @@ class _FilmRow extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SpringPress(
-                  onTap: () => openMovie(context, film.key, heroTag: heroTag),
+                  onTap: () => openMovie(context, film.key, heroTag: heroTag, fromImageUrl: film.info?.poster('w154')),
                   child: Text(film.title, style: text.titleMedium),
                 ),
                 if (film.originalTitle != null) Text(film.originalTitle!, style: text.bodySmall),

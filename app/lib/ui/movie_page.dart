@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -9,26 +10,50 @@ import 'widgets/film_art.dart';
 import 'widgets/status_banner.dart';
 import 'widgets/time_chip.dart';
 
-void openMovie(BuildContext context, String filmKey, {required String heroTag}) {
-  Navigator.of(context).push(
-    MaterialPageRoute(
-      builder: (_) => MoviePage(filmKey: filmKey, heroTag: heroTag),
-    ),
+/// Opens `/movie/<filmKey>`. [fromImageUrl] is the artwork the user tapped (already loaded); the page
+/// shows it until its larger backdrop arrives.
+void openMovie(BuildContext context, String filmKey, {required String heroTag, String? fromImageUrl}) {
+  final backdrop = ScheduleScope.of(context).film(filmKey)?.info?.backdrop(_backdropSize);
+  if (backdrop != null) precacheImage(CachedNetworkImageProvider(backdrop), context);
+  Navigator.of(context).pushNamed(
+    MoviePage.path(filmKey),
+    arguments: MovieRouteArgs(heroTag: heroTag, fromImageUrl: fromImageUrl),
   );
+}
+
+const _backdropSize = 'w780';
+
+class MovieRouteArgs {
+  const MovieRouteArgs({required this.heroTag, this.fromImageUrl});
+
+  final String heroTag;
+  final String? fromImageUrl;
 }
 
 /// Every upcoming screening of one film, by day and cinema.
 class MoviePage extends StatelessWidget {
-  const MoviePage({super.key, required this.filmKey, required this.heroTag});
+  const MoviePage({super.key, required this.filmKey, String? heroTag, this.fromImageUrl})
+    : heroTag = heroTag ?? 'movie-$filmKey';
+
+  static String path(String filmKey) => '/movie/$filmKey';
 
   final String filmKey;
   final String heroTag;
+  final String? fromImageUrl;
 
   @override
   Widget build(BuildContext context) {
     final controller = ScheduleScope.of(context);
     final film = controller.film(filmKey);
     final text = Theme.of(context).textTheme;
+
+    // Opened from a link or a refresh: the schedule is still loading.
+    if (controller.schedule == null && controller.error == null) {
+      return Scaffold(
+        appBar: AppBar(),
+        body: const Center(child: CircularProgressIndicator(color: AppColors.gold)),
+      );
+    }
 
     if (film == null) {
       return Scaffold(
@@ -77,7 +102,8 @@ class MoviePage extends StatelessWidget {
                       title: film.title,
                       showTitle: false,
                       borderRadius: 0,
-                      imageUrl: film.info?.backdrop('w780') ?? film.info?.poster('w500'),
+                      imageUrl: film.info?.backdrop(_backdropSize) ?? film.info?.poster('w500'),
+                      placeholderUrl: fromImageUrl,
                     ),
                   ),
                   const DecoratedBox(
