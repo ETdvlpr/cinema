@@ -11,6 +11,7 @@ import 'poster_page.dart';
 import 'theme.dart';
 import 'widgets/day_selector.dart';
 import 'widgets/film_art.dart';
+import 'widgets/get_app_banner.dart';
 import 'widgets/spring_press.dart';
 import 'widgets/status_banner.dart';
 import 'widgets/time_chip.dart';
@@ -112,6 +113,7 @@ class _TabScaffold extends StatelessWidget {
               ),
             ),
           ),
+          const SliverToBoxAdapter(child: GetAppBanner()),
           if (controller.offline)
             SliverToBoxAdapter(
               child: Padding(

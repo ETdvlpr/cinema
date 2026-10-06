@@ -16,8 +16,8 @@ A mobile and web app for the showtimes the [backend](../backend) publishes at
   cinema's own schedule poster (this covers Amharic films too), otherwise generated art. Image
   sizes are matched to where they're shown (a 154px list thumbnail, a 342px carousel card), so
   they stay light on data.
-- **Cinema page:** the cinema's schedule by day, its latest poster and a Telegram link. It warns if
-  the schedule is stale or the channel couldn't be read.
+- **Cinema page:** the cinema's logo, its schedule by day, its latest poster, Google Maps
+  directions and a Telegram link. It warns if the schedule is stale or the channel couldn't be read.
 - **Showtime sheet:** tap any time to see the date, the time on both the western and Ethiopian
   clocks (e.g. 6:20 PM / 12:20 ማታ), hall, format and price, plus the cinema's **original poster**
   and the Telegram post, so people can check it themselves.
@@ -55,6 +55,32 @@ flutter build web --release        # static files in build/web, installable as a
 
 The web build can be hosted anywhere static, including GitHub Pages or Vercel. The backend serves
 `schedules.json` with `Access-Control-Allow-Origin: *`, so the app can fetch it from another domain.
+`web/index.html` shows a loading screen until Flutter draws its first frame.
+
+## Releasing the Android app
+
+Release builds are signed with the upload key in `android/key.properties` (not committed; without
+it they fall back to the debug key). Keep the keystore backed up: Android only installs updates
+signed with the same key.
+
+1. Bump `version:` in `pubspec.yaml` (the `+N` build number must go up every release).
+2. Build both the ARM APK that every phone can install, and the smaller per-architecture ones:
+
+   ```bash
+   flutter build apk --release --target-platform android-arm,android-arm64
+   cp build/app/outputs/flutter-apk/app-release.apk addis-cinema.apk
+   flutter build apk --release --split-per-abi --target-platform android-arm,android-arm64
+   cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk addis-cinema-arm64.apk
+   cp build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk addis-cinema-armv7.apk
+   ```
+
+3. Publish them as a GitHub release (tag `vX.Y.Z`). Keep the file name `addis-cinema.apk`: the
+   website's "Get the Android app" banner, shown to Android browsers, links to
+   `releases/latest/download/addis-cinema.apk`.
+
+   ```bash
+   gh release create vX.Y.Z addis-cinema.apk addis-cinema-arm64.apk addis-cinema-armv7.apk
+   ```
 
 ## Code
 
@@ -71,7 +97,5 @@ lib/
   ui/cinema_page.dart
   ui/poster_page.dart          zoomable original poster
   ui/widgets/                  film art, day selector, time chips, showtime sheet, banners
+assets/cinemas/<id>.jpg        cinema logos, from each cinema's own Telegram/social profile
 ```
-
-The app icons are still Flutter's defaults. Replace them before publishing, for example with
-[`flutter_launcher_icons`](https://pub.dev/packages/flutter_launcher_icons).
