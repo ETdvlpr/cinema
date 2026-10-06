@@ -652,7 +652,7 @@ class CinemaBadge extends StatelessWidget {
   Widget build(BuildContext context) {
     final words = cinema.name.split(' ').where((w) => w.isNotEmpty && w.toLowerCase() != 'cinema').toList();
     final initials = words.take(2).map((w) => w[0].toUpperCase()).join();
-    return Container(
+    final fallback = Container(
       width: size,
       height: size,
       alignment: Alignment.center,
@@ -668,6 +668,18 @@ class CinemaBadge extends StatelessWidget {
         initials,
         style: Theme.of(context).textTheme.titleMedium
             ?.copyWith(color: const Color(0xFF1A1206), fontSize: size * 0.36, fontWeight: FontWeight.w800),
+      ),
+    );
+    // Cinemas without a bundled logo keep the generated initials.
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(size * 0.32),
+      child: Image.asset(
+        'assets/cinemas/${cinema.id}.jpg',
+        width: size,
+        height: size,
+        fit: BoxFit.cover,
+        cacheWidth: (size * MediaQuery.devicePixelRatioOf(context)).round(),
+        errorBuilder: (_, _, _) => fallback,
       ),
     );
   }
