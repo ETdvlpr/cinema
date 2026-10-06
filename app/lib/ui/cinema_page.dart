@@ -145,7 +145,8 @@ class _CinemaPageState extends State<CinemaPage> {
               ),
             ),
             SliverPadding(
-              padding: const EdgeInsets.fromLTRB(16, 12, 16, 32),
+              // Clear the Android navigation bar, which the app draws behind (edge-to-edge).
+              padding: EdgeInsets.fromLTRB(16, 12, 16, 32 + MediaQuery.paddingOf(context).bottom),
               sliver: SliverList.separated(
                 itemCount: films.length,
                 separatorBuilder: (_, _) => const SizedBox(height: 10),

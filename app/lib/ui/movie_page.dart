@@ -163,7 +163,8 @@ class MoviePage extends StatelessWidget {
             const SliverToBoxAdapter(
               child: Padding(padding: EdgeInsets.fromLTRB(20, 24, 20, 0), child: _TmdbAttribution()),
             ),
-          const SliverToBoxAdapter(child: SizedBox(height: 32)),
+          // Clear the Android navigation bar, which the app draws behind (edge-to-edge).
+          SliverToBoxAdapter(child: SizedBox(height: 32 + MediaQuery.paddingOf(context).bottom)),
         ],
       ),
     );
