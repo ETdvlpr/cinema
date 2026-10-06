@@ -37,6 +37,7 @@ class Cinema {
     required this.id,
     required this.name,
     required this.channelUrl,
+    required this.mapsUrl,
     required this.lastChecked,
     required this.lastError,
     required this.latestSchedulePostedAt,
@@ -47,6 +48,7 @@ class Cinema {
   final String id;
   final String name;
   final String channelUrl;
+  final String? mapsUrl; // directions to the venue
   final DateTime? lastChecked;
   final String? lastError;
   final DateTime? latestSchedulePostedAt;
@@ -58,6 +60,7 @@ class Cinema {
       id: json['id'] as String,
       name: json['name'] as String,
       channelUrl: json['channel_url'] as String,
+      mapsUrl: json['maps_url'] as String?,
       lastChecked: _date(json['last_checked']),
       lastError: json['last_error'] as String?,
       latestSchedulePostedAt: _date(json['latest_schedule_posted_at']),

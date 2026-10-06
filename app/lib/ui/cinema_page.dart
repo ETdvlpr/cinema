@@ -74,35 +74,30 @@ class _CinemaPageState extends State<CinemaPage> {
                     ],
                   ),
                   const SizedBox(height: 16),
+                  if (poster != null && poster.image != null) ...[
+                    FilledButton.icon(
+                      onPressed: () => openPoster(
+                        context,
+                        imagePath: poster.image!,
+                        postUrl: poster.postUrl,
+                        cinemaName: cinema.name,
+                      ),
+                      icon: const Icon(Icons.image_outlined),
+                      label: const Text('Latest poster'),
+                      style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(46)),
+                    ),
+                    const SizedBox(height: 10),
+                  ],
                   Row(
                     children: [
-                      if (poster != null && poster.image != null)
+                      if (cinema.mapsUrl case final mapsUrl?) ...[
                         Expanded(
-                          child: FilledButton.icon(
-                            onPressed: () => openPoster(
-                              context,
-                              imagePath: poster.image!,
-                              postUrl: poster.postUrl,
-                              cinemaName: cinema.name,
-                            ),
-                            icon: const Icon(Icons.image_outlined),
-                            label: const Text('Latest poster'),
-                            style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(46)),
-                          ),
+                          child: _OutlinedAction(icon: Icons.directions_rounded, label: 'Directions', url: mapsUrl),
                         ),
-                      if (poster != null && poster.image != null) const SizedBox(width: 10),
+                        const SizedBox(width: 10),
+                      ],
                       Expanded(
-                        child: OutlinedButton.icon(
-                          onPressed: () =>
-                              launchUrl(Uri.parse(cinema.channelUrl), mode: LaunchMode.externalApplication),
-                          icon: const Icon(Icons.send_rounded, size: 18),
-                          label: const Text('Telegram'),
-                          style: OutlinedButton.styleFrom(
-                            minimumSize: const Size.fromHeight(46),
-                            foregroundColor: AppColors.text,
-                            side: const BorderSide(color: AppColors.outline),
-                          ),
-                        ),
+                        child: _OutlinedAction(icon: Icons.send_rounded, label: 'Telegram', url: cinema.channelUrl),
                       ),
                     ],
                   ),
@@ -155,6 +150,28 @@ class _CinemaPageState extends State<CinemaPage> {
             ),
           ],
         ],
+      ),
+    );
+  }
+}
+
+class _OutlinedAction extends StatelessWidget {
+  const _OutlinedAction({required this.icon, required this.label, required this.url});
+
+  final IconData icon;
+  final String label;
+  final String url;
+
+  @override
+  Widget build(BuildContext context) {
+    return OutlinedButton.icon(
+      onPressed: () => launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication),
+      icon: Icon(icon, size: 18),
+      label: Text(label),
+      style: OutlinedButton.styleFrom(
+        minimumSize: const Size.fromHeight(46),
+        foregroundColor: AppColors.text,
+        side: const BorderSide(color: AppColors.outline),
       ),
     );
   }

@@ -63,6 +63,10 @@ void main() {
     expect(to12h('12:00'), '12:00 PM');
   });
 
+  test('directions link is optional; older data without it still loads', () {
+    expect(_schedule({'alem': []}).cinemas.single.mapsUrl, isNull);
+  });
+
   test('amharic original title is exposed', () {
     final schedule = Schedule.fromJson({
       'generated_at': '2026-10-05T22:00:00+03:00',
