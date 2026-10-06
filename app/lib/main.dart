@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 
+import 'analytics/page_views.dart';
 import 'data/repository.dart';
 import 'state/schedule_controller.dart';
 import 'state/schedule_scope.dart';
@@ -36,6 +37,8 @@ class CinemaApp extends StatefulWidget {
 }
 
 class _CinemaAppState extends State<CinemaApp> with WidgetsBindingObserver {
+  final _pageViews = PageViewObserver();
+
   @override
   void initState() {
     super.initState();
@@ -73,6 +76,7 @@ class _CinemaAppState extends State<CinemaApp> with WidgetsBindingObserver {
         ),
         home: const HomeShell(),
         onGenerateRoute: _route,
+        navigatorObservers: [_pageViews],
       ),
     );
   }
