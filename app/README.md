@@ -57,6 +57,17 @@ The web build can be hosted anywhere static, including GitHub Pages or Vercel. T
 `schedules.json` with `Access-Control-Allow-Origin: *`, so the app can fetch it from another domain.
 `web/index.html` shows a loading screen until Flutter draws its first frame.
 
+The website is live at **https://etcinema.vercel.app** (Vercel project `etcinema`). To redeploy
+after `flutter build web --release`:
+
+```bash
+cd build/web
+vercel link --project etcinema --yes   # once per fresh build folder
+vercel deploy --prod --yes
+```
+
+Only deploy a clean build: Vercel publishes everything in `build/web` as public files.
+
 ## Releasing the Android app
 
 Release builds are signed with the upload key in `android/key.properties` (not committed; without
