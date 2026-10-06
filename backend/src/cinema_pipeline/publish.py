@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 from collections import defaultdict
 from datetime import datetime
+from urllib.parse import quote_plus
 
 from . import config
 from .config import Cinema
@@ -87,6 +88,9 @@ def _build_cinema(cinema: Cinema, store: dict, today: str) -> dict:
         "id": cinema.id,
         "name": cinema.name,
         "channel_url": f"https://t.me/{cinema.channel}",
+        "maps_url": (
+            f"https://www.google.com/maps/dir/?api=1&destination={quote_plus(cinema.maps)}" if cinema.maps else None
+        ),
         "last_checked": store["last_checked"],
         "last_error": store["last_error"],
         "latest_schedule_posted_at": latest_schedule_post,

@@ -78,3 +78,17 @@ def test_newer_post_overrides_dates(tmp_path, monkeypatch):
     ]
     assert cinema["latest_poster"]["post_url"] == "https://t.me/c/2"
     assert cinema["latest_schedule_posted_at"] == "2025-10-06T08:00:00+00:00"
+
+
+def test_maps_url_is_published_when_configured(tmp_path, monkeypatch):
+    monkeypatch.setattr(config, "STORE_DIR", tmp_path / "data")
+    monkeypatch.setattr(config, "PUBLIC_DIR", tmp_path / "public")
+    monkeypatch.setattr(config, "SCHEDULES_FILE", tmp_path / "public" / "schedules.json")
+    doc = build_schedules(
+        [Cinema("a", "A", "a", maps="Laphto Mall, Addis Ababa"), Cinema("b", "B", "b")],
+        datetime(2025, 10, 6, 12, tzinfo=config.TZ),
+    )
+    assert [c["maps_url"] for c in doc["cinemas"]] == [
+        "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
+        None,
+    ]

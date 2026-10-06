@@ -124,6 +124,7 @@ generated artwork.
       "id": "edna-mall",
       "name": "Edna Mall Cinema",
       "channel_url": "https://t.me/...",
+      "maps_url": "https://www.google.com/maps/dir/?api=1&destination=...", // directions to the venue; null if unknown
       "last_checked": "2026-10-05T21:17:00+03:00",   // when the channel was last read
       "last_error": null,                            // set if the channel couldn't be read
       "latest_schedule_posted_at": "2026-10-04T...", // newest poster that yielded showtimes; use for "stale" warnings

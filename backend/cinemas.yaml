@@ -2,6 +2,8 @@
 #   id:      stable slug used in file paths and in schedules.json (don't change it once published)
 #   name:    display name
 #   channel: the part after https://t.me/  (the channel must be public: https://t.me/s/<channel> must load)
+#   maps:    Google Maps search text that finds the venue, for directions in the app (optional;
+#            check it lands on the right place: google.com/maps/dir/?api=1&destination=<text>)
 #
 # Not included (checked 2026-10-05):
 #   EB/EW Multiplex  @ebmultiplex       last post 2021
@@ -15,19 +17,24 @@ cinemas:
   - id: alem
     name: Alem Cinema
     channel: alem_cinema
+    maps: Alem Cinema, Addis Ababa
 
   - id: century
     name: Century Cinema
     channel: Century_Cinema
+    maps: Century Cinema, Century Mall, Addis Ababa
 
   - id: gast
     name: GAST Cinema
     channel: GastCinema
+    maps: GAST Cinema, Addis Ababa
 
   - id: chewata
     name: Laphto Chewata Cinema
     channel: chewatacinema
+    maps: Laphto Mall, Addis Ababa
 
   - id: garad
     name: Garad Multi Cinema
     channel: garadmulticinema
+    maps: Garad Multi Cinema, Addis Ababa

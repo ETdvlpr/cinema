@@ -45,11 +45,20 @@ class Cinema:
     id: str
     name: str
     channel: str
+    maps: str | None = None  # Google Maps search text that finds the venue, for directions
 
 
 def load_cinemas(path: Path = CINEMAS_FILE) -> list[Cinema]:
     raw = yaml.safe_load(path.read_text(encoding="utf-8"))
-    cinemas = [Cinema(id=c["id"], name=c["name"], channel=c["channel"]) for c in raw["cinemas"]]
+    cinemas = [
+        Cinema(
+            id=c["id"],
+            name=c["name"],
+            channel=c["channel"],
+            maps=c.get("maps"),
+        )
+        for c in raw["cinemas"]
+    ]
     ids = [c.id for c in cinemas]
     if len(ids) != len(set(ids)):
         raise ValueError(f"Duplicate cinema ids in {path}")
