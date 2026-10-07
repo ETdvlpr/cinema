@@ -1,19 +1,8 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-06T21:24:33+03:00",
+ "last_checked": "2026-10-07T09:03:42+03:00",
  "last_error": null,
  "posters": {
-  "2314-0": {
-   "attempts": 0,
-   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m19.302408073s.', 'status': 'R",
-   "image": "posters/century/2314-0.jpg",
-   "index": 0,
-   "post_id": 2314,
-   "post_url": "https://t.me/Century_Cinema/2314",
-   "posted_at": "2026-09-06T20:38:18+00:00",
-   "processed_at": "2026-10-05T21:57:33+03:00",
-   "status": "expired"
-  },
   "2318-0": {
    "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m26.497463716s.', 'status': 'R",
@@ -1032,6 +1021,44 @@
     }
    ],
    "status": "ok"
+  },
+  "2329-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-07T09:03:45+03:00",
+   "image": "posters/century/2329-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The poster lists October 18 and 7-10 LT (Ethiopian local time, evening/night).",
+   "post_id": 2329,
+   "post_url": "https://t.me/Century_Cinema/2329",
+   "posted_at": "2026-10-06T18:53:00+00:00",
+   "processed_at": "2026-10-07T09:03:45+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "gregorian",
+      "day": 18,
+      "film_title": "Michael Jackson",
+      "film_title_latin": "Michael Jackson",
+      "format": null,
+      "hall": null,
+      "hour": 7,
+      "language": null,
+      "minute": 0,
+      "month": 10,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   }
  }
 }
