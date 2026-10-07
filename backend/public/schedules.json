@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T16:28:13+03:00",
+ "generated_at": "2026-10-08T02:07:17+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-07T16:28:13+03:00",
+   "last_checked": "2026-10-08T02:07:17+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-04T15:31:57+00:00",
    "latest_poster": {
@@ -17,97 +17,6 @@
     "status": "unreadable"
    },
    "showtimes": [
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "ቀን ዘራፊ",
-     "film_title_latin": "Qen Zerafi",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/alem/2313-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2313"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "ሰላት ፍት",
-     "film_title_latin": "Selat Fet",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/alem/2313-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2313"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "አስተሃህ",
-     "film_title_latin": "Astehah",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "16:10",
-     "poster": "posters/alem/2313-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2313"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "ሰላት ፍት",
-     "film_title_latin": "Selat Fet",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "17:10",
-     "poster": "posters/alem/2313-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2313"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "ወንጀኛ አስተውለዶም",
-     "film_title_latin": "Wengelnya Astewledom",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "18:20",
-     "poster": "posters/alem/2313-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2313"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "ሰላት ፍት",
-     "film_title_latin": "Selat Fet",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "19:10",
-     "poster": "posters/alem/2313-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2313"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-07",
-     "film_title": "ወንጀኛ አስተውለዶም",
-     "film_title_latin": "Wengelnya Astewledom",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "20:20",
-     "poster": "posters/alem/2313-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2313"
-    },
     {
      "confidence": 0.95,
      "date": "2026-10-08",
@@ -206,135 +115,18 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-07T16:28:13+03:00",
+   "last_checked": "2026-10-08T02:07:17+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-10-04T18:02:35+00:00",
+   "latest_schedule_posted_at": "2026-10-07T17:02:30+00:00",
    "latest_poster": {
-    "image": "posters/century/2329-0.jpg",
-    "post_url": "https://t.me/Century_Cinema/2329",
-    "posted_at": "2026-10-06T18:53:00+00:00",
-    "status": "unreadable"
+    "image": "posters/century/2330-0.jpg",
+    "post_url": "https://t.me/Century_Cinema/2330",
+    "posted_at": "2026-10-07T17:02:30+00:00",
+    "status": "ok"
    },
    "showtimes": [
     {
      "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "13:45",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "14:45",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "15:45",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "RUNNER",
-     "film_title_latin": "RUNNER",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "17:15",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "17:45",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "19:00",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "19:30",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
-    },
-    {
-     "confidence": 1.0,
      "date": "2026-10-08",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -343,8 +135,8 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
     },
     {
      "confidence": 1.0,
@@ -356,8 +148,8 @@
      "language": null,
      "price_birr": null,
      "time": "13:00",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
     },
     {
      "confidence": 1.0,
@@ -369,21 +161,21 @@
      "language": null,
      "price_birr": null,
      "time": "13:45",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
     },
     {
      "confidence": 1.0,
      "date": "2026-10-08",
-     "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title": "THE POUT-POUT FISH",
+     "film_title_latin": "THE POUT-POUT FISH",
      "format": "2D",
      "hall": "C3",
      "language": null,
      "price_birr": null,
-     "time": "14:45",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
+     "time": "15:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
     },
     {
      "confidence": 1.0,
@@ -395,21 +187,21 @@
      "language": null,
      "price_birr": null,
      "time": "15:45",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
     },
     {
      "confidence": 1.0,
      "date": "2026-10-08",
-     "film_title": "RUNNER",
-     "film_title_latin": "RUNNER",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
      "format": "2D",
      "hall": "C3",
      "language": null,
      "price_birr": null,
-     "time": "17:15",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
+     "time": "16:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
     },
     {
      "confidence": 1.0,
@@ -421,21 +213,21 @@
      "language": null,
      "price_birr": null,
      "time": "17:45",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
     },
     {
      "confidence": 1.0,
      "date": "2026-10-08",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
+     "film_title": "RUNNER",
+     "film_title_latin": "RUNNER",
      "format": "2D",
      "hall": "C3",
      "language": null,
      "price_birr": null,
      "time": "19:00",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
     },
     {
      "confidence": 1.0,
@@ -447,8 +239,359 @@
      "language": null,
      "price_birr": null,
      "time": "19:30",
-     "poster": "posters/century/2328-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2328"
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "THE POUT-POUT FISH",
+     "film_title_latin": "THE POUT-POUT FISH",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "RUNNER",
+     "film_title_latin": "RUNNER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "THE POUT-POUT FISH",
+     "film_title_latin": "THE POUT-POUT FISH",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "RUNNER",
+     "film_title_latin": "RUNNER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "THE POUT-POUT FISH",
+     "film_title_latin": "THE POUT-POUT FISH",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "RUNNER",
+     "film_title_latin": "RUNNER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30",
+     "poster": "posters/century/2330-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2330"
     }
    ]
   },
@@ -457,19 +600,19 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-07T16:28:13+03:00",
+   "last_checked": "2026-10-08T02:07:17+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-10-04T18:38:47+00:00",
+   "latest_schedule_posted_at": "2026-10-07T20:07:43+00:00",
    "latest_poster": {
-    "image": "posters/gast/4800-0.jpg",
-    "post_url": "https://t.me/GastCinema/4800",
-    "posted_at": "2026-10-04T18:38:47+00:00",
+    "image": "posters/gast/4802-0.jpg",
+    "post_url": "https://t.me/GastCinema/4802",
+    "posted_at": "2026-10-07T20:07:43+00:00",
     "status": "ok"
    },
    "showtimes": [
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
      "format": "2D",
@@ -477,12 +620,12 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
      "format": "2D",
@@ -490,12 +633,12 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
      "format": "2D",
@@ -503,12 +646,12 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
      "format": "2D",
@@ -516,12 +659,12 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
      "format": "2D",
@@ -529,12 +672,12 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
      "format": "2D",
@@ -542,12 +685,12 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
      "format": "2D",
@@ -555,25 +698,12 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
-     "film_title": "THE END OF OAK STREET",
-     "film_title_latin": "THE END OF OAK STREET",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
-    },
-    {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
      "format": "2D",
@@ -581,12 +711,12 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
      "format": "2D",
@@ -594,12 +724,12 @@
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "COYOTE VS ACME",
      "film_title_latin": "COYOTE VS ACME",
      "format": "2D",
@@ -607,12 +737,12 @@
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
      "format": "2D",
@@ -620,12 +750,12 @@
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
      "format": "2D",
@@ -633,12 +763,12 @@
      "language": null,
      "price_birr": null,
      "time": "16:15",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
      "format": "2D",
@@ -646,25 +776,12 @@
      "language": null,
      "price_birr": null,
      "time": "16:30",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
-     "film_title": "COYOTE VS ACME",
-     "film_title_latin": "COYOTE VS ACME",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
-    },
-    {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
      "format": "2D",
@@ -672,12 +789,12 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
      "format": "2D",
@@ -685,12 +802,12 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
      "format": "2D",
@@ -698,12 +815,12 @@
      "language": null,
      "price_birr": null,
      "time": "18:30",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
      "format": "2D",
@@ -711,12 +828,25 @@
      "language": null,
      "price_birr": null,
      "time": "19:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
+     "film_title": "THE END OF OAK STREET",
+     "film_title_latin": "THE END OF OAK STREET",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "20:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
      "format": "2D",
@@ -724,12 +854,12 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
      "format": "2D",
@@ -737,12 +867,12 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "THE END OF OAK STREET",
      "film_title_latin": "THE END OF OAK STREET",
      "format": "2D",
@@ -750,12 +880,12 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     },
     {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "confidence": 1.0,
+     "date": "2026-10-08",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
      "format": "2D",
@@ -763,8 +893,294 @@
      "language": null,
      "price_birr": null,
      "time": "21:15",
-     "poster": "posters/gast/4800-0.jpg",
-     "post_url": "https://t.me/GastCinema/4800"
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "COYOTE VS ACME",
+     "film_title_latin": "COYOTE VS ACME",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "COYOTE VS ACME",
+     "film_title_latin": "COYOTE VS ACME",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "COYOTE VS ACME",
+     "film_title_latin": "COYOTE VS ACME",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "16:15",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "THE END OF OAK STREET",
+     "film_title_latin": "THE END OF OAK STREET",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "20:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "21:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "21:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "THE END OF OAK STREET",
+     "film_title_latin": "THE END OF OAK STREET",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "21:00",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "21:15",
+     "poster": "posters/gast/4802-0.jpg",
+     "post_url": "https://t.me/GastCinema/4802"
     }
    ]
   },
@@ -773,7 +1189,7 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-07T16:28:13+03:00",
+   "last_checked": "2026-10-08T02:07:17+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-05T21:21:37+00:00",
    "latest_poster": {
@@ -783,32 +1199,6 @@
     "status": "ok"
    },
    "showtimes": [
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "The Last Sunrise",
-     "film_title_latin": "The Last Sunrise",
-     "format": null,
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "14:30",
-     "poster": "posters/chewata/68-0.jpg",
-     "post_url": "https://t.me/chewatacinema/68"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-07",
-     "film_title": "Spider-Man: Brand New Day",
-     "film_title_latin": "Spider-Man: Brand New Day",
-     "format": null,
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "17:30",
-     "poster": "posters/chewata/68-0.jpg",
-     "post_url": "https://t.me/chewatacinema/68"
-    },
     {
      "confidence": 1.0,
      "date": "2026-10-08",
@@ -842,58 +1232,19 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-07T16:28:13+03:00",
+   "last_checked": "2026-10-08T02:07:17+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-10-05T15:00:04+00:00",
+   "latest_schedule_posted_at": "2026-10-07T15:00:04+00:00",
    "latest_poster": {
-    "image": "posters/garad/426-0.jpg",
-    "post_url": "https://t.me/garadmulticinema/426",
-    "posted_at": "2026-10-05T15:00:04+00:00",
+    "image": "posters/garad/428-0.jpg",
+    "post_url": "https://t.me/garadmulticinema/428",
+    "posted_at": "2026-10-07T15:00:04+00:00",
     "status": "ok"
    },
    "showtimes": [
     {
      "confidence": 0.99,
-     "date": "2026-10-07",
-     "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "Spider-Man: Brand New Day",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "11:00",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
-    },
-    {
-     "confidence": 0.99,
-     "date": "2026-10-07",
-     "film_title": "VERITY",
-     "film_title_latin": "Verity",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "11:00",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
-    },
-    {
-     "confidence": 0.99,
-     "date": "2026-10-07",
-     "film_title": "IDIOTS",
-     "film_title_latin": "Idiots",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "13:15",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
-    },
-    {
-     "confidence": 0.99,
-     "date": "2026-10-07",
+     "date": "2026-10-08",
      "film_title": "THE LOVE HYPOTHESIS",
      "film_title_latin": "The Love Hypothesis",
      "format": "2D",
@@ -901,12 +1252,25 @@
      "language": null,
      "price_birr": null,
      "time": "13:45",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
+     "poster": "posters/garad/428-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/428"
     },
     {
      "confidence": 0.99,
-     "date": "2026-10-07",
+     "date": "2026-10-08",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45",
+     "poster": "posters/garad/428-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/428"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-08",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "Resident Evil",
      "format": "2D",
@@ -914,12 +1278,12 @@
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
+     "poster": "posters/garad/428-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/428"
     },
     {
      "confidence": 0.99,
-     "date": "2026-10-07",
+     "date": "2026-10-08",
      "film_title": "IDIOTS",
      "film_title_latin": "Idiots",
      "format": "2D",
@@ -927,12 +1291,12 @@
      "language": null,
      "price_birr": null,
      "time": "15:45",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
+     "poster": "posters/garad/428-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/428"
     },
     {
      "confidence": 0.99,
-     "date": "2026-10-07",
+     "date": "2026-10-08",
      "film_title": "SPIDER-MAN: BRAND NEW DAY",
      "film_title_latin": "Spider-Man: Brand New Day",
      "format": "2D",
@@ -940,12 +1304,12 @@
      "language": null,
      "price_birr": null,
      "time": "17:00",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
+     "poster": "posters/garad/428-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/428"
     },
     {
      "confidence": 0.99,
-     "date": "2026-10-07",
+     "date": "2026-10-08",
      "film_title": "VERITY",
      "film_title_latin": "Verity",
      "format": "2D",
@@ -953,12 +1317,12 @@
      "language": null,
      "price_birr": null,
      "time": "17:45",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
+     "poster": "posters/garad/428-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/428"
     },
     {
      "confidence": 0.99,
-     "date": "2026-10-07",
+     "date": "2026-10-08",
      "film_title": "THE LOVE HYPOTHESIS",
      "film_title_latin": "The Love Hypothesis",
      "format": "2D",
@@ -966,12 +1330,12 @@
      "language": null,
      "price_birr": null,
      "time": "19:45",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
+     "poster": "posters/garad/428-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/428"
     },
     {
      "confidence": 0.99,
-     "date": "2026-10-07",
+     "date": "2026-10-08",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "Resident Evil",
      "format": "2D",
@@ -979,8 +1343,8 @@
      "language": null,
      "price_birr": null,
      "time": "20:00",
-     "poster": "posters/garad/426-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/426"
+     "poster": "posters/garad/428-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/428"
     }
    ]
   }
@@ -1194,24 +1558,6 @@
    "backdrop_path": "/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
    "thumbnail": "films/theendofoakstreet.jpg"
   },
-  "thelastsunrise": {
-   "title": "The Last Sunrise",
-   "overview": "Ry, a college student with a chronic illness, escapes to Mallorca for the summer with her mother, where she unexpectedly falls for a local and begins to embrace living in the moment. But as her condition worsens and long-hidden family secrets come to light, everything she has found before summer's end is threatened.",
-   "release_date": "2026-08-26",
-   "runtime": 107,
-   "genres": [
-    "Romance",
-    "Drama"
-   ],
-   "rating": 6.9,
-   "certification": "R",
-   "tmdb_id": 1516698,
-   "tmdb_url": "https://www.themoviedb.org/movie/1516698",
-   "trailer_url": "https://www.youtube.com/watch?v=NhI2UpkFAFw",
-   "poster_path": "/3PWJqDfygN0YNNjWsDUOXclCp3h.jpg",
-   "backdrop_path": "/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
-   "thumbnail": "films/thelastsunrise.jpg"
-  },
   "thelovehypothesis": {
    "title": "The Love Hypothesis",
    "overview": "Olive Smith, a biology PhD candidate, and Dr. Adam Carlsen, a hotshot professor and well-known tyrant, enter into a fake relationship, seeing each of their carefully calculated theories on love get thrown into chaos.",
@@ -1229,6 +1575,26 @@
    "poster_path": "/vfZxVHextAGC70zrNhS8lsROqP1.jpg",
    "backdrop_path": "/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
    "thumbnail": "films/thelovehypothesis.jpg"
+  },
+  "thepoutpoutfish": {
+   "title": "The Pout-Pout Fish",
+   "overview": "Living on a rundown shipwreck, Mr. Fish one day discovers a hyperactive young sea dragon Pip – who had mistaken his home for a junkyard – pilfering his belongings. The heated argument that ensues leaves both their houses in ruin. But there is hope! Embarking on a seemingly impossible quest in search of the mythical 'Shimmer' to grant them a wish, there’s only one problem: someone else is on the hunt...",
+   "release_date": "2026-01-01",
+   "runtime": 91,
+   "genres": [
+    "Animation",
+    "Family",
+    "Adventure",
+    "Comedy"
+   ],
+   "rating": null,
+   "certification": "PG",
+   "tmdb_id": 1146058,
+   "tmdb_url": "https://www.themoviedb.org/movie/1146058",
+   "trailer_url": "https://www.youtube.com/watch?v=yeAxa2_zpng",
+   "poster_path": "/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
+   "backdrop_path": "/6qQQhhF87Rm1z2TYhXAmoPiEHME.jpg",
+   "thumbnail": "films/thepoutpoutfish.jpg"
   },
   "verity": {
    "title": "Verity",
