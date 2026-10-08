@@ -1,4 +1,17 @@
 {
+ "adebabaymenetsir": {
+  "first_seen": "2026-10-08T17:19:52+00:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
+  "thumbnail": {
+   "image": "films/adebabaymenetsir.jpg",
+   "post_url": "https://t.me/alem_cinema/2316",
+   "posted_at": "2026-10-08T17:19:52+00:00"
+  },
+  "title": "Adebabay Menetsir",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "astehah": {
   "first_seen": "2026-10-04T15:31:57+00:00",
   "last_seen": "2026-10-08T16:34:00+03:00",
@@ -47,7 +60,7 @@
  },
  "coyotevsacme": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/coyotevsacme.jpg",
    "post_url": "https://t.me/GastCinema/4802",
@@ -72,6 +85,14 @@
    "status": "matched",
    "title": "Coyote vs. Acme",
    "trailer_youtube_key": "H-43VeYGiPM"
+  }
+ },
+ "enatuh": {
+  "first_seen": "2026-10-09T02:23:06+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
+  "title": "Enatuh",
+  "tmdb": {
+   "status": "skipped_amharic"
   }
  },
  "evildeadburn": {
@@ -103,7 +124,7 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/GastCinema/4802",
@@ -151,11 +172,11 @@
  },
  "idiots": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/idiots.jpg",
-   "post_url": "https://t.me/chewatacinema/69",
-   "posted_at": "2026-10-08T12:35:25+00:00"
+   "post_url": "https://t.me/garadmulticinema/429",
+   "posted_at": "2026-10-08T15:00:04+00:00"
   },
   "title": "Idiots",
   "tmdb": {
@@ -179,7 +200,7 @@
  },
  "insidiousoutofthefurther": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/insidiousoutofthefurther.jpg",
    "post_url": "https://t.me/chewatacinema/69",
@@ -235,6 +256,19 @@
   },
   "title": "One Last Shot"
  },
+ "qenzelel": {
+  "first_seen": "2026-10-08T17:19:52+00:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
+  "thumbnail": {
+   "image": "films/qenzelel.jpg",
+   "post_url": "https://t.me/alem_cinema/2316",
+   "posted_at": "2026-10-08T17:19:52+00:00"
+  },
+  "title": "Qen Zelel",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
   "last_seen": "2026-10-08T16:34:00+03:00",
@@ -250,11 +284,11 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
-   "post_url": "https://t.me/chewatacinema/69",
-   "posted_at": "2026-10-08T12:35:25+00:00"
+   "post_url": "https://t.me/garadmulticinema/429",
+   "posted_at": "2026-10-08T15:00:04+00:00"
   },
   "title": "RESIDENT EVIL",
   "tmdb": {
@@ -279,7 +313,7 @@
  },
  "runner": {
   "first_seen": "2026-10-04T18:02:35+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/runner.jpg",
    "post_url": "https://t.me/chewatacinema/69",
@@ -318,6 +352,19 @@
    "status": "skipped_amharic"
   }
  },
+ "salamata": {
+  "first_seen": "2026-10-08T17:19:52+00:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
+  "thumbnail": {
+   "image": "films/salamata.jpg",
+   "post_url": "https://t.me/alem_cinema/2316",
+   "posted_at": "2026-10-08T17:19:52+00:00"
+  },
+  "title": "Salamata",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "selatfet": {
   "first_seen": "2026-10-04T15:31:57+00:00",
   "last_seen": "2026-10-08T16:34:00+03:00",
@@ -331,15 +378,28 @@
    "status": "skipped_amharic"
   }
  },
+ "sostfet": {
+  "first_seen": "2026-10-08T17:19:52+00:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
+  "thumbnail": {
+   "image": "films/sostfet.jpg",
+   "post_url": "https://t.me/alem_cinema/2316",
+   "posted_at": "2026-10-08T17:19:52+00:00"
+  },
+  "title": "Sost Fet",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/chewatacinema/69",
-   "posted_at": "2026-10-08T12:35:25+00:00"
+   "post_url": "https://t.me/garadmulticinema/429",
+   "posted_at": "2026-10-08T15:00:04+00:00"
   },
-  "title": "SPIDER MAN: BRAND NEW DAY",
+  "title": "Spider-Man: Brand New Day",
   "tmdb": {
    "backdrop_path": "/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg",
    "certification": "PG-13",
@@ -360,6 +420,19 @@
    "trailer_youtube_key": "8TZMtslA3UY"
   }
  },
+ "tentwayituastesasach": {
+  "first_seen": "2026-10-08T17:19:52+00:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
+  "thumbnail": {
+   "image": "films/tentwayituastesasach.jpg",
+   "post_url": "https://t.me/alem_cinema/2316",
+   "posted_at": "2026-10-08T17:19:52+00:00"
+  },
+  "title": "Tentwayitu Astesasach",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "thedogstars": {
   "first_seen": "2026-10-04T14:56:09+00:00",
   "last_seen": "2026-10-04T14:56:09+00:00",
@@ -372,7 +445,7 @@
  },
  "theendofoakstreet": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/theendofoakstreet.jpg",
    "post_url": "https://t.me/GastCinema/4802",
@@ -429,13 +502,13 @@
  },
  "thelovehypothesis": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/thelovehypothesis.jpg",
-   "post_url": "https://t.me/garadmulticinema/428",
-   "posted_at": "2026-10-07T15:00:04+00:00"
+   "post_url": "https://t.me/garadmulticinema/429",
+   "posted_at": "2026-10-08T15:00:04+00:00"
   },
-  "title": "The Love Hypothesis",
+  "title": "THE LOVE HYPOTHESIS",
   "tmdb": {
    "backdrop_path": "/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
    "certification": "R",
@@ -467,7 +540,7 @@
  },
  "thepoutpoutfish": {
   "first_seen": "2026-10-07T17:02:30+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/thepoutpoutfish.jpg",
    "post_url": "https://t.me/Century_Cinema/2330",
@@ -507,11 +580,11 @@
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-08T16:34:00+03:00",
+  "last_seen": "2026-10-09T02:23:06+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
-   "post_url": "https://t.me/GastCinema/4802",
-   "posted_at": "2026-10-07T20:07:43+00:00"
+   "post_url": "https://t.me/garadmulticinema/429",
+   "posted_at": "2026-10-08T15:00:04+00:00"
   },
   "title": "VERITY",
   "tmdb": {

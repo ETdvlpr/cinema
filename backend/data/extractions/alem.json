@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-08T16:34:00+03:00",
+ "last_checked": "2026-10-09T02:23:06+03:00",
  "last_error": null,
  "posters": {
   "2296-0": {
@@ -1615,6 +1615,309 @@
    ],
    "showtimes": [],
    "status": "unreadable"
+  },
+  "2316-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-09T02:23:08+03:00",
+   "image": "posters/alem/2316-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 2316,
+   "post_url": "https://t.me/alem_cinema/2316",
+   "posted_at": "2026-10-08T17:19:52+00:00",
+   "processed_at": "2026-10-09T02:23:08+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.9,
+     "date": "2026-10-09",
+     "film_title": "አደባባይ መነጽር",
+     "film_title_latin": "Adebabay Menetsir",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:50"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "አደባባይ መነጽር",
+     "film_title_latin": "Adebabay Menetsir",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:50"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-11",
+     "film_title": "አደባባይ መነጽር",
+     "film_title_latin": "Adebabay Menetsir",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:50"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-09",
+     "film_title": "አደባባይ መነጽር",
+     "film_title_latin": "Adebabay Menetsir",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "አደባባይ መነጽር",
+     "film_title_latin": "Adebabay Menetsir",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-11",
+     "film_title": "አደባባይ መነጽር",
+     "film_title_latin": "Adebabay Menetsir",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-09",
+     "film_title": "ሶስት ፈት",
+     "film_title_latin": "Sost Fet",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-09",
+     "film_title": "ሶስት ፈት",
+     "film_title_latin": "Sost Fet",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "17:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "ሶስት ፈት",
+     "film_title_latin": "Sost Fet",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "ሶስት ፈት",
+     "film_title_latin": "Sost Fet",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-09",
+     "film_title": "ጠንቋይቱ አስተሳሳች",
+     "film_title_latin": "Tentwayitu Astesasach",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "17:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-09",
+     "film_title": "ጠንቋይቱ አስተሳሳች",
+     "film_title_latin": "Tentwayitu Astesasach",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "ጠንቋይቱ አስተሳሳች",
+     "film_title_latin": "Tentwayitu Astesasach",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "ጠንቋይቱ አስተሳሳች",
+     "film_title_latin": "Tentwayitu Astesasach",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:20"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "ጠንቋይቱ አስተሳሳች",
+     "film_title_latin": "Tentwayitu Astesasach",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "20:20"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-11",
+     "film_title": "ጠንቋይቱ አስተሳሳች",
+     "film_title_latin": "Tentwayitu Astesasach",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-11",
+     "film_title": "ጠንቋይቱ አስተሳሳች",
+     "film_title_latin": "Tentwayitu Astesasach",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:20"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-09",
+     "film_title": "ሳላማታ",
+     "film_title_latin": "Salamata",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "20:30"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "ሳላማታ",
+     "film_title_latin": "Salamata",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-11",
+     "film_title": "ሳላማታ",
+     "film_title_latin": "Salamata",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "20:20"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-09",
+     "film_title": "ቀን ዘለል",
+     "film_title_latin": "Qen Zelel",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "ቀን ዘለል",
+     "film_title_latin": "Qen Zelel",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-11",
+     "film_title": "ቀን ዘለል",
+     "film_title_latin": "Qen Zelel",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "17:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-09",
+     "film_title": "እናትህ",
+     "film_title_latin": "Enatuh",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-10",
+     "film_title": "እናትህ",
+     "film_title_latin": "Enatuh",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-11",
+     "film_title": "እናትህ",
+     "film_title_latin": "Enatuh",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    }
+   ],
+   "status": "ok"
   }
  }
 }
