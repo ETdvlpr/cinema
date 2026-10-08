@@ -1,6 +1,6 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-10-08T09:08:37+03:00",
+ "last_checked": "2026-10-08T16:34:00+03:00",
  "last_error": null,
  "posters": {
   "65-0": {
@@ -494,6 +494,89 @@
      "date": "2026-10-08",
      "film_title": "Evil Dead Burn",
      "film_title_latin": "Evil Dead Burn",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    }
+   ],
+   "status": "ok"
+  },
+  "69-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-08T16:34:08+03:00",
+   "image": "posters/chewata/69-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 69,
+   "post_url": "https://t.me/chewatacinema/69",
+   "posted_at": "2026-10-08T12:35:25+00:00",
+   "processed_at": "2026-10-08T16:34:08+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "Insidious: Out of the Further",
+     "film_title_latin": "Insidious: Out of the Further",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-09",
+     "film_title": "Idiots",
+     "film_title_latin": "Idiots",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "Runner",
+     "film_title_latin": "Runner",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-10",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-11",
+     "film_title": "Insidious: Out of the Further",
+     "film_title_latin": "Insidious: Out of the Further",
      "format": null,
      "hall": "C1",
      "language": null,
