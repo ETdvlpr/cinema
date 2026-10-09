@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-09T09:12:24+03:00",
+ "last_checked": "2026-10-09T16:21:00+03:00",
  "last_error": null,
  "posters": {
   "2318-0": {
@@ -1472,6 +1472,22 @@
     }
    ],
    "status": "ok"
+  },
+  "2331-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-09T16:21:02+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image is an announcement for an inauguration/event and cake fest, not a movie showtime schedule.",
+   "post_id": 2331,
+   "post_url": "https://t.me/Century_Cinema/2331",
+   "posted_at": "2026-10-09T12:06:05+00:00",
+   "processed_at": "2026-10-09T16:21:02+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
