@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-10-11T15:53:58+03:00",
+ "last_checked": "2026-10-12T01:00:00+03:00",
  "last_error": null,
  "posters": {
   "420-0": {
@@ -1320,6 +1320,111 @@
      "language": null,
      "price_birr": null,
      "time": "17:00"
+    }
+   ],
+   "status": "ok"
+  },
+  "431-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-12T01:03:21+03:00",
+   "image": "posters/garad/431-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "Includes both currently showing films with schedules and coming soon films in the left column.",
+   "post_id": 431,
+   "post_url": "https://t.me/garadmulticinema/431",
+   "posted_at": "2026-10-11T15:00:04+00:00",
+   "processed_at": "2026-10-12T01:03:21+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "IDIOTS",
+     "film_title_latin": "Idiots",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
     }
    ],
    "status": "ok"
