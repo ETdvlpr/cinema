@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-12T01:00:00+03:00",
+ "last_checked": "2026-10-12T09:01:58+03:00",
  "last_error": null,
  "posters": {
   "2319-0": {
@@ -1477,6 +1477,320 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "2332-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-12T09:02:00+03:00",
+   "image": "posters/century/2332-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "Century Cinema schedule showing 5 currently scheduled movies with multiple upcoming titles at the top.",
+   "post_id": 2332,
+   "post_url": "https://t.me/Century_Cinema/2332",
+   "posted_at": "2026-10-12T05:20:48+00:00",
+   "processed_at": "2026-10-12T09:02:00+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "Heart of the Beast",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-13",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "Heart of the Beast",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-14",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "Heart of the Beast",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "Heart of the Beast",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-13",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "Heart of the Beast",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-14",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "Heart of the Beast",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "Heart of the Beast",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-13",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "Heart of the Beast",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-14",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "Heart of the Beast",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "MATCHBOX THE MOVIE",
+     "film_title_latin": "Matchbox The Movie",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-13",
+     "film_title": "MATCHBOX THE MOVIE",
+     "film_title_latin": "Matchbox The Movie",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-14",
+     "film_title": "MATCHBOX THE MOVIE",
+     "film_title_latin": "Matchbox The Movie",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "MATCHBOX THE MOVIE",
+     "film_title_latin": "Matchbox The Movie",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-13",
+     "film_title": "MATCHBOX THE MOVIE",
+     "film_title_latin": "Matchbox The Movie",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-14",
+     "film_title": "MATCHBOX THE MOVIE",
+     "film_title_latin": "Matchbox The Movie",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-13",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-14",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-13",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-14",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-13",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-14",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-12",
+     "film_title": "ONSLAUGHT",
+     "film_title_latin": "Onslaught",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-13",
+     "film_title": "ONSLAUGHT",
+     "film_title_latin": "Onslaught",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-14",
+     "film_title": "ONSLAUGHT",
+     "film_title_latin": "Onslaught",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    }
+   ],
+   "status": "ok"
   }
  }
 }
