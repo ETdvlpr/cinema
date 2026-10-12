@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-10-12T09:01:58+03:00",
+ "last_checked": "2026-10-12T18:30:25+03:00",
  "last_error": null,
  "posters": {
   "420-0": {
@@ -1425,6 +1425,243 @@
      "language": null,
      "price_birr": null,
      "time": "19:00"
+    }
+   ],
+   "status": "ok"
+  },
+  "432-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-12T18:32:55+03:00",
+   "image": "posters/garad/432-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 432,
+   "post_url": "https://t.me/garadmulticinema/432",
+   "posted_at": "2026-10-12T15:00:29+00:00",
+   "processed_at": "2026-10-12T18:32:55+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "VERITY",
+     "film_title_latin": "Verity",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "20:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "20:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "Resident Evil",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "THE LOVE HYPOTHESIS",
+     "film_title_latin": "The Love Hypothesis",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "IDIOTS",
+     "film_title_latin": "Idiots",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "IDIOTS",
+     "film_title_latin": "Idiots",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "IDIOTS",
+     "film_title_latin": "Idiots",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "IDIOTS",
+     "film_title_latin": "Idiots",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-13",
+     "film_title": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-14",
+     "film_title": "SPIDER-MAN: BRAND NEW DAY",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
     }
    ],
    "status": "ok"

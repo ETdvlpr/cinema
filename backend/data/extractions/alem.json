@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-12T09:01:58+03:00",
+ "last_checked": "2026-10-12T18:30:25+03:00",
  "last_error": null,
  "posters": {
   "2299-0": {
@@ -2184,6 +2184,86 @@
     }
    ],
    "status": "ok"
+  },
+  "2318-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-12T18:30:27+03:00",
+   "image": "posters/alem/2318-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 2318,
+   "post_url": "https://t.me/alem_cinema/2318",
+   "posted_at": "2026-10-12T15:25:32+00:00",
+   "processed_at": "2026-10-12T18:30:27+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ጉሸን",
+      "film_title_latin": "Gushen",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "አቧራው ጨሰ",
+      "film_title_latin": "Abwaraw Chese",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ባሎች እና ሚስቶች",
+      "film_title_latin": "Baloch Ena Mistoch",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": null
+     },
+     "reason": "missing date"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   }
  }
 }

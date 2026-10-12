@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-10-12T09:01:58+03:00",
+ "last_checked": "2026-10-12T18:30:25+03:00",
  "last_error": null,
  "posters": {
   "4782-0": {
@@ -3365,6 +3365,22 @@
     }
    ],
    "status": "ok"
+  },
+  "4808-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-12T18:32:43+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image is a single-film promotional poster for Street Fighter, not a schedule.",
+   "post_id": 4808,
+   "post_url": "https://t.me/GastCinema/4808",
+   "posted_at": "2026-10-12T15:08:34+00:00",
+   "processed_at": "2026-10-12T18:32:43+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
