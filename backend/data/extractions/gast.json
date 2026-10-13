@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-10-13T17:15:25+03:00",
+ "last_checked": "2026-10-14T01:47:08+03:00",
  "last_error": null,
  "posters": {
   "4782-0": {
@@ -3383,16 +3383,36 @@
    "status": "not_schedule"
   },
   "4811-0": {
-   "attempts": 0,
-   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-10-13T17:15:26+03:00",
-   "image": "posters/gast/4811-0.jpg",
+   "image": null,
    "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Promotional countdown poster ('2 DAYS TO GO') without screening times.",
    "post_id": 4811,
    "post_url": "https://t.me/GastCinema/4811",
    "posted_at": "2026-10-13T10:10:18+00:00",
-   "processed_at": "2026-10-13T17:15:26+03:00",
-   "status": "error"
+   "processed_at": "2026-10-14T01:48:25+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
+  },
+  "4812-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-14T01:47:10+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 4812,
+   "post_url": "https://t.me/GastCinema/4812",
+   "posted_at": "2026-10-13T14:51:53+00:00",
+   "processed_at": "2026-10-14T01:47:10+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }

@@ -1,19 +1,8 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-13T17:15:25+03:00",
+ "last_checked": "2026-10-14T01:47:08+03:00",
  "last_error": null,
  "posters": {
-  "2300-0": {
-   "attempts": 0,
-   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-   "image": "posters/alem/2300-0.jpg",
-   "index": 0,
-   "post_id": 2300,
-   "post_url": "https://t.me/alem_cinema/2300",
-   "posted_at": "2026-09-13T19:22:15+00:00",
-   "processed_at": "2026-10-05T21:54:23+03:00",
-   "status": "expired"
-  },
   "2301-0": {
    "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
