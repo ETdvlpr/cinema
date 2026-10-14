@@ -1,19 +1,8 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-14T07:56:46+03:00",
+ "last_checked": "2026-10-14T14:56:58+03:00",
  "last_error": null,
  "posters": {
-  "2319-0": {
-   "attempts": 0,
-   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m33.702359568s.', 'status': 'R",
-   "image": "posters/century/2319-0.jpg",
-   "index": 0,
-   "post_id": 2319,
-   "post_url": "https://t.me/Century_Cinema/2319",
-   "posted_at": "2026-09-14T04:57:40+00:00",
-   "processed_at": "2026-10-05T21:57:19+03:00",
-   "status": "expired"
-  },
   "2320-0": {
    "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
