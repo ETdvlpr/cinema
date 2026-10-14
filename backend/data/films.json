@@ -24,11 +24,11 @@
  },
  "animals": {
   "first_seen": "2026-10-11T19:20:47+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/animals.jpg",
-   "post_url": "https://t.me/GastCinema/4806",
-   "posted_at": "2026-10-11T19:20:47+00:00"
+   "post_url": "https://t.me/GastCinema/4813",
+   "posted_at": "2026-10-14T18:27:00+00:00"
   },
   "title": "ANIMALS",
   "tmdb": {
@@ -75,7 +75,7 @@
  },
  "balabat": {
   "first_seen": "2026-10-11T15:51:08+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/balabat.jpg",
    "post_url": "https://t.me/alem_cinema/2317",
@@ -134,11 +134,11 @@
  },
  "coyotevsacme": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/coyotevsacme.jpg",
-   "post_url": "https://t.me/garadmulticinema/437",
-   "posted_at": "2026-10-14T16:40:42+00:00"
+   "post_url": "https://t.me/GastCinema/4813",
+   "posted_at": "2026-10-14T18:27:00+00:00"
   },
   "title": "Coyote Vs. Acme",
   "tmdb": {
@@ -171,7 +171,7 @@
  },
  "entiyu": {
   "first_seen": "2026-10-11T15:51:08+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/entiyu.jpg",
    "post_url": "https://t.me/alem_cinema/2317",
@@ -234,13 +234,13 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
-   "post_url": "https://t.me/Century_Cinema/2332",
-   "posted_at": "2026-10-12T05:20:48+00:00"
+   "post_url": "https://t.me/GastCinema/4813",
+   "posted_at": "2026-10-14T18:27:00+00:00"
   },
-  "title": "Heart of the Beast",
+  "title": "HEART OF THE BEAST",
   "tmdb": {
    "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
    "certification": "PG-13",
@@ -262,7 +262,7 @@
  },
  "huletfetfet": {
   "first_seen": "2026-10-11T15:51:08+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/huletfetfet.jpg",
    "post_url": "https://t.me/alem_cinema/2317",
@@ -323,7 +323,7 @@
  },
  "insidiousoutofthefurther": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/insidiousoutofthefurther.jpg",
    "post_url": "https://t.me/chewatacinema/71",
@@ -413,11 +413,11 @@
  },
  "minionsandmonsters": {
   "first_seen": "2026-10-09T19:48:18+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/minionsandmonsters.jpg",
-   "post_url": "https://t.me/GastCinema/4806",
-   "posted_at": "2026-10-11T19:20:47+00:00"
+   "post_url": "https://t.me/GastCinema/4813",
+   "posted_at": "2026-10-14T18:27:00+00:00"
   },
   "title": "MINIONS AND MONSTERS",
   "tmdb": {
@@ -479,7 +479,7 @@
  },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/qenzerafi.jpg",
    "post_url": "https://t.me/alem_cinema/2317",
@@ -492,13 +492,13 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
-   "post_url": "https://t.me/garadmulticinema/437",
-   "posted_at": "2026-10-14T16:40:42+00:00"
+   "post_url": "https://t.me/GastCinema/4813",
+   "posted_at": "2026-10-14T18:27:00+00:00"
   },
-  "title": "Resident Evil",
+  "title": "RESIDENT EVIL",
   "tmdb": {
    "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
    "certification": "R",
@@ -521,7 +521,7 @@
  },
  "runner": {
   "first_seen": "2026-10-04T18:02:35+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/runner.jpg",
    "post_url": "https://t.me/chewatacinema/71",
@@ -601,11 +601,11 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/garadmulticinema/432",
-   "posted_at": "2026-10-12T15:00:29+00:00"
+   "post_url": "https://t.me/GastCinema/4813",
+   "posted_at": "2026-10-14T18:27:00+00:00"
   },
   "title": "SPIDER MAN: BRAND NEW DAY",
   "tmdb": {
@@ -626,6 +626,34 @@
    "status": "matched",
    "title": "Spider-Man: Brand New Day",
    "trailer_youtube_key": "8TZMtslA3UY"
+  }
+ },
+ "streetfighter": {
+  "first_seen": "2026-10-14T18:27:00+00:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
+  "thumbnail": {
+   "image": "films/streetfighter.jpg",
+   "post_url": "https://t.me/GastCinema/4813",
+   "posted_at": "2026-10-14T18:27:00+00:00"
+  },
+  "title": "STREET FIGHTER",
+  "tmdb": {
+   "backdrop_path": "/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-10-15T00:43:23+03:00",
+   "genres": [
+    "Action",
+    "Fantasy"
+   ],
+   "id": 1153576,
+   "overview": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+   "poster_path": "/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+   "rating": null,
+   "release_date": "2026-10-13",
+   "runtime": 120,
+   "status": "matched",
+   "title": "Street Fighter",
+   "trailer_youtube_key": "Xt4X4FvXk2A"
   }
  },
  "tentwayituastesasach": {
@@ -710,7 +738,7 @@
  },
  "thelovehypothesis": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/thelovehypothesis.jpg",
    "post_url": "https://t.me/garadmulticinema/437",
@@ -798,13 +826,13 @@
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
-   "post_url": "https://t.me/garadmulticinema/437",
-   "posted_at": "2026-10-14T16:40:42+00:00"
+   "post_url": "https://t.me/GastCinema/4813",
+   "posted_at": "2026-10-14T18:27:00+00:00"
   },
-  "title": "Verity",
+  "title": "VERITY",
   "tmdb": {
    "backdrop_path": "/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
    "certification": "R",
@@ -839,11 +867,11 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
-   "post_url": "https://t.me/garadmulticinema/437",
-   "posted_at": "2026-10-14T16:40:42+00:00"
+   "post_url": "https://t.me/GastCinema/4813",
+   "posted_at": "2026-10-14T18:27:00+00:00"
   },
   "title": "Whalefall",
   "tmdb": {
@@ -866,7 +894,7 @@
  },
  "wonzegnaadaltowal": {
   "first_seen": "2026-10-11T15:51:08+00:00",
-  "last_seen": "2026-10-14T20:13:37+03:00",
+  "last_seen": "2026-10-15T00:43:23+03:00",
   "thumbnail": {
    "image": "films/wonzegnaadaltowal.jpg",
    "post_url": "https://t.me/alem_cinema/2317",
