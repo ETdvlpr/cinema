@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-10-15T07:43:30+03:00",
+ "last_checked": "2026-10-15T14:33:07+03:00",
  "last_error": null,
  "posters": {
   "420-0": {
@@ -2138,6 +2138,22 @@
     }
    ],
    "status": "ok"
+  },
+  "439-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-15T14:33:09+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "This image is a promotional poster for a single film (Avengers: Doomsday) rather than a multi-movie screening schedule.",
+   "post_id": 439,
+   "post_url": "https://t.me/garadmulticinema/439",
+   "posted_at": "2026-10-15T09:00:15+00:00",
+   "processed_at": "2026-10-15T14:33:09+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
