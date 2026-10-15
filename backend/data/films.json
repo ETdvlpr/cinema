@@ -50,6 +50,32 @@
    "trailer_youtube_key": "mlBfQJ8oxB0"
   }
  },
+ "antivi": {
+  "first_seen": "2026-10-15T18:09:49+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
+  "thumbnail": {
+   "image": "films/antivi.jpg",
+   "post_url": "https://t.me/alem_cinema/2320",
+   "posted_at": "2026-10-15T18:09:49+00:00"
+  },
+  "title": "Antivi",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "asedabiwwel": {
+  "first_seen": "2026-10-15T18:09:49+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
+  "thumbnail": {
+   "image": "films/asedabiwwel.jpg",
+   "post_url": "https://t.me/alem_cinema/2320",
+   "posted_at": "2026-10-15T18:09:49+00:00"
+  },
+  "title": "Asedabiw Wel",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "astehah": {
   "first_seen": "2026-10-04T15:31:57+00:00",
   "last_seen": "2026-10-08T16:34:00+03:00",
@@ -99,6 +125,19 @@
    "status": "skipped_amharic"
   }
  },
+ "baleyot": {
+  "first_seen": "2026-10-15T18:09:49+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
+  "thumbnail": {
+   "image": "films/baleyot.jpg",
+   "post_url": "https://t.me/alem_cinema/2320",
+   "posted_at": "2026-10-15T18:09:49+00:00"
+  },
+  "title": "Baleyot",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "balochenamistoch": {
   "first_seen": "2026-10-04T15:31:57+00:00",
   "last_seen": "2026-10-06T21:24:33+03:00",
@@ -134,7 +173,7 @@
  },
  "coyotevsacme": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/coyotevsacme.jpg",
    "post_url": "https://t.me/GastCinema/4813",
@@ -209,6 +248,33 @@
    "trailer_youtube_key": "nMzhf6qYJ4I"
   }
  },
+ "fall2deadpoint": {
+  "first_seen": "2026-10-15T20:27:14+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
+  "thumbnail": {
+   "image": "films/fall2deadpoint.jpg",
+   "post_url": "https://t.me/chewatacinema/72",
+   "posted_at": "2026-10-15T20:27:14+00:00"
+  },
+  "title": "Fall 2 Deadpoint",
+  "tmdb": {
+   "backdrop_path": "/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-10-16T00:25:26+03:00",
+   "genres": [
+    "Thriller"
+   ],
+   "id": 1101412,
+   "overview": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
+   "poster_path": "/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+   "rating": 7.3,
+   "release_date": "2026-09-01",
+   "runtime": 98,
+   "status": "matched",
+   "title": "Fall 2: Deadpoint",
+   "trailer_youtube_key": "Rsztt5qDj_A"
+  }
+ },
  "gushen": {
   "first_seen": "2026-10-12T15:25:32+00:00",
   "last_seen": "2026-10-12T15:25:32+00:00",
@@ -234,7 +300,7 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/Century_Cinema/2333",
@@ -269,6 +335,19 @@
    "posted_at": "2026-10-11T15:51:08+00:00"
   },
   "title": "Hulet Fet Fet",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "huletfit": {
+  "first_seen": "2026-10-15T18:09:49+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
+  "thumbnail": {
+   "image": "films/huletfit.jpg",
+   "post_url": "https://t.me/alem_cinema/2320",
+   "posted_at": "2026-10-15T18:09:49+00:00"
+  },
+  "title": "Hulet Fit",
   "tmdb": {
    "status": "skipped_amharic"
   }
@@ -349,9 +428,37 @@
    "trailer_youtube_key": "jxU8FU3o75A"
   }
  },
+ "loveofyourlife": {
+  "first_seen": "2026-10-15T20:27:14+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
+  "thumbnail": {
+   "image": "films/loveofyourlife.jpg",
+   "post_url": "https://t.me/chewatacinema/72",
+   "posted_at": "2026-10-15T20:27:14+00:00"
+  },
+  "title": "Love of Your Life",
+  "tmdb": {
+   "backdrop_path": "/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+   "certification": "R",
+   "checked_at": "2026-10-16T00:25:26+03:00",
+   "genres": [
+    "Romance",
+    "Drama"
+   ],
+   "id": 1381078,
+   "overview": "After a chance encounter sparks a sweeping romance, Maya's future is suddenly upended, sending her on an unexpected journey to love and live again.",
+   "poster_path": "/dL3Tcv4FU2K85bgnGRBgLjFSrLr.jpg",
+   "rating": 6.4,
+   "release_date": "2026-10-07",
+   "runtime": 109,
+   "status": "matched",
+   "title": "Love of Your Life",
+   "trailer_youtube_key": "HzGx48E64Xg"
+  }
+ },
  "matchboxthemovie": {
   "first_seen": "2026-10-11T19:20:47+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/matchboxthemovie.jpg",
    "post_url": "https://t.me/Century_Cinema/2333",
@@ -490,9 +597,22 @@
    "status": "skipped_amharic"
   }
  },
+ "qenzerz": {
+  "first_seen": "2026-10-15T18:09:49+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
+  "thumbnail": {
+   "image": "films/qenzerz.jpg",
+   "post_url": "https://t.me/alem_cinema/2320",
+   "posted_at": "2026-10-15T18:09:49+00:00"
+  },
+  "title": "Qen Zerz",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
    "post_url": "https://t.me/Century_Cinema/2333",
@@ -601,13 +721,13 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/GastCinema/4813",
-   "posted_at": "2026-10-14T18:27:00+00:00"
+   "post_url": "https://t.me/chewatacinema/72",
+   "posted_at": "2026-10-15T20:27:14+00:00"
   },
-  "title": "SPIDER MAN: BRAND NEW DAY",
+  "title": "Spider-Man: Brand New Day",
   "tmdb": {
    "backdrop_path": "/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg",
    "certification": "PG-13",
@@ -630,7 +750,7 @@
  },
  "streetfighter": {
   "first_seen": "2026-10-14T18:27:00+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/streetfighter.jpg",
    "post_url": "https://t.me/Century_Cinema/2333",
@@ -708,6 +828,33 @@
    "trailer_youtube_key": "s9GKXTbChjE"
   }
  },
+ "thelastfirstwinterk2": {
+  "first_seen": "2026-10-15T20:27:14+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
+  "thumbnail": {
+   "image": "films/thelastfirstwinterk2.jpg",
+   "post_url": "https://t.me/chewatacinema/72",
+   "posted_at": "2026-10-15T20:27:14+00:00"
+  },
+  "title": "The Last First: Winter K2",
+  "tmdb": {
+   "backdrop_path": "/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
+   "certification": "NR",
+   "checked_at": "2026-10-16T00:25:26+03:00",
+   "genres": [
+    "Documentary"
+   ],
+   "id": 1596303,
+   "overview": "A historic race to become the first to summit K2 in winter unravels into tragedy, exposing how ambition, ego, and the pursuit of glory can be as dangerous as the mountain itself.",
+   "poster_path": "/97QpXbNNXj2eQ1MdmhFdGlU0jnW.jpg",
+   "rating": null,
+   "release_date": "2026-10-02",
+   "runtime": 98,
+   "status": "matched",
+   "title": "The Last First: Winter K2",
+   "trailer_youtube_key": "zgGpyr5MFK8"
+  }
+ },
  "thelastsunrise": {
   "first_seen": "2026-10-05T21:21:37+00:00",
   "last_seen": "2026-10-14T20:13:37+03:00",
@@ -738,7 +885,7 @@
  },
  "thelovehypothesis": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/thelovehypothesis.jpg",
    "post_url": "https://t.me/garadmulticinema/437",
@@ -766,13 +913,32 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-10-04T14:56:09+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
-   "post_url": "https://t.me/chewatacinema/69",
-   "posted_at": "2026-10-08T12:35:25+00:00"
+   "post_url": "https://t.me/chewatacinema/72",
+   "posted_at": "2026-10-15T20:27:14+00:00"
   },
-  "title": "The Odyssey"
+  "title": "The Odyssey",
+  "tmdb": {
+   "backdrop_path": "/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
+   "certification": "R",
+   "checked_at": "2026-10-16T00:25:26+03:00",
+   "genres": [
+    "Adventure",
+    "Action",
+    "Fantasy"
+   ],
+   "id": 1368337,
+   "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+   "poster_path": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+   "rating": 8.0,
+   "release_date": "2026-07-15",
+   "runtime": 173,
+   "status": "matched",
+   "title": "The Odyssey",
+   "trailer_youtube_key": "Mzw2ttJD2qQ"
+  }
  },
  "thepoutpoutfish": {
   "first_seen": "2026-10-07T17:02:30+00:00",
@@ -826,7 +992,7 @@
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
    "post_url": "https://t.me/Century_Cinema/2333",
@@ -865,9 +1031,22 @@
    "status": "skipped_amharic"
   }
  },
+ "wenjegnaasatwalew": {
+  "first_seen": "2026-10-15T18:09:49+00:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
+  "thumbnail": {
+   "image": "films/wenjegnaasatwalew.jpg",
+   "post_url": "https://t.me/alem_cinema/2320",
+   "posted_at": "2026-10-15T18:09:49+00:00"
+  },
+  "title": "Wenjegna Asatwalew",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-10-16T00:25:26+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
    "post_url": "https://t.me/Century_Cinema/2333",
