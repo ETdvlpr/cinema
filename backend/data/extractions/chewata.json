@@ -1,6 +1,6 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-10-16T14:27:57+03:00",
+ "last_checked": "2026-10-16T19:41:50+03:00",
  "last_error": null,
  "posters": {
   "65-0": {
@@ -847,6 +847,122 @@
      "language": null,
      "price_birr": null,
      "time": "15:30"
+    }
+   ],
+   "status": "ok"
+  },
+  "73-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-16T19:41:52+03:00",
+   "image": "posters/chewata/73-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 73,
+   "post_url": "https://t.me/chewatacinema/73",
+   "posted_at": "2026-10-16T16:10:38+00:00",
+   "processed_at": "2026-10-16T19:41:52+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.99,
+     "date": "2026-10-17",
+     "film_title": "The Last First: Winter K2",
+     "film_title_latin": "The Last First: Winter K2",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-17",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-16",
+     "film_title": "Insidious: Out of the Further",
+     "film_title_latin": "Insidious: Out of the Further",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-17",
+     "film_title": "Insidious: Out of the Further",
+     "film_title_latin": "Insidious: Out of the Further",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-16",
+     "film_title": "Fall 2 Deadpoint",
+     "film_title_latin": "Fall 2 Deadpoint",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-18",
+     "film_title": "Fall 2 Deadpoint",
+     "film_title_latin": "Fall 2 Deadpoint",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-16",
+     "film_title": "Love of Your Life",
+     "film_title_latin": "Love of Your Life",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-18",
+     "film_title": "Love of Your Life",
+     "film_title_latin": "Love of Your Life",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-10-18",
+     "film_title": "28 Years Later: The Bone Temple",
+     "film_title_latin": "28 Years Later: The Bone Temple",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
     }
    ],
    "status": "ok"
