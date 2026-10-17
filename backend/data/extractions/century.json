@@ -1,19 +1,8 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-17T07:30:24+03:00",
+ "last_checked": "2026-10-17T13:47:47+03:00",
  "last_error": null,
  "posters": {
-  "2320-0": {
-   "attempts": 0,
-   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-   "image": "posters/century/2320-0.jpg",
-   "index": 0,
-   "post_id": 2320,
-   "post_url": "https://t.me/Century_Cinema/2320",
-   "posted_at": "2026-09-17T05:27:08+00:00",
-   "processed_at": "2026-10-05T21:57:09+03:00",
-   "status": "expired"
-  },
   "2321-0": {
    "attempts": 0,
    "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h2m50.096541663s.', 'status': 'R",
@@ -1992,6 +1981,149 @@
      "language": null,
      "price_birr": null,
      "time": "17:45"
+    }
+   ],
+   "status": "ok"
+  },
+  "2334-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-17T13:48:07+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Single-event promotional poster with a date ('October 18') but no screening times printed on the image.",
+   "post_id": 2334,
+   "post_url": "https://t.me/Century_Cinema/2334",
+   "posted_at": "2026-10-17T05:29:39+00:00",
+   "processed_at": "2026-10-17T13:48:07+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
+  },
+  "2335-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-17T13:47:48+03:00",
+   "image": "posters/century/2335-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 2335,
+   "post_url": "https://t.me/Century_Cinema/2335",
+   "posted_at": "2026-10-17T07:24:21+00:00",
+   "processed_at": "2026-10-17T13:47:48+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "MATCHBOX THE MOVIE",
+     "film_title_latin": "MATCHBOX THE MOVIE",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:15"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-17",
+     "film_title": "THE POUT-POUT FISH",
+     "film_title_latin": "THE POUT-POUT FISH",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
     }
    ],
    "status": "ok"
