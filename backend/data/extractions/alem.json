@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-18T14:10:02+03:00",
+ "last_checked": "2026-10-18T18:54:38+03:00",
  "last_error": null,
  "posters": {
   "2304-0": {
@@ -2902,6 +2902,22 @@
     }
    ],
    "status": "ok"
+  },
+  "2321-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-18T18:54:40+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "The image is a promotional movie poster for 'DOLOVIYA' with no screening dates or showtimes printed.",
+   "post_id": 2321,
+   "post_url": "https://t.me/alem_cinema/2321",
+   "posted_at": "2026-10-18T15:41:31+00:00",
+   "processed_at": "2026-10-18T18:54:40+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
