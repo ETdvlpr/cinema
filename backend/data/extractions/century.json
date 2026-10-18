@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-17T23:38:30+03:00",
+ "last_checked": "2026-10-18T07:37:40+03:00",
  "last_error": null,
  "posters": {
   "2321-0": {
@@ -2124,6 +2124,89 @@
      "language": null,
      "price_birr": null,
      "time": "12:00"
+    }
+   ],
+   "status": "ok"
+  },
+  "2336-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-18T07:37:42+03:00",
+   "image": "posters/century/2336-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 2336,
+   "post_url": "https://t.me/Century_Cinema/2336",
+   "posted_at": "2026-10-18T03:18:24+00:00",
+   "processed_at": "2026-10-18T07:37:42+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.95,
+     "date": "2026-10-18",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:15"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-18",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-18",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-18",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "20:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-18",
+     "film_title": "THE POUT-POUT FISH",
+     "film_title_latin": "THE POUT-POUT FISH",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:15"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-18",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:15"
     }
    ],
    "status": "ok"
