@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-18T23:46:25+03:00",
+ "last_checked": "2026-10-19T07:44:01+03:00",
  "last_error": null,
  "posters": {
   "2321-0": {
@@ -2207,6 +2207,375 @@
      "language": null,
      "price_birr": null,
      "time": "18:15"
+    }
+   ],
+   "status": "ok"
+  },
+  "2337-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-19T07:44:03+03:00",
+   "image": "posters/century/2337-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 2337,
+   "post_url": "https://t.me/Century_Cinema/2337",
+   "posted_at": "2026-10-18T22:49:04+00:00",
+   "processed_at": "2026-10-19T07:44:03+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-10-19",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-20",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-21",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-22",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-19",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-20",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-21",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-22",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-19",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-20",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-21",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-22",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-19",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-20",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-21",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-22",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-19",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-20",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-21",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-22",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-19",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-20",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-21",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-22",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-19",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-20",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-21",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-22",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-19",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-20",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-21",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-22",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
     }
    ],
    "status": "ok"
