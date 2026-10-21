@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-21T20:14:45+03:00",
+ "last_checked": "2026-10-22T00:45:12+03:00",
  "last_error": null,
  "posters": {
   "2322-0": {
@@ -2568,6 +2568,44 @@
     }
    ],
    "status": "ok"
+  },
+  "2338-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-22T00:45:13+03:00",
+   "image": "posters/century/2338-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "Single film screening for Halloween. Times given in Ethiopian local time (11:00 LT).",
+   "post_id": 2338,
+   "post_url": "https://t.me/Century_Cinema/2338",
+   "posted_at": "2026-10-21T21:02:39+00:00",
+   "processed_at": "2026-10-22T00:45:13+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 31,
+      "film_title": "SCREAM",
+      "film_title_latin": "Scream",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 0,
+      "month": 10,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": null
+     },
+     "reason": "weekday does not match date"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   }
  }
 }
