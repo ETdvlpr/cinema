@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-21T14:52:56+03:00",
+ "last_checked": "2026-10-21T20:14:45+03:00",
  "last_error": null,
  "posters": {
   "2305-0": {
@@ -2932,6 +2932,22 @@
    "post_url": "https://t.me/alem_cinema/2324",
    "posted_at": "2026-10-20T15:05:33+00:00",
    "processed_at": "2026-10-20T20:10:44+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
+  },
+  "2325-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-21T20:14:53+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image is an advertisement for a theater play (Yegush) with a sold out sign, not a schedule.",
+   "post_id": 2325,
+   "post_url": "https://t.me/alem_cinema/2325",
+   "posted_at": "2026-10-21T12:30:51+00:00",
+   "processed_at": "2026-10-21T20:14:53+03:00",
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
