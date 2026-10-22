@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-10-22T07:51:42+03:00",
+ "last_checked": "2026-10-22T14:56:27+03:00",
  "last_error": null,
  "posters": {
   "4786-0": {
@@ -5367,6 +5367,22 @@
     }
    ],
    "status": "ok"
+  },
+  "4822-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-22T14:56:56+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Promotional countdown announcement for pre-booking; does not contain a screening schedule.",
+   "post_id": 4822,
+   "post_url": "https://t.me/GastCinema/4822",
+   "posted_at": "2026-10-22T07:49:00+00:00",
+   "processed_at": "2026-10-22T14:56:56+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
