@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-22T14:56:27+03:00",
+ "last_checked": "2026-10-22T20:13:20+03:00",
  "last_error": null,
  "posters": {
   "2305-0": {
@@ -2951,6 +2951,82 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "2326-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-22T20:13:22+03:00",
+   "image": "posters/alem/2326-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image promotes a single screening on Friday Tikimt 13 (October 23, 2026) at 12:00 local Ethiopian time (night).",
+   "post_id": 2326,
+   "post_url": "https://t.me/alem_cinema/2326",
+   "posted_at": "2026-10-22T15:06:28+00:00",
+   "processed_at": "2026-10-22T20:13:22+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": 13,
+      "film_title": "አቧረው ጨሰ",
+      "film_title_latin": "Abowarew Chesse",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": "Amharic",
+      "minute": 0,
+      "month": 2,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": 2019
+     },
+     "reason": "time outside screening hours"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
+  },
+  "2326-1": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-22T20:13:40+03:00",
+   "image": "posters/alem/2326-1.jpg",
+   "index": 1,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The poster promotes a single comedy theatre screening on Friday at 12:00 local time (night).",
+   "post_id": 2326,
+   "post_url": "https://t.me/alem_cinema/2326",
+   "posted_at": "2026-10-22T15:06:28+00:00",
+   "processed_at": "2026-10-22T20:13:40+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "አቧረው ጨሰ",
+      "film_title_latin": "Aboware Chesse",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": "Amharic",
+      "minute": 0,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "friday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   }
  }
 }
