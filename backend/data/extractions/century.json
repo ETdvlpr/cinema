@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-23T07:53:54+03:00",
+ "last_checked": "2026-10-23T14:42:36+03:00",
  "last_error": null,
  "posters": {
   "2322-0": {
@@ -2606,6 +2606,18 @@
    ],
    "showtimes": [],
    "status": "unreadable"
+  },
+  "2339-0": {
+   "attempts": 1,
+   "error": "HTTPStatusError: Server error '500 Internal Server Error' for url 'https://cdn4.telesco.pe/file/So4lVtArTlOItqASnI9834qXhPy1Mbitobza-lxUBDsnHrVpqdR5sFXleJUV9HkU2nAk7OafxJnEhMg8QMfb3YR8QkI7EIAjeif8aTJnVQsDK9DnEx08hVAHeYQliW9-fBQt58AWX8fF1uRVcV9V41E8SmxXquECypP8OopzQYDlE7u1PL5pDPrB_Yb54awUPTVsak6N6Nr5StMRBWpXW-TCdBbR80IJlMtxe8e2uvMhsz9_jTOdF09qyp57LQnMP_xImDToinCpSrp6_e2Ex47XAYIdnokKFMveKYMtdsyFS4GNFZCRz4pCNTpe-PaHnF-2Erp62F2hYpVlLVCbLQ.jpg'\nFor more information check: https://developer.mozilla.or",
+   "first_attempt_at": "2026-10-23T14:42:38+03:00",
+   "image": null,
+   "index": 0,
+   "post_id": 2339,
+   "post_url": "https://t.me/Century_Cinema/2339",
+   "posted_at": "2026-10-23T06:12:11+00:00",
+   "processed_at": "2026-10-23T14:42:38+03:00",
+   "status": "error"
   }
  }
 }
