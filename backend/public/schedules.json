@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T18:58:55+03:00",
+ "generated_at": "2026-10-24T23:52:47+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-24T18:58:55+03:00",
+   "last_checked": "2026-10-24T23:52:47+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-22T17:37:40+00:00",
    "latest_poster": {
@@ -570,7 +570,7 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-24T18:58:55+03:00",
+   "last_checked": "2026-10-24T23:52:47+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-23T06:12:11+00:00",
    "latest_poster": {
@@ -821,7 +821,7 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-24T18:58:55+03:00",
+   "last_checked": "2026-10-24T23:52:47+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-23T18:17:19+00:00",
    "latest_poster": {
@@ -1436,13 +1436,13 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-24T18:58:55+03:00",
+   "last_checked": "2026-10-24T23:52:47+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-10-22T10:12:04+00:00",
+   "latest_schedule_posted_at": "2026-10-24T20:34:20+00:00",
    "latest_poster": {
-    "image": "posters/chewata/75-0.jpg",
-    "post_url": "https://t.me/chewatacinema/75",
-    "posted_at": "2026-10-22T10:12:04+00:00",
+    "image": "posters/chewata/76-0.jpg",
+    "post_url": "https://t.me/chewatacinema/76",
+    "posted_at": "2026-10-24T20:34:20+00:00",
     "status": "ok"
    },
    "showtimes": [
@@ -1486,43 +1486,17 @@
      "post_url": "https://t.me/chewatacinema/75"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.95,
      "date": "2026-10-25",
-     "film_title": "Fall 2 Deadpoint",
-     "film_title_latin": "Fall 2 Deadpoint",
+     "film_title": "Manchester United vs AFC Bournemouth",
+     "film_title_latin": "Manchester United vs AFC Bournemouth",
      "format": null,
      "hall": null,
      "language": null,
      "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/chewata/75-0.jpg",
-     "post_url": "https://t.me/chewatacinema/75"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-25",
-     "film_title": "Spider-Man: Brand New Day",
-     "film_title_latin": "Spider-Man: Brand New Day",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "15:30",
-     "poster": "posters/chewata/75-0.jpg",
-     "post_url": "https://t.me/chewatacinema/75"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-25",
-     "film_title": "Insidious: Out of the Further",
-     "film_title_latin": "Insidious: Out of the Further",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "18:00",
-     "poster": "posters/chewata/75-0.jpg",
-     "post_url": "https://t.me/chewatacinema/75"
+     "time": "17:00",
+     "poster": "posters/chewata/76-0.jpg",
+     "post_url": "https://t.me/chewatacinema/76"
     }
    ]
   },
@@ -1531,7 +1505,7 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-24T18:58:55+03:00",
+   "last_checked": "2026-10-24T23:52:47+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-21T15:00:13+00:00",
    "latest_poster": {
@@ -1890,23 +1864,6 @@
    "backdrop_path": null,
    "thumbnail": "films/enteneh.jpg"
   },
-  "fall2deadpoint": {
-   "title": "Fall 2: Deadpoint",
-   "overview": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
-   "release_date": "2026-09-01",
-   "runtime": 98,
-   "genres": [
-    "Thriller"
-   ],
-   "rating": 7.3,
-   "certification": "PG-13",
-   "tmdb_id": 1101412,
-   "tmdb_url": "https://www.themoviedb.org/movie/1101412",
-   "trailer_url": "https://www.youtube.com/watch?v=Rsztt5qDj_A",
-   "poster_path": "/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
-   "backdrop_path": "/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
-   "thumbnail": "films/fall2deadpoint.jpg"
-  },
   "hadat": {
    "title": "Hadat",
    "overview": null,
@@ -1972,6 +1929,21 @@
    "poster_path": null,
    "backdrop_path": null,
    "thumbnail": "films/konjo.jpg"
+  },
+  "manchesterunitedvsafcbournemouth": {
+   "title": "Manchester United vs AFC Bournemouth",
+   "overview": null,
+   "release_date": null,
+   "runtime": null,
+   "genres": [],
+   "rating": null,
+   "certification": null,
+   "tmdb_id": null,
+   "tmdb_url": null,
+   "trailer_url": null,
+   "poster_path": null,
+   "backdrop_path": null,
+   "thumbnail": null
   },
   "matchbox": {
    "title": "Matchbox",

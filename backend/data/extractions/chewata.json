@@ -1,6 +1,6 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-10-24T18:58:55+03:00",
+ "last_checked": "2026-10-24T23:52:47+03:00",
  "last_error": null,
  "posters": {
   "65-0": {
@@ -1228,6 +1228,34 @@
      "language": null,
      "price_birr": null,
      "time": "18:00"
+    }
+   ],
+   "status": "ok"
+  },
+  "76-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-24T23:52:49+03:00",
+   "image": "posters/chewata/76-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Live football screening (Premier League).",
+   "post_id": 76,
+   "post_url": "https://t.me/chewatacinema/76",
+   "posted_at": "2026-10-24T20:34:20+00:00",
+   "processed_at": "2026-10-24T23:52:49+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.95,
+     "date": "2026-10-25",
+     "film_title": "Manchester United vs AFC Bournemouth",
+     "film_title_latin": "Manchester United vs AFC Bournemouth",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
     }
    ],
    "status": "ok"
