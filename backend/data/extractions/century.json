@@ -1,19 +1,8 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-24T07:40:09+03:00",
+ "last_checked": "2026-10-24T14:05:03+03:00",
  "last_error": null,
  "posters": {
-  "2322-0": {
-   "attempts": 0,
-   "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-   "image": "posters/century/2322-0.jpg",
-   "index": 0,
-   "post_id": 2322,
-   "post_url": "https://t.me/Century_Cinema/2322",
-   "posted_at": "2026-09-24T05:40:02+00:00",
-   "processed_at": "2026-10-05T21:56:54+03:00",
-   "status": "expired"
-  },
   "2323-0": {
    "attempts": 0,
    "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",

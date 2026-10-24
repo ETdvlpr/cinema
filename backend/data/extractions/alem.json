@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-24T07:40:09+03:00",
+ "last_checked": "2026-10-24T14:05:03+03:00",
  "last_error": null,
  "posters": {
   "2308-0": {
@@ -3726,6 +3726,317 @@
     }
    ],
    "status": "ok"
+  },
+  "2329-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-24T14:05:05+03:00",
+   "image": "posters/alem/2329-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Listed under heading 'ቅዳሜ እና እሁድን በዓለም ሲኒማ ቦሌ' without explicit calendar dates. Times are in Ethiopian local time clock.",
+   "post_id": 2329,
+   "post_url": "https://t.me/alem_cinema/2329",
+   "posted_at": "2026-10-24T10:42:47+00:00",
+   "processed_at": "2026-10-24T14:05:05+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "አባሪው ጨሰ",
+      "film_title_latin": "Abariw Chese",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "sunday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ጸሐይ",
+      "film_title_latin": "Tsehay",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "saturday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ጸሐይ",
+      "film_title_latin": "Tsehay",
+      "format": null,
+      "hall": null,
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "sunday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ዶሎቪያ",
+      "film_title_latin": "Doloviya",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "saturday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ዶሎቪያ",
+      "film_title_latin": "Doloviya",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "sunday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 20,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "saturday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ሁለት ፊት",
+      "film_title_latin": "Hulet Fit",
+      "format": null,
+      "hall": null,
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "sunday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ወንጀቹ አልተወለዱም",
+      "film_title_latin": "Wenjechu Altweledum",
+      "format": null,
+      "hall": null,
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "saturday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ወንጀቹ አልተወለዱም",
+      "film_title_latin": "Wenjechu Altweledum",
+      "format": null,
+      "hall": null,
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "sunday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "አንተነህ",
+      "film_title_latin": "Anteneh",
+      "format": null,
+      "hall": null,
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "saturday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ሳላያት",
+      "film_title_latin": "Salayat",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "saturday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ሳላያት",
+      "film_title_latin": "Salayat",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 20,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "sunday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Ken Zerafi",
+      "format": null,
+      "hall": null,
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "saturday",
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "ethiopian",
+      "day": null,
+      "film_title": "ቀን ዘራፊ",
+      "film_title_latin": "Ken Zerafi",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "sunday",
+      "year": null
+     },
+     "reason": "missing date"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   }
  }
 }
