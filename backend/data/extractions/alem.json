@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-25T14:34:47+03:00",
+ "last_checked": "2026-10-25T19:25:12+03:00",
  "last_error": null,
  "posters": {
   "2312-0": {
@@ -4028,16 +4028,20 @@
    "status": "unreadable"
   },
   "2330-0": {
-   "attempts": 1,
-   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "attempts": 2,
+   "error": null,
    "first_attempt_at": "2026-10-25T14:38:54+03:00",
-   "image": "posters/alem/2330-0.jpg",
+   "image": null,
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image is a promotional poster for a single theater play titled \"አቧረው ጨሰ\" (Abowaw Ches) at Alem Cinema, not a multi-film schedule.",
    "post_id": 2330,
    "post_url": "https://t.me/alem_cinema/2330",
    "posted_at": "2026-10-25T08:46:21+00:00",
-   "processed_at": "2026-10-25T14:38:54+03:00",
-   "status": "error"
+   "processed_at": "2026-10-25T19:25:23+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
