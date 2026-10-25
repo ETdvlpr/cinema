@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-10-25T07:44:44+03:00",
+ "last_checked": "2026-10-25T14:34:47+03:00",
  "last_error": null,
  "posters": {
   "4790-0": {
@@ -5873,6 +5873,22 @@
     }
    ],
    "status": "ok"
+  },
+  "4825-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-25T14:34:49+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Advertisement for Gast Mall Indoor Golf online booking, not a movie schedule.",
+   "post_id": 4825,
+   "post_url": "https://t.me/GastCinema/4825",
+   "posted_at": "2026-10-25T11:09:06+00:00",
+   "processed_at": "2026-10-25T14:34:49+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }

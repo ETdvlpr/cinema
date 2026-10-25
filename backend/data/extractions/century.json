@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-25T07:44:44+03:00",
+ "last_checked": "2026-10-25T14:34:47+03:00",
  "last_error": null,
  "posters": {
   "2323-0": {
@@ -2901,6 +2901,122 @@
      "date": "2026-10-25",
      "film_title": "THE POUT-POUT FISH",
      "film_title_latin": "THE POUT-POUT FISH",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:45"
+    }
+   ],
+   "status": "ok"
+  },
+  "2340-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-25T14:43:22+03:00",
+   "image": "posters/century/2340-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 2340,
+   "post_url": "https://t.me/Century_Cinema/2340",
+   "posted_at": "2026-10-25T07:17:08+00:00",
+   "processed_at": "2026-10-25T14:43:22+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.98,
+     "date": "2026-10-25",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-10-25",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-10-25",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:30"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-10-25",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-10-25",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-10-25",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-10-25",
+     "film_title": "THE WEIGHT",
+     "film_title_latin": "THE WEIGHT",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-10-25",
+     "film_title": "HEART OF THE BEAST",
+     "film_title_latin": "HEART OF THE BEAST",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-10-25",
+     "film_title": "SHAUN THE SHEEP: THE BEAST OF MOSSY BOTTOM",
+     "film_title_latin": "SHAUN THE SHEEP: THE BEAST OF MOSSY BOTTOM",
      "format": "2D",
      "hall": "C3",
      "language": null,

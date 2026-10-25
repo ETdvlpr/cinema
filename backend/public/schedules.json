@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T07:44:44+03:00",
+ "generated_at": "2026-10-25T14:34:47+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,14 +7,14 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-25T07:44:44+03:00",
+   "last_checked": "2026-10-25T14:34:47+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-22T17:37:40+00:00",
    "latest_poster": {
-    "image": "posters/alem/2329-0.jpg",
-    "post_url": "https://t.me/alem_cinema/2329",
-    "posted_at": "2026-10-24T10:42:47+00:00",
-    "status": "unreadable"
+    "image": "posters/alem/2330-0.jpg",
+    "post_url": "https://t.me/alem_cinema/2330",
+    "posted_at": "2026-10-25T08:46:21+00:00",
+    "status": "error"
    },
    "showtimes": [
     {
@@ -297,18 +297,18 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-25T07:44:44+03:00",
+   "last_checked": "2026-10-25T14:34:47+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-10-23T06:12:11+00:00",
+   "latest_schedule_posted_at": "2026-10-25T07:17:08+00:00",
    "latest_poster": {
-    "image": "posters/century/2339-0.jpg",
-    "post_url": "https://t.me/Century_Cinema/2339",
-    "posted_at": "2026-10-23T06:12:11+00:00",
+    "image": "posters/century/2340-0.jpg",
+    "post_url": "https://t.me/Century_Cinema/2340",
+    "posted_at": "2026-10-25T07:17:08+00:00",
     "status": "ok"
    },
    "showtimes": [
     {
-     "confidence": 0.95,
+     "confidence": 0.98,
      "date": "2026-10-25",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -317,11 +317,11 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/century/2339-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2339"
+     "poster": "posters/century/2340-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2340"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.98,
      "date": "2026-10-25",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -330,24 +330,24 @@
      "language": null,
      "price_birr": null,
      "time": "13:00",
-     "poster": "posters/century/2339-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2339"
+     "poster": "posters/century/2340-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2340"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.98,
      "date": "2026-10-25",
-     "film_title": "THE POUT-POUT FISH",
-     "film_title_latin": "THE POUT-POUT FISH",
+     "film_title": "SHAUN THE SHEEP: THE BEAST OF MOSSY BOTTOM",
+     "film_title_latin": "SHAUN THE SHEEP: THE BEAST OF MOSSY BOTTOM",
      "format": "2D",
      "hall": "C3",
      "language": null,
      "price_birr": null,
      "time": "13:45",
-     "poster": "posters/century/2339-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2339"
+     "poster": "posters/century/2340-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2340"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.98,
      "date": "2026-10-25",
      "film_title": "STREET FIGHTER",
      "film_title_latin": "STREET FIGHTER",
@@ -356,11 +356,11 @@
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/century/2339-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2339"
+     "poster": "posters/century/2340-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2340"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.98,
      "date": "2026-10-25",
      "film_title": "THE WEIGHT",
      "film_title_latin": "THE WEIGHT",
@@ -369,11 +369,11 @@
      "language": null,
      "price_birr": null,
      "time": "15:30",
-     "poster": "posters/century/2339-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2339"
+     "poster": "posters/century/2340-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2340"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.98,
      "date": "2026-10-25",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -382,11 +382,11 @@
      "language": null,
      "price_birr": null,
      "time": "17:00",
-     "poster": "posters/century/2339-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2339"
+     "poster": "posters/century/2340-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2340"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.98,
      "date": "2026-10-25",
      "film_title": "WHALEFALL",
      "film_title_latin": "WHALEFALL",
@@ -395,11 +395,11 @@
      "language": null,
      "price_birr": null,
      "time": "17:30",
-     "poster": "posters/century/2339-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2339"
+     "poster": "posters/century/2340-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2340"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.98,
      "date": "2026-10-25",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -408,11 +408,11 @@
      "language": null,
      "price_birr": null,
      "time": "19:00",
-     "poster": "posters/century/2339-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2339"
+     "poster": "posters/century/2340-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2340"
     },
     {
-     "confidence": 0.95,
+     "confidence": 0.98,
      "date": "2026-10-25",
      "film_title": "STREET FIGHTER",
      "film_title_latin": "STREET FIGHTER",
@@ -421,8 +421,8 @@
      "language": null,
      "price_birr": null,
      "time": "19:30",
-     "poster": "posters/century/2339-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2339"
+     "poster": "posters/century/2340-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2340"
     }
    ]
   },
@@ -431,7 +431,7 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-25T07:44:44+03:00",
+   "last_checked": "2026-10-25T14:34:47+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-23T18:17:19+00:00",
    "latest_poster": {
@@ -747,7 +747,7 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-25T07:44:44+03:00",
+   "last_checked": "2026-10-25T14:34:47+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-24T20:34:20+00:00",
    "latest_poster": {
@@ -777,7 +777,7 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-25T07:44:44+03:00",
+   "last_checked": "2026-10-25T14:34:47+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-21T15:00:13+00:00",
    "latest_poster": {
@@ -1148,6 +1148,25 @@
    "backdrop_path": null,
    "thumbnail": "films/selingfit.jpg"
   },
+  "shaunthesheepthebeastofmossybottom": {
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "overview": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
+   "release_date": "2026-09-17",
+   "runtime": 81,
+   "genres": [
+    "Animation",
+    "Science Fiction",
+    "Comedy"
+   ],
+   "rating": 7.4,
+   "certification": "PG",
+   "tmdb_id": 1477104,
+   "tmdb_url": "https://www.themoviedb.org/movie/1477104",
+   "trailer_url": "https://www.youtube.com/watch?v=UZ46Smi6mOw",
+   "poster_path": "/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg",
+   "backdrop_path": "/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+   "thumbnail": "films/shaunthesheepthebeastofmossybottom.jpg"
+  },
   "spidermanbrandnewday": {
    "title": "Spider-Man: Brand New Day",
    "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
@@ -1202,26 +1221,6 @@
    "poster_path": "/vfZxVHextAGC70zrNhS8lsROqP1.jpg",
    "backdrop_path": "/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
    "thumbnail": "films/thelovehypothesis.jpg"
-  },
-  "thepoutpoutfish": {
-   "title": "The Pout-Pout Fish",
-   "overview": "Living on a rundown shipwreck, Mr. Fish one day discovers a hyperactive young sea dragon Pip – who had mistaken his home for a junkyard – pilfering his belongings. The heated argument that ensues leaves both their houses in ruin. But there is hope! Embarking on a seemingly impossible quest in search of the mythical 'Shimmer' to grant them a wish, there’s only one problem: someone else is on the hunt...",
-   "release_date": "2026-01-01",
-   "runtime": 91,
-   "genres": [
-    "Animation",
-    "Family",
-    "Adventure",
-    "Comedy"
-   ],
-   "rating": null,
-   "certification": "PG",
-   "tmdb_id": 1146058,
-   "tmdb_url": "https://www.themoviedb.org/movie/1146058",
-   "trailer_url": "https://www.youtube.com/watch?v=yeAxa2_zpng",
-   "poster_path": "/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
-   "backdrop_path": "/6qQQhhF87Rm1z2TYhXAmoPiEHME.jpg",
-   "thumbnail": "films/thepoutpoutfish.jpg"
   },
   "theweight": {
    "title": "The Weight",
