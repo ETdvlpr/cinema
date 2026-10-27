@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-27T01:42:09+03:00",
+ "last_checked": "2026-10-27T08:09:16+03:00",
  "last_error": null,
  "posters": {
   "2312-0": {
@@ -4044,16 +4044,458 @@
    "status": "not_schedule"
   },
   "2331-0": {
-   "attempts": 2,
-   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "attempts": 3,
+   "error": null,
    "first_attempt_at": "2026-10-26T16:07:49+03:00",
    "image": "posters/alem/2331-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
    "post_id": 2331,
    "post_url": "https://t.me/alem_cinema/2331",
    "posted_at": "2026-10-26T07:02:13+00:00",
-   "processed_at": "2026-10-27T01:42:10+03:00",
-   "status": "error"
+   "processed_at": "2026-10-27T08:09:18+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ጎሽ ንት",
+      "film_title_latin": "Gosh Net",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ባለች እና መሳፍንት",
+      "film_title_latin": "Balet Ena Mesafint",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ዶሎሚት",
+      "film_title_latin": "Dolomit",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ዶሎሚት",
+      "film_title_latin": "Dolomit",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ዶሎሚት",
+      "film_title_latin": "Dolomit",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ሰስት ፈት",
+      "film_title_latin": "Sest Fet",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ጸዳይ",
+      "film_title_latin": "Tseday",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ጸዳይ",
+      "film_title_latin": "Tseday",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ማንኛውም አሳታዋቂ",
+      "film_title_latin": "Manyawew Asatawaki",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 20,
+      "month": null,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "አቲንዩ",
+      "film_title_latin": "Atinyu",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "አቲንዩ",
+      "film_title_latin": "Atinyu",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ሳለየት",
+      "film_title_latin": "Saleyet",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "monday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ሳለየት",
+      "film_title_latin": "Saleyet",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 40,
+      "month": null,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ቀን ዘላቂ",
+      "film_title_latin": "Qen Zelaki",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 30,
+      "month": null,
+      "period": "day",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "tuesday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ቀን ዘላቂ",
+      "film_title_latin": "Qen Zelaki",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "night",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "thursday",
+      "year": null
+     },
+     "reason": "time outside screening hours"
+    }
+   ],
+   "showtimes": [
+    {
+     "confidence": 0.9,
+     "date": "2026-10-28",
+     "film_title": "ዶሎሚት",
+     "film_title_latin": "Dolomit",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-26",
+     "film_title": "ሰስት ፈት",
+     "film_title_latin": "Sest Fet",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-27",
+     "film_title": "ሰስት ፈት",
+     "film_title_latin": "Sest Fet",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-29",
+     "film_title": "ሰስት ፈት",
+     "film_title_latin": "Sest Fet",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-27",
+     "film_title": "ጸዳይ",
+     "film_title_latin": "Tseday",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-29",
+     "film_title": "ጸዳይ",
+     "film_title_latin": "Tseday",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-27",
+     "film_title": "ማንኛውም አሳታዋቂ",
+     "film_title_latin": "Manyawew Asatawaki",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-28",
+     "film_title": "ማንኛውም አሳታዋቂ",
+     "film_title_latin": "Manyawew Asatawaki",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-29",
+     "film_title": "ማንኛውም አሳታዋቂ",
+     "film_title_latin": "Manyawew Asatawaki",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-26",
+     "film_title": "አቲንዩ",
+     "film_title_latin": "Atinyu",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.9,
+     "date": "2026-10-28",
+     "film_title": "ቀን ዘላቂ",
+     "film_title_latin": "Qen Zelaki",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    }
+   ],
+   "status": "ok"
   }
  }
 }

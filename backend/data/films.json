@@ -154,6 +154,16 @@
    "status": "skipped_amharic"
   }
  },
+ "atinyu": {
+  "first_seen": "2026-10-26T07:02:13+00:00",
+  "last_seen": "2026-10-26T07:02:13+00:00",
+  "thumbnail": {
+   "image": "films/atinyu.jpg",
+   "post_url": "https://t.me/alem_cinema/2331",
+   "posted_at": "2026-10-26T07:02:13+00:00"
+  },
+  "title": "Atinyu"
+ },
  "avengersdoomsday": {
   "first_seen": "2026-10-12T05:20:48+00:00",
   "last_seen": "2026-10-12T05:20:48+00:00",
@@ -166,7 +176,7 @@
  },
  "backrooms": {
   "first_seen": "2026-10-25T20:01:01+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/backrooms.jpg",
    "post_url": "https://t.me/chewatacinema/77",
@@ -219,6 +229,16 @@
    "status": "skipped_amharic"
   }
  },
+ "baletenamesafint": {
+  "first_seen": "2026-10-26T07:02:13+00:00",
+  "last_seen": "2026-10-26T07:02:13+00:00",
+  "thumbnail": {
+   "image": "films/baletenamesafint.jpg",
+   "post_url": "https://t.me/alem_cinema/2331",
+   "posted_at": "2026-10-26T07:02:13+00:00"
+  },
+  "title": "Balet Ena Mesafint"
+ },
  "baleyot": {
   "first_seen": "2026-10-15T18:09:49+00:00",
   "last_seen": "2026-10-18T23:46:25+03:00",
@@ -247,7 +267,7 @@
  },
  "byanymeans": {
   "first_seen": "2026-10-23T18:17:19+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/byanymeans.jpg",
    "post_url": "https://t.me/GastCinema/4826",
@@ -297,7 +317,7 @@
  },
  "coyotevsacme": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/coyotevsacme.jpg",
    "post_url": "https://t.me/GastCinema/4826",
@@ -322,6 +342,19 @@
    "status": "matched",
    "title": "Coyote vs. Acme",
    "trailer_youtube_key": "H-43VeYGiPM"
+  }
+ },
+ "dolomit": {
+  "first_seen": "2026-10-26T07:02:13+00:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
+  "thumbnail": {
+   "image": "films/dolomit.jpg",
+   "post_url": "https://t.me/alem_cinema/2331",
+   "posted_at": "2026-10-26T07:02:13+00:00"
+  },
+  "title": "Dolomit",
+  "tmdb": {
+   "status": "skipped_amharic"
   }
  },
  "dolomite": {
@@ -448,6 +481,16 @@
    "trailer_youtube_key": "Rsztt5qDj_A"
   }
  },
+ "goshnet": {
+  "first_seen": "2026-10-26T07:02:13+00:00",
+  "last_seen": "2026-10-26T07:02:13+00:00",
+  "thumbnail": {
+   "image": "films/goshnet.jpg",
+   "post_url": "https://t.me/alem_cinema/2331",
+   "posted_at": "2026-10-26T07:02:13+00:00"
+  },
+  "title": "Gosh Net"
+ },
  "gushen": {
   "first_seen": "2026-10-12T15:25:32+00:00",
   "last_seen": "2026-10-12T15:25:32+00:00",
@@ -499,7 +542,7 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/GastCinema/4826",
@@ -687,9 +730,22 @@
    "status": "none"
   }
  },
+ "manyawewasatawaki": {
+  "first_seen": "2026-10-26T07:02:13+00:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
+  "thumbnail": {
+   "image": "films/manyawewasatawaki.jpg",
+   "post_url": "https://t.me/alem_cinema/2331",
+   "posted_at": "2026-10-26T07:02:13+00:00"
+  },
+  "title": "Manyawew Asatawaki",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "masterplan": {
   "first_seen": "2026-10-25T20:01:01+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/masterplan.jpg",
    "post_url": "https://t.me/chewatacinema/77",
@@ -717,7 +773,7 @@
  },
  "matchbox": {
   "first_seen": "2026-10-18T19:45:32+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/matchbox.jpg",
    "post_url": "https://t.me/chewatacinema/77",
@@ -820,7 +876,7 @@
  },
  "memoirofamurderer": {
   "first_seen": "2026-10-25T20:01:01+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/memoirofamurderer.jpg",
    "post_url": "https://t.me/chewatacinema/77",
@@ -847,7 +903,7 @@
  },
  "minionsandmonsters": {
   "first_seen": "2026-10-09T19:48:18+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/minionsandmonsters.jpg",
    "post_url": "https://t.me/GastCinema/4826",
@@ -896,6 +952,19 @@
    "status": "matched",
    "title": "Onslaught",
    "trailer_youtube_key": "L24CYVpQ-LI"
+  }
+ },
+ "qenzelaki": {
+  "first_seen": "2026-10-26T07:02:13+00:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
+  "thumbnail": {
+   "image": "films/qenzelaki.jpg",
+   "post_url": "https://t.me/alem_cinema/2331",
+   "posted_at": "2026-10-26T07:02:13+00:00"
+  },
+  "title": "Qen Zelaki",
+  "tmdb": {
+   "status": "skipped_amharic"
   }
  },
  "qenzelefi": {
@@ -965,7 +1034,7 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
    "post_url": "https://t.me/GastCinema/4826",
@@ -1069,6 +1138,16 @@
    "status": "skipped_amharic"
   }
  },
+ "saleyet": {
+  "first_seen": "2026-10-26T07:02:13+00:00",
+  "last_seen": "2026-10-26T07:02:13+00:00",
+  "thumbnail": {
+   "image": "films/saleyet.jpg",
+   "post_url": "https://t.me/alem_cinema/2331",
+   "posted_at": "2026-10-26T07:02:13+00:00"
+  },
+  "title": "Saleyet"
+ },
  "selatfet": {
   "first_seen": "2026-10-04T15:31:57+00:00",
   "last_seen": "2026-10-08T16:34:00+03:00",
@@ -1091,6 +1170,19 @@
    "posted_at": "2026-10-22T17:37:40+00:00"
   },
   "title": "Seling Fit",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "sestfet": {
+  "first_seen": "2026-10-26T07:02:13+00:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
+  "thumbnail": {
+   "image": "films/sestfet.jpg",
+   "post_url": "https://t.me/alem_cinema/2331",
+   "posted_at": "2026-10-26T07:02:13+00:00"
+  },
+  "title": "Sest Fet",
   "tmdb": {
    "status": "skipped_amharic"
   }
@@ -1139,7 +1231,7 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
    "post_url": "https://t.me/GastCinema/4826",
@@ -1168,7 +1260,7 @@
  },
  "streetfighter": {
   "first_seen": "2026-10-14T18:27:00+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/streetfighter.jpg",
    "post_url": "https://t.me/GastCinema/4826",
@@ -1359,7 +1451,7 @@
  },
  "thelovehypothesis": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/thelovehypothesis.jpg",
    "post_url": "https://t.me/garadmulticinema/446",
@@ -1472,6 +1564,19 @@
    "trailer_youtube_key": "7YpuMymmiJ8"
   }
  },
+ "tseday": {
+  "first_seen": "2026-10-26T07:02:13+00:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
+  "thumbnail": {
+   "image": "films/tseday.jpg",
+   "post_url": "https://t.me/alem_cinema/2331",
+   "posted_at": "2026-10-26T07:02:13+00:00"
+  },
+  "title": "Tseday",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "tsehay": {
   "first_seen": "2026-10-24T10:42:47+00:00",
   "last_seen": "2026-10-24T10:42:47+00:00",
@@ -1514,7 +1619,7 @@
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
    "post_url": "https://t.me/GastCinema/4826",
@@ -1591,7 +1696,7 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-27T01:42:09+03:00",
+  "last_seen": "2026-10-27T08:09:16+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
    "post_url": "https://t.me/GastCinema/4826",
