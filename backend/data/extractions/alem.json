@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-27T08:09:16+03:00",
+ "last_checked": "2026-10-27T15:15:52+03:00",
  "last_error": null,
  "posters": {
   "2312-0": {
@@ -4496,6 +4496,44 @@
     }
    ],
    "status": "ok"
+  },
+  "2332-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-27T15:15:54+03:00",
+   "image": "posters/alem/2332-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The schedule indicates the theater show plays every Wednesday at 12 o'clock Ethiopian time.",
+   "post_id": 2332,
+   "post_url": "https://t.me/alem_cinema/2332",
+   "posted_at": "2026-10-27T08:43:21+00:00",
+   "processed_at": "2026-10-27T15:15:54+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "የጉሽን ቴአትር",
+      "film_title_latin": "Yegushin Teater",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": "wednesday",
+      "year": null
+     },
+     "reason": "missing date"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   }
  }
 }
