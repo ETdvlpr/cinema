@@ -1,19 +1,8 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-10-27T21:04:41+03:00",
+ "last_checked": "2026-10-28T01:16:58+03:00",
  "last_error": null,
  "posters": {
-  "4793-0": {
-   "attempts": 0,
-   "error": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\\nPlease retry in 5h1m38.414265454s.', 'status': 'R",
-   "image": "posters/gast/4793-0.jpg",
-   "index": 0,
-   "post_id": 4793,
-   "post_url": "https://t.me/GastCinema/4793",
-   "posted_at": "2026-09-27T18:47:36+00:00",
-   "processed_at": "2026-10-05T21:58:14+03:00",
-   "status": "expired"
-  },
   "4795-0": {
    "attempts": 1,
    "error": null,
@@ -6691,6 +6680,18 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "4834-0": {
+   "attempts": 1,
+   "error": "HTTPStatusError: Server error '500 Internal Server Error' for url 'https://cdn4.telesco.pe/file/fv0IQxRrWd8uAP9mJY2m9bRJbiIxItvPAqhkbbuoDhiucGfzYjnIW28VdZKLTloAyZ6HkOb6ygwQW02IiiYmq2DiVCWGSdjVAZrq_qrtx3zyaj0RtKPv8Wvj_wtIfqNKj1LLggnVg7_ccxKl_ZkWoFYD2RAVLg4fBudSS8-ZJMyFIpaU5UOwDrVZ110tdk8IZq6Ay9tt_GqnT02Xqm-q1Lz7Sqj7cUy6ITdC5cI6NJgZvVj7N6oHfomuFjj391MXD4gIwB5N4wwY_7Oq_XrrkMuhzXCKAybfksE346cEwZnlpc2yVilF5hJtTUw8OJgnmigEsHC19i6jrQoDztXK_g.jpg'\nFor more information check: https://developer.mozilla.or",
+   "first_attempt_at": "2026-10-28T01:17:01+03:00",
+   "image": null,
+   "index": 0,
+   "post_id": 4834,
+   "post_url": "https://t.me/GastCinema/4834",
+   "posted_at": "2026-10-27T18:51:13+00:00",
+   "processed_at": "2026-10-28T01:17:01+03:00",
+   "status": "error"
   }
  }
 }
