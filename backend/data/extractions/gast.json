@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-10-27T15:15:52+03:00",
+ "last_checked": "2026-10-27T21:04:41+03:00",
  "last_error": null,
  "posters": {
   "4793-0": {
@@ -6645,16 +6645,20 @@
    "status": "ok"
   },
   "4828-0": {
-   "attempts": 1,
-   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "attempts": 2,
+   "error": null,
    "first_attempt_at": "2026-10-27T15:16:26+03:00",
-   "image": "posters/gast/4828-0.jpg",
+   "image": null,
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image is a promotional poster for Disney's Hexed with no screening schedules or showtimes listed.",
    "post_id": 4828,
    "post_url": "https://t.me/GastCinema/4828",
    "posted_at": "2026-10-27T07:59:47+00:00",
-   "processed_at": "2026-10-27T15:16:26+03:00",
-   "status": "error"
+   "processed_at": "2026-10-27T21:05:27+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   },
   "4829-0": {
    "attempts": 1,
@@ -6668,6 +6672,22 @@
    "post_url": "https://t.me/GastCinema/4829",
    "posted_at": "2026-10-27T08:34:47+00:00",
    "processed_at": "2026-10-27T15:16:05+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
+  },
+  "4832-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-27T21:04:44+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "This image is a movie poster announcement, not a schedule.",
+   "post_id": 4832,
+   "post_url": "https://t.me/GastCinema/4832",
+   "posted_at": "2026-10-27T16:03:56+00:00",
+   "processed_at": "2026-10-27T21:04:44+03:00",
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
