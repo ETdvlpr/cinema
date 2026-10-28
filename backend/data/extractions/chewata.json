@@ -1,6 +1,6 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-10-28T15:58:56+03:00",
+ "last_checked": "2026-10-29T01:37:43+03:00",
  "last_error": null,
  "posters": {
   "65-0": {
@@ -1372,6 +1372,155 @@
      "language": null,
      "price_birr": null,
      "time": "18:00"
+    }
+   ],
+   "status": "ok"
+  },
+  "78-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-29T01:43:20+03:00",
+   "image": "posters/chewata/78-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 78,
+   "post_url": "https://t.me/chewatacinema/78",
+   "posted_at": "2026-10-28T17:42:57+00:00",
+   "processed_at": "2026-10-29T01:43:20+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-10-29",
+     "film_title": "The Dog Stars",
+     "film_title_latin": "The Dog Stars",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-01",
+     "film_title": "The Dog Stars",
+     "film_title_latin": "The Dog Stars",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-29",
+     "film_title": "The Awakening (El Despertar)",
+     "film_title_latin": "The Awakening (El Despertar)",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-30",
+     "film_title": "Masterplan",
+     "film_title_latin": "Masterplan",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-31",
+     "film_title": "Backrooms",
+     "film_title_latin": "Backrooms",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-29",
+     "film_title": "The Fix",
+     "film_title_latin": "The Fix",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-30",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-01",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-30",
+     "film_title": "Fall 2 Deadpoint",
+     "film_title_latin": "Fall 2 Deadpoint",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-31",
+     "film_title": "Matchbox",
+     "film_title_latin": "Matchbox",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-10-31",
+     "film_title": "Chelsea vs Man Utd",
+     "film_title_latin": "Chelsea vs Man Utd",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-01",
+     "film_title": "Liverpool vs Arsenal",
+     "film_title_latin": "Liverpool vs Arsenal",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
     }
    ],
    "status": "ok"
