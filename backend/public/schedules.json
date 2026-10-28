@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T01:16:58+03:00",
+ "generated_at": "2026-10-28T08:45:33+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-28T01:16:58+03:00",
+   "last_checked": "2026-10-28T08:45:33+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-26T07:02:13+00:00",
    "latest_poster": {
@@ -102,7 +102,7 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-28T01:16:58+03:00",
+   "last_checked": "2026-10-28T08:45:33+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-27T05:29:22+00:00",
    "latest_poster": {
@@ -353,18 +353,31 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-28T01:16:58+03:00",
+   "last_checked": "2026-10-28T08:45:33+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-10-25T19:58:07+00:00",
+   "latest_schedule_posted_at": "2026-10-27T18:51:13+00:00",
    "latest_poster": {
-    "image": "posters/gast/4826-0.jpg",
-    "post_url": "https://t.me/GastCinema/4826",
-    "posted_at": "2026-10-25T19:58:07+00:00",
+    "image": "posters/gast/4834-0.jpg",
+    "post_url": "https://t.me/GastCinema/4834",
+    "posted_at": "2026-10-27T18:51:13+00:00",
     "status": "ok"
    },
    "showtimes": [
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
+     "date": "2026-10-28",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
+    },
+    {
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -373,37 +386,11 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-10-28",
-     "film_title": "MINIONS AND MONSTERS",
-     "film_title_latin": "MINIONS AND MONSTERS",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-28",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
-    },
-    {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "WHALE FALL",
      "film_title_latin": "WHALE FALL",
@@ -412,24 +399,24 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
-     "film_title": "COYOTE VS ACME",
-     "film_title_latin": "COYOTE VS ACME",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
      "format": "2D",
      "hall": "GOLD 1",
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "HEART OF THE BEAST",
      "film_title_latin": "HEART OF THE BEAST",
@@ -438,24 +425,24 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
-     "film_title": "MINIONS AND MONSTERS",
-     "film_title_latin": "MINIONS AND MONSTERS",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
      "format": "2D",
-     "hall": "GOLD 1",
+     "hall": "GOLD 2",
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "STREET FIGHTER",
      "film_title_latin": "STREET FIGHTER",
@@ -464,11 +451,11 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -477,11 +464,11 @@
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "WHALE FALL",
      "film_title_latin": "WHALE FALL",
@@ -490,24 +477,24 @@
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
-     "film_title": "COYOTE VS ACME",
-     "film_title_latin": "COYOTE VS ACME",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
      "format": "2D",
      "hall": "GOLD 1",
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -516,11 +503,11 @@
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "STREET FIGHTER",
      "film_title_latin": "STREET FIGHTER",
@@ -529,24 +516,24 @@
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
-     "film_title": "BY ANY MEANS",
-     "film_title_latin": "BY ANY MEANS",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
      "format": "2D",
      "hall": "GOLD 1",
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -555,11 +542,11 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "STREET FIGHTER",
      "film_title_latin": "STREET FIGHTER",
@@ -568,11 +555,11 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "VERITY",
      "film_title_latin": "VERITY",
@@ -581,11 +568,24 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
+     "date": "2026-10-28",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
+    },
+    {
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "WHALE FALL",
      "film_title_latin": "WHALE FALL",
@@ -594,24 +594,11 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-10-28",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "20:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
-    },
-    {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "BY ANY MEANS",
      "film_title_latin": "BY ANY MEANS",
@@ -620,11 +607,11 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "RESIDENT EVIL",
      "film_title_latin": "RESIDENT EVIL",
@@ -633,24 +620,11 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-10-28",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
-    },
-    {
-     "confidence": 1.0,
+     "confidence": 0.98,
      "date": "2026-10-28",
      "film_title": "WHALE FALL",
      "film_title_latin": "WHALE FALL",
@@ -659,8 +633,8 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4826-0.jpg",
-     "post_url": "https://t.me/GastCinema/4826"
+     "poster": "posters/gast/4834-0.jpg",
+     "post_url": "https://t.me/GastCinema/4834"
     }
    ]
   },
@@ -669,7 +643,7 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-28T01:16:58+03:00",
+   "last_checked": "2026-10-28T08:45:33+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-25T20:01:01+00:00",
    "latest_poster": {
@@ -725,7 +699,7 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-28T01:16:58+03:00",
+   "last_checked": "2026-10-28T08:45:33+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-25T15:00:04+00:00",
    "latest_poster": {
@@ -943,6 +917,27 @@
    "backdrop_path": null,
    "thumbnail": "films/dolomit.jpg"
   },
+  "forgottenisland": {
+   "title": "Forgotten Island",
+   "overview": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+   "release_date": "2026-09-10",
+   "runtime": 109,
+   "genres": [
+    "Animation",
+    "Adventure",
+    "Fantasy",
+    "Comedy",
+    "Family"
+   ],
+   "rating": 7.6,
+   "certification": "PG",
+   "tmdb_id": 1465063,
+   "tmdb_url": "https://www.themoviedb.org/movie/1465063",
+   "trailer_url": "https://www.youtube.com/watch?v=a8RHqN93qfo",
+   "poster_path": "/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+   "backdrop_path": "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+   "thumbnail": "films/forgottenisland.jpg"
+  },
   "heartofthebeast": {
    "title": "Heart of the Beast",
    "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
@@ -1011,21 +1006,6 @@
    "poster_path": "/9jldgwqF3fwr027N6NRoU8NBanB.jpg",
    "backdrop_path": "/vAroLszBrRHVgRbIU9tNOEQIuWe.jpg",
    "thumbnail": "films/matchbox.jpg"
-  },
-  "minionsandmonsters": {
-   "title": "MINIONS AND MONSTERS",
-   "overview": null,
-   "release_date": null,
-   "runtime": null,
-   "genres": [],
-   "rating": null,
-   "certification": null,
-   "tmdb_id": null,
-   "tmdb_url": null,
-   "trailer_url": null,
-   "poster_path": null,
-   "backdrop_path": null,
-   "thumbnail": "films/minionsandmonsters.jpg"
   },
   "qenzelaki": {
    "title": "Qen Zelaki",
