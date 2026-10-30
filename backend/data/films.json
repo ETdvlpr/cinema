@@ -41,6 +41,19 @@
    "status": "skipped_amharic"
   }
  },
+ "abarawches": {
+  "first_seen": "2026-10-29T17:47:42+00:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
+  "thumbnail": {
+   "image": "films/abarawches.jpg",
+   "post_url": "https://t.me/alem_cinema/2336",
+   "posted_at": "2026-10-29T17:47:42+00:00"
+  },
+  "title": "Abaraw Ches",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "abariwchese": {
   "first_seen": "2026-10-24T10:42:47+00:00",
   "last_seen": "2026-10-24T10:42:47+00:00",
@@ -114,11 +127,11 @@
  },
  "anteneh": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-10-22T20:13:20+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/anteneh.jpg",
-   "post_url": "https://t.me/alem_cinema/2329",
-   "posted_at": "2026-10-24T10:42:47+00:00"
+   "post_url": "https://t.me/alem_cinema/2336",
+   "posted_at": "2026-10-29T17:47:42+00:00"
   },
   "title": "Anteneh",
   "tmdb": {
@@ -186,7 +199,7 @@
  },
  "backrooms": {
   "first_seen": "2026-10-25T20:01:01+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/backrooms.jpg",
    "post_url": "https://t.me/chewatacinema/78",
@@ -277,7 +290,7 @@
  },
  "byanymeans": {
   "first_seen": "2026-10-23T18:17:19+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/byanymeans.jpg",
    "post_url": "https://t.me/GastCinema/4838",
@@ -307,7 +320,7 @@
  },
  "chelseavsmanutd": {
   "first_seen": "2026-10-28T17:42:57+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/chelseavsmanutd.jpg",
    "post_url": "https://t.me/chewatacinema/78",
@@ -341,7 +354,7 @@
  },
  "coyotevsacme": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/coyotevsacme.jpg",
    "post_url": "https://t.me/garadmulticinema/448",
@@ -396,11 +409,11 @@
  },
  "dolovia": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-10-22T20:13:20+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/dolovia.jpg",
-   "post_url": "https://t.me/alem_cinema/2323",
-   "posted_at": "2026-10-18T17:47:52+00:00"
+   "post_url": "https://t.me/alem_cinema/2336",
+   "posted_at": "2026-10-29T17:47:42+00:00"
   },
   "title": "Dolovia",
   "tmdb": {
@@ -480,7 +493,7 @@
  },
  "fall2deadpoint": {
   "first_seen": "2026-10-15T20:27:14+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/fall2deadpoint.jpg",
    "post_url": "https://t.me/chewatacinema/78",
@@ -507,11 +520,11 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/GastCinema/4838",
-   "posted_at": "2026-10-28T18:29:11+00:00"
+   "post_url": "https://t.me/Century_Cinema/2342",
+   "posted_at": "2026-10-29T15:14:32+00:00"
   },
   "title": "Forgotten Island",
   "tmdb": {
@@ -597,13 +610,13 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/GastCinema/4838",
    "posted_at": "2026-10-28T18:29:11+00:00"
   },
-  "title": "HEART OF THE BEAST",
+  "title": "Heart of the Beast",
   "tmdb": {
    "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
    "certification": "PG-13",
@@ -638,11 +651,11 @@
  },
  "huletfit": {
   "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-10-22T20:13:20+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/huletfit.jpg",
-   "post_url": "https://t.me/alem_cinema/2329",
-   "posted_at": "2026-10-24T10:42:47+00:00"
+   "post_url": "https://t.me/alem_cinema/2336",
+   "posted_at": "2026-10-29T17:47:42+00:00"
   },
   "title": "Hulet Fit",
   "tmdb": {
@@ -725,6 +738,19 @@
    "trailer_youtube_key": "jxU8FU3o75A"
   }
  },
+ "kenzarefi": {
+  "first_seen": "2026-10-29T17:47:42+00:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
+  "thumbnail": {
+   "image": "films/kenzarefi.jpg",
+   "post_url": "https://t.me/alem_cinema/2336",
+   "posted_at": "2026-10-29T17:47:42+00:00"
+  },
+  "title": "Ken Zarefi",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "kenzerafi": {
   "first_seen": "2026-10-24T10:42:47+00:00",
   "last_seen": "2026-10-24T10:42:47+00:00",
@@ -750,7 +776,7 @@
  },
  "liverpoolvsarsenal": {
   "first_seen": "2026-10-28T17:42:57+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/liverpoolvsarsenal.jpg",
    "post_url": "https://t.me/chewatacinema/78",
@@ -814,7 +840,7 @@
  },
  "masterplan": {
   "first_seen": "2026-10-25T20:01:01+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/masterplan.jpg",
    "post_url": "https://t.me/chewatacinema/78",
@@ -842,7 +868,7 @@
  },
  "matchbox": {
   "first_seen": "2026-10-18T19:45:32+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/matchbox.jpg",
    "post_url": "https://t.me/chewatacinema/78",
@@ -1103,7 +1129,7 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
    "post_url": "https://t.me/GastCinema/4838",
@@ -1186,13 +1212,16 @@
  },
  "salayat": {
   "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-10-24T10:42:47+00:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/salayat.jpg",
-   "post_url": "https://t.me/alem_cinema/2329",
-   "posted_at": "2026-10-24T10:42:47+00:00"
+   "post_url": "https://t.me/alem_cinema/2336",
+   "posted_at": "2026-10-29T17:47:42+00:00"
   },
-  "title": "Salayat"
+  "title": "Salayat",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
  },
  "salayt": {
   "first_seen": "2026-10-18T17:47:52+00:00",
@@ -1300,7 +1329,7 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
    "post_url": "https://t.me/GastCinema/4838",
@@ -1329,13 +1358,13 @@
  },
  "streetfighter": {
   "first_seen": "2026-10-14T18:27:00+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/streetfighter.jpg",
-   "post_url": "https://t.me/GastCinema/4838",
-   "posted_at": "2026-10-28T18:29:11+00:00"
+   "post_url": "https://t.me/Century_Cinema/2342",
+   "posted_at": "2026-10-29T15:14:32+00:00"
   },
-  "title": "STREET FIGHTER",
+  "title": "Street Fighter",
   "tmdb": {
    "backdrop_path": "/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
    "certification": "PG-13",
@@ -1412,7 +1441,7 @@
  },
  "thedogstars": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/thedogstars.jpg",
    "post_url": "https://t.me/chewatacinema/78",
@@ -1554,7 +1583,7 @@
  },
  "thelovehypothesis": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/thelovehypothesis.jpg",
    "post_url": "https://t.me/garadmulticinema/448",
@@ -1578,6 +1607,34 @@
    "status": "matched",
    "title": "The Love Hypothesis",
    "trailer_youtube_key": "xwdamnfS6IM"
+  }
+ },
+ "themongoose": {
+  "first_seen": "2026-10-29T15:14:32+00:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
+  "thumbnail": {
+   "image": "films/themongoose.jpg",
+   "post_url": "https://t.me/Century_Cinema/2342",
+   "posted_at": "2026-10-29T15:14:32+00:00"
+  },
+  "title": "The Mongoose",
+  "tmdb": {
+   "backdrop_path": "/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+   "certification": "R",
+   "checked_at": "2026-10-30T08:52:44+03:00",
+   "genres": [
+    "Action",
+    "Thriller"
+   ],
+   "id": 1294189,
+   "overview": "A falsely accused war hero with nothing to lose leads police on an epic televised cross-country car chase, helped by members of his former Special Forces Army battalion and closely monitored by a fascinated public rooting for his safe getaway.",
+   "poster_path": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+   "rating": null,
+   "release_date": "2026-10-29",
+   "runtime": 99,
+   "status": "matched",
+   "title": "The Mongoose",
+   "trailer_youtube_key": "aHrMFtt40_Q"
   }
  },
  "theodyssey": {
@@ -1641,13 +1698,13 @@
  },
  "theweight": {
   "first_seen": "2026-10-23T06:12:11+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/theweight.jpg",
-   "post_url": "https://t.me/Century_Cinema/2341",
-   "posted_at": "2026-10-27T05:29:22+00:00"
+   "post_url": "https://t.me/Century_Cinema/2342",
+   "posted_at": "2026-10-29T15:14:32+00:00"
   },
-  "title": "THE WEIGHT",
+  "title": "The Weight",
   "tmdb": {
    "backdrop_path": "/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
    "certification": "R",
@@ -1682,13 +1739,16 @@
  },
  "tsehay": {
   "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-10-24T10:42:47+00:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/tsehay.jpg",
-   "post_url": "https://t.me/alem_cinema/2329",
-   "posted_at": "2026-10-24T10:42:47+00:00"
+   "post_url": "https://t.me/alem_cinema/2336",
+   "posted_at": "2026-10-29T17:47:42+00:00"
   },
-  "title": "Tsehay"
+  "title": "Tsehay",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
  },
  "unknowncomingsoon1": {
   "first_seen": "2026-10-25T15:00:04+00:00",
@@ -1722,13 +1782,13 @@
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
-   "post_url": "https://t.me/GastCinema/4838",
-   "posted_at": "2026-10-28T18:29:11+00:00"
+   "post_url": "https://t.me/Century_Cinema/2342",
+   "posted_at": "2026-10-29T15:14:32+00:00"
   },
-  "title": "VERITY",
+  "title": "Verity",
   "tmdb": {
    "backdrop_path": "/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
    "certification": "R",
@@ -1799,13 +1859,13 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
-   "post_url": "https://t.me/GastCinema/4838",
-   "posted_at": "2026-10-28T18:29:11+00:00"
+   "post_url": "https://t.me/Century_Cinema/2342",
+   "posted_at": "2026-10-29T15:14:32+00:00"
   },
-  "title": "WHALEFALL",
+  "title": "Whalefall",
   "tmdb": {
    "backdrop_path": "/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg",
    "certification": "PG-13",
@@ -1822,6 +1882,19 @@
    "status": "matched",
    "title": "Whalefall",
    "trailer_youtube_key": "67ho3OxCmmM"
+  }
+ },
+ "wondochualteweledum": {
+  "first_seen": "2026-10-29T17:47:42+00:00",
+  "last_seen": "2026-10-30T08:52:44+03:00",
+  "thumbnail": {
+   "image": "films/wondochualteweledum.jpg",
+   "post_url": "https://t.me/alem_cinema/2336",
+   "posted_at": "2026-10-29T17:47:42+00:00"
+  },
+  "title": "Wondochu Alteweledum",
+  "tmdb": {
+   "status": "skipped_amharic"
   }
  },
  "wonzegnaadaltowal": {
