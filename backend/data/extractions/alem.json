@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-10-30T15:59:04+03:00",
+ "last_checked": "2026-10-31T01:24:06+03:00",
  "last_error": null,
  "posters": {
   "2313-0": {
@@ -4110,6 +4110,275 @@
     }
    ],
    "status": "ok"
+  },
+  "2337-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-31T01:29:12+03:00",
+   "image": "posters/alem/2337-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 2337,
+   "post_url": "https://t.me/alem_cinema/2337",
+   "posted_at": "2026-10-30T16:33:56+00:00",
+   "processed_at": "2026-10-31T01:29:12+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "አባላው ጨለማ",
+      "film_title_latin": "Abalew Chelema",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ቆንጆ",
+      "film_title_latin": "Konjo",
+      "format": null,
+      "hall": null,
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ቆንጆ",
+      "film_title_latin": "Konjo",
+      "format": null,
+      "hall": null,
+      "hour": 11,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ደብዘዝ",
+      "film_title_latin": "Debzeze",
+      "format": null,
+      "hall": null,
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ሁለት ፈት",
+      "film_title_latin": "Hulet Fet",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 20,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ማንኛውም አልታወቀም",
+      "film_title_latin": "Maneniyaw Altawekeme",
+      "format": null,
+      "hall": null,
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "አንቲቪህ",
+      "film_title_latin": "Antivehe",
+      "format": null,
+      "hall": null,
+      "hour": 12,
+      "language": null,
+      "minute": 20,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "አንቲቪህ",
+      "film_title_latin": "Antivehe",
+      "format": null,
+      "hall": null,
+      "hour": 10,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ዳዊት",
+      "film_title_latin": "Dawit",
+      "format": null,
+      "hall": null,
+      "hour": 9,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ዳዊት",
+      "film_title_latin": "Dawit",
+      "format": null,
+      "hall": null,
+      "hour": 2,
+      "language": null,
+      "minute": 30,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ቀን ዘለለ",
+      "film_title_latin": "Qen Zelele",
+      "format": null,
+      "hall": null,
+      "hour": 8,
+      "language": null,
+      "minute": 0,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    },
+    {
+     "raw": {
+      "confidence": 0.9,
+      "date_calendar": "unknown",
+      "day": null,
+      "film_title": "ቀን ዘለለ",
+      "film_title_latin": "Qen Zelele",
+      "format": null,
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 10,
+      "month": null,
+      "period": "unknown",
+      "price_birr": null,
+      "time_clock": "ethiopian",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "missing date"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   }
  }
 }

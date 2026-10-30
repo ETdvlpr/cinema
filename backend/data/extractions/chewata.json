@@ -1,6 +1,6 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-10-30T15:59:04+03:00",
+ "last_checked": "2026-10-31T01:24:06+03:00",
  "last_error": null,
  "posters": {
   "65-0": {
@@ -1515,6 +1515,62 @@
      "confidence": 1.0,
      "date": "2026-11-01",
      "film_title": "Liverpool vs Arsenal",
+     "film_title_latin": "Liverpool vs Arsenal",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    }
+   ],
+   "status": "ok"
+  },
+  "79-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-31T01:29:02+03:00",
+   "image": "posters/chewata/79-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image is a sports screening schedule for a football match rather than a movie.",
+   "post_id": 79,
+   "post_url": "https://t.me/chewatacinema/79",
+   "posted_at": "2026-10-30T16:44:37+00:00",
+   "processed_at": "2026-10-31T01:29:02+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-10-31",
+     "film_title": "Chelsea Vs Man United",
+     "film_title_latin": "Chelsea Vs Man United",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    }
+   ],
+   "status": "ok"
+  },
+  "80-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-31T01:28:43+03:00",
+   "image": "posters/chewata/80-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "Football match schedule",
+   "post_id": 80,
+   "post_url": "https://t.me/chewatacinema/80",
+   "posted_at": "2026-10-30T16:46:51+00:00",
+   "processed_at": "2026-10-31T01:28:43+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-01",
+     "film_title": "Liverpool Vs Arsenal",
      "film_title_latin": "Liverpool vs Arsenal",
      "format": null,
      "hall": null,
