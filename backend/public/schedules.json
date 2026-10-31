@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T01:24:06+03:00",
+ "generated_at": "2026-10-31T08:45:52+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-31T01:24:06+03:00",
+   "last_checked": "2026-10-31T08:45:52+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-29T17:47:42+00:00",
    "latest_poster": {
@@ -206,23 +206,128 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-31T01:24:06+03:00",
+   "last_checked": "2026-10-31T08:45:52+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-10-29T15:14:32+00:00",
+   "latest_schedule_posted_at": "2026-10-31T05:20:12+00:00",
    "latest_poster": {
-    "image": "posters/century/2342-0.jpg",
-    "post_url": "https://t.me/Century_Cinema/2342",
-    "posted_at": "2026-10-29T15:14:32+00:00",
+    "image": "posters/century/2345-0.jpg",
+    "post_url": "https://t.me/Century_Cinema/2345",
+    "posted_at": "2026-10-31T05:20:12+00:00",
     "status": "ok"
    },
-   "showtimes": []
+   "showtimes": [
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/century/2345-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2345"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/century/2345-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2345"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "THE MONGOOSE",
+     "film_title_latin": "THE MONGOOSE",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00",
+     "poster": "posters/century/2345-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2345"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2345-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2345"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45",
+     "poster": "posters/century/2345-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2345"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "THE MONGOOSE",
+     "film_title_latin": "THE MONGOOSE",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45",
+     "poster": "posters/century/2345-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2345"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "THE WEIGHT",
+     "film_title_latin": "THE WEIGHT",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15",
+     "poster": "posters/century/2345-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2345"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30",
+     "poster": "posters/century/2345-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2345"
+    }
+   ]
   },
   {
    "id": "gast",
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-31T01:24:06+03:00",
+   "last_checked": "2026-10-31T08:45:52+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-30T18:35:46+00:00",
    "latest_poster": {
@@ -759,7 +864,7 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-10-31T01:24:06+03:00",
+   "last_checked": "2026-10-31T08:45:52+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-30T16:46:51+00:00",
    "latest_poster": {
@@ -802,7 +907,7 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-10-31T01:24:06+03:00",
+   "last_checked": "2026-10-31T08:45:52+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-28T15:00:16+00:00",
    "latest_poster": {
@@ -1349,6 +1454,24 @@
    "backdrop_path": "/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
    "thumbnail": "films/thelovehypothesis.jpg"
   },
+  "themongoose": {
+   "title": "The Mongoose",
+   "overview": "A falsely accused war hero with nothing to lose leads police on an epic televised cross-country car chase, helped by members of his former Special Forces Army battalion and closely monitored by a fascinated public rooting for his safe getaway.",
+   "release_date": "2026-10-29",
+   "runtime": 99,
+   "genres": [
+    "Action",
+    "Thriller"
+   ],
+   "rating": null,
+   "certification": "R",
+   "tmdb_id": 1294189,
+   "tmdb_url": "https://www.themoviedb.org/movie/1294189",
+   "trailer_url": "https://www.youtube.com/watch?v=aHrMFtt40_Q",
+   "poster_path": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+   "backdrop_path": "/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+   "thumbnail": "films/themongoose.jpg"
+  },
   "theshining": {
    "title": "THE SHINING",
    "overview": null,
@@ -1363,6 +1486,24 @@
    "poster_path": null,
    "backdrop_path": null,
    "thumbnail": "films/theshining.jpg"
+  },
+  "theweight": {
+   "title": "The Weight",
+   "overview": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+   "release_date": "2026-09-16",
+   "runtime": 112,
+   "genres": [
+    "Drama",
+    "Thriller"
+   ],
+   "rating": 6.7,
+   "certification": "R",
+   "tmdb_id": 1433583,
+   "tmdb_url": "https://www.themoviedb.org/movie/1433583",
+   "trailer_url": "https://www.youtube.com/watch?v=7YpuMymmiJ8",
+   "poster_path": "/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg",
+   "backdrop_path": "/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
+   "thumbnail": "films/theweight.jpg"
   },
   "tsehay": {
    "title": "Tsehay",

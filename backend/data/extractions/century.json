@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-31T01:24:06+03:00",
+ "last_checked": "2026-10-31T08:45:52+03:00",
  "last_error": null,
  "posters": {
   "2325-0": {
@@ -3647,6 +3647,111 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "2345-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-31T08:45:53+03:00",
+   "image": "posters/century/2345-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 2345,
+   "post_url": "https://t.me/Century_Cinema/2345",
+   "posted_at": "2026-10-31T05:20:12+00:00",
+   "processed_at": "2026-10-31T08:45:53+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "STREET FIGHTER",
+     "film_title_latin": "STREET FIGHTER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "THE MONGOOSE",
+     "film_title_latin": "THE MONGOOSE",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "THE MONGOOSE",
+     "film_title_latin": "THE MONGOOSE",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:45"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-10-31",
+     "film_title": "THE WEIGHT",
+     "film_title_latin": "THE WEIGHT",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15"
+    }
+   ],
+   "status": "ok"
   }
  }
 }
