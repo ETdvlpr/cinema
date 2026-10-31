@@ -1,223 +1,8 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-10-31T08:45:52+03:00",
+ "last_checked": "2026-10-31T15:36:14+03:00",
  "last_error": null,
  "posters": {
-  "2325-0": {
-   "attempts": 1,
-   "error": null,
-   "first_attempt_at": "2026-10-05T22:06:53+03:00",
-   "image": "posters/century/2325-0.jpg",
-   "index": 0,
-   "model": "gemini-flash-lite-latest",
-   "notes": "Expanded date range OCT 1-2 for all listed screenings.",
-   "post_id": 2325,
-   "post_url": "https://t.me/Century_Cinema/2325",
-   "posted_at": "2026-10-01T10:07:48+00:00",
-   "processed_at": "2026-10-05T22:06:53+03:00",
-   "rejected": [],
-   "showtimes": [
-    {
-     "confidence": 0.95,
-     "date": "2026-10-01",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "13:45"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-01",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "17:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-01",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "19:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-02",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "13:45"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-02",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "17:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-02",
-     "film_title": "HEART OF THE BEAST",
-     "film_title_latin": "HEART OF THE BEAST",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "19:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-01",
-     "film_title": "RUNNER",
-     "film_title_latin": "RUNNER",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "15:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-02",
-     "film_title": "RUNNER",
-     "film_title_latin": "RUNNER",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "15:30"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-01",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-01",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "17:15"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-01",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "19:15"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-02",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-02",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "17:15"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-02",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "19:15"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-01",
-     "film_title": "TAD AND THE MAGIC LAMP",
-     "film_title_latin": "TAD AND THE MAGIC LAMP",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-02",
-     "film_title": "TAD AND THE MAGIC LAMP",
-     "film_title_latin": "TAD AND THE MAGIC LAMP",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-01",
-     "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "14:45"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-10-02",
-     "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER-MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "14:45"
-    }
-   ],
-   "status": "ok"
-  },
   "2326-0": {
    "attempts": 1,
    "error": null,
@@ -3752,6 +3537,22 @@
     }
    ],
    "status": "ok"
+  },
+  "2346-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-10-31T15:36:16+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "This is a promotional poster for an upcoming film, not a showtime schedule.",
+   "post_id": 2346,
+   "post_url": "https://t.me/Century_Cinema/2346",
+   "posted_at": "2026-10-31T11:57:02+00:00",
+   "processed_at": "2026-10-31T15:36:16+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
