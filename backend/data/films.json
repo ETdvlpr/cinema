@@ -171,6 +171,19 @@
    "status": "skipped_amharic"
   }
  },
+ "antivih": {
+  "first_seen": "2026-11-01T16:53:30+00:00",
+  "last_seen": "2026-11-02T01:04:09+03:00",
+  "thumbnail": {
+   "image": "films/antivih.jpg",
+   "post_url": "https://t.me/alem_cinema/2339",
+   "posted_at": "2026-11-01T16:53:30+00:00"
+  },
+  "title": "Antivih",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "asedabiwwel": {
   "first_seen": "2026-10-15T18:09:49+00:00",
   "last_seen": "2026-10-18T23:46:25+03:00",
@@ -212,8 +225,8 @@
   "last_seen": "2026-10-12T05:20:48+00:00",
   "thumbnail": {
    "image": "films/avengersdoomsday.jpg",
-   "post_url": "https://t.me/Century_Cinema/2332",
-   "posted_at": "2026-10-12T05:20:48+00:00"
+   "post_url": "https://t.me/GastCinema/4865",
+   "posted_at": "2026-11-01T14:04:00+00:00"
   },
   "title": "Avengers Doomsday"
  },
@@ -297,13 +310,13 @@
  },
  "balochenamistoch": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-10-20T20:10:42+03:00",
+  "last_seen": "2026-11-02T01:04:09+03:00",
   "thumbnail": {
    "image": "films/balochenamistoch.jpg",
-   "post_url": "https://t.me/alem_cinema/2334",
-   "posted_at": "2026-10-28T16:17:55+00:00"
+   "post_url": "https://t.me/alem_cinema/2339",
+   "posted_at": "2026-11-01T16:53:30+00:00"
   },
-  "title": "Baloch ena Mistoch",
+  "title": "Baloch Ena Mistoch",
   "tmdb": {
    "status": "skipped_amharic"
   }
@@ -410,6 +423,19 @@
    "trailer_youtube_key": "H-43VeYGiPM"
   }
  },
+ "dalayt": {
+  "first_seen": "2026-11-01T16:53:30+00:00",
+  "last_seen": "2026-11-02T01:04:09+03:00",
+  "thumbnail": {
+   "image": "films/dalayt.jpg",
+   "post_url": "https://t.me/alem_cinema/2339",
+   "posted_at": "2026-11-01T16:53:30+00:00"
+  },
+  "title": "Dalayt",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "dawit": {
   "first_seen": "2026-10-30T16:33:56+00:00",
   "last_seen": "2026-10-30T16:33:56+00:00",
@@ -469,6 +495,19 @@
    "status": "skipped_amharic"
   }
  },
+ "dolovichi": {
+  "first_seen": "2026-11-01T16:53:30+00:00",
+  "last_seen": "2026-11-02T01:04:09+03:00",
+  "thumbnail": {
+   "image": "films/dolovichi.jpg",
+   "post_url": "https://t.me/alem_cinema/2339",
+   "posted_at": "2026-11-01T16:53:30+00:00"
+  },
+  "title": "Dolovichi",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "doloviya": {
   "first_seen": "2026-10-24T10:42:47+00:00",
   "last_seen": "2026-10-24T10:42:47+00:00",
@@ -478,6 +517,16 @@
    "posted_at": "2026-10-24T10:42:47+00:00"
   },
   "title": "Doloviya"
+ },
+ "dune": {
+  "first_seen": "2026-11-01T14:04:00+00:00",
+  "last_seen": "2026-11-01T14:04:00+00:00",
+  "thumbnail": {
+   "image": "films/dune.jpg",
+   "post_url": "https://t.me/GastCinema/4865",
+   "posted_at": "2026-11-01T14:04:00+00:00"
+  },
+  "title": "Dune"
  },
  "enatuh": {
   "first_seen": "2026-10-09T02:23:06+03:00",
@@ -598,6 +647,19 @@
    "trailer_youtube_key": "a8RHqN93qfo"
   }
  },
+ "gochi": {
+  "first_seen": "2026-11-01T16:53:30+00:00",
+  "last_seen": "2026-11-02T01:04:09+03:00",
+  "thumbnail": {
+   "image": "films/gochi.jpg",
+   "post_url": "https://t.me/alem_cinema/2339",
+   "posted_at": "2026-11-01T16:53:30+00:00"
+  },
+  "title": "Gochi",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "goshnet": {
   "first_seen": "2026-10-26T07:02:13+00:00",
   "last_seen": "2026-10-26T07:02:13+00:00",
@@ -710,16 +772,26 @@
  },
  "huletfit": {
   "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-10-31T15:36:14+03:00",
+  "last_seen": "2026-11-02T01:04:09+03:00",
   "thumbnail": {
    "image": "films/huletfit.jpg",
-   "post_url": "https://t.me/alem_cinema/2336",
-   "posted_at": "2026-10-29T17:47:42+00:00"
+   "post_url": "https://t.me/alem_cinema/2339",
+   "posted_at": "2026-11-01T16:53:30+00:00"
   },
   "title": "Hulet Fit",
   "tmdb": {
    "status": "skipped_amharic"
   }
+ },
+ "iceage6": {
+  "first_seen": "2026-11-01T14:04:00+00:00",
+  "last_seen": "2026-11-01T14:04:00+00:00",
+  "thumbnail": {
+   "image": "films/iceage6.jpg",
+   "post_url": "https://t.me/GastCinema/4865",
+   "posted_at": "2026-11-01T14:04:00+00:00"
+  },
+  "title": "Ice Age 6"
  },
  "iceageboilingpoint": {
   "first_seen": "2026-10-05T15:00:04+00:00",
@@ -796,6 +868,16 @@
    "title": "Insidious: Out of the Further",
    "trailer_youtube_key": "jxU8FU3o75A"
   }
+ },
+ "jumanji": {
+  "first_seen": "2026-11-01T14:04:00+00:00",
+  "last_seen": "2026-11-01T14:04:00+00:00",
+  "thumbnail": {
+   "image": "films/jumanji.jpg",
+   "post_url": "https://t.me/GastCinema/4865",
+   "posted_at": "2026-11-01T14:04:00+00:00"
+  },
+  "title": "Jumanji"
  },
  "kenzarefi": {
   "first_seen": "2026-10-29T17:47:42+00:00",
@@ -1197,11 +1279,11 @@
  },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-10-15T14:33:07+03:00",
+  "last_seen": "2026-11-02T01:04:09+03:00",
   "thumbnail": {
    "image": "films/qenzerafi.jpg",
-   "post_url": "https://t.me/alem_cinema/2317",
-   "posted_at": "2026-10-11T15:51:08+00:00"
+   "post_url": "https://t.me/alem_cinema/2339",
+   "posted_at": "2026-11-01T16:53:30+00:00"
   },
   "title": "Qen Zerafi",
   "tmdb": {
@@ -1847,11 +1929,11 @@
  },
  "tseday": {
   "first_seen": "2026-10-26T07:02:13+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-11-02T01:04:09+03:00",
   "thumbnail": {
    "image": "films/tseday.jpg",
-   "post_url": "https://t.me/alem_cinema/2331",
-   "posted_at": "2026-10-26T07:02:13+00:00"
+   "post_url": "https://t.me/alem_cinema/2339",
+   "posted_at": "2026-11-01T16:53:30+00:00"
   },
   "title": "Tseday",
   "tmdb": {
@@ -1938,6 +2020,19 @@
    "posted_at": "2026-10-18T17:47:52+00:00"
   },
   "title": "Wendochu Alteweledum",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "wengelgnaadaltowal": {
+  "first_seen": "2026-11-01T16:53:30+00:00",
+  "last_seen": "2026-11-02T01:04:09+03:00",
+  "thumbnail": {
+   "image": "films/wengelgnaadaltowal.jpg",
+   "post_url": "https://t.me/alem_cinema/2339",
+   "posted_at": "2026-11-01T16:53:30+00:00"
+  },
+  "title": "Wengelgna Adaltowal",
   "tmdb": {
    "status": "skipped_amharic"
   }

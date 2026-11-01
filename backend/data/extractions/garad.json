@@ -1,24 +1,8 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-01T16:28:28+03:00",
+ "last_checked": "2026-11-02T01:04:09+03:00",
  "last_error": null,
  "posters": {
-  "423-0": {
-   "attempts": 1,
-   "error": null,
-   "first_attempt_at": "2026-10-05T22:06:14+03:00",
-   "image": null,
-   "index": 0,
-   "model": "gemini-flash-lite-latest",
-   "notes": "The image is an announcement stating there are no showings until Sunday morning, not a schedule.",
-   "post_id": 423,
-   "post_url": "https://t.me/garadmulticinema/423",
-   "posted_at": "2026-10-02T16:01:11+00:00",
-   "processed_at": "2026-10-05T22:06:14+03:00",
-   "rejected": [],
-   "showtimes": [],
-   "status": "not_schedule"
-  },
   "424-0": {
    "attempts": 1,
    "error": null,
@@ -3289,6 +3273,18 @@
     }
    ],
    "status": "ok"
+  },
+  "450-0": {
+   "attempts": 0,
+   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "first_attempt_at": "2026-11-02T01:05:21+03:00",
+   "image": "posters/garad/450-0.jpg",
+   "index": 0,
+   "post_id": 450,
+   "post_url": "https://t.me/garadmulticinema/450",
+   "posted_at": "2026-11-01T15:02:09+00:00",
+   "processed_at": "2026-11-02T01:05:21+03:00",
+   "status": "error"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T16:28:28+03:00",
+ "generated_at": "2026-11-02T01:04:09+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,106 +7,314 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T16:28:28+03:00",
+   "last_checked": "2026-11-02T01:04:09+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-10-29T17:47:42+00:00",
+   "latest_schedule_posted_at": "2026-11-01T16:53:30+00:00",
    "latest_poster": {
-    "image": "posters/alem/2338-0.jpg",
-    "post_url": "https://t.me/alem_cinema/2338",
-    "posted_at": "2026-11-01T07:22:11+00:00",
-    "status": "unreadable"
+    "image": "posters/alem/2339-0.jpg",
+    "post_url": "https://t.me/alem_cinema/2339",
+    "posted_at": "2026-11-01T16:53:30+00:00",
+    "status": "ok"
    },
    "showtimes": [
     {
      "confidence": 0.95,
-     "date": "2026-11-01",
-     "film_title": "ወንዶቹ አልተወለዱም",
-     "film_title_latin": "Wondochu Alteweledum",
+     "date": "2026-11-02",
+     "film_title": "ባሎች እና ሚስቶች",
+     "film_title_latin": "Baloch Ena Mistoch",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "12:50",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-02",
+     "film_title": "ጎቺ",
+     "film_title_latin": "Gochi",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:40",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-02",
+     "film_title": "ዳላይት",
+     "film_title_latin": "Dalayt",
      "format": null,
      "hall": null,
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/alem/2336-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2336"
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
     },
     {
      "confidence": 0.95,
-     "date": "2026-11-01",
-     "film_title": "ደሎቪያ",
-     "film_title_latin": "Dolovia",
+     "date": "2026-11-02",
+     "film_title": "ወንጀለኛ አዳልጦአል",
+     "film_title_latin": "Wengelgna Adaltowal",
      "format": null,
      "hall": null,
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/alem/2336-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2336"
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
     },
     {
      "confidence": 0.95,
-     "date": "2026-11-01",
-     "film_title": "አንተነህ",
-     "film_title_latin": "Anteneh",
+     "date": "2026-11-02",
+     "film_title": "አንቲቪህ",
+     "film_title_latin": "Antivih",
      "format": null,
      "hall": null,
      "language": null,
      "price_birr": null,
      "time": "16:10",
-     "poster": "posters/alem/2336-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2336"
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
     },
     {
      "confidence": 0.95,
-     "date": "2026-11-01",
-     "film_title": "ፀሐይ",
-     "film_title_latin": "Tsehay",
+     "date": "2026-11-02",
+     "film_title": "ዶሎቪቺ",
+     "film_title_latin": "Dolovichi",
      "format": null,
      "hall": null,
      "language": null,
      "price_birr": null,
      "time": "17:10",
-     "poster": "posters/alem/2336-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2336"
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
     },
     {
      "confidence": 0.95,
-     "date": "2026-11-01",
-     "film_title": "አባራው ጨስ",
-     "film_title_latin": "Abaraw Ches",
+     "date": "2026-11-02",
+     "film_title": "ባሎች እና ሚስቶች",
+     "film_title_latin": "Baloch Ena Mistoch",
      "format": null,
      "hall": null,
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/alem/2336-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2336"
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
     },
     {
      "confidence": 0.95,
-     "date": "2026-11-01",
-     "film_title": "ቀን ዛሬፊ",
-     "film_title_latin": "Ken Zarefi",
+     "date": "2026-11-02",
+     "film_title": "ጎቺ",
+     "film_title_latin": "Gochi",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-02",
+     "film_title": "ጸዳይ",
+     "film_title_latin": "Tseday",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:20",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-02",
+     "film_title": "ቀን ዘራፊ",
+     "film_title_latin": "Qen Zerafi",
      "format": null,
      "hall": null,
      "language": null,
      "price_birr": null,
      "time": "19:10",
-     "poster": "posters/alem/2336-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2336"
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
     },
     {
      "confidence": 0.95,
-     "date": "2026-11-01",
-     "film_title": "ሳላያት",
-     "film_title_latin": "Salayat",
+     "date": "2026-11-02",
+     "film_title": "ሁለት ፊት",
+     "film_title_latin": "Hulet Fit",
      "format": null,
      "hall": null,
      "language": null,
      "price_birr": null,
-     "time": "20:30",
-     "poster": "posters/alem/2336-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2336"
+     "time": "20:20",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-03",
+     "film_title": "ባሎች እና ሚስቶች",
+     "film_title_latin": "Baloch Ena Mistoch",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "12:50",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-03",
+     "film_title": "ጎቺ",
+     "film_title_latin": "Gochi",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:40",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-03",
+     "film_title": "ባሎች እና ሚስቶች",
+     "film_title_latin": "Baloch Ena Mistoch",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-03",
+     "film_title": "ጎቺ",
+     "film_title_latin": "Gochi",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-04",
+     "film_title": "ባሎች እና ሚስቶች",
+     "film_title_latin": "Baloch Ena Mistoch",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "12:50",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-04",
+     "film_title": "ጎቺ",
+     "film_title_latin": "Gochi",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:40",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-04",
+     "film_title": "ባሎች እና ሚስቶች",
+     "film_title_latin": "Baloch Ena Mistoch",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-04",
+     "film_title": "ጎቺ",
+     "film_title_latin": "Gochi",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-05",
+     "film_title": "ባሎች እና ሚስቶች",
+     "film_title_latin": "Baloch Ena Mistoch",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "12:50",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-05",
+     "film_title": "ጎቺ",
+     "film_title_latin": "Gochi",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:40",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-05",
+     "film_title": "ባሎች እና ሚስቶች",
+     "film_title_latin": "Baloch Ena Mistoch",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-05",
+     "film_title": "ጎቺ",
+     "film_title_latin": "Gochi",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/alem/2339-0.jpg",
+     "post_url": "https://t.me/alem_cinema/2339"
     }
    ]
   },
@@ -115,14 +323,14 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T16:28:28+03:00",
+   "last_checked": "2026-11-02T01:04:09+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-31T05:20:12+00:00",
    "latest_poster": {
-    "image": "posters/century/2345-0.jpg",
-    "post_url": "https://t.me/Century_Cinema/2345",
-    "posted_at": "2026-10-31T05:20:12+00:00",
-    "status": "ok"
+    "image": "posters/century/2347-0.jpg",
+    "post_url": "https://t.me/Century_Cinema/2347",
+    "posted_at": "2026-11-01T17:10:21+00:00",
+    "status": "error"
    },
    "showtimes": []
   },
@@ -131,284 +339,23 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T16:28:28+03:00",
+   "last_checked": "2026-11-02T01:04:09+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-30T18:35:46+00:00",
    "latest_poster": {
-    "image": "posters/gast/4845-0.jpg",
-    "post_url": "https://t.me/GastCinema/4845",
-    "posted_at": "2026-10-30T18:35:46+00:00",
-    "status": "ok"
+    "image": "posters/gast/4866-0.jpg",
+    "post_url": "https://t.me/GastCinema/4866",
+    "posted_at": "2026-11-01T19:51:32+00:00",
+    "status": "error"
    },
-   "showtimes": [
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "STREET FIGHTER",
-     "film_title_latin": "STREET FIGHTER",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "WHALE FALL",
-     "film_title_latin": "WHALE FALL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "BY ANY MEANS",
-     "film_title_latin": "BY ANY MEANS",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "STREET FIGHTER",
-     "film_title_latin": "STREET FIGHTER",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "WHALE FALL",
-     "film_title_latin": "WHALE FALL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "OBSESSION",
-     "film_title_latin": "OBSESSION",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "STREET FIGHTER",
-     "film_title_latin": "STREET FIGHTER",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "WHALE FALL",
-     "film_title_latin": "WHALE FALL",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "16:30",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "THE SHINING",
-     "film_title_latin": "THE SHINING",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "18:30",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "OBSESSION",
-     "film_title_latin": "OBSESSION",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "19:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "BY ANY MEANS",
-     "film_title_latin": "BY ANY MEANS",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "OBSESSION",
-     "film_title_latin": "OBSESSION",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00",
-     "poster": "posters/gast/4845-0.jpg",
-     "post_url": "https://t.me/GastCinema/4845"
-    }
-   ]
+   "showtimes": []
   },
   {
    "id": "chewata",
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T16:28:28+03:00",
+   "last_checked": "2026-11-02T01:04:09+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-30T16:46:51+00:00",
    "latest_poster": {
@@ -417,174 +364,29 @@
     "posted_at": "2026-10-30T16:46:51+00:00",
     "status": "ok"
    },
-   "showtimes": [
-    {
-     "confidence": 1.0,
-     "date": "2026-11-01",
-     "film_title": "Liverpool Vs Arsenal",
-     "film_title_latin": "Liverpool vs Arsenal",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "19:30",
-     "poster": "posters/chewata/80-0.jpg",
-     "post_url": "https://t.me/chewatacinema/80"
-    }
-   ]
+   "showtimes": []
   },
   {
    "id": "garad",
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T16:28:28+03:00",
+   "last_checked": "2026-11-02T01:04:09+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-28T15:00:16+00:00",
    "latest_poster": {
-    "image": "posters/garad/448-0.jpg",
-    "post_url": "https://t.me/garadmulticinema/448",
-    "posted_at": "2026-10-28T15:00:16+00:00",
-    "status": "ok"
+    "image": "posters/garad/450-0.jpg",
+    "post_url": "https://t.me/garadmulticinema/450",
+    "posted_at": "2026-11-01T15:02:09+00:00",
+    "status": "error"
    },
-   "showtimes": [
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "COYOTE VS. ACME",
-     "film_title_latin": "COYOTE VS. ACME",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "11:00",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    },
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "WHALEFALL",
-     "film_title_latin": "WHALEFALL",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "11:00",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    },
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    },
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "WHALEFALL",
-     "film_title_latin": "WHALEFALL",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    },
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    },
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "THE LOVE HYPOTHESIS",
-     "film_title_latin": "THE LOVE HYPOTHESIS",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    },
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "COYOTE VS. ACME",
-     "film_title_latin": "COYOTE VS. ACME",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "17:00",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    },
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "17:15",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    },
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "WHALEFALL",
-     "film_title_latin": "WHALEFALL",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "19:00",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    },
-    {
-     "confidence": 0.98,
-     "date": "2026-11-01",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "RESIDENT EVIL",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "19:15",
-     "poster": "posters/garad/448-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/448"
-    }
-   ]
+   "showtimes": []
   }
  ],
  "tmdb_image_base": "https://image.tmdb.org/t/p/",
  "films": {
-  "abarawches": {
-   "title": "Abaraw Ches",
+  "antivih": {
+   "title": "Antivih",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -596,10 +398,10 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/abarawches.jpg"
+   "thumbnail": "films/antivih.jpg"
   },
-  "anteneh": {
-   "title": "Anteneh",
+  "balochenamistoch": {
+   "title": "Baloch Ena Mistoch",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -611,49 +413,10 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/anteneh.jpg"
+   "thumbnail": "films/balochenamistoch.jpg"
   },
-  "byanymeans": {
-   "title": "By Any Means",
-   "overview": "In 1960s Mississippi, a young Black FBI agent is forced to partner with a notorious mafia hitman to investigate a wave of brutal civil rights murders.",
-   "release_date": "2026-09-02",
-   "runtime": 107,
-   "genres": [
-    "Thriller",
-    "History",
-    "Crime",
-    "Drama"
-   ],
-   "rating": 6.5,
-   "certification": "R",
-   "tmdb_id": 1380417,
-   "tmdb_url": "https://www.themoviedb.org/movie/1380417",
-   "trailer_url": "https://www.youtube.com/watch?v=ej8pjisr0Pc",
-   "poster_path": "/85CvGoeXAcSSWy6So2DRD8ItJAN.jpg",
-   "backdrop_path": "/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
-   "thumbnail": "films/byanymeans.jpg"
-  },
-  "coyotevsacme": {
-   "title": "Coyote vs. Acme",
-   "overview": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
-   "release_date": "2026-08-17",
-   "runtime": 103,
-   "genres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "rating": 7.5,
-   "certification": "PG",
-   "tmdb_id": 1204680,
-   "tmdb_url": "https://www.themoviedb.org/movie/1204680",
-   "trailer_url": "https://www.youtube.com/watch?v=H-43VeYGiPM",
-   "poster_path": "/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
-   "backdrop_path": "/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
-   "thumbnail": "films/coyotevsacme.jpg"
-  },
-  "dolovia": {
-   "title": "Dolovia",
+  "dalayt": {
+   "title": "Dalayt",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -665,31 +428,10 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/dolovia.jpg"
+   "thumbnail": "films/dalayt.jpg"
   },
-  "forgottenisland": {
-   "title": "Forgotten Island",
-   "overview": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
-   "release_date": "2026-09-10",
-   "runtime": 109,
-   "genres": [
-    "Animation",
-    "Adventure",
-    "Fantasy",
-    "Comedy",
-    "Family"
-   ],
-   "rating": 7.6,
-   "certification": "PG",
-   "tmdb_id": 1465063,
-   "tmdb_url": "https://www.themoviedb.org/movie/1465063",
-   "trailer_url": "https://www.youtube.com/watch?v=a8RHqN93qfo",
-   "poster_path": "/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
-   "backdrop_path": "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
-   "thumbnail": "films/forgottenisland.jpg"
-  },
-  "kenzarefi": {
-   "title": "Ken Zarefi",
+  "dolovichi": {
+   "title": "Dolovichi",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -701,10 +443,10 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/kenzarefi.jpg"
+   "thumbnail": "films/dolovichi.jpg"
   },
-  "liverpoolvsarsenal": {
-   "title": "Liverpool vs Arsenal",
+  "gochi": {
+   "title": "Gochi",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -716,47 +458,10 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/liverpoolvsarsenal.jpg"
+   "thumbnail": "films/gochi.jpg"
   },
-  "obsession": {
-   "title": "Obsession",
-   "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
-   "release_date": "2026-05-13",
-   "runtime": 109,
-   "genres": [
-    "Horror",
-    "Thriller"
-   ],
-   "rating": 8.2,
-   "certification": "R",
-   "tmdb_id": 1339713,
-   "tmdb_url": "https://www.themoviedb.org/movie/1339713",
-   "trailer_url": "https://www.youtube.com/watch?v=gMC8kkwbIQQ",
-   "poster_path": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-   "backdrop_path": "/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
-   "thumbnail": "films/obsession.jpg"
-  },
-  "residentevil": {
-   "title": "Resident Evil",
-   "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-   "release_date": "2026-09-16",
-   "runtime": 95,
-   "genres": [
-    "Horror",
-    "Science Fiction",
-    "Adventure"
-   ],
-   "rating": 7.3,
-   "certification": "R",
-   "tmdb_id": 1423191,
-   "tmdb_url": "https://www.themoviedb.org/movie/1423191",
-   "trailer_url": "https://www.youtube.com/watch?v=SJPu1spHqfk",
-   "poster_path": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-   "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
-   "thumbnail": "films/residentevil.jpg"
-  },
-  "salayat": {
-   "title": "Salayat",
+  "huletfit": {
+   "title": "Hulet Fit",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -768,65 +473,10 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/salayat.jpg"
+   "thumbnail": "films/huletfit.jpg"
   },
-  "spidermanbrandnewday": {
-   "title": "Spider-Man: Brand New Day",
-   "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
-   "release_date": "2026-07-29",
-   "runtime": 145,
-   "genres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "rating": 8.0,
-   "certification": "PG-13",
-   "tmdb_id": 969681,
-   "tmdb_url": "https://www.themoviedb.org/movie/969681",
-   "trailer_url": "https://www.youtube.com/watch?v=8TZMtslA3UY",
-   "poster_path": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-   "backdrop_path": "/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg",
-   "thumbnail": "films/spidermanbrandnewday.jpg"
-  },
-  "streetfighter": {
-   "title": "Street Fighter",
-   "overview": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
-   "release_date": "2026-10-13",
-   "runtime": 120,
-   "genres": [
-    "Action",
-    "Fantasy"
-   ],
-   "rating": null,
-   "certification": "PG-13",
-   "tmdb_id": 1153576,
-   "tmdb_url": "https://www.themoviedb.org/movie/1153576",
-   "trailer_url": "https://www.youtube.com/watch?v=Xt4X4FvXk2A",
-   "poster_path": "/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
-   "backdrop_path": "/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
-   "thumbnail": "films/streetfighter.jpg"
-  },
-  "thelovehypothesis": {
-   "title": "The Love Hypothesis",
-   "overview": "Olive Smith, a biology PhD candidate, and Dr. Adam Carlsen, a hotshot professor and well-known tyrant, enter into a fake relationship, seeing each of their carefully calculated theories on love get thrown into chaos.",
-   "release_date": "2026-09-23",
-   "runtime": 112,
-   "genres": [
-    "Romance",
-    "Comedy"
-   ],
-   "rating": 8.1,
-   "certification": "R",
-   "tmdb_id": 1032863,
-   "tmdb_url": "https://www.themoviedb.org/movie/1032863",
-   "trailer_url": "https://www.youtube.com/watch?v=xwdamnfS6IM",
-   "poster_path": "/vfZxVHextAGC70zrNhS8lsROqP1.jpg",
-   "backdrop_path": "/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
-   "thumbnail": "films/thelovehypothesis.jpg"
-  },
-  "theshining": {
-   "title": "THE SHINING",
+  "qenzerafi": {
+   "title": "Qen Zerafi",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -838,10 +488,10 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/theshining.jpg"
+   "thumbnail": "films/qenzerafi.jpg"
   },
-  "tsehay": {
-   "title": "Tsehay",
+  "tseday": {
+   "title": "Tseday",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -853,45 +503,10 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/tsehay.jpg"
+   "thumbnail": "films/tseday.jpg"
   },
-  "verity": {
-   "title": "Verity",
-   "overview": "Lowen Ashleigh is hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who is unable to finish following an accident. Lowen gradually uncovers Verity's disturbing truths while residing at the Crawfords' home to work.",
-   "release_date": "2026-09-30",
-   "runtime": 114,
-   "genres": [
-    "Mystery",
-    "Thriller"
-   ],
-   "rating": 6.6,
-   "certification": "R",
-   "tmdb_id": 1283515,
-   "tmdb_url": "https://www.themoviedb.org/movie/1283515",
-   "trailer_url": "https://www.youtube.com/watch?v=xdPMKhjMSFs",
-   "poster_path": "/97y0RdzRIeZ2j6se98hRQpxz3eR.jpg",
-   "backdrop_path": "/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
-   "thumbnail": "films/verity.jpg"
-  },
-  "whalefall": {
-   "title": "Whalefall",
-   "overview": "Following the death of his father, Jay Gardiner goes diving off the central Coast of California in search of his remains, but is swallowed by a massive sperm whale. While trapped inside its belly with only one hour of oxygen left, Jay comes to realize that the hard-earned lessons his father imparted may be the key to his escape.",
-   "release_date": "2026-10-14",
-   "runtime": 106,
-   "genres": [
-    "Thriller"
-   ],
-   "rating": null,
-   "certification": "PG-13",
-   "tmdb_id": 1255833,
-   "tmdb_url": "https://www.themoviedb.org/movie/1255833",
-   "trailer_url": "https://www.youtube.com/watch?v=67ho3OxCmmM",
-   "poster_path": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
-   "backdrop_path": "/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg",
-   "thumbnail": "films/whalefall.jpg"
-  },
-  "wondochualteweledum": {
-   "title": "Wondochu Alteweledum",
+  "wengelgnaadaltowal": {
+   "title": "Wengelgna Adaltowal",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -903,7 +518,7 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/wondochualteweledum.jpg"
+   "thumbnail": "films/wengelgnaadaltowal.jpg"
   }
  }
 }
