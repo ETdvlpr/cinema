@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T09:10:29+03:00",
+ "generated_at": "2026-11-01T16:28:28+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,13 +7,13 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T09:10:29+03:00",
+   "last_checked": "2026-11-01T16:28:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-29T17:47:42+00:00",
    "latest_poster": {
-    "image": "posters/alem/2337-0.jpg",
-    "post_url": "https://t.me/alem_cinema/2337",
-    "posted_at": "2026-10-30T16:33:56+00:00",
+    "image": "posters/alem/2338-0.jpg",
+    "post_url": "https://t.me/alem_cinema/2338",
+    "posted_at": "2026-11-01T07:22:11+00:00",
     "status": "unreadable"
    },
    "showtimes": [
@@ -115,7 +115,7 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T09:10:29+03:00",
+   "last_checked": "2026-11-01T16:28:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-31T05:20:12+00:00",
    "latest_poster": {
@@ -131,7 +131,7 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T09:10:29+03:00",
+   "last_checked": "2026-11-01T16:28:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-30T18:35:46+00:00",
    "latest_poster": {
@@ -408,7 +408,7 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T09:10:29+03:00",
+   "last_checked": "2026-11-01T16:28:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-30T16:46:51+00:00",
    "latest_poster": {
@@ -438,7 +438,7 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-01T09:10:29+03:00",
+   "last_checked": "2026-11-01T16:28:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-10-28T15:00:16+00:00",
    "latest_poster": {
