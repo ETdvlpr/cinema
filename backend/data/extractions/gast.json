@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-11-03T03:59:48+03:00",
+ "last_checked": "2026-11-03T17:19:43+03:00",
  "last_error": null,
  "posters": {
   "4800-0": {
@@ -8283,6 +8283,22 @@
    "post_url": "https://t.me/GastCinema/4868",
    "posted_at": "2026-11-02T07:50:11+00:00",
    "processed_at": "2026-11-02T18:58:56+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
+  },
+  "4869-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-03T17:19:45+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "This is a single-film promotional poster and does not contain any showtime schedules.",
+   "post_id": 4869,
+   "post_url": "https://t.me/GastCinema/4869",
+   "posted_at": "2026-11-03T11:52:04+00:00",
+   "processed_at": "2026-11-03T17:19:45+03:00",
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
