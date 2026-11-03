@@ -1,135 +1,8 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-03T17:19:43+03:00",
+ "last_checked": "2026-11-04T02:25:18+03:00",
  "last_error": null,
  "posters": {
-  "424-0": {
-   "attempts": 1,
-   "error": null,
-   "first_attempt_at": "2026-10-05T22:05:00+03:00",
-   "image": "posters/garad/424-0.jpg",
-   "index": 0,
-   "model": "gemini-flash-lite-latest",
-   "notes": null,
-   "post_id": 424,
-   "post_url": "https://t.me/garadmulticinema/424",
-   "posted_at": "2026-10-04T16:12:45+00:00",
-   "processed_at": "2026-10-06T09:25:28+03:00",
-   "rejected": [],
-   "showtimes": [
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "VERITY",
-     "film_title_latin": "Verity",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "17:45"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "VERITY",
-     "film_title_latin": "Verity",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "11:00"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "Resident Evil",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "20:00"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "RESIDENT EVIL",
-     "film_title_latin": "Resident Evil",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "15:00"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "THE LOVE HYPOTHESIS",
-     "film_title_latin": "The Love Hypothesis",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "13:45"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "THE LOVE HYPOTHESIS",
-     "film_title_latin": "The Love Hypothesis",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "19:45"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "IDIOTS",
-     "film_title_latin": "Idiots",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "15:45"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "IDIOTS",
-     "film_title_latin": "Idiots",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "13:15"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "Spider-Man: Brand New Day",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "11:00"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-10-05",
-     "film_title": "SPIDER-MAN: BRAND NEW DAY",
-     "film_title_latin": "Spider-Man: Brand New Day",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "17:00"
-    }
-   ],
-   "status": "ok"
-  },
   "426-0": {
    "attempts": 1,
    "error": null,
@@ -3620,6 +3493,569 @@
     }
    ],
    "status": "ok"
+  },
+  "451-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-04T02:30:42+03:00",
+   "image": "posters/garad/451-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "Main schedule is for Avengers: Doomsday. Three other films are listed on the left under 'Coming Soon'.",
+   "post_id": 451,
+   "post_url": "https://t.me/garadmulticinema/451",
+   "posted_at": "2026-11-03T16:00:05+00:00",
+   "processed_at": "2026-11-04T02:30:42+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 17,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 3,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 18,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 3,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 17,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 6,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 18,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 6,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 19,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 3,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 20,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 3,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 26,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 3,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 27,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 3,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 19,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 7,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 20,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 7,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 26,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 7,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 27,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 7,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 19,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 11,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "am",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 20,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 11,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "am",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 26,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 11,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "am",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 27,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 11,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "am",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 19,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 6,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 20,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 6,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 26,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 6,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 27,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 6,
+      "language": null,
+      "minute": 0,
+      "month": 12,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 1,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 2,
+      "language": null,
+      "minute": 30,
+      "month": 1,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 2,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 2,
+      "language": null,
+      "minute": 30,
+      "month": 1,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 3,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "3D",
+      "hall": "CINEMA 1",
+      "hour": 2,
+      "language": null,
+      "minute": 30,
+      "month": 1,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 1,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 11,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "am",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 2,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 11,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "am",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    },
+    {
+     "raw": {
+      "confidence": 1.0,
+      "date_calendar": "gregorian",
+      "day": 3,
+      "film_title": "AVENGERS: DOOMSDAY",
+      "film_title_latin": "Avengers: Doomsday",
+      "format": "2D",
+      "hall": "CINEMA 2",
+      "hour": 11,
+      "language": null,
+      "minute": 0,
+      "month": 1,
+      "period": "am",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": null,
+      "year": null
+     },
+     "reason": "date outside plausible window"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   }
  }
 }
