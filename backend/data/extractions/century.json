@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-11-04T02:25:18+03:00",
+ "last_checked": "2026-11-04T09:27:25+03:00",
  "last_error": null,
  "posters": {
   "2329-0": {
@@ -3241,16 +3241,20 @@
    "status": "ok"
   },
   "2348-0": {
-   "attempts": 1,
-   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "attempts": 2,
+   "error": null,
    "first_attempt_at": "2026-11-04T02:25:20+03:00",
-   "image": "posters/century/2348-0.jpg",
+   "image": null,
    "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Single-event promotional poster listing a date (Nov 18) but no screening times on the poster itself.",
    "post_id": 2348,
    "post_url": "https://t.me/Century_Cinema/2348",
    "posted_at": "2026-11-03T18:37:04+00:00",
-   "processed_at": "2026-11-04T02:25:20+03:00",
-   "status": "error"
+   "processed_at": "2026-11-04T09:27:27+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
