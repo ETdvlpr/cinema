@@ -1,46 +1,8 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-11-04T09:27:25+03:00",
+ "last_checked": "2026-11-04T22:47:52+03:00",
  "last_error": null,
  "posters": {
-  "2314-0": {
-   "attempts": 1,
-   "error": null,
-   "first_attempt_at": "2026-10-05T22:03:49+03:00",
-   "image": "posters/alem/2314-0.jpg",
-   "index": 0,
-   "model": "gemini-flash-lite-latest",
-   "notes": "The poster advertises a play called 'Baloch Ena Mistoch' showing every Tuesday at 12:00 Ethiopian time.",
-   "post_id": 2314,
-   "post_url": "https://t.me/alem_cinema/2314",
-   "posted_at": "2026-10-05T18:04:34+00:00",
-   "processed_at": "2026-10-06T09:24:35+03:00",
-   "rejected": [
-    {
-     "raw": {
-      "confidence": 0.95,
-      "date_calendar": "unknown",
-      "day": null,
-      "film_title": "ባሎች እና ሚስቶች",
-      "film_title_latin": "Baloch Ena Mistoch",
-      "format": null,
-      "hall": "ዓለም ሲኒማ ቦሌ",
-      "hour": 12,
-      "language": "Amharic",
-      "minute": 0,
-      "month": null,
-      "period": "unknown",
-      "price_birr": null,
-      "time_clock": "ethiopian",
-      "weekday": "tuesday",
-      "year": null
-     },
-     "reason": "missing date"
-    }
-   ],
-   "showtimes": [],
-   "status": "unreadable"
-  },
   "2315-0": {
    "attempts": 1,
    "error": null,
@@ -4762,6 +4724,22 @@
     }
    ],
    "status": "ok"
+  },
+  "2340-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-04T22:47:54+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "This image is a promotional poster for a theater play titled 'የጉሽ' (Yegush) without any screenings schedule or times listed.",
+   "post_id": 2340,
+   "post_url": "https://t.me/alem_cinema/2340",
+   "posted_at": "2026-11-04T18:23:40+00:00",
+   "processed_at": "2026-11-04T22:47:54+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }

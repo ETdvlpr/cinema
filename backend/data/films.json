@@ -310,7 +310,7 @@
  },
  "balochenamistoch": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/balochenamistoch.jpg",
    "post_url": "https://t.me/alem_cinema/2339",
@@ -323,11 +323,11 @@
  },
  "byanymeans": {
   "first_seen": "2026-10-23T18:17:19+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/byanymeans.jpg",
-   "post_url": "https://t.me/GastCinema/4866",
-   "posted_at": "2026-11-01T19:51:32+00:00"
+   "post_url": "https://t.me/GastCinema/4872",
+   "posted_at": "2026-11-04T16:41:32+00:00"
   },
   "title": "BY ANY MEANS",
   "tmdb": {
@@ -374,19 +374,9 @@
    "status": "none"
   }
  },
- "comingsoon2": {
-  "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-05T15:00:04+00:00",
-  "thumbnail": {
-   "image": "films/comingsoon2.jpg",
-   "post_url": "https://t.me/garadmulticinema/426",
-   "posted_at": "2026-10-05T15:00:04+00:00"
-  },
-  "title": "Coming Soon 2"
- },
  "coyotevsacme": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/coyotevsacme.jpg",
    "post_url": "https://t.me/garadmulticinema/450",
@@ -608,11 +598,11 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/GastCinema/4866",
-   "posted_at": "2026-11-01T19:51:32+00:00"
+   "post_url": "https://t.me/GastCinema/4872",
+   "posted_at": "2026-11-04T16:41:32+00:00"
   },
   "title": "FORGOTTEN ISLAND",
   "tmdb": {
@@ -639,7 +629,7 @@
  },
  "gochi": {
   "first_seen": "2026-11-01T16:53:30+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/gochi.jpg",
    "post_url": "https://t.me/alem_cinema/2339",
@@ -793,16 +783,6 @@
   },
   "title": "Ice Age 6"
  },
- "iceageboilingpoint": {
-  "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-05T15:00:04+00:00",
-  "thumbnail": {
-   "image": "films/iceageboilingpoint.jpg",
-   "post_url": "https://t.me/garadmulticinema/446",
-   "posted_at": "2026-10-25T15:00:04+00:00"
-  },
-  "title": "Ice Age: Boiling Point"
- },
  "iceageroaringpoint": {
   "first_seen": "2026-10-07T15:00:04+00:00",
   "last_seen": "2026-10-07T15:00:04+00:00",
@@ -931,7 +911,7 @@
  },
  "loveofyourlife": {
   "first_seen": "2026-10-15T20:27:14+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/loveofyourlife.jpg",
    "post_url": "https://t.me/chewatacinema/81",
@@ -1143,11 +1123,11 @@
  },
  "obsession": {
   "first_seen": "2026-10-30T18:35:46+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/obsession.jpg",
-   "post_url": "https://t.me/GastCinema/4866",
-   "posted_at": "2026-11-01T19:51:32+00:00"
+   "post_url": "https://t.me/GastCinema/4872",
+   "posted_at": "2026-11-04T16:41:32+00:00"
   },
   "title": "OBSESSION",
   "tmdb": {
@@ -1296,13 +1276,56 @@
    "status": "skipped_amharic"
   }
  },
+ "ramayanapart1": {
+  "first_seen": "2026-11-04T15:00:39+00:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
+  "thumbnail": {
+   "image": "films/ramayanapart1.jpg",
+   "post_url": "https://t.me/garadmulticinema/453",
+   "posted_at": "2026-11-04T15:00:39+00:00"
+  },
+  "title": "RAMAYANA : PART 1",
+  "tmdb": {
+   "checked_at": "2026-11-04T22:47:52+03:00",
+   "status": "none"
+  }
+ },
+ "ramayanariseofalegend": {
+  "first_seen": "2026-11-04T16:41:32+00:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
+  "thumbnail": {
+   "image": "films/ramayanariseofalegend.jpg",
+   "post_url": "https://t.me/GastCinema/4872",
+   "posted_at": "2026-11-04T16:41:32+00:00"
+  },
+  "title": "RAMAYANA: RISE OF A LEGEND",
+  "tmdb": {
+   "backdrop_path": "/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-11-04T22:47:52+03:00",
+   "genres": [
+    "Fantasy",
+    "Action",
+    "Adventure"
+   ],
+   "id": 656908,
+   "overview": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
+   "poster_path": "/hz2Hv8tPToHvQ7HaxzqeLvahmcJ.jpg",
+   "rating": null,
+   "release_date": "2026-11-05",
+   "runtime": 195,
+   "status": "matched",
+   "title": "Ramayana: Rise of a Legend",
+   "trailer_youtube_key": "74nF-FWAS6M"
+  }
+ },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
-   "post_url": "https://t.me/garadmulticinema/450",
-   "posted_at": "2026-11-01T15:02:09+00:00"
+   "post_url": "https://t.me/garadmulticinema/453",
+   "posted_at": "2026-11-04T15:00:39+00:00"
   },
   "title": "RESIDENT EVIL",
   "tmdb": {
@@ -1498,11 +1521,11 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/chewatacinema/81",
-   "posted_at": "2026-11-02T05:38:31+00:00"
+   "post_url": "https://t.me/GastCinema/4872",
+   "posted_at": "2026-11-04T16:41:32+00:00"
   },
   "title": "SPIDER MAN: BRAND NEW DAY",
   "tmdb": {
@@ -1527,11 +1550,11 @@
  },
  "streetfighter": {
   "first_seen": "2026-10-14T18:27:00+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/streetfighter.jpg",
-   "post_url": "https://t.me/GastCinema/4866",
-   "posted_at": "2026-11-01T19:51:32+00:00"
+   "post_url": "https://t.me/GastCinema/4872",
+   "posted_at": "2026-11-04T16:41:32+00:00"
   },
   "title": "STREET FIGHTER",
   "tmdb": {
@@ -1734,7 +1757,7 @@
  },
  "thelastsunrise": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/thelastsunrise.jpg",
    "post_url": "https://t.me/chewatacinema/81",
@@ -1762,7 +1785,7 @@
  },
  "thelovehypothesis": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/thelovehypothesis.jpg",
    "post_url": "https://t.me/garadmulticinema/450",
@@ -1790,7 +1813,7 @@
  },
  "themongoose": {
   "first_seen": "2026-10-29T15:14:32+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/themongoose.jpg",
    "post_url": "https://t.me/Century_Cinema/2347",
@@ -1891,7 +1914,7 @@
  },
  "theweight": {
   "first_seen": "2026-10-23T06:12:11+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/theweight.jpg",
    "post_url": "https://t.me/Century_Cinema/2347",
@@ -1975,11 +1998,11 @@
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
-   "post_url": "https://t.me/chewatacinema/81",
-   "posted_at": "2026-11-02T05:38:31+00:00"
+   "post_url": "https://t.me/GastCinema/4872",
+   "posted_at": "2026-11-04T16:41:32+00:00"
   },
   "title": "VERITY",
   "tmdb": {
@@ -2065,13 +2088,13 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-04T09:27:25+03:00",
+  "last_seen": "2026-11-04T22:47:52+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
-   "post_url": "https://t.me/GastCinema/4866",
-   "posted_at": "2026-11-01T19:51:32+00:00"
+   "post_url": "https://t.me/GastCinema/4872",
+   "posted_at": "2026-11-04T16:41:32+00:00"
   },
-  "title": "WHALEFALL",
+  "title": "WHALE FALL",
   "tmdb": {
    "backdrop_path": "/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg",
    "certification": "PG-13",
