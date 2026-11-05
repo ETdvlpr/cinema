@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T09:51:21+03:00",
+ "generated_at": "2026-11-05T22:59:31+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,14 +7,14 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-05T09:51:21+03:00",
+   "last_checked": "2026-11-05T22:59:31+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-01T16:53:30+00:00",
    "latest_poster": {
-    "image": "posters/alem/2339-0.jpg",
-    "post_url": "https://t.me/alem_cinema/2339",
-    "posted_at": "2026-11-01T16:53:30+00:00",
-    "status": "ok"
+    "image": "posters/alem/2341-0.jpg",
+    "post_url": "https://t.me/alem_cinema/2341",
+    "posted_at": "2026-11-05T17:31:20+00:00",
+    "status": "error"
    },
    "showtimes": [
     {
@@ -76,14 +76,14 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-05T09:51:21+03:00",
+   "last_checked": "2026-11-05T22:59:31+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-01T17:10:21+00:00",
    "latest_poster": {
-    "image": "posters/century/2347-0.jpg",
-    "post_url": "https://t.me/Century_Cinema/2347",
-    "posted_at": "2026-11-01T17:10:21+00:00",
-    "status": "ok"
+    "image": "posters/century/2349-0.jpg",
+    "post_url": "https://t.me/Century_Cinema/2349",
+    "posted_at": "2026-11-05T16:45:51+00:00",
+    "status": "error"
    },
    "showtimes": [
     {
@@ -210,7 +210,7 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-05T09:51:21+03:00",
+   "last_checked": "2026-11-05T22:59:31+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-04T16:41:32+00:00",
    "latest_poster": {
@@ -721,14 +721,14 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-05T09:51:21+03:00",
+   "last_checked": "2026-11-05T22:59:31+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-02T05:38:31+00:00",
    "latest_poster": {
-    "image": "posters/chewata/81-0.jpg",
-    "post_url": "https://t.me/chewatacinema/81",
-    "posted_at": "2026-11-02T05:38:31+00:00",
-    "status": "ok"
+    "image": "posters/chewata/82-0.jpg",
+    "post_url": "https://t.me/chewatacinema/82",
+    "posted_at": "2026-11-05T15:15:19+00:00",
+    "status": "error"
    },
    "showtimes": [
     {
@@ -777,14 +777,14 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-05T09:51:21+03:00",
+   "last_checked": "2026-11-05T22:59:31+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-04T15:00:39+00:00",
    "latest_poster": {
-    "image": "posters/garad/453-0.jpg",
-    "post_url": "https://t.me/garadmulticinema/453",
-    "posted_at": "2026-11-04T15:00:39+00:00",
-    "status": "ok"
+    "image": "posters/garad/455-0.jpg",
+    "post_url": "https://t.me/garadmulticinema/455",
+    "posted_at": "2026-11-05T09:00:05+00:00",
+    "status": "error"
    },
    "showtimes": [
     {

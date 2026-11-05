@@ -1,24 +1,8 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-05T09:51:21+03:00",
+ "last_checked": "2026-11-05T22:59:31+03:00",
  "last_error": null,
  "posters": {
-  "427-0": {
-   "attempts": 1,
-   "error": null,
-   "first_attempt_at": "2026-10-06T21:24:35+03:00",
-   "image": null,
-   "index": 0,
-   "model": "gemini-flash-lite-latest",
-   "notes": "The image is a promotional movie still for Doomsday and does not contain any showtime schedules.",
-   "post_id": 427,
-   "post_url": "https://t.me/garadmulticinema/427",
-   "posted_at": "2026-10-06T09:00:10+00:00",
-   "processed_at": "2026-10-06T21:24:35+03:00",
-   "rejected": [],
-   "showtimes": [],
-   "status": "not_schedule"
-  },
   "428-0": {
    "attempts": 1,
    "error": null,
@@ -4050,6 +4034,18 @@
     }
    ],
    "status": "ok"
+  },
+  "455-0": {
+   "attempts": 1,
+   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "first_attempt_at": "2026-11-05T23:04:15+03:00",
+   "image": "posters/garad/455-0.jpg",
+   "index": 0,
+   "post_id": 455,
+   "post_url": "https://t.me/garadmulticinema/455",
+   "posted_at": "2026-11-05T09:00:05+00:00",
+   "processed_at": "2026-11-05T23:04:15+03:00",
+   "status": "error"
   }
  }
 }

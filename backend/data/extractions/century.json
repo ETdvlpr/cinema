@@ -1,46 +1,8 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-11-05T09:51:21+03:00",
+ "last_checked": "2026-11-05T22:59:31+03:00",
  "last_error": null,
  "posters": {
-  "2329-0": {
-   "attempts": 1,
-   "error": null,
-   "first_attempt_at": "2026-10-07T09:03:45+03:00",
-   "image": "posters/century/2329-0.jpg",
-   "index": 0,
-   "model": "gemini-flash-lite-latest",
-   "notes": "The poster lists October 18 and 7-10 LT (Ethiopian local time, evening/night).",
-   "post_id": 2329,
-   "post_url": "https://t.me/Century_Cinema/2329",
-   "posted_at": "2026-10-06T18:53:00+00:00",
-   "processed_at": "2026-10-07T09:03:45+03:00",
-   "rejected": [
-    {
-     "raw": {
-      "confidence": 0.95,
-      "date_calendar": "gregorian",
-      "day": 18,
-      "film_title": "Michael Jackson",
-      "film_title_latin": "Michael Jackson",
-      "format": null,
-      "hall": null,
-      "hour": 7,
-      "language": null,
-      "minute": 0,
-      "month": 10,
-      "period": "night",
-      "price_birr": null,
-      "time_clock": "ethiopian",
-      "weekday": null,
-      "year": null
-     },
-     "reason": "time outside screening hours"
-    }
-   ],
-   "showtimes": [],
-   "status": "unreadable"
-  },
   "2330-0": {
    "attempts": 1,
    "error": null,
@@ -3255,6 +3217,18 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "2349-0": {
+   "attempts": 1,
+   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "first_attempt_at": "2026-11-05T22:59:39+03:00",
+   "image": "posters/century/2349-0.jpg",
+   "index": 0,
+   "post_id": 2349,
+   "post_url": "https://t.me/Century_Cinema/2349",
+   "posted_at": "2026-11-05T16:45:51+00:00",
+   "processed_at": "2026-11-05T22:59:39+03:00",
+   "status": "error"
   }
  }
 }
