@@ -310,7 +310,7 @@
  },
  "balochenamistoch": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/balochenamistoch.jpg",
    "post_url": "https://t.me/alem_cinema/2339",
@@ -323,7 +323,7 @@
  },
  "byanymeans": {
   "first_seen": "2026-10-23T18:17:19+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/byanymeans.jpg",
    "post_url": "https://t.me/GastCinema/4872",
@@ -598,7 +598,7 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
    "post_url": "https://t.me/GastCinema/4872",
@@ -629,7 +629,7 @@
  },
  "gochi": {
   "first_seen": "2026-11-01T16:53:30+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/gochi.jpg",
    "post_url": "https://t.me/alem_cinema/2339",
@@ -911,7 +911,7 @@
  },
  "loveofyourlife": {
   "first_seen": "2026-10-15T20:27:14+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/loveofyourlife.jpg",
    "post_url": "https://t.me/chewatacinema/81",
@@ -1123,7 +1123,7 @@
  },
  "obsession": {
   "first_seen": "2026-10-30T18:35:46+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/obsession.jpg",
    "post_url": "https://t.me/GastCinema/4872",
@@ -1148,16 +1148,6 @@
    "title": "Obsession",
    "trailer_youtube_key": "gMC8kkwbIQQ"
   }
- },
- "onelastshot": {
-  "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-10-05T21:21:37+00:00",
-  "thumbnail": {
-   "image": "films/onelastshot.jpg",
-   "post_url": "https://t.me/chewatacinema/68",
-   "posted_at": "2026-10-05T21:21:37+00:00"
-  },
-  "title": "One Last Shot"
  },
  "onslaught": {
   "first_seen": "2026-10-12T05:20:48+00:00",
@@ -1278,7 +1268,7 @@
  },
  "ramayanapart1": {
   "first_seen": "2026-11-04T15:00:39+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/ramayanapart1.jpg",
    "post_url": "https://t.me/garadmulticinema/453",
@@ -1292,7 +1282,7 @@
  },
  "ramayanariseofalegend": {
   "first_seen": "2026-11-04T16:41:32+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/ramayanariseofalegend.jpg",
    "post_url": "https://t.me/GastCinema/4872",
@@ -1321,7 +1311,7 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
    "post_url": "https://t.me/garadmulticinema/453",
@@ -1521,7 +1511,7 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
    "post_url": "https://t.me/GastCinema/4872",
@@ -1550,7 +1540,7 @@
  },
  "streetfighter": {
   "first_seen": "2026-10-14T18:27:00+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/streetfighter.jpg",
    "post_url": "https://t.me/GastCinema/4872",
@@ -1813,7 +1803,7 @@
  },
  "themongoose": {
   "first_seen": "2026-10-29T15:14:32+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/themongoose.jpg",
    "post_url": "https://t.me/Century_Cinema/2347",
@@ -1914,7 +1904,7 @@
  },
  "theweight": {
   "first_seen": "2026-10-23T06:12:11+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/theweight.jpg",
    "post_url": "https://t.me/Century_Cinema/2347",
@@ -1998,7 +1988,7 @@
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
    "post_url": "https://t.me/GastCinema/4872",
@@ -2088,7 +2078,7 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-05T09:51:21+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
    "post_url": "https://t.me/GastCinema/4872",
