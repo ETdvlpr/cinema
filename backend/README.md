@@ -182,8 +182,8 @@ public/                      published to GitHub Pages
 ## Maintenance notes
 
 - **Failure emails.** A run fails, and GitHub emails you, when a channel can't be read (renamed,
-  went private, or Telegram changed the page), when an image fails 3 times, or when a poster still
-  hasn't been extracted 24h after the first try. Temporary quota or overload errors don't trigger
+  went private, or Telegram changed the page), when an image fails 3 times, when a model returns
+  404, or when a poster still hasn't been extracted 24h after the first try. Temporary quota or overload errors don't trigger
   an email on their own. The run fails only *after* publishing, so other cinemas still update.
   The run summary lists the problems.
 - **Free-tier quota.** Free Gemini tiers can be as low as 20 requests per model per day, so the
@@ -193,6 +193,8 @@ public/                      published to GitHub Pages
   - When a model is over quota (429) or overloaded (503), it falls back to the next model.
   - It stops calling the model for the rest of the run once every model is over quota.
   - Quota and overload errors don't count toward an image's 3 attempts.
+  - A model that returns 404 is skipped too, but it fails the run so GitHub sends an email, since
+    waiting won't fix it.
 
   Five cinemas post roughly 5–10 new images a day, which fits within the free tiers.
 - **Pruning.** Posters and records older than 30 days are deleted. Images that aren't schedules

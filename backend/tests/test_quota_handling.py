@@ -18,8 +18,10 @@ OK_JSON = '{"is_schedule": false, "date_range": null, "showtimes": [], "films": 
 @pytest.fixture(autouse=True)
 def fresh_quota_state():
     extract._exhausted_models.clear()
+    extract._missing_models.clear()
     yield
     extract._exhausted_models.clear()
+    extract._missing_models.clear()
 
 
 def fake_client(monkeypatch, responses: dict[str, list]):
@@ -65,11 +67,10 @@ def _image(post_id: int, age: timedelta) -> ChannelImage:
     return ChannelImage("c", post_id, 0, f"https://img/{post_id}", datetime.now(config.TZ) - age, "")
 
 
-def test_quota_errors_dont_use_attempts_and_stop_the_run(tmp_path, monkeypatch):
+def _fake_pipeline(tmp_path, monkeypatch, images):
     for name in ("STORE_DIR", "PUBLIC_DIR", "POSTERS_DIR", "SCHEDULES_FILE", "FILMS_FILE", "THUMBS_DIR", "FILM_OVERRIDES_FILE"):
         monkeypatch.setattr(config, name, tmp_path / name)
 
-    images = [_image(1, timedelta(days=3)), _image(2, timedelta(hours=1)), _image(3, timedelta(days=20))]
     monkeypatch.setattr(pipeline, "fetch_channel_images", lambda client, channel: images)
     monkeypatch.setattr(pipeline, "_save_poster", lambda data, cinema_id, key: f"posters/{key}.jpg")
 
@@ -81,6 +82,11 @@ def test_quota_errors_dont_use_attempts_and_stop_the_run(tmp_path, monkeypatch):
             return type("R", (), {"content": b"", "headers": {}, "raise_for_status": lambda self: None})()
 
     monkeypatch.setattr(pipeline.httpx, "Client", FakeHttp)
+
+
+def test_quota_errors_dont_use_attempts_and_stop_the_run(tmp_path, monkeypatch):
+    images = [_image(1, timedelta(days=3)), _image(2, timedelta(hours=1)), _image(3, timedelta(days=20))]
+    _fake_pipeline(tmp_path, monkeypatch, images)
 
     processed = []
 
@@ -101,3 +107,25 @@ def test_quota_errors_dont_use_attempts_and_stop_the_run(tmp_path, monkeypatch):
     assert store["posters"]["2-0"]["status"] == "error"
     assert store["posters"]["2-0"]["attempts"] == 0
     assert problems == []
+
+
+def test_missing_models_are_reported_as_problems(tmp_path, monkeypatch):
+    _fake_pipeline(tmp_path, monkeypatch, [_image(1, timedelta(hours=1)), _image(2, timedelta(hours=2))])
+    calls = fake_client(monkeypatch, {"primary": [404], "fallback": [404]})
+
+    def fake_extract(image, mime, *, settings, **kw):
+        extract._call_model(image, mime, "", settings)
+
+    monkeypatch.setattr(pipeline, "extract_schedule", fake_extract)
+
+    problems = pipeline.run(SETTINGS, [Cinema("c", "C", "c")])
+
+    assert calls == ["primary", "fallback"]  # the run still stops early
+    assert [p.split(":")[0] for p in problems] == ["fallback", "primary"]
+    assert pipeline.load_store("c")["posters"]["1-0"]["attempts"] == 0
+
+
+def test_missing_model_is_reported_even_when_the_fallback_works(monkeypatch):
+    fake_client(monkeypatch, {"primary": [404], "fallback": [OK_JSON]})
+    assert extract._call_model(b"", "image/jpeg", "", SETTINGS)[1] == "fallback"
+    assert extract.missing_models() == ["primary"]

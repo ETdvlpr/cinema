@@ -136,10 +136,16 @@ def build_prompt(cinema_name: str, posted_on: date, caption: str) -> str:
 _last_call = 0.0
 # Models that hit their quota (or don't exist) during this run; skipped for the rest of it.
 _exhausted_models: set[str] = set()
+# The subset that returned 404. Unlike quota, waiting won't fix these, so they're reported.
+_missing_models: set[str] = set()
 
 
 def all_models_exhausted(settings: Settings) -> bool:
     return all(m in _exhausted_models for m in settings.gemini_models)
+
+
+def missing_models() -> list[str]:
+    return sorted(_missing_models)
 
 
 def extract_schedule(
@@ -188,6 +194,8 @@ def _call_model(image: bytes, mime_type: str, prompt: str, settings: Settings) -
             if e.code in (404, 429):  # unknown model / quota used up: skip it for the rest of the run
                 log.warning("%s unavailable for this run (%s %s)", model, e.code, e.status)
                 _exhausted_models.add(model)
+                if e.code == 404:
+                    _missing_models.add(model)
                 continue
             if e.code in (500, 502, 503, 504):  # overloaded: try the next model for this image
                 log.warning("%s overloaded (%s), trying next model", model, e.code)

@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 
 from . import config
 from .config import Cinema, Settings
-from .extract import ModelsUnavailable, all_models_exhausted, extract_schedule
+from .extract import ModelsUnavailable, all_models_exhausted, extract_schedule, missing_models
 from .films import TMDB_IMAGE_BASE, crop_thumbnail, enrich, load_films, offer_thumbnail, prune_films, public_entry, save_films
 from .publish import build_document, showing_films, write_schedules
 from .scrape import USER_AGENT, ChannelImage, ChannelUnavailable, fetch_channel_images
@@ -67,6 +67,7 @@ def run(settings: Settings, cinemas: list[Cinema], *, dry_run: bool = False) -> 
             if record["status"] == "failed":
                 problems.append(f"{cinema.id}: {image.post_url}: {record['error']}")
 
+    problems += [f"{m}: model not found (404), check GEMINI_MODEL and the google-genai version" for m in missing_models()]
     for cinema_id, store in stores.items():
         problems += _expire_or_flag_stuck(cinema_id, store, now)
         prune_store(store, now)
