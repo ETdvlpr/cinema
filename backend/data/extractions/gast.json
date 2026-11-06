@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-11-06T09:51:03+03:00",
+ "last_checked": "2026-11-06T22:26:55+03:00",
  "last_error": null,
  "posters": {
   "4802-0": {
@@ -7993,6 +7993,18 @@
     }
    ],
    "status": "ok"
+  },
+  "4875-0": {
+   "attempts": 0,
+   "error": "all models over quota or overloaded; last error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-flash-lite-latest is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}",
+   "first_attempt_at": "2026-11-06T22:26:56+03:00",
+   "image": "posters/gast/4875-0.jpg",
+   "index": 0,
+   "post_id": 4875,
+   "post_url": "https://t.me/GastCinema/4875",
+   "posted_at": "2026-11-06T18:48:29+00:00",
+   "processed_at": "2026-11-06T22:26:56+03:00",
+   "status": "error"
   }
  }
 }
