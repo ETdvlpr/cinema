@@ -28,6 +28,19 @@
    "trailer_youtube_key": "EOwTdTZA8D8"
   }
  },
+ "abalawchesse": {
+  "first_seen": "2026-11-05T17:31:20+00:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
+  "thumbnail": {
+   "image": "films/abalawchesse.jpg",
+   "post_url": "https://t.me/alem_cinema/2341",
+   "posted_at": "2026-11-05T17:31:20+00:00"
+  },
+  "title": "Abalaw Chesse",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "abalewchelema": {
   "first_seen": "2026-10-30T16:33:56+00:00",
   "last_seen": "2026-10-30T16:33:56+00:00",
@@ -323,11 +336,11 @@
  },
  "byanymeans": {
   "first_seen": "2026-10-23T18:17:19+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/byanymeans.jpg",
-   "post_url": "https://t.me/GastCinema/4872",
-   "posted_at": "2026-11-04T16:41:32+00:00"
+   "post_url": "https://t.me/GastCinema/4875",
+   "posted_at": "2026-11-06T18:48:29+00:00"
   },
   "title": "BY ANY MEANS",
   "tmdb": {
@@ -498,6 +511,19 @@
   },
   "title": "Doloviya"
  },
+ "dorovili": {
+  "first_seen": "2026-11-05T17:31:20+00:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
+  "thumbnail": {
+   "image": "films/dorovili.jpg",
+   "post_url": "https://t.me/alem_cinema/2341",
+   "posted_at": "2026-11-05T17:31:20+00:00"
+  },
+  "title": "Dorovili",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "dune": {
   "first_seen": "2026-11-01T14:04:00+00:00",
   "last_seen": "2026-11-01T14:04:00+00:00",
@@ -538,6 +564,19 @@
    "posted_at": "2026-10-11T15:51:08+00:00"
   },
   "title": "Entiyu",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "etivih": {
+  "first_seen": "2026-11-05T17:31:20+00:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
+  "thumbnail": {
+   "image": "films/etivih.jpg",
+   "post_url": "https://t.me/alem_cinema/2341",
+   "posted_at": "2026-11-05T17:31:20+00:00"
+  },
+  "title": "Etivih",
   "tmdb": {
    "status": "skipped_amharic"
   }
@@ -598,11 +637,11 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/GastCinema/4872",
-   "posted_at": "2026-11-04T16:41:32+00:00"
+   "post_url": "https://t.me/GastCinema/4875",
+   "posted_at": "2026-11-06T18:48:29+00:00"
   },
   "title": "FORGOTTEN ISLAND",
   "tmdb": {
@@ -1111,13 +1150,42 @@
    "status": "none"
   }
  },
+ "modelcitizen": {
+  "first_seen": "2026-11-06T12:44:15+00:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
+  "thumbnail": {
+   "image": "films/modelcitizen.jpg",
+   "post_url": "https://t.me/Century_Cinema/2350",
+   "posted_at": "2026-11-06T12:44:15+00:00"
+  },
+  "title": "MODEL CITIZEN",
+  "tmdb": {
+   "backdrop_path": "/5MBdRdiGv3AKzZDGbni88xc6JFi.jpg",
+   "certification": "R",
+   "checked_at": "2026-11-07T09:01:48+03:00",
+   "genres": [
+    "Crime",
+    "Science Fiction",
+    "Thriller"
+   ],
+   "id": 1792170,
+   "overview": "With his memories gone and his past a blur, ex-cop Steven Bay seeks treatment for his amnesia while working on an isolated farm. Instead, he's met with rising hostility, strange surveillance, and instincts he can’t fully control. When the pressure becomes unbearable, Bay begins a desperate hunt for the truth behind his fractured reality.",
+   "poster_path": "/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
+   "rating": null,
+   "release_date": "2026-11-03",
+   "runtime": 93,
+   "status": "matched",
+   "title": "Model Citizen",
+   "trailer_youtube_key": "VczwWXoMKL0"
+  }
+ },
  "obsession": {
   "first_seen": "2026-10-30T18:35:46+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/obsession.jpg",
-   "post_url": "https://t.me/GastCinema/4872",
-   "posted_at": "2026-11-04T16:41:32+00:00"
+   "post_url": "https://t.me/GastCinema/4875",
+   "posted_at": "2026-11-06T18:48:29+00:00"
   },
   "title": "OBSESSION",
   "tmdb": {
@@ -1258,11 +1326,11 @@
  },
  "ramayanapart1": {
   "first_seen": "2026-11-04T15:00:39+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/ramayanapart1.jpg",
-   "post_url": "https://t.me/garadmulticinema/453",
-   "posted_at": "2026-11-04T15:00:39+00:00"
+   "post_url": "https://t.me/garadmulticinema/456",
+   "posted_at": "2026-11-06T15:00:19+00:00"
   },
   "title": "RAMAYANA : PART 1",
   "tmdb": {
@@ -1272,11 +1340,11 @@
  },
  "ramayanariseofalegend": {
   "first_seen": "2026-11-04T16:41:32+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/ramayanariseofalegend.jpg",
-   "post_url": "https://t.me/GastCinema/4872",
-   "posted_at": "2026-11-04T16:41:32+00:00"
+   "post_url": "https://t.me/GastCinema/4875",
+   "posted_at": "2026-11-06T18:48:29+00:00"
   },
   "title": "RAMAYANA: RISE OF A LEGEND",
   "tmdb": {
@@ -1301,13 +1369,13 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
-   "post_url": "https://t.me/garadmulticinema/453",
-   "posted_at": "2026-11-04T15:00:39+00:00"
+   "post_url": "https://t.me/garadmulticinema/456",
+   "posted_at": "2026-11-06T15:00:19+00:00"
   },
-  "title": "RESIDENT EVIL",
+  "title": "Resident Evil",
   "tmdb": {
    "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
    "certification": "R",
@@ -1446,11 +1514,11 @@
  },
  "sestfet": {
   "first_seen": "2026-10-26T07:02:13+00:00",
-  "last_seen": "2026-10-29T16:05:41+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/sestfet.jpg",
-   "post_url": "https://t.me/alem_cinema/2331",
-   "posted_at": "2026-10-26T07:02:13+00:00"
+   "post_url": "https://t.me/alem_cinema/2341",
+   "posted_at": "2026-11-05T17:31:20+00:00"
   },
   "title": "Sest Fet",
   "tmdb": {
@@ -1501,11 +1569,11 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/GastCinema/4872",
-   "posted_at": "2026-11-04T16:41:32+00:00"
+   "post_url": "https://t.me/GastCinema/4875",
+   "posted_at": "2026-11-06T18:48:29+00:00"
   },
   "title": "SPIDER MAN: BRAND NEW DAY",
   "tmdb": {
@@ -1530,11 +1598,11 @@
  },
  "streetfighter": {
   "first_seen": "2026-10-14T18:27:00+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/streetfighter.jpg",
-   "post_url": "https://t.me/GastCinema/4872",
-   "posted_at": "2026-11-04T16:41:32+00:00"
+   "post_url": "https://t.me/GastCinema/4875",
+   "posted_at": "2026-11-06T18:48:29+00:00"
   },
   "title": "STREET FIGHTER",
   "tmdb": {
@@ -1793,11 +1861,11 @@
  },
  "themongoose": {
   "first_seen": "2026-10-29T15:14:32+00:00",
-  "last_seen": "2026-11-05T22:59:31+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/themongoose.jpg",
-   "post_url": "https://t.me/Century_Cinema/2347",
-   "posted_at": "2026-11-01T17:10:21+00:00"
+   "post_url": "https://t.me/Century_Cinema/2350",
+   "posted_at": "2026-11-06T12:44:15+00:00"
   },
   "title": "THE MONGOOSE",
   "tmdb": {
@@ -1920,6 +1988,19 @@
    "trailer_youtube_key": "7YpuMymmiJ8"
   }
  },
+ "tsadey": {
+  "first_seen": "2026-11-05T17:31:20+00:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
+  "thumbnail": {
+   "image": "films/tsadey.jpg",
+   "post_url": "https://t.me/alem_cinema/2341",
+   "posted_at": "2026-11-05T17:31:20+00:00"
+  },
+  "title": "Tsadey",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "tseday": {
   "first_seen": "2026-10-26T07:02:13+00:00",
   "last_seen": "2026-11-02T18:58:54+03:00",
@@ -1968,11 +2049,11 @@
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
-   "post_url": "https://t.me/GastCinema/4872",
-   "posted_at": "2026-11-04T16:41:32+00:00"
+   "post_url": "https://t.me/GastCinema/4875",
+   "posted_at": "2026-11-06T18:48:29+00:00"
   },
   "title": "VERITY",
   "tmdb": {
@@ -2020,6 +2101,19 @@
    "status": "skipped_amharic"
   }
  },
+ "wengelnyaasatweledo": {
+  "first_seen": "2026-11-05T17:31:20+00:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
+  "thumbnail": {
+   "image": "films/wengelnyaasatweledo.jpg",
+   "post_url": "https://t.me/alem_cinema/2341",
+   "posted_at": "2026-11-05T17:31:20+00:00"
+  },
+  "title": "Wengelnya Asatweledo",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "wengelnyaastewledom": {
   "first_seen": "2026-10-04T15:31:57+00:00",
   "last_seen": "2026-10-08T16:34:00+03:00",
@@ -2058,13 +2152,13 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-06T22:26:55+03:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
-   "post_url": "https://t.me/GastCinema/4872",
-   "posted_at": "2026-11-04T16:41:32+00:00"
+   "post_url": "https://t.me/GastCinema/4875",
+   "posted_at": "2026-11-06T18:48:29+00:00"
   },
-  "title": "WHALE FALL",
+  "title": "WHALEFALL",
   "tmdb": {
    "backdrop_path": "/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg",
    "certification": "PG-13",
@@ -2118,5 +2212,18 @@
    "posted_at": "2026-10-27T08:43:21+00:00"
   },
   "title": "Yegushin Teater"
+ },
+ "yesemay": {
+  "first_seen": "2026-11-05T17:31:20+00:00",
+  "last_seen": "2026-11-07T09:01:48+03:00",
+  "thumbnail": {
+   "image": "films/yesemay.jpg",
+   "post_url": "https://t.me/alem_cinema/2341",
+   "posted_at": "2026-11-05T17:31:20+00:00"
+  },
+  "title": "Ye Semay",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
  }
 }

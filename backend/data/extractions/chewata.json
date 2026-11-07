@@ -1,6 +1,6 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-11-06T22:26:55+03:00",
+ "last_checked": "2026-11-07T09:01:48+03:00",
  "last_error": null,
  "posters": {
   "69-0": {
@@ -1231,16 +1231,120 @@
    "status": "ok"
   },
   "82-0": {
-   "attempts": 0,
-   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-11-05T23:04:04+03:00",
    "image": "posters/chewata/82-0.jpg",
    "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
    "post_id": 82,
    "post_url": "https://t.me/chewatacinema/82",
    "posted_at": "2026-11-05T15:15:19+00:00",
-   "processed_at": "2026-11-05T23:04:04+03:00",
-   "status": "error"
+   "processed_at": "2026-11-07T09:25:47+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-06",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-07",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-08",
+     "film_title": "Spider-Man: Brand New Day",
+     "film_title_latin": "Spider-Man: Brand New Day",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-06",
+     "film_title": "Forgotten Island",
+     "film_title_latin": "Forgotten Island",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-07",
+     "film_title": "Forgotten Island",
+     "film_title_latin": "Forgotten Island",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-06",
+     "film_title": "Verity",
+     "film_title_latin": "Verity",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-08",
+     "film_title": "Verity",
+     "film_title_latin": "Verity",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-07",
+     "film_title": "Resident Evil",
+     "film_title_latin": "Resident Evil",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-08",
+     "film_title": "Resident Evil",
+     "film_title_latin": "Resident Evil",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    }
+   ],
+   "status": "ok"
   }
  }
 }

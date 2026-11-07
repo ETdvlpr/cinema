@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-06T22:26:55+03:00",
+ "last_checked": "2026-11-07T09:01:48+03:00",
  "last_error": null,
  "posters": {
   "429-0": {
@@ -3931,16 +3931,235 @@
    "status": "ok"
   },
   "455-0": {
-   "attempts": 1,
-   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "attempts": 2,
+   "error": null,
    "first_attempt_at": "2026-11-05T23:04:15+03:00",
-   "image": "posters/garad/455-0.jpg",
+   "image": null,
    "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "The image is a promotional teaser poster for Marvel Studios' Avengers: Doomsday without screening times.",
    "post_id": 455,
    "post_url": "https://t.me/garadmulticinema/455",
    "posted_at": "2026-11-05T09:00:05+00:00",
-   "processed_at": "2026-11-05T23:04:15+03:00",
-   "status": "error"
+   "processed_at": "2026-11-07T09:27:09+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
+  },
+  "456-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-07T09:02:07+03:00",
+   "image": "posters/garad/456-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 456,
+   "post_url": "https://t.me/garadmulticinema/456",
+   "posted_at": "2026-11-06T15:00:19+00:00",
+   "processed_at": "2026-11-07T09:02:07+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.95,
+     "date": "2026-11-07",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "RAMAYANA : PART 1",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-08",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "RAMAYANA : PART 1",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-07",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "RAMAYANA : PART 1",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-08",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "RAMAYANA : PART 1",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-07",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "RAMAYANA : PART 1",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-08",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "RAMAYANA : PART 1",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-07",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-08",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-07",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-08",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "WHALEFALL",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-07",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-08",
+     "film_title": "VERITY",
+     "film_title_latin": "VERITY",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-07",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-08",
+     "film_title": "RESIDENT EVIL",
+     "film_title_latin": "RESIDENT EVIL",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-07",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-08",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-07",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "17:15"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-08",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "17:15"
+    }
+   ],
+   "status": "ok"
   }
  }
 }
