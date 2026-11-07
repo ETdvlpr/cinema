@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T09:01:48+03:00",
+ "generated_at": "2026-11-07T16:05:56+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-07T09:01:48+03:00",
+   "last_checked": "2026-11-07T16:05:56+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-05T17:31:20+00:00",
    "latest_poster": {
@@ -466,7 +466,7 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-07T09:01:48+03:00",
+   "last_checked": "2026-11-07T16:05:56+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-06T12:44:15+00:00",
    "latest_poster": {
@@ -691,18 +691,18 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-07T09:01:48+03:00",
+   "last_checked": "2026-11-07T16:05:56+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-11-06T18:48:29+00:00",
+   "latest_schedule_posted_at": "2026-11-07T11:41:59+00:00",
    "latest_poster": {
-    "image": "posters/gast/4875-0.jpg",
-    "post_url": "https://t.me/GastCinema/4875",
-    "posted_at": "2026-11-06T18:48:29+00:00",
+    "image": "posters/gast/4880-0.jpg",
+    "post_url": "https://t.me/GastCinema/4880",
+    "posted_at": "2026-11-07T11:41:59+00:00",
     "status": "ok"
    },
    "showtimes": [
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "OBSESSION",
      "film_title_latin": "OBSESSION",
@@ -711,11 +711,11 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -724,11 +724,11 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "STREET FIGHTER",
      "film_title_latin": "STREET FIGHTER",
@@ -737,37 +737,11 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-11-07",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-07",
-     "film_title": "RAMAYANA: RISE OF A LEGEND",
-     "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": "INDIAN",
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "FORGOTTEN ISLAND",
      "film_title_latin": "FORGOTTEN ISLAND",
@@ -776,11 +750,11 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "STREET FIGHTER",
      "film_title_latin": "STREET FIGHTER",
@@ -789,11 +763,11 @@
      "language": null,
      "price_birr": null,
      "time": "14:15",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -802,11 +776,11 @@
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "RAMAYANA: RISE OF A LEGEND",
      "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
@@ -815,11 +789,11 @@
      "language": "ENGLISH DUB",
      "price_birr": null,
      "time": "15:15",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "FORGOTTEN ISLAND",
      "film_title_latin": "FORGOTTEN ISLAND",
@@ -828,11 +802,11 @@
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "WHALE FALL",
      "film_title_latin": "WHALE FALL",
@@ -841,24 +815,24 @@
      "language": null,
      "price_birr": null,
      "time": "16:30",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "RAMAYANA: RISE OF A LEGEND",
      "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
      "format": "2D",
-     "hall": "GOLD 3",
+     "hall": "GOLD 2",
      "language": "INDIAN",
      "price_birr": null,
      "time": "17:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "FORGOTTEN ISLAND",
      "film_title_latin": "FORGOTTEN ISLAND",
@@ -867,11 +841,11 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -880,11 +854,11 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "RAMAYANA: RISE OF A LEGEND",
      "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
@@ -893,24 +867,24 @@
      "language": "ENGLISH DUB",
      "price_birr": null,
      "time": "18:30",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
-     "film_title": "WHALE FALL",
-     "film_title_latin": "WHALE FALL",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
      "format": "2D",
      "hall": "GOLD 2",
      "language": null,
      "price_birr": null,
-     "time": "19:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "time": "20:00",
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "BY ANY MEANS",
      "film_title_latin": "BY ANY MEANS",
@@ -919,37 +893,24 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
-     "film_title": "OBSESSION",
-     "film_title_latin": "OBSESSION",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
      "format": "2D",
      "hall": "GOLD 4",
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-11-07",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-07",
      "film_title": "WHALE FALL",
      "film_title_latin": "WHALE FALL",
@@ -958,11 +919,11 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "OBSESSION",
      "film_title_latin": "OBSESSION",
@@ -971,11 +932,11 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -984,11 +945,11 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "STREET FIGHTER",
      "film_title_latin": "STREET FIGHTER",
@@ -997,37 +958,11 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-11-08",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-08",
-     "film_title": "RAMAYANA: RISE OF A LEGEND",
-     "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": "INDIAN",
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "FORGOTTEN ISLAND",
      "film_title_latin": "FORGOTTEN ISLAND",
@@ -1036,11 +971,11 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "STREET FIGHTER",
      "film_title_latin": "STREET FIGHTER",
@@ -1049,11 +984,11 @@
      "language": null,
      "price_birr": null,
      "time": "14:15",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -1062,11 +997,11 @@
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "RAMAYANA: RISE OF A LEGEND",
      "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
@@ -1075,11 +1010,11 @@
      "language": "ENGLISH DUB",
      "price_birr": null,
      "time": "15:15",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "FORGOTTEN ISLAND",
      "film_title_latin": "FORGOTTEN ISLAND",
@@ -1088,11 +1023,11 @@
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "WHALE FALL",
      "film_title_latin": "WHALE FALL",
@@ -1101,24 +1036,24 @@
      "language": null,
      "price_birr": null,
      "time": "16:30",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "RAMAYANA: RISE OF A LEGEND",
      "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
      "format": "2D",
-     "hall": "GOLD 3",
+     "hall": "GOLD 2",
      "language": "INDIAN",
      "price_birr": null,
      "time": "17:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "FORGOTTEN ISLAND",
      "film_title_latin": "FORGOTTEN ISLAND",
@@ -1127,11 +1062,11 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
@@ -1140,11 +1075,11 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "RAMAYANA: RISE OF A LEGEND",
      "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
@@ -1153,24 +1088,24 @@
      "language": "ENGLISH DUB",
      "price_birr": null,
      "time": "18:30",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
-     "film_title": "WHALE FALL",
-     "film_title_latin": "WHALE FALL",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
      "format": "2D",
      "hall": "GOLD 2",
      "language": null,
      "price_birr": null,
-     "time": "19:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "time": "20:00",
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "BY ANY MEANS",
      "film_title_latin": "BY ANY MEANS",
@@ -1179,37 +1114,24 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
-     "film_title": "OBSESSION",
-     "film_title_latin": "OBSESSION",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
      "format": "2D",
      "hall": "GOLD 4",
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     },
     {
-     "confidence": 0.95,
-     "date": "2026-11-08",
-     "film_title": "VERITY",
-     "film_title_latin": "VERITY",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
-    },
-    {
-     "confidence": 0.95,
+     "confidence": 1.0,
      "date": "2026-11-08",
      "film_title": "WHALE FALL",
      "film_title_latin": "WHALE FALL",
@@ -1218,8 +1140,8 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4875-0.jpg",
-     "post_url": "https://t.me/GastCinema/4875"
+     "poster": "posters/gast/4880-0.jpg",
+     "post_url": "https://t.me/GastCinema/4880"
     }
    ]
   },
@@ -1228,7 +1150,7 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-07T09:01:48+03:00",
+   "last_checked": "2026-11-07T16:05:56+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-05T15:15:19+00:00",
    "latest_poster": {
@@ -1323,7 +1245,7 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-07T09:01:48+03:00",
+   "last_checked": "2026-11-07T16:05:56+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-06T15:00:19+00:00",
    "latest_poster": {
@@ -1817,6 +1739,25 @@
    "poster_path": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
    "backdrop_path": "/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
    "thumbnail": "films/themongoose.jpg"
+  },
+  "theodyssey": {
+   "title": "The Odyssey",
+   "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+   "release_date": "2026-07-15",
+   "runtime": 173,
+   "genres": [
+    "Adventure",
+    "Action",
+    "Fantasy"
+   ],
+   "rating": 8.0,
+   "certification": "R",
+   "tmdb_id": 1368337,
+   "tmdb_url": "https://www.themoviedb.org/movie/1368337",
+   "trailer_url": "https://www.youtube.com/watch?v=Mzw2ttJD2qQ",
+   "poster_path": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+   "backdrop_path": "/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
+   "thumbnail": "films/theodyssey.jpg"
   },
   "tsadey": {
    "title": "Tsadey",

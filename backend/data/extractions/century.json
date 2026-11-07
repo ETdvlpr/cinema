@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-11-07T09:01:48+03:00",
+ "last_checked": "2026-11-07T16:05:56+03:00",
  "last_error": null,
  "posters": {
   "2331-0": {
@@ -3101,6 +3101,38 @@
     }
    ],
    "status": "ok"
+  },
+  "2351-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-07T16:16:38+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "The image is a promotional movie poster for Avengers: Endgame without any screening dates or times printed on it.",
+   "post_id": 2351,
+   "post_url": "https://t.me/Century_Cinema/2351",
+   "posted_at": "2026-11-07T09:42:23+00:00",
+   "processed_at": "2026-11-07T16:16:38+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
+  },
+  "2352-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-07T16:09:21+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Promotional poster announcing 'The Odyssey: Start Tomorrow' without specific dates or showtimes.",
+   "post_id": 2352,
+   "post_url": "https://t.me/Century_Cinema/2352",
+   "posted_at": "2026-11-07T11:49:19+00:00",
+   "processed_at": "2026-11-07T16:09:21+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
