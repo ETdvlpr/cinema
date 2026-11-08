@@ -1,6 +1,6 @@
 {
  "cinema_id": "alem",
- "last_checked": "2026-11-08T16:28:15+03:00",
+ "last_checked": "2026-11-09T01:08:32+03:00",
  "last_error": null,
  "posters": {
   "2317-0": {
@@ -5196,6 +5196,331 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "2344-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-09T01:10:24+03:00",
+   "image": "posters/alem/2344-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 2344,
+   "post_url": "https://t.me/alem_cinema/2344",
+   "posted_at": "2026-11-08T18:09:04+00:00",
+   "processed_at": "2026-11-09T01:10:24+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.95,
+     "date": "2026-11-11",
+     "film_title": "ጉሽን",
+     "film_title_latin": "Gushn",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-10",
+     "film_title": "ባሎች እና ሚስቶች",
+     "film_title_latin": "Baloch ena Mistoch",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-09",
+     "film_title": "ቀን ዛሬ",
+     "film_title_latin": "Ken Zare",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "17:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-10",
+     "film_title": "ቀን ዛሬ",
+     "film_title_latin": "Ken Zare",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-11",
+     "film_title": "ቀን ዛሬ",
+     "film_title_latin": "Ken Zare",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-12",
+     "film_title": "ቀን ዛሬ",
+     "film_title_latin": "Ken Zare",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "17:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-09",
+     "film_title": "የኔ ሰማይ",
+     "film_title_latin": "Yene Semay",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-10",
+     "film_title": "የኔ ሰማይ",
+     "film_title_latin": "Yene Semay",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-11",
+     "film_title": "የኔ ሰማይ",
+     "film_title_latin": "Yene Semay",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-12",
+     "film_title": "የኔ ሰማይ",
+     "film_title_latin": "Yene Semay",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-09",
+     "film_title": "ሁለት ፊት",
+     "film_title_latin": "Hulet Fit",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "20:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-11",
+     "film_title": "ሁለት ፊት",
+     "film_title_latin": "Hulet Fit",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-12",
+     "film_title": "ሁለት ፊት",
+     "film_title_latin": "Hulet Fit",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-09",
+     "film_title": "ዶሎቪያ",
+     "film_title_latin": "Dolovia",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-10",
+     "film_title": "ዶሎቪያ",
+     "film_title_latin": "Dolovia",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "20:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-12",
+     "film_title": "ዶሎቪያ",
+     "film_title_latin": "Dolovia",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "20:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-09",
+     "film_title": "ጸሐይ",
+     "film_title_latin": "Tsehay",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-10",
+     "film_title": "ጸሐይ",
+     "film_title_latin": "Tsehay",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "17:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-10",
+     "film_title": "ጸሐይ",
+     "film_title_latin": "Tsehay",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-11",
+     "film_title": "ጸሐይ",
+     "film_title_latin": "Tsehay",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-12",
+     "film_title": "ጸሐይ",
+     "film_title_latin": "Tsehay",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-09",
+     "film_title": "ወንጀሉ አልተወለደም",
+     "film_title_latin": "Wenjelu Alteweledem",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-11",
+     "film_title": "ወንጀሉ አልተወለደም",
+     "film_title_latin": "Wenjelu Alteweledem",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "20:20"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-12",
+     "film_title": "ወንጀሉ አልተወለደም",
+     "film_title_latin": "Wenjelu Alteweledem",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-09",
+     "film_title": "አንተነህ",
+     "film_title_latin": "Anteneh",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-10",
+     "film_title": "አንተነህ",
+     "film_title_latin": "Anteneh",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "16:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-11",
+     "film_title": "አንተነህ",
+     "film_title_latin": "Anteneh",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "17:10"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-12",
+     "film_title": "አንተነህ",
+     "film_title_latin": "Anteneh",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:10"
+    }
+   ],
+   "status": "ok"
   }
  }
 }

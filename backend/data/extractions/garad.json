@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-08T16:28:15+03:00",
+ "last_checked": "2026-11-09T01:08:32+03:00",
  "last_error": null,
  "posters": {
   "431-0": {
@@ -3829,6 +3829,18 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "458-0": {
+   "attempts": 1,
+   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "first_attempt_at": "2026-11-09T01:14:23+03:00",
+   "image": "posters/garad/458-0.jpg",
+   "index": 0,
+   "post_id": 458,
+   "post_url": "https://t.me/garadmulticinema/458",
+   "posted_at": "2026-11-08T15:56:10+00:00",
+   "processed_at": "2026-11-09T01:14:23+03:00",
+   "status": "error"
   }
  }
 }
