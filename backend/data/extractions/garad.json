@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-10T01:24:17+03:00",
+ "last_checked": "2026-11-10T10:22:02+03:00",
  "last_error": null,
  "posters": {
   "431-0": {
@@ -4161,28 +4161,235 @@
    "status": "not_schedule"
   },
   "460-0": {
-   "attempts": 1,
-   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "attempts": 2,
+   "error": null,
    "first_attempt_at": "2026-11-10T01:29:02+03:00",
    "image": "posters/garad/460-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The date Nov 14 is shown at the bottom right corner of the app screen.",
    "post_id": 460,
    "post_url": "https://t.me/garadmulticinema/460",
    "posted_at": "2026-11-09T13:05:09+00:00",
-   "processed_at": "2026-11-10T01:29:02+03:00",
-   "status": "error"
+   "processed_at": "2026-11-10T10:22:13+03:00",
+   "rejected": [
+    {
+     "raw": {
+      "confidence": 0.95,
+      "date_calendar": "gregorian",
+      "day": 14,
+      "film_title": "Code Geass: Lelouch of the Re;surrection",
+      "film_title_latin": "Code Geass: Lelouch of the Re;surrection",
+      "format": "2D",
+      "hall": null,
+      "hour": 1,
+      "language": null,
+      "minute": 0,
+      "month": 11,
+      "period": "pm",
+      "price_birr": null,
+      "time_clock": "western",
+      "weekday": "saturday",
+      "year": 2020
+     },
+     "reason": "date outside plausible window"
+    }
+   ],
+   "showtimes": [],
+   "status": "unreadable"
   },
   "461-0": {
-   "attempts": 1,
-   "error": "RemoteProtocolError: Server disconnected without sending a response.",
+   "attempts": 2,
+   "error": null,
    "first_attempt_at": "2026-11-10T01:24:19+03:00",
    "image": "posters/garad/461-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
    "post_id": 461,
    "post_url": "https://t.me/garadmulticinema/461",
    "posted_at": "2026-11-09T14:34:55+00:00",
-   "processed_at": "2026-11-10T01:24:19+03:00",
-   "status": "error"
+   "processed_at": "2026-11-10T10:22:04+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-10",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-11",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-10",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-11",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-10",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-11",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-10",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-11",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-10",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "Ramayana : Part 1",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-11",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "Ramayana : Part 1",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-10",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "Whalefall",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-11",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "Whalefall",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-10",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "Whalefall",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-11",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "Whalefall",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-10",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "Forgotten Island",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-11",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "Forgotten Island",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    }
+   ],
+   "status": "ok"
   }
  }
 }
