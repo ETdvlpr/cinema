@@ -107,19 +107,6 @@
   },
   "title": "Abwaraw Chese"
  },
- "adebabaymenetsir": {
-  "first_seen": "2026-10-08T17:19:52+00:00",
-  "last_seen": "2026-10-11T15:53:58+03:00",
-  "thumbnail": {
-   "image": "films/adebabaymenetsir.jpg",
-   "post_url": "https://t.me/alem_cinema/2316",
-   "posted_at": "2026-10-08T17:19:52+00:00"
-  },
-  "title": "Adebabay Menetsir",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "animals": {
   "first_seen": "2026-10-11T19:20:47+00:00",
   "last_seen": "2026-10-23T20:11:01+03:00",
@@ -150,7 +137,7 @@
  },
  "anteneh": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/anteneh.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -310,7 +297,7 @@
  },
  "balochenamistoch": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/balochenamistoch.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -474,7 +461,7 @@
  },
  "dolovia": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/dolovia.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -530,14 +517,6 @@
    "posted_at": "2026-11-01T14:04:00+00:00"
   },
   "title": "Dune"
- },
- "enatuh": {
-  "first_seen": "2026-10-09T02:23:06+03:00",
-  "last_seen": "2026-10-11T15:53:58+03:00",
-  "title": "Enatuh",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
  },
  "enteneh": {
   "first_seen": "2026-10-22T17:37:40+00:00",
@@ -634,7 +613,7 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
    "post_url": "https://t.me/garadmulticinema/461",
@@ -691,14 +670,14 @@
   "last_seen": "2026-10-12T15:25:32+00:00",
   "thumbnail": {
    "image": "films/gushen.jpg",
-   "post_url": "https://t.me/alem_cinema/2334",
-   "posted_at": "2026-10-28T16:17:55+00:00"
+   "post_url": "https://t.me/alem_cinema/2345",
+   "posted_at": "2026-11-10T14:59:32+00:00"
   },
   "title": "Gushen"
  },
  "gushn": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/gushn.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -750,7 +729,7 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/chewatacinema/84",
@@ -801,7 +780,7 @@
  },
  "huletfit": {
   "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/huletfit.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -900,7 +879,7 @@
  },
  "kenzare": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/kenzare.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -1285,19 +1264,6 @@
    "status": "skipped_amharic"
   }
  },
- "qenzelel": {
-  "first_seen": "2026-10-08T17:19:52+00:00",
-  "last_seen": "2026-10-11T15:53:58+03:00",
-  "thumbnail": {
-   "image": "films/qenzelel.jpg",
-   "post_url": "https://t.me/alem_cinema/2316",
-   "posted_at": "2026-10-08T17:19:52+00:00"
-  },
-  "title": "Qen Zelel",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "qenzelele": {
   "first_seen": "2026-10-30T16:33:56+00:00",
   "last_seen": "2026-10-30T16:33:56+00:00",
@@ -1349,7 +1315,7 @@
  },
  "ramayanapart1": {
   "first_seen": "2026-11-04T15:00:39+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/ramayanapart1.jpg",
    "post_url": "https://t.me/garadmulticinema/461",
@@ -1363,7 +1329,7 @@
  },
  "ramayanariseofalegend": {
   "first_seen": "2026-11-04T16:41:32+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/ramayanariseofalegend.jpg",
    "post_url": "https://t.me/Century_Cinema/2354",
@@ -1445,19 +1411,6 @@
    "status": "matched",
    "title": "Runner",
    "trailer_youtube_key": "m8JUmBgHejI"
-  }
- },
- "salamata": {
-  "first_seen": "2026-10-08T17:19:52+00:00",
-  "last_seen": "2026-10-11T15:53:58+03:00",
-  "thumbnail": {
-   "image": "films/salamata.jpg",
-   "post_url": "https://t.me/alem_cinema/2316",
-   "posted_at": "2026-10-08T17:19:52+00:00"
-  },
-  "title": "Salamata",
-  "tmdb": {
-   "status": "skipped_amharic"
   }
  },
  "salayat": {
@@ -1582,7 +1535,7 @@
  },
  "streetfighter": {
   "first_seen": "2026-10-14T18:27:00+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/streetfighter.jpg",
    "post_url": "https://t.me/Century_Cinema/2354",
@@ -1606,19 +1559,6 @@
    "status": "matched",
    "title": "Street Fighter",
    "trailer_youtube_key": "Xt4X4FvXk2A"
-  }
- },
- "tentwayituastesasach": {
-  "first_seen": "2026-10-08T17:19:52+00:00",
-  "last_seen": "2026-10-11T15:53:58+03:00",
-  "thumbnail": {
-   "image": "films/tentwayituastesasach.jpg",
-   "post_url": "https://t.me/alem_cinema/2316",
-   "posted_at": "2026-10-08T17:19:52+00:00"
-  },
-  "title": "Tentwayitu Astesasach",
-  "tmdb": {
-   "status": "skipped_amharic"
   }
  },
  "tenzing": {
@@ -1701,35 +1641,6 @@
    "status": "matched",
    "title": "The Dog Stars",
    "trailer_youtube_key": "cmzVY1goqwQ"
-  }
- },
- "theendofoakstreet": {
-  "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-10-11T15:53:58+03:00",
-  "thumbnail": {
-   "image": "films/theendofoakstreet.jpg",
-   "post_url": "https://t.me/GastCinema/4804",
-   "posted_at": "2026-10-09T19:48:18+00:00"
-  },
-  "title": "THE END OF OAK STREET",
-  "tmdb": {
-   "backdrop_path": "/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
-   "certification": "PG-13",
-   "checked_at": "2026-10-06T09:24:23+03:00",
-   "genres": [
-    "Science Fiction",
-    "Mystery",
-    "Thriller"
-   ],
-   "id": 1101383,
-   "overview": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
-   "poster_path": "/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
-   "rating": 7.1,
-   "release_date": "2026-08-12",
-   "runtime": 100,
-   "status": "matched",
-   "title": "The End of Oak Street",
-   "trailer_youtube_key": "s9GKXTbChjE"
   }
  },
  "thefix": {
@@ -1845,7 +1756,7 @@
  },
  "themongoose": {
   "first_seen": "2026-10-29T15:14:32+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/themongoose.jpg",
    "post_url": "https://t.me/Century_Cinema/2354",
@@ -1873,7 +1784,7 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
    "post_url": "https://t.me/garadmulticinema/461",
@@ -2000,7 +1911,7 @@
  },
  "tsehay": {
   "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/tsehay.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -2021,19 +1932,9 @@
   },
   "title": "UNKNOWN COMING SOON 1"
  },
- "unknowncomingsoonfilm": {
-  "first_seen": "2026-10-11T15:00:04+00:00",
-  "last_seen": "2026-10-11T15:00:04+00:00",
-  "thumbnail": {
-   "image": "films/unknowncomingsoonfilm.jpg",
-   "post_url": "https://t.me/garadmulticinema/431",
-   "posted_at": "2026-10-11T15:00:04+00:00"
-  },
-  "title": "Unknown Coming Soon Film"
- },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
    "post_url": "https://t.me/chewatacinema/84",
@@ -2123,7 +2024,7 @@
  },
  "wenjelualteweledem": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/wenjelualteweledem.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -2136,7 +2037,7 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
    "post_url": "https://t.me/garadmulticinema/461",
@@ -2199,7 +2100,7 @@
  },
  "yenesemay": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-10T10:22:02+03:00",
+  "last_seen": "2026-11-10T22:45:40+03:00",
   "thumbnail": {
    "image": "films/yenesemay.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
