@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T22:45:40+03:00",
+ "generated_at": "2026-11-11T09:27:28+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-10T22:45:40+03:00",
+   "last_checked": "2026-11-11T09:27:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-08T18:09:04+00:00",
    "latest_poster": {
@@ -17,97 +17,6 @@
     "status": "unreadable"
    },
    "showtimes": [
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "ቀን ዛሬ",
-     "film_title_latin": "Ken Zare",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "የኔ ሰማይ",
-     "film_title_latin": "Yene Semay",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "አንተነህ",
-     "film_title_latin": "Anteneh",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "16:10",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "ጸሐይ",
-     "film_title_latin": "Tsehay",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "17:10",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "ባሎች እና ሚስቶች",
-     "film_title_latin": "Baloch ena Mistoch",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "18:20",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "ጸሐይ",
-     "film_title_latin": "Tsehay",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "19:10",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "ዶሎቪያ",
-     "film_title_latin": "Dolovia",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "20:20",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
     {
      "confidence": 0.95,
      "date": "2026-11-11",
@@ -297,7 +206,7 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-10T22:45:40+03:00",
+   "last_checked": "2026-11-11T09:27:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-08T17:42:45+00:00",
    "latest_poster": {
@@ -307,97 +216,6 @@
     "status": "ok"
    },
    "showtimes": [
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/century/2354-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2354"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "THE ODYSSEY",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/century/2354-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2354"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "RAMAYANA: RISE OF A LEGEND",
-     "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/century/2354-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2354"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "THE ODYSSEY",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00",
-     "poster": "posters/century/2354-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2354"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "THE MONGOOSE",
-     "film_title_latin": "THE MONGOOSE",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "17:00",
-     "poster": "posters/century/2354-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2354"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "THE ODYSSEY",
-     "format": "2D",
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "19:00",
-     "poster": "posters/century/2354-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2354"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-10",
-     "film_title": "STREET FIGHTER",
-     "film_title_latin": "STREET FIGHTER",
-     "format": "2D",
-     "hall": "C3",
-     "language": null,
-     "price_birr": null,
-     "time": "19:15",
-     "poster": "posters/century/2354-0.jpg",
-     "post_url": "https://t.me/Century_Cinema/2354"
-    },
     {
      "confidence": 0.95,
      "date": "2026-11-11",
@@ -496,7 +314,7 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-10T22:45:40+03:00",
+   "last_checked": "2026-11-11T09:27:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-07T19:31:56+00:00",
    "latest_poster": {
@@ -512,7 +330,7 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-10T22:45:40+03:00",
+   "last_checked": "2026-11-11T09:27:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-08T18:35:27+00:00",
    "latest_poster": {
@@ -522,32 +340,6 @@
     "status": "ok"
    },
    "showtimes": [
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "The Odyssey",
-     "film_title_latin": "The Odyssey",
-     "format": null,
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "13:30",
-     "poster": "posters/chewata/84-0.jpg",
-     "post_url": "https://t.me/chewatacinema/84"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "Verity",
-     "film_title_latin": "Verity",
-     "format": null,
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "17:00",
-     "poster": "posters/chewata/84-0.jpg",
-     "post_url": "https://t.me/chewatacinema/84"
-    },
     {
      "confidence": 1.0,
      "date": "2026-11-11",
@@ -607,7 +399,7 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-10T22:45:40+03:00",
+   "last_checked": "2026-11-11T09:27:28+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-09T14:34:55+00:00",
    "latest_poster": {
@@ -617,110 +409,6 @@
     "status": "ok"
    },
    "showtimes": [
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "Forgotten Island",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "11:00",
-     "poster": "posters/garad/461-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/461"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "The Odyssey",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "11:00",
-     "poster": "posters/garad/461-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/461"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "The Odyssey",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/garad/461-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/461"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "WHALEFALL",
-     "film_title_latin": "Whalefall",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/garad/461-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/461"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "The Odyssey",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00",
-     "poster": "posters/garad/461-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/461"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "WHALEFALL",
-     "film_title_latin": "Whalefall",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00",
-     "poster": "posters/garad/461-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/461"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "The Odyssey",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00",
-     "poster": "posters/garad/461-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/461"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-10",
-     "film_title": "RAMAYANA : PART 1",
-     "film_title_latin": "Ramayana : Part 1",
-     "format": "2D",
-     "hall": "CINEMA 1",
-     "language": null,
-     "price_birr": null,
-     "time": "19:00",
-     "poster": "posters/garad/461-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/461"
-    },
     {
      "confidence": 1.0,
      "date": "2026-11-11",
@@ -844,21 +532,6 @@
    "poster_path": null,
    "backdrop_path": null,
    "thumbnail": "films/anteneh.jpg"
-  },
-  "balochenamistoch": {
-   "title": "Baloch ena Mistoch",
-   "overview": null,
-   "release_date": null,
-   "runtime": null,
-   "genres": [],
-   "rating": null,
-   "certification": null,
-   "tmdb_id": null,
-   "tmdb_url": null,
-   "trailer_url": null,
-   "poster_path": null,
-   "backdrop_path": null,
-   "thumbnail": "films/balochenamistoch.jpg"
   },
   "dolovia": {
    "title": "Dolovia",
@@ -1062,24 +735,6 @@
    "poster_path": null,
    "backdrop_path": null,
    "thumbnail": "films/tsehay.jpg"
-  },
-  "verity": {
-   "title": "Verity",
-   "overview": "Lowen Ashleigh is hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who is unable to finish following an accident. Lowen gradually uncovers Verity's disturbing truths while residing at the Crawfords' home to work.",
-   "release_date": "2026-09-30",
-   "runtime": 114,
-   "genres": [
-    "Mystery",
-    "Thriller"
-   ],
-   "rating": 6.6,
-   "certification": "R",
-   "tmdb_id": 1283515,
-   "tmdb_url": "https://www.themoviedb.org/movie/1283515",
-   "trailer_url": "https://www.youtube.com/watch?v=xdPMKhjMSFs",
-   "poster_path": "/97y0RdzRIeZ2j6se98hRQpxz3eR.jpg",
-   "backdrop_path": "/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
-   "thumbnail": "films/verity.jpg"
   },
   "wenjelualteweledem": {
    "title": "Wenjelu Alteweledem",
