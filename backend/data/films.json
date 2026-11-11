@@ -97,16 +97,6 @@
   },
   "title": "Abwaraw Ches"
  },
- "abwarawchese": {
-  "first_seen": "2026-10-12T15:25:32+00:00",
-  "last_seen": "2026-10-12T15:25:32+00:00",
-  "thumbnail": {
-   "image": "films/abwarawchese.jpg",
-   "post_url": "https://t.me/alem_cinema/2318",
-   "posted_at": "2026-10-12T15:25:32+00:00"
-  },
-  "title": "Abwaraw Chese"
- },
  "animals": {
   "first_seen": "2026-10-11T19:20:47+00:00",
   "last_seen": "2026-10-23T20:11:01+03:00",
@@ -137,7 +127,7 @@
  },
  "anteneh": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/anteneh.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -451,7 +441,7 @@
  },
  "dolovia": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/dolovia.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -603,7 +593,7 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
    "post_url": "https://t.me/garadmulticinema/461",
@@ -655,19 +645,9 @@
   },
   "title": "Gosh Net"
  },
- "gushen": {
-  "first_seen": "2026-10-12T15:25:32+00:00",
-  "last_seen": "2026-10-12T15:25:32+00:00",
-  "thumbnail": {
-   "image": "films/gushen.jpg",
-   "post_url": "https://t.me/alem_cinema/2345",
-   "posted_at": "2026-11-10T14:59:32+00:00"
-  },
-  "title": "Gushen"
- },
  "gushn": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/gushn.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -719,7 +699,7 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/chewatacinema/84",
@@ -770,7 +750,7 @@
  },
  "huletfit": {
   "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/huletfit.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -869,7 +849,7 @@
  },
  "kenzare": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/kenzare.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -1073,19 +1053,6 @@
    "status": "matched",
    "title": "Matchbox the Movie",
    "trailer_youtube_key": "7xfqITrMDcI"
-  }
- },
- "melikte": {
-  "first_seen": "2026-10-11T15:51:08+00:00",
-  "last_seen": "2026-10-12T18:30:25+03:00",
-  "thumbnail": {
-   "image": "films/melikte.jpg",
-   "post_url": "https://t.me/alem_cinema/2317",
-   "posted_at": "2026-10-11T15:51:08+00:00"
-  },
-  "title": "Melikte",
-  "tmdb": {
-   "status": "skipped_amharic"
   }
  },
  "melti": {
@@ -1305,7 +1272,7 @@
  },
  "ramayanapart1": {
   "first_seen": "2026-11-04T15:00:39+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/ramayanapart1.jpg",
    "post_url": "https://t.me/garadmulticinema/461",
@@ -1319,7 +1286,7 @@
  },
  "ramayanariseofalegend": {
   "first_seen": "2026-11-04T16:41:32+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/ramayanariseofalegend.jpg",
    "post_url": "https://t.me/Century_Cinema/2354",
@@ -1525,7 +1492,7 @@
  },
  "streetfighter": {
   "first_seen": "2026-10-14T18:27:00+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/streetfighter.jpg",
    "post_url": "https://t.me/Century_Cinema/2354",
@@ -1746,7 +1713,7 @@
  },
  "themongoose": {
   "first_seen": "2026-10-29T15:14:32+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/themongoose.jpg",
    "post_url": "https://t.me/Century_Cinema/2354",
@@ -1774,7 +1741,7 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
    "post_url": "https://t.me/garadmulticinema/461",
@@ -1901,7 +1868,7 @@
  },
  "tsehay": {
   "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/tsehay.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -2014,7 +1981,7 @@
  },
  "wenjelualteweledem": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/wenjelualteweledem.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -2027,7 +1994,7 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
    "post_url": "https://t.me/garadmulticinema/461",
@@ -2090,7 +2057,7 @@
  },
  "yenesemay": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-11T09:27:28+03:00",
+  "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/yenesemay.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
