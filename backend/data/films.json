@@ -127,7 +127,7 @@
  },
  "anteneh": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/anteneh.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -290,11 +290,11 @@
  },
  "byanymeans": {
   "first_seen": "2026-10-23T18:17:19+00:00",
-  "last_seen": "2026-11-08T16:28:15+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/byanymeans.jpg",
-   "post_url": "https://t.me/GastCinema/4892",
-   "posted_at": "2026-11-07T19:31:56+00:00"
+   "post_url": "https://t.me/GastCinema/4895",
+   "posted_at": "2026-11-11T19:39:50+00:00"
   },
   "title": "BY ANY MEANS",
   "tmdb": {
@@ -441,7 +441,7 @@
  },
  "dolovia": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/dolovia.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -497,6 +497,34 @@
    "posted_at": "2026-11-01T14:04:00+00:00"
   },
   "title": "Dune"
+ },
+ "ebenezer": {
+  "first_seen": "2026-11-11T19:39:50+00:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
+  "thumbnail": {
+   "image": "films/ebenezer.jpg",
+   "post_url": "https://t.me/GastCinema/4895",
+   "posted_at": "2026-11-11T19:39:50+00:00"
+  },
+  "title": "EBENEZER",
+  "tmdb": {
+   "backdrop_path": "/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-11-12T10:14:33+03:00",
+   "genres": [
+    "Fantasy",
+    "Comedy"
+   ],
+   "id": 1567605,
+   "overview": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+   "poster_path": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+   "rating": null,
+   "release_date": "2026-11-11",
+   "runtime": 115,
+   "status": "matched",
+   "title": "Ebenezer",
+   "trailer_youtube_key": "A7lyvgnDuDE"
+  }
  },
  "enteneh": {
   "first_seen": "2026-10-22T17:37:40+00:00",
@@ -593,11 +621,11 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/garadmulticinema/461",
-   "posted_at": "2026-11-09T14:34:55+00:00"
+   "post_url": "https://t.me/GastCinema/4895",
+   "posted_at": "2026-11-11T19:39:50+00:00"
   },
   "title": "FORGOTTEN ISLAND",
   "tmdb": {
@@ -699,7 +727,7 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/chewatacinema/84",
@@ -723,6 +751,35 @@
    "status": "matched",
    "title": "Heart of the Beast",
    "trailer_youtube_key": "JFQcDFhNh4o"
+  }
+ },
+ "howtorobabank": {
+  "first_seen": "2026-11-11T19:39:50+00:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
+  "thumbnail": {
+   "image": "films/howtorobabank.jpg",
+   "post_url": "https://t.me/GastCinema/4895",
+   "posted_at": "2026-11-11T19:39:50+00:00"
+  },
+  "title": "HOW TO ROB A BANK",
+  "tmdb": {
+   "backdrop_path": "/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
+   "certification": "R",
+   "checked_at": "2026-11-12T10:14:33+03:00",
+   "genres": [
+    "Action",
+    "Crime",
+    "Thriller"
+   ],
+   "id": 1437511,
+   "overview": "A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, putting everything on the line for their most ambitious heist yet.",
+   "poster_path": "/ifYDZkr2qkHFz87TNVvlxajOxl5.jpg",
+   "rating": null,
+   "release_date": "2026-11-10",
+   "runtime": 122,
+   "status": "matched",
+   "title": "How to Rob a Bank",
+   "trailer_youtube_key": "ORxw68y3lyw"
   }
  },
  "huletfet": {
@@ -750,7 +807,7 @@
  },
  "huletfit": {
   "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/huletfit.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -849,7 +906,7 @@
  },
  "kenzare": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/kenzare.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -1270,6 +1327,20 @@
    "status": "skipped_amharic"
   }
  },
+ "ramayana": {
+  "first_seen": "2026-11-11T19:39:50+00:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
+  "thumbnail": {
+   "image": "films/ramayana.jpg",
+   "post_url": "https://t.me/GastCinema/4895",
+   "posted_at": "2026-11-11T19:39:50+00:00"
+  },
+  "title": "RAMAYANA",
+  "tmdb": {
+   "checked_at": "2026-11-12T10:14:33+03:00",
+   "status": "none"
+  }
+ },
  "ramayanapart1": {
   "first_seen": "2026-11-04T15:00:39+00:00",
   "last_seen": "2026-11-11T22:38:11+03:00",
@@ -1463,11 +1534,11 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-08T16:28:15+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/GastCinema/4892",
-   "posted_at": "2026-11-07T19:31:56+00:00"
+   "post_url": "https://t.me/GastCinema/4895",
+   "posted_at": "2026-11-11T19:39:50+00:00"
   },
   "title": "SPIDER MAN: BRAND NEW DAY",
   "tmdb": {
@@ -1741,11 +1812,11 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
-   "post_url": "https://t.me/garadmulticinema/461",
-   "posted_at": "2026-11-09T14:34:55+00:00"
+   "post_url": "https://t.me/GastCinema/4895",
+   "posted_at": "2026-11-11T19:39:50+00:00"
   },
   "title": "THE ODYSSEY",
   "tmdb": {
@@ -1868,7 +1939,7 @@
  },
  "tsehay": {
   "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/tsehay.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -1981,7 +2052,7 @@
  },
  "wenjelualteweledem": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/wenjelualteweledem.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -2057,7 +2128,7 @@
  },
  "yenesemay": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-12T10:14:33+03:00",
   "thumbnail": {
    "image": "films/yenesemay.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
