@@ -127,7 +127,7 @@
  },
  "anteneh": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/anteneh.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -239,19 +239,6 @@
    "status": "skipped_amharic"
   }
  },
- "balechinaenamelioch": {
-  "first_seen": "2026-10-11T15:51:08+00:00",
-  "last_seen": "2026-10-13T17:15:25+03:00",
-  "thumbnail": {
-   "image": "films/balechinaenamelioch.jpg",
-   "post_url": "https://t.me/alem_cinema/2317",
-   "posted_at": "2026-10-11T15:51:08+00:00"
-  },
-  "title": "Balechina ena Melioch",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "baletenamesafint": {
   "first_seen": "2026-10-26T07:02:13+00:00",
   "last_seen": "2026-10-26T07:02:13+00:00",
@@ -290,7 +277,7 @@
  },
  "byanymeans": {
   "first_seen": "2026-10-23T18:17:19+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/byanymeans.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -441,7 +428,7 @@
  },
  "dolovia": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/dolovia.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -500,7 +487,7 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -621,7 +608,7 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -727,7 +714,7 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/chewatacinema/84",
@@ -755,7 +742,7 @@
  },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -807,7 +794,7 @@
  },
  "huletfit": {
   "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/huletfit.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -906,7 +893,7 @@
  },
  "kenzare": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/kenzare.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -1329,7 +1316,7 @@
  },
  "ramayana": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/ramayana.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -1534,7 +1521,7 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -1812,7 +1799,7 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -1939,7 +1926,7 @@
  },
  "tsehay": {
   "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/tsehay.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -2052,7 +2039,7 @@
  },
  "wenjelualteweledem": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/wenjelualteweledem.jpg",
    "post_url": "https://t.me/alem_cinema/2344",
@@ -2128,7 +2115,7 @@
  },
  "yenesemay": {
   "first_seen": "2026-11-08T18:09:04+00:00",
-  "last_seen": "2026-11-12T10:14:33+03:00",
+  "last_seen": "2026-11-12T22:56:45+03:00",
   "thumbnail": {
    "image": "films/yenesemay.jpg",
    "post_url": "https://t.me/alem_cinema/2344",

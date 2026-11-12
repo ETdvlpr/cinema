@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-11-12T10:14:33+03:00",
+ "last_checked": "2026-11-12T22:56:45+03:00",
  "last_error": null,
  "posters": {
   "2333-0": {
@@ -3145,6 +3145,18 @@
     }
    ],
    "status": "ok"
+  },
+  "2355-0": {
+   "attempts": 0,
+   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "first_attempt_at": "2026-11-12T23:04:55+03:00",
+   "image": "posters/century/2355-0.jpg",
+   "index": 0,
+   "post_id": 2355,
+   "post_url": "https://t.me/Century_Cinema/2355",
+   "posted_at": "2026-11-12T07:33:57+00:00",
+   "processed_at": "2026-11-12T23:04:55+03:00",
+   "status": "error"
   }
  }
 }
