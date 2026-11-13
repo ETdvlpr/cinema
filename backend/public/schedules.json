@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T22:56:45+03:00",
+ "generated_at": "2026-11-13T09:49:25+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-12T22:56:45+03:00",
+   "last_checked": "2026-11-13T09:49:25+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-08T18:09:04+00:00",
    "latest_poster": {
@@ -16,113 +16,21 @@
     "posted_at": "2026-11-12T18:21:23+00:00",
     "status": "error"
    },
-   "showtimes": [
-    {
-     "confidence": 0.95,
-     "date": "2026-11-12",
-     "film_title": "ሁለት ፊት",
-     "film_title_latin": "Hulet Fit",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-12",
-     "film_title": "የኔ ሰማይ",
-     "film_title_latin": "Yene Semay",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-12",
-     "film_title": "ወንጀሉ አልተወለደም",
-     "film_title_latin": "Wenjelu Alteweledem",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "16:10",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-12",
-     "film_title": "ቀን ዛሬ",
-     "film_title_latin": "Ken Zare",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "17:10",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-12",
-     "film_title": "ጸሐይ",
-     "film_title_latin": "Tsehay",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "18:20",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-12",
-     "film_title": "አንተነህ",
-     "film_title_latin": "Anteneh",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "19:10",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-12",
-     "film_title": "ዶሎቪያ",
-     "film_title_latin": "Dolovia",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "20:20",
-     "poster": "posters/alem/2344-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2344"
-    }
-   ]
+   "showtimes": []
   },
   {
    "id": "century",
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-12T22:56:45+03:00",
+   "last_checked": "2026-11-13T09:49:25+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-11-08T17:42:45+00:00",
+   "latest_schedule_posted_at": "2026-11-12T07:33:57+00:00",
    "latest_poster": {
     "image": "posters/century/2355-0.jpg",
     "post_url": "https://t.me/Century_Cinema/2355",
     "posted_at": "2026-11-12T07:33:57+00:00",
-    "status": "error"
+    "status": "ok"
    },
    "showtimes": []
   },
@@ -131,7 +39,7 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-12T22:56:45+03:00",
+   "last_checked": "2026-11-13T09:49:25+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-11T19:39:50+00:00",
    "latest_poster": {
@@ -141,266 +49,6 @@
     "status": "ok"
    },
    "showtimes": [
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "HOW TO ROB A BANK",
-     "film_title_latin": "HOW TO ROB A BANK",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "12:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "HOW TO ROB A BANK",
-     "film_title_latin": "HOW TO ROB A BANK",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "12:15",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "EBENEZER",
-     "film_title_latin": "EBENEZER",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "EBENEZER",
-     "film_title_latin": "EBENEZER",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "THE ODYSSEY",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "HOW TO ROB A BANK",
-     "film_title_latin": "HOW TO ROB A BANK",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "16:30",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "RAMAYANA",
-     "film_title_latin": "RAMAYANA",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": "ENGLISH",
-     "price_birr": null,
-     "time": "17:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "SPIDER MAN: BRAND NEW DAY",
-     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "17:30",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "THE ODYSSEY",
-     "format": "2D",
-     "hall": "CINEMA 2",
-     "language": null,
-     "price_birr": null,
-     "time": "18:15",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "EBENEZER",
-     "film_title_latin": "EBENEZER",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "19:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "THE ODYSSEY",
-     "format": "2D",
-     "hall": "GOLD 4",
-     "language": null,
-     "price_birr": null,
-     "time": "20:15",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "BY ANY MEANS",
-     "film_title_latin": "BY ANY MEANS",
-     "format": "2D",
-     "hall": "GOLD 1",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "THE ODYSSEY",
-     "format": "2D",
-     "hall": "GOLD 3",
-     "language": null,
-     "price_birr": null,
-     "time": "21:00",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "EBENEZER",
-     "film_title_latin": "EBENEZER",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "21:15",
-     "poster": "posters/gast/4895-0.jpg",
-     "post_url": "https://t.me/GastCinema/4895"
-    },
     {
      "confidence": 1.0,
      "date": "2026-11-13",
@@ -668,41 +316,93 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-12T22:56:45+03:00",
+   "last_checked": "2026-11-13T09:49:25+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-11-08T18:35:27+00:00",
+   "latest_schedule_posted_at": "2026-11-12T14:40:51+00:00",
    "latest_poster": {
     "image": "posters/chewata/87-0.jpg",
     "post_url": "https://t.me/chewatacinema/87",
     "posted_at": "2026-11-12T14:40:51+00:00",
-    "status": "error"
+    "status": "ok"
    },
    "showtimes": [
     {
      "confidence": 1.0,
-     "date": "2026-11-12",
+     "date": "2026-11-13",
+     "film_title": "Resident Evil",
+     "film_title_latin": "Resident Evil",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30",
+     "poster": "posters/chewata/87-0.jpg",
+     "post_url": "https://t.me/chewatacinema/87"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-13",
      "film_title": "The Odyssey",
      "film_title_latin": "The Odyssey",
      "format": null,
      "hall": "C1",
      "language": null,
      "price_birr": null,
-     "time": "13:30",
-     "poster": "posters/chewata/84-0.jpg",
-     "post_url": "https://t.me/chewatacinema/84"
+     "time": "17:00",
+     "poster": "posters/chewata/87-0.jpg",
+     "post_url": "https://t.me/chewatacinema/87"
     },
     {
      "confidence": 1.0,
-     "date": "2026-11-12",
-     "film_title": "Heart of the Beast",
-     "film_title_latin": "Heart of the Beast",
+     "date": "2026-11-14",
+     "film_title": "Forgotten Island",
+     "film_title_latin": "Forgotten Island",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30",
+     "poster": "posters/chewata/87-0.jpg",
+     "post_url": "https://t.me/chewatacinema/87"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "The Odyssey",
+     "film_title_latin": "The Odyssey",
      "format": null,
      "hall": "C1",
      "language": null,
      "price_birr": null,
      "time": "17:00",
-     "poster": "posters/chewata/84-0.jpg",
-     "post_url": "https://t.me/chewatacinema/84"
+     "poster": "posters/chewata/87-0.jpg",
+     "post_url": "https://t.me/chewatacinema/87"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "Ali G: Who Iz I?",
+     "film_title_latin": "Ali G: Who Iz I?",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30",
+     "poster": "posters/chewata/87-0.jpg",
+     "post_url": "https://t.me/chewatacinema/87"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "The Odyssey",
+     "film_title_latin": "The Odyssey",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00",
+     "poster": "posters/chewata/87-0.jpg",
+     "post_url": "https://t.me/chewatacinema/87"
     }
    ]
   },
@@ -711,34 +411,141 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-12T22:56:45+03:00",
+   "last_checked": "2026-11-13T09:49:25+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-11-09T14:34:55+00:00",
+   "latest_schedule_posted_at": "2026-11-11T15:00:03+00:00",
    "latest_poster": {
     "image": "posters/garad/464-0.jpg",
     "post_url": "https://t.me/garadmulticinema/464",
     "posted_at": "2026-11-11T15:00:03+00:00",
-    "status": "error"
+    "status": "ok"
    },
-   "showtimes": []
+   "showtimes": [
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00",
+     "poster": "posters/garad/464-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/464"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00",
+     "poster": "posters/garad/464-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/464"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:15",
+     "poster": "posters/garad/464-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/464"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00",
+     "poster": "posters/garad/464-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/464"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:15",
+     "poster": "posters/garad/464-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/464"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "Whalefall",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "16:15",
+     "poster": "posters/garad/464-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/464"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:15",
+     "poster": "posters/garad/464-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/464"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "Ramayana : Part 1",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30",
+     "poster": "posters/garad/464-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/464"
+    }
+   ]
   }
  ],
  "tmdb_image_base": "https://image.tmdb.org/t/p/",
  "films": {
-  "anteneh": {
-   "title": "Anteneh",
-   "overview": null,
-   "release_date": null,
-   "runtime": null,
-   "genres": [],
-   "rating": null,
-   "certification": null,
-   "tmdb_id": null,
-   "tmdb_url": null,
-   "trailer_url": null,
-   "poster_path": null,
-   "backdrop_path": null,
-   "thumbnail": "films/anteneh.jpg"
+  "aligwhoizi": {
+   "title": "Ali G: Who Iz I?",
+   "overview": "After twenty years spent \"chillin', tokin' and bonin'\", Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child's very existence.",
+   "release_date": "2026-10-22",
+   "runtime": 89,
+   "genres": [
+    "Comedy"
+   ],
+   "rating": 5.6,
+   "certification": "R",
+   "tmdb_id": 1727734,
+   "tmdb_url": "https://www.themoviedb.org/movie/1727734",
+   "trailer_url": "https://www.youtube.com/watch?v=6t7C4qaHihE",
+   "poster_path": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+   "backdrop_path": "/h7gas4rrcaSitLgF2ODry3Wz9KZ.jpg",
+   "thumbnail": "films/aligwhoizi.jpg"
   },
   "byanymeans": {
    "title": "By Any Means",
@@ -759,21 +566,6 @@
    "poster_path": "/85CvGoeXAcSSWy6So2DRD8ItJAN.jpg",
    "backdrop_path": "/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
    "thumbnail": "films/byanymeans.jpg"
-  },
-  "dolovia": {
-   "title": "Dolovia",
-   "overview": null,
-   "release_date": null,
-   "runtime": null,
-   "genres": [],
-   "rating": null,
-   "certification": null,
-   "tmdb_id": null,
-   "tmdb_url": null,
-   "trailer_url": null,
-   "poster_path": null,
-   "backdrop_path": null,
-   "thumbnail": "films/dolovia.jpg"
   },
   "ebenezer": {
    "title": "Ebenezer",
@@ -814,24 +606,6 @@
    "backdrop_path": "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
    "thumbnail": "films/forgottenisland.jpg"
   },
-  "heartofthebeast": {
-   "title": "Heart of the Beast",
-   "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-   "release_date": "2026-09-19",
-   "runtime": 101,
-   "genres": [
-    "Adventure",
-    "Thriller"
-   ],
-   "rating": 7.5,
-   "certification": "PG-13",
-   "tmdb_id": 1263337,
-   "tmdb_url": "https://www.themoviedb.org/movie/1263337",
-   "trailer_url": "https://www.youtube.com/watch?v=JFQcDFhNh4o",
-   "poster_path": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
-   "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
-   "thumbnail": "films/heartofthebeast.jpg"
-  },
   "howtorobabank": {
    "title": "How to Rob a Bank",
    "overview": "A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, putting everything on the line for their most ambitious heist yet.",
@@ -851,36 +625,6 @@
    "backdrop_path": "/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
    "thumbnail": "films/howtorobabank.jpg"
   },
-  "huletfit": {
-   "title": "Hulet Fit",
-   "overview": null,
-   "release_date": null,
-   "runtime": null,
-   "genres": [],
-   "rating": null,
-   "certification": null,
-   "tmdb_id": null,
-   "tmdb_url": null,
-   "trailer_url": null,
-   "poster_path": null,
-   "backdrop_path": null,
-   "thumbnail": "films/huletfit.jpg"
-  },
-  "kenzare": {
-   "title": "Ken Zare",
-   "overview": null,
-   "release_date": null,
-   "runtime": null,
-   "genres": [],
-   "rating": null,
-   "certification": null,
-   "tmdb_id": null,
-   "tmdb_url": null,
-   "trailer_url": null,
-   "poster_path": null,
-   "backdrop_path": null,
-   "thumbnail": "films/kenzare.jpg"
-  },
   "ramayana": {
    "title": "RAMAYANA",
    "overview": null,
@@ -895,6 +639,40 @@
    "poster_path": null,
    "backdrop_path": null,
    "thumbnail": "films/ramayana.jpg"
+  },
+  "ramayanapart1": {
+   "title": "Ramayana : Part 1",
+   "overview": null,
+   "release_date": null,
+   "runtime": null,
+   "genres": [],
+   "rating": null,
+   "certification": null,
+   "tmdb_id": null,
+   "tmdb_url": null,
+   "trailer_url": null,
+   "poster_path": null,
+   "backdrop_path": null,
+   "thumbnail": "films/ramayanapart1.jpg"
+  },
+  "residentevil": {
+   "title": "Resident Evil",
+   "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+   "release_date": "2026-09-16",
+   "runtime": 95,
+   "genres": [
+    "Horror",
+    "Science Fiction",
+    "Adventure"
+   ],
+   "rating": 7.3,
+   "certification": "R",
+   "tmdb_id": 1423191,
+   "tmdb_url": "https://www.themoviedb.org/movie/1423191",
+   "trailer_url": "https://www.youtube.com/watch?v=SJPu1spHqfk",
+   "poster_path": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+   "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+   "thumbnail": "films/residentevil.jpg"
   },
   "spidermanbrandnewday": {
    "title": "Spider-Man: Brand New Day",
@@ -934,50 +712,22 @@
    "backdrop_path": "/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
    "thumbnail": "films/theodyssey.jpg"
   },
-  "tsehay": {
-   "title": "Tsehay",
-   "overview": null,
-   "release_date": null,
-   "runtime": null,
-   "genres": [],
+  "whalefall": {
+   "title": "Whalefall",
+   "overview": "Following the death of his father, Jay Gardiner goes diving off the central Coast of California in search of his remains, but is swallowed by a massive sperm whale. While trapped inside its belly with only one hour of oxygen left, Jay comes to realize that the hard-earned lessons his father imparted may be the key to his escape.",
+   "release_date": "2026-10-14",
+   "runtime": 106,
+   "genres": [
+    "Thriller"
+   ],
    "rating": null,
-   "certification": null,
-   "tmdb_id": null,
-   "tmdb_url": null,
-   "trailer_url": null,
-   "poster_path": null,
-   "backdrop_path": null,
-   "thumbnail": "films/tsehay.jpg"
-  },
-  "wenjelualteweledem": {
-   "title": "Wenjelu Alteweledem",
-   "overview": null,
-   "release_date": null,
-   "runtime": null,
-   "genres": [],
-   "rating": null,
-   "certification": null,
-   "tmdb_id": null,
-   "tmdb_url": null,
-   "trailer_url": null,
-   "poster_path": null,
-   "backdrop_path": null,
-   "thumbnail": "films/wenjelualteweledem.jpg"
-  },
-  "yenesemay": {
-   "title": "Yene Semay",
-   "overview": null,
-   "release_date": null,
-   "runtime": null,
-   "genres": [],
-   "rating": null,
-   "certification": null,
-   "tmdb_id": null,
-   "tmdb_url": null,
-   "trailer_url": null,
-   "poster_path": null,
-   "backdrop_path": null,
-   "thumbnail": "films/yenesemay.jpg"
+   "certification": "PG-13",
+   "tmdb_id": 1255833,
+   "tmdb_url": "https://www.themoviedb.org/movie/1255833",
+   "trailer_url": "https://www.youtube.com/watch?v=67ho3OxCmmM",
+   "poster_path": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+   "backdrop_path": "/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg",
+   "thumbnail": "films/whalefall.jpg"
   }
  }
 }

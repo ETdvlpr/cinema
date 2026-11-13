@@ -97,6 +97,33 @@
   },
   "title": "Abwaraw Ches"
  },
+ "aligwhoizi": {
+  "first_seen": "2026-11-12T14:40:51+00:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
+  "thumbnail": {
+   "image": "films/aligwhoizi.jpg",
+   "post_url": "https://t.me/chewatacinema/87",
+   "posted_at": "2026-11-12T14:40:51+00:00"
+  },
+  "title": "Ali G: Who Iz I?",
+  "tmdb": {
+   "backdrop_path": "/h7gas4rrcaSitLgF2ODry3Wz9KZ.jpg",
+   "certification": "R",
+   "checked_at": "2026-11-13T09:49:25+03:00",
+   "genres": [
+    "Comedy"
+   ],
+   "id": 1727734,
+   "overview": "After twenty years spent \"chillin', tokin' and bonin'\", Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child's very existence.",
+   "poster_path": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+   "rating": 5.6,
+   "release_date": "2026-10-22",
+   "runtime": 89,
+   "status": "matched",
+   "title": "Ali G: Who Iz I?",
+   "trailer_youtube_key": "6t7C4qaHihE"
+  }
+ },
  "animals": {
   "first_seen": "2026-10-11T19:20:47+00:00",
   "last_seen": "2026-10-23T20:11:01+03:00",
@@ -277,7 +304,7 @@
  },
  "byanymeans": {
   "first_seen": "2026-10-23T18:17:19+00:00",
-  "last_seen": "2026-11-12T22:56:45+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/byanymeans.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -487,11 +514,11 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-12T22:56:45+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
-   "post_url": "https://t.me/GastCinema/4895",
-   "posted_at": "2026-11-11T19:39:50+00:00"
+   "post_url": "https://t.me/Century_Cinema/2355",
+   "posted_at": "2026-11-12T07:33:57+00:00"
   },
   "title": "EBENEZER",
   "tmdb": {
@@ -608,11 +635,11 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-12T22:56:45+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/GastCinema/4895",
-   "posted_at": "2026-11-11T19:39:50+00:00"
+   "post_url": "https://t.me/chewatacinema/87",
+   "posted_at": "2026-11-12T14:40:51+00:00"
   },
   "title": "FORGOTTEN ISLAND",
   "tmdb": {
@@ -742,11 +769,11 @@
  },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-12T22:56:45+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
-   "post_url": "https://t.me/GastCinema/4895",
-   "posted_at": "2026-11-11T19:39:50+00:00"
+   "post_url": "https://t.me/Century_Cinema/2355",
+   "posted_at": "2026-11-12T07:33:57+00:00"
   },
   "title": "HOW TO ROB A BANK",
   "tmdb": {
@@ -1316,7 +1343,7 @@
  },
  "ramayana": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-12T22:56:45+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/ramayana.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -1330,15 +1357,15 @@
  },
  "ramayanapart1": {
   "first_seen": "2026-11-04T15:00:39+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/ramayanapart1.jpg",
-   "post_url": "https://t.me/garadmulticinema/461",
-   "posted_at": "2026-11-09T14:34:55+00:00"
+   "post_url": "https://t.me/garadmulticinema/464",
+   "posted_at": "2026-11-11T15:00:03+00:00"
   },
   "title": "Ramayana : Part 1",
   "tmdb": {
-   "checked_at": "2026-11-04T22:47:52+03:00",
+   "checked_at": "2026-11-13T09:49:25+03:00",
    "status": "none"
   }
  },
@@ -1347,8 +1374,8 @@
   "last_seen": "2026-11-11T22:38:11+03:00",
   "thumbnail": {
    "image": "films/ramayanariseofalegend.jpg",
-   "post_url": "https://t.me/Century_Cinema/2354",
-   "posted_at": "2026-11-08T17:42:45+00:00"
+   "post_url": "https://t.me/Century_Cinema/2355",
+   "posted_at": "2026-11-12T07:33:57+00:00"
   },
   "title": "RAMAYANA: RISE OF A LEGEND",
   "tmdb": {
@@ -1373,11 +1400,11 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-08T16:28:15+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
-   "post_url": "https://t.me/garadmulticinema/456",
-   "posted_at": "2026-11-06T15:00:19+00:00"
+   "post_url": "https://t.me/chewatacinema/87",
+   "posted_at": "2026-11-12T14:40:51+00:00"
   },
   "title": "Resident Evil",
   "tmdb": {
@@ -1521,7 +1548,7 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-12T22:56:45+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
    "post_url": "https://t.me/GastCinema/4895",
@@ -1799,11 +1826,11 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-12T22:56:45+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
-   "post_url": "https://t.me/GastCinema/4895",
-   "posted_at": "2026-11-11T19:39:50+00:00"
+   "post_url": "https://t.me/chewatacinema/87",
+   "posted_at": "2026-11-12T14:40:51+00:00"
   },
   "title": "THE ODYSSEY",
   "tmdb": {
@@ -2052,11 +2079,11 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-11T22:38:11+03:00",
+  "last_seen": "2026-11-13T09:49:25+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
-   "post_url": "https://t.me/garadmulticinema/461",
-   "posted_at": "2026-11-09T14:34:55+00:00"
+   "post_url": "https://t.me/garadmulticinema/464",
+   "posted_at": "2026-11-11T15:00:03+00:00"
   },
   "title": "Whalefall",
   "tmdb": {

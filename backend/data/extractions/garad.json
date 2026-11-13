@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-12T22:56:45+03:00",
+ "last_checked": "2026-11-13T09:49:25+03:00",
  "last_error": null,
  "posters": {
   "437-0": {
@@ -4034,16 +4034,197 @@
    "status": "ok"
   },
   "464-0": {
-   "attempts": 1,
-   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 2,
+   "error": null,
    "first_attempt_at": "2026-11-11T22:38:14+03:00",
    "image": "posters/garad/464-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
    "post_id": 464,
    "post_url": "https://t.me/garadmulticinema/464",
    "posted_at": "2026-11-11T15:00:03+00:00",
-   "processed_at": "2026-11-12T23:05:12+03:00",
-   "status": "error"
+   "processed_at": "2026-11-13T10:13:43+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.99,
+     "date": "2026-11-12",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-12",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:15"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:15"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-12",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:15"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:15"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-12",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-12",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:15"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:15"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-12",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-12",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "Whalefall",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "16:15"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "WHALEFALL",
+     "film_title_latin": "Whalefall",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "16:15"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-12",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "Ramayana : Part 1",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30"
+    },
+    {
+     "confidence": 0.99,
+     "date": "2026-11-13",
+     "film_title": "RAMAYANA : PART 1",
+     "film_title_latin": "Ramayana : Part 1",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30"
+    }
+   ],
+   "status": "ok"
   },
   "465-0": {
    "attempts": 1,

@@ -1,6 +1,6 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-11-12T22:56:45+03:00",
+ "last_checked": "2026-11-13T09:49:25+03:00",
  "last_error": null,
  "posters": {
   "72-0": {
@@ -1220,16 +1220,87 @@
    "status": "ok"
   },
   "87-0": {
-   "attempts": 0,
-   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-11-12T23:04:14+03:00",
    "image": "posters/chewata/87-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
    "post_id": 87,
    "post_url": "https://t.me/chewatacinema/87",
    "posted_at": "2026-11-12T14:40:51+00:00",
-   "processed_at": "2026-11-12T23:04:14+03:00",
-   "status": "error"
+   "processed_at": "2026-11-13T10:05:11+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-13",
+     "film_title": "Resident Evil",
+     "film_title_latin": "Resident Evil",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-13",
+     "film_title": "The Odyssey",
+     "film_title_latin": "The Odyssey",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "Forgotten Island",
+     "film_title_latin": "Forgotten Island",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "The Odyssey",
+     "film_title_latin": "The Odyssey",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "Ali G: Who Iz I?",
+     "film_title_latin": "Ali G: Who Iz I?",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "The Odyssey",
+     "film_title_latin": "The Odyssey",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    }
+   ],
+   "status": "ok"
   }
  }
 }
