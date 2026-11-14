@@ -1,24 +1,8 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-11-14T09:27:48+03:00",
+ "last_checked": "2026-11-14T21:06:21+03:00",
  "last_error": null,
  "posters": {
-  "4815-0": {
-   "attempts": 1,
-   "error": null,
-   "first_attempt_at": "2026-10-16T00:25:54+03:00",
-   "image": null,
-   "index": 0,
-   "model": "gemini-flash-latest",
-   "notes": "The image is a single film promotional poster without screening dates or times.",
-   "post_id": 4815,
-   "post_url": "https://t.me/GastCinema/4815",
-   "posted_at": "2026-10-15T11:39:33+00:00",
-   "processed_at": "2026-10-16T00:25:54+03:00",
-   "rejected": [],
-   "showtimes": [],
-   "status": "not_schedule"
-  },
   "4816-0": {
    "attempts": 1,
    "error": null,
@@ -7901,6 +7885,22 @@
     }
    ],
    "status": "ok"
+  },
+  "4899-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-14T21:06:32+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 4899,
+   "post_url": "https://t.me/GastCinema/4899",
+   "posted_at": "2026-11-14T10:42:10+00:00",
+   "processed_at": "2026-11-14T21:06:32+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }

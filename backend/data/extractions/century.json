@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-11-14T09:27:48+03:00",
+ "last_checked": "2026-11-14T21:06:21+03:00",
  "last_error": null,
  "posters": {
   "2334-0": {
@@ -3021,6 +3021,177 @@
      "language": null,
      "price_birr": null,
      "time": "13:00"
+    }
+   ],
+   "status": "ok"
+  },
+  "2356-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-14T21:24:05+03:00",
+   "image": "posters/century/2356-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Date header gives both Gregorian (NOV 14 - 15) and Ethiopian (ህዳር 5 - 6).",
+   "post_id": 2356,
+   "post_url": "https://t.me/Century_Cinema/2356",
+   "posted_at": "2026-11-14T07:03:51+00:00",
+   "processed_at": "2026-11-14T21:24:05+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-14",
+     "film_title": "RAMAYANA: RISE OF A LEGEND",
+     "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-15",
+     "film_title": "RAMAYANA: RISE OF A LEGEND",
+     "film_title_latin": "RAMAYANA: RISE OF A LEGEND",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:30"
     }
    ],
    "status": "ok"
