@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T01:27:22+03:00",
+ "generated_at": "2026-11-15T09:37:37+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-15T01:27:22+03:00",
+   "last_checked": "2026-11-15T09:37:37+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-12T18:21:23+00:00",
    "latest_poster": {
@@ -141,7 +141,7 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-15T01:27:22+03:00",
+   "last_checked": "2026-11-15T09:37:37+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-14T07:03:51+00:00",
    "latest_poster": {
@@ -249,7 +249,7 @@
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-15T01:27:22+03:00",
+   "last_checked": "2026-11-15T09:37:37+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-13T17:01:30+00:00",
    "latest_poster": {
@@ -265,7 +265,7 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-15T01:27:22+03:00",
+   "last_checked": "2026-11-15T09:37:37+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-12T14:40:51+00:00",
    "latest_poster": {
@@ -308,7 +308,7 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-15T01:27:22+03:00",
+   "last_checked": "2026-11-15T09:37:37+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-14T15:00:20+00:00",
    "latest_poster": {
