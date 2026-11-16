@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-16T09:34:14+03:00",
+ "last_checked": "2026-11-17T01:07:00+03:00",
  "last_error": null,
  "posters": {
   "441-0": {
@@ -4275,6 +4275,22 @@
     }
    ],
    "status": "ok"
+  },
+  "470-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-17T01:07:03+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Promotional poster/countdown announcement with no screening showtimes.",
+   "post_id": 470,
+   "post_url": "https://t.me/garadmulticinema/470",
+   "posted_at": "2026-11-16T14:00:20+00:00",
+   "processed_at": "2026-11-17T01:07:03+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
