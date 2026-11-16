@@ -242,7 +242,7 @@
  },
  "astarakiyu": {
   "first_seen": "2026-11-15T17:10:29+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/astarakiyu.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -262,6 +262,30 @@
    "posted_at": "2026-10-26T07:02:13+00:00"
   },
   "title": "Atinyu"
+ },
+ "avengersdoomsday": {
+  "first_seen": "2026-11-16T05:04:35+00:00",
+  "last_seen": "2026-11-16T05:04:35+00:00",
+  "thumbnail": {
+   "image": "films/avengersdoomsday.jpg",
+   "post_url": "https://t.me/Century_Cinema/2357",
+   "posted_at": "2026-11-16T05:04:35+00:00"
+  },
+  "title": "AVENGERS DOOMSDAY"
+ },
+ "avengersendgameencore": {
+  "first_seen": "2026-11-15T19:30:08+00:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
+  "thumbnail": {
+   "image": "films/avengersendgameencore.jpg",
+   "post_url": "https://t.me/GastCinema/4900",
+   "posted_at": "2026-11-15T19:30:08+00:00"
+  },
+  "title": "AVENGERS:ENDGAME:ENCORE",
+  "tmdb": {
+   "checked_at": "2026-11-16T09:34:14+03:00",
+   "status": "none"
+  }
  },
  "backrooms": {
   "first_seen": "2026-10-25T20:01:01+00:00",
@@ -317,7 +341,7 @@
  },
  "balochenamistoch": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/balochenamistoch.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -459,7 +483,7 @@
  },
  "desey": {
   "first_seen": "2026-11-15T17:10:29+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/desey.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -557,11 +581,11 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
-   "post_url": "https://t.me/Century_Cinema/2356",
-   "posted_at": "2026-11-14T07:03:51+00:00"
+   "post_url": "https://t.me/Century_Cinema/2357",
+   "posted_at": "2026-11-16T05:04:35+00:00"
   },
   "title": "EBENEZER",
   "tmdb": {
@@ -611,7 +635,7 @@
  },
  "etinu": {
   "first_seen": "2026-11-15T17:10:29+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/etinu.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -664,11 +688,11 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/Century_Cinema/2356",
-   "posted_at": "2026-11-14T07:03:51+00:00"
+   "post_url": "https://t.me/Century_Cinema/2357",
+   "posted_at": "2026-11-16T05:04:35+00:00"
   },
   "title": "FORGOTTEN ISLAND",
   "tmdb": {
@@ -780,11 +804,11 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-12T22:56:45+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
-   "post_url": "https://t.me/chewatacinema/84",
-   "posted_at": "2026-11-08T18:35:27+00:00"
+   "post_url": "https://t.me/chewatacinema/88",
+   "posted_at": "2026-11-15T20:37:01+00:00"
   },
   "title": "Heart of the Beast",
   "tmdb": {
@@ -808,11 +832,11 @@
  },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
-   "post_url": "https://t.me/garadmulticinema/468",
-   "posted_at": "2026-11-14T15:00:20+00:00"
+   "post_url": "https://t.me/Century_Cinema/2357",
+   "posted_at": "2026-11-16T05:04:35+00:00"
   },
   "title": "HOW TO ROB A BANK",
   "tmdb": {
@@ -1301,7 +1325,7 @@
  },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/qenzerafi.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -1340,11 +1364,11 @@
  },
  "ramayana": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-14T21:06:21+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/ramayana.jpg",
-   "post_url": "https://t.me/GastCinema/4897",
-   "posted_at": "2026-11-13T17:01:30+00:00"
+   "post_url": "https://t.me/GastCinema/4900",
+   "posted_at": "2026-11-15T19:30:08+00:00"
   },
   "title": "RAMAYANA",
   "tmdb": {
@@ -1368,11 +1392,11 @@
  },
  "ramayanariseofalegend": {
   "first_seen": "2026-11-04T16:41:32+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/ramayanariseofalegend.jpg",
-   "post_url": "https://t.me/Century_Cinema/2356",
-   "posted_at": "2026-11-14T07:03:51+00:00"
+   "post_url": "https://t.me/Century_Cinema/2357",
+   "posted_at": "2026-11-16T05:04:35+00:00"
   },
   "title": "RAMAYANA: RISE OF A LEGEND",
   "tmdb": {
@@ -1397,11 +1421,11 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-13T22:45:00+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
-   "post_url": "https://t.me/chewatacinema/87",
-   "posted_at": "2026-11-12T14:40:51+00:00"
+   "post_url": "https://t.me/chewatacinema/88",
+   "posted_at": "2026-11-15T20:37:01+00:00"
   },
   "title": "Resident Evil",
   "tmdb": {
@@ -1517,11 +1541,11 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-14T21:06:21+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/GastCinema/4897",
-   "posted_at": "2026-11-13T17:01:30+00:00"
+   "post_url": "https://t.me/chewatacinema/88",
+   "posted_at": "2026-11-15T20:37:01+00:00"
   },
   "title": "SPIDER MAN: BRAND NEW DAY",
   "tmdb": {
@@ -1612,6 +1636,34 @@
   "tmdb": {
    "checked_at": "2026-10-29T01:37:43+03:00",
    "status": "none"
+  }
+ },
+ "thebeast": {
+  "first_seen": "2026-11-15T19:30:08+00:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
+  "thumbnail": {
+   "image": "films/thebeast.jpg",
+   "post_url": "https://t.me/GastCinema/4900",
+   "posted_at": "2026-11-15T19:30:08+00:00"
+  },
+  "title": "THE BEAST",
+  "tmdb": {
+   "backdrop_path": "/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
+   "certification": "R",
+   "checked_at": "2026-11-16T09:34:14+03:00",
+   "genres": [
+    "Action",
+    "Thriller"
+   ],
+   "id": 1185344,
+   "overview": "When a militia of unidentified hostiles coordinates a coup against the United States, the president must fight back by utilizing the highly classified offensive capabilities of his armored limousine, nicknamed The Beast.",
+   "poster_path": "/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
+   "rating": 5.4,
+   "release_date": "2026-10-08",
+   "runtime": 99,
+   "status": "matched",
+   "title": "The Beast",
+   "trailer_youtube_key": "5ckqV_uf8E0"
   }
  },
  "thechroniclesofnarnia": {
@@ -1795,11 +1847,11 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
-   "post_url": "https://t.me/garadmulticinema/468",
-   "posted_at": "2026-11-14T15:00:20+00:00"
+   "post_url": "https://t.me/Century_Cinema/2357",
+   "posted_at": "2026-11-16T05:04:35+00:00"
   },
   "title": "THE ODYSSEY",
   "tmdb": {
@@ -1945,11 +1997,11 @@
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-10T22:45:40+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/verity.jpg",
-   "post_url": "https://t.me/chewatacinema/84",
-   "posted_at": "2026-11-08T18:35:27+00:00"
+   "post_url": "https://t.me/chewatacinema/88",
+   "posted_at": "2026-11-15T20:37:01+00:00"
   },
   "title": "Verity",
   "tmdb": {
@@ -2048,7 +2100,7 @@
  },
  "wenjepeasatalakiyu": {
   "first_seen": "2026-11-15T17:10:29+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/wenjepeasatalakiyu.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -2061,11 +2113,11 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
-   "post_url": "https://t.me/garadmulticinema/468",
-   "posted_at": "2026-11-14T15:00:20+00:00"
+   "post_url": "https://t.me/garadmulticinema/469",
+   "posted_at": "2026-11-15T21:00:05+00:00"
   },
   "title": "Whalefall",
   "tmdb": {
@@ -2124,7 +2176,7 @@
  },
  "yesemay": {
   "first_seen": "2026-11-05T17:31:20+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-16T09:34:14+03:00",
   "thumbnail": {
    "image": "films/yesemay.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
