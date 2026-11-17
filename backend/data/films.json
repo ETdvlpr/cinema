@@ -201,19 +201,6 @@
   },
   "title": "Antivehe"
  },
- "antivi": {
-  "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-10-18T23:46:25+03:00",
-  "thumbnail": {
-   "image": "films/antivi.jpg",
-   "post_url": "https://t.me/alem_cinema/2320",
-   "posted_at": "2026-10-15T18:09:49+00:00"
-  },
-  "title": "Antivi",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "antivih": {
   "first_seen": "2026-11-01T16:53:30+00:00",
   "last_seen": "2026-11-02T18:58:54+03:00",
@@ -227,22 +214,9 @@
    "status": "skipped_amharic"
   }
  },
- "asedabiwwel": {
-  "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-10-18T23:46:25+03:00",
-  "thumbnail": {
-   "image": "films/asedabiwwel.jpg",
-   "post_url": "https://t.me/alem_cinema/2320",
-   "posted_at": "2026-10-15T18:09:49+00:00"
-  },
-  "title": "Asedabiw Wel",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "astarakiyu": {
   "first_seen": "2026-11-15T17:10:29+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/astarakiyu.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -275,7 +249,7 @@
  },
  "avengersendgameencore": {
   "first_seen": "2026-11-15T19:30:08+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/avengersendgameencore.jpg",
    "post_url": "https://t.me/GastCinema/4900",
@@ -326,22 +300,9 @@
   },
   "title": "Balet Ena Mesafint"
  },
- "baleyot": {
-  "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-10-18T23:46:25+03:00",
-  "thumbnail": {
-   "image": "films/baleyot.jpg",
-   "post_url": "https://t.me/alem_cinema/2320",
-   "posted_at": "2026-10-15T18:09:49+00:00"
-  },
-  "title": "Baleyot",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "balochenamistoch": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/balochenamistoch.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -483,7 +444,7 @@
  },
  "desey": {
   "first_seen": "2026-11-15T17:10:29+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/desey.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -581,7 +542,7 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
    "post_url": "https://t.me/Century_Cinema/2357",
@@ -635,7 +596,7 @@
  },
  "etinu": {
   "first_seen": "2026-11-15T17:10:29+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/etinu.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -688,7 +649,7 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
    "post_url": "https://t.me/Century_Cinema/2357",
@@ -804,7 +765,7 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/chewatacinema/88",
@@ -832,7 +793,7 @@
  },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
    "post_url": "https://t.me/Century_Cinema/2357",
@@ -1296,7 +1257,7 @@
  },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/qenzerafi.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -1320,22 +1281,9 @@
    "status": "skipped_amharic"
   }
  },
- "qenzerz": {
-  "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-10-18T23:46:25+03:00",
-  "thumbnail": {
-   "image": "films/qenzerz.jpg",
-   "post_url": "https://t.me/alem_cinema/2320",
-   "posted_at": "2026-10-15T18:09:49+00:00"
-  },
-  "title": "Qen Zerz",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "ramayana": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/ramayana.jpg",
    "post_url": "https://t.me/GastCinema/4900",
@@ -1363,7 +1311,7 @@
  },
  "ramayanariseofalegend": {
   "first_seen": "2026-11-04T16:41:32+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/ramayanariseofalegend.jpg",
    "post_url": "https://t.me/Century_Cinema/2357",
@@ -1392,7 +1340,7 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
    "post_url": "https://t.me/chewatacinema/88",
@@ -1512,7 +1460,7 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
    "post_url": "https://t.me/chewatacinema/88",
@@ -1567,34 +1515,6 @@
    "trailer_youtube_key": "Xt4X4FvXk2A"
   }
  },
- "tenzing": {
-  "first_seen": "2026-10-16T19:59:53+00:00",
-  "last_seen": "2026-10-18T23:46:25+03:00",
-  "thumbnail": {
-   "image": "films/tenzing.jpg",
-   "post_url": "https://t.me/GastCinema/4816",
-   "posted_at": "2026-10-16T19:59:53+00:00"
-  },
-  "title": "TENZING",
-  "tmdb": {
-   "backdrop_path": "/wUe0QbbPDU2BD3L2QnsZlAr55Je.jpg",
-   "certification": "PG",
-   "checked_at": "2026-10-17T00:12:18+03:00",
-   "genres": [
-    "Drama",
-    "History"
-   ],
-   "id": 1288069,
-   "overview": "A determined man embarks on a high-stakes quest—and defies seemingly impossible odds—to fulfill his dream of being the first to reach the summit of Mount Everest.",
-   "poster_path": "/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg",
-   "rating": null,
-   "release_date": "2026-10-09",
-   "runtime": 126,
-   "status": "matched",
-   "title": "Tenzing",
-   "trailer_youtube_key": "KkYCY5YR12U"
-  }
- },
  "theawakeningeldespertar": {
   "first_seen": "2026-10-28T17:42:57+00:00",
   "last_seen": "2026-10-29T16:05:41+03:00",
@@ -1611,7 +1531,7 @@
  },
  "thebeast": {
   "first_seen": "2026-11-15T19:30:08+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/thebeast.jpg",
    "post_url": "https://t.me/GastCinema/4900",
@@ -1818,7 +1738,7 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
    "post_url": "https://t.me/Century_Cinema/2357",
@@ -2043,19 +1963,6 @@
   },
   "title": "Wenjechu Altweledum"
  },
- "wenjegnaasatwalew": {
-  "first_seen": "2026-10-15T18:09:49+00:00",
-  "last_seen": "2026-10-18T23:46:25+03:00",
-  "thumbnail": {
-   "image": "films/wenjegnaasatwalew.jpg",
-   "post_url": "https://t.me/alem_cinema/2320",
-   "posted_at": "2026-10-15T18:09:49+00:00"
-  },
-  "title": "Wenjegna Asatwalew",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "wenjelualteweledem": {
   "first_seen": "2026-11-08T18:09:04+00:00",
   "last_seen": "2026-11-12T22:56:45+03:00",
@@ -2071,7 +1978,7 @@
  },
  "wenjepeasatalakiyu": {
   "first_seen": "2026-11-15T17:10:29+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/wenjepeasatalakiyu.jpg",
    "post_url": "https://t.me/alem_cinema/2349",
@@ -2084,7 +1991,7 @@
  },
  "whalefall": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
    "post_url": "https://t.me/garadmulticinema/469",
@@ -2147,7 +2054,7 @@
  },
  "yesemay": {
   "first_seen": "2026-11-05T17:31:20+00:00",
-  "last_seen": "2026-11-17T10:57:32+03:00",
+  "last_seen": "2026-11-17T23:57:39+03:00",
   "thumbnail": {
    "image": "films/yesemay.jpg",
    "post_url": "https://t.me/alem_cinema/2349",

@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-11-17T10:57:32+03:00",
+ "last_checked": "2026-11-17T23:57:39+03:00",
  "last_error": null,
  "posters": {
   "2337-0": {
@@ -3217,6 +3217,38 @@
     }
    ],
    "status": "ok"
+  },
+  "2358-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-17T23:57:51+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image is a single-film poster without showtimes, so is_schedule is false.",
+   "post_id": 2358,
+   "post_url": "https://t.me/Century_Cinema/2358",
+   "posted_at": "2026-11-17T10:20:24+00:00",
+   "processed_at": "2026-11-17T23:57:51+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
+  },
+  "2358-1": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-18T00:18:00+03:00",
+   "image": null,
+   "index": 1,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image is a single-film poster for Under the Open Sky, not a showtime schedule.",
+   "post_id": 2358,
+   "post_url": "https://t.me/Century_Cinema/2358",
+   "posted_at": "2026-11-17T10:20:24+00:00",
+   "processed_at": "2026-11-18T00:18:00+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
