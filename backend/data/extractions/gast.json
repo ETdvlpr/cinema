@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-11-17T01:07:00+03:00",
+ "last_checked": "2026-11-17T10:57:32+03:00",
  "last_error": null,
  "posters": {
   "4818-0": {
@@ -8044,6 +8044,22 @@
     }
    ],
    "status": "ok"
+  },
+  "4903-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-17T10:57:34+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The image is a promotional teaser for Avengers: Doomsday, not a schedule.",
+   "post_id": 4903,
+   "post_url": "https://t.me/GastCinema/4903",
+   "posted_at": "2026-11-17T07:36:01+00:00",
+   "processed_at": "2026-11-17T10:57:34+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }
