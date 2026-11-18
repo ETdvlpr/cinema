@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-18T10:32:32+03:00",
+ "last_checked": "2026-11-18T23:34:43+03:00",
  "last_error": null,
  "posters": {
   "443-0": {
@@ -3960,6 +3960,18 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "472-0": {
+   "attempts": 0,
+   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "first_attempt_at": "2026-11-18T23:34:59+03:00",
+   "image": "posters/garad/472-0.jpg",
+   "index": 0,
+   "post_id": 472,
+   "post_url": "https://t.me/garadmulticinema/472",
+   "posted_at": "2026-11-18T15:16:46+00:00",
+   "processed_at": "2026-11-18T23:34:59+03:00",
+   "status": "error"
   }
  }
 }

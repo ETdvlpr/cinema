@@ -1,6 +1,6 @@
 {
  "cinema_id": "gast",
- "last_checked": "2026-11-18T10:32:32+03:00",
+ "last_checked": "2026-11-18T23:34:43+03:00",
  "last_error": null,
  "posters": {
   "4820-0": {
@@ -7350,6 +7350,18 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "4904-0": {
+   "attempts": 0,
+   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "first_attempt_at": "2026-11-18T23:34:45+03:00",
+   "image": "posters/gast/4904-0.jpg",
+   "index": 0,
+   "post_id": 4904,
+   "post_url": "https://t.me/GastCinema/4904",
+   "posted_at": "2026-11-18T18:51:48+00:00",
+   "processed_at": "2026-11-18T23:34:45+03:00",
+   "status": "error"
   }
  }
 }
