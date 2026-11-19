@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-11-18T23:34:43+03:00",
+ "last_checked": "2026-11-19T10:29:11+03:00",
  "last_error": null,
  "posters": {
   "2338-0": {
@@ -2880,6 +2880,177 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "2360-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-19T10:29:12+03:00",
+   "image": "posters/century/2360-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
+   "post_id": 2360,
+   "post_url": "https://t.me/Century_Cinema/2360",
+   "posted_at": "2026-11-19T06:25:03+00:00",
+   "processed_at": "2026-11-19T10:29:12+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.98,
+     "date": "2026-11-19",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-20",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-19",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-20",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-19",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-20",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-19",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-20",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:30"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-19",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-20",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-19",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:45"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-20",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:45"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-19",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:30"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-20",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:30"
+    }
+   ],
+   "status": "ok"
   }
  }
 }
