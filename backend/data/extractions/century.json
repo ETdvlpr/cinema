@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-11-22T09:52:42+03:00",
+ "last_checked": "2026-11-22T22:43:16+03:00",
  "last_error": null,
  "posters": {
   "2340-0": {
@@ -2701,16 +2701,76 @@
    "status": "ok"
   },
   "2361-0": {
-   "attempts": 0,
-   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-11-22T09:57:43+03:00",
    "image": "posters/century/2361-0.jpg",
    "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": null,
    "post_id": 2361,
    "post_url": "https://t.me/Century_Cinema/2361",
    "posted_at": "2026-11-21T12:21:16+00:00",
-   "processed_at": "2026-11-22T09:57:43+03:00",
-   "status": "error"
+   "processed_at": "2026-11-22T22:45:40+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 0.98,
+     "date": "2026-11-21",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-21",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-21",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-21",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:45"
+    },
+    {
+     "confidence": 0.98,
+     "date": "2026-11-21",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    }
+   ],
+   "status": "ok"
   },
   "2362-0": {
    "attempts": 1,

@@ -1,6 +1,6 @@
 {
  "cinema_id": "chewata",
- "last_checked": "2026-11-22T09:52:42+03:00",
+ "last_checked": "2026-11-22T22:43:16+03:00",
  "last_error": null,
  "posters": {
   "76-0": {
@@ -1093,16 +1093,291 @@
    "status": "ok"
   },
   "90-0": {
-   "attempts": 0,
-   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-11-22T09:57:54+03:00",
    "image": "posters/chewata/90-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "The schedule lists football match screenings with both Western and local times; Western times are used as requested.",
    "post_id": 90,
    "post_url": "https://t.me/chewatacinema/90",
    "posted_at": "2026-11-20T20:08:04+00:00",
-   "processed_at": "2026-11-22T09:57:54+03:00",
-   "status": "error"
+   "processed_at": "2026-11-22T22:46:59+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "Manchester City vs Fulham",
+     "film_title_latin": "Manchester City vs Fulham",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "15:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "Chelsea vs Leeds United",
+     "film_title_latin": "Chelsea vs Leeds United",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-22",
+     "film_title": "Manchester United vs Liverpool",
+     "film_title_latin": "Manchester United vs Liverpool",
+     "format": null,
+     "hall": null,
+     "language": null,
+     "price_birr": null,
+     "time": "19:30"
+    }
+   ],
+   "status": "ok"
+  },
+  "91-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-22T22:43:18+03:00",
+   "image": "posters/chewata/91-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": "All dual-time listings have been extracted once using the western time format as requested.",
+   "post_id": 91,
+   "post_url": "https://t.me/chewatacinema/91",
+   "posted_at": "2026-11-22T19:33:42+00:00",
+   "processed_at": "2026-11-22T22:43:18+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-23",
+     "film_title": "The Odyssey",
+     "film_title_latin": "The Odyssey",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-23",
+     "film_title": "The Odyssey",
+     "film_title_latin": "The Odyssey",
+     "format": null,
+     "hall": "VIP",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-24",
+     "film_title": "The Odyssey",
+     "film_title_latin": "The Odyssey",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "The Odyssey",
+     "film_title_latin": "The Odyssey",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-23",
+     "film_title": "Love of Your Life",
+     "film_title_latin": "Love of Your Life",
+     "format": null,
+     "hall": "VIP",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-23",
+     "film_title": "Love of Your Life",
+     "film_title_latin": "Love of Your Life",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-24",
+     "film_title": "The Beast",
+     "film_title_latin": "The Beast",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-25",
+     "film_title": "The Beast",
+     "film_title_latin": "The Beast",
+     "format": null,
+     "hall": "VIP",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "The Beast",
+     "film_title_latin": "The Beast",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-25",
+     "film_title": "The Last Sunrise",
+     "film_title_latin": "The Last Sunrise",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-24",
+     "film_title": "The Last Sunrise",
+     "film_title_latin": "The Last Sunrise",
+     "format": null,
+     "hall": "VIP",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "The Last Sunrise",
+     "film_title_latin": "The Last Sunrise",
+     "format": null,
+     "hall": "VIP",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-23",
+     "film_title": "Heart of the Beast",
+     "film_title_latin": "Heart of the Beast",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-25",
+     "film_title": "Heart of the Beast",
+     "film_title_latin": "Heart of the Beast",
+     "format": null,
+     "hall": "VIP",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-24",
+     "film_title": "Resident Evil",
+     "film_title_latin": "Resident Evil",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-25",
+     "film_title": "Resident Evil",
+     "film_title_latin": "Resident Evil",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "Resident Evil",
+     "film_title_latin": "Resident Evil",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "Resident Evil",
+     "film_title_latin": "Resident Evil",
+     "format": null,
+     "hall": "VIP",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-24",
+     "film_title": "Forgotten Island",
+     "film_title_latin": "Forgotten Island",
+     "format": null,
+     "hall": "VIP",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-25",
+     "film_title": "Forgotten Island",
+     "film_title_latin": "Forgotten Island",
+     "format": null,
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    }
+   ],
+   "status": "ok"
   }
  }
 }

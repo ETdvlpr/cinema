@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-22T09:52:42+03:00",
+ "last_checked": "2026-11-22T22:43:16+03:00",
  "last_error": null,
  "posters": {
   "446-0": {
@@ -3513,7 +3513,7 @@
    "post_id": 472,
    "post_url": "https://t.me/garadmulticinema/472",
    "posted_at": "2026-11-18T15:16:46+00:00",
-   "processed_at": "2026-11-22T10:00:26+03:00",
+   "processed_at": "2026-11-22T22:52:14+03:00",
    "status": "error"
   },
   "473-0": {
@@ -3549,16 +3549,109 @@
    "status": "not_schedule"
   },
   "476-0": {
-   "attempts": 0,
-   "error": "all models over quota or overloaded; last error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+   "attempts": 1,
+   "error": null,
    "first_attempt_at": "2026-11-22T09:58:19+03:00",
    "image": "posters/garad/476-0.jpg",
    "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
    "post_id": 476,
    "post_url": "https://t.me/garadmulticinema/476",
    "posted_at": "2026-11-20T15:00:03+00:00",
-   "processed_at": "2026-11-22T09:58:19+03:00",
-   "status": "error"
+   "processed_at": "2026-11-22T22:47:28+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "Forgotten Island",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-21",
+     "film_title": "THE AVENGERS",
+     "film_title_latin": "The Avengers",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:15"
+    }
+   ],
+   "status": "ok"
   },
   "477-0": {
    "attempts": 1,
@@ -3928,6 +4021,22 @@
     }
    ],
    "status": "ok"
+  },
+  "478-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-22T22:44:18+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Promotional poster for Avengers: Doomsday without screening times.",
+   "post_id": 478,
+   "post_url": "https://t.me/garadmulticinema/478",
+   "posted_at": "2026-11-22T10:01:00+00:00",
+   "processed_at": "2026-11-22T22:44:18+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
   }
  }
 }

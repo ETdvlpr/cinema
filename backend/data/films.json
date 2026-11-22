@@ -96,7 +96,7 @@
  },
  "alfetanym": {
   "first_seen": "2026-11-20T02:07:21+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/alfetanym.jpg",
    "post_url": "https://t.me/alem_cinema/2355",
@@ -132,34 +132,6 @@
    "status": "matched",
    "title": "Ali G: Who Iz I?",
    "trailer_youtube_key": "6t7C4qaHihE"
-  }
- },
- "animals": {
-  "first_seen": "2026-10-11T19:20:47+00:00",
-  "last_seen": "2026-10-23T20:11:01+03:00",
-  "thumbnail": {
-   "image": "films/animals.jpg",
-   "post_url": "https://t.me/GastCinema/4820",
-   "posted_at": "2026-10-21T19:34:00+00:00"
-  },
-  "title": "ANIMALS",
-  "tmdb": {
-   "backdrop_path": "/tzoarEu7TsG959upiELyYPm5kO9.jpg",
-   "certification": "R",
-   "checked_at": "2026-10-12T01:00:00+03:00",
-   "genres": [
-    "Thriller",
-    "Drama"
-   ],
-   "id": 1236045,
-   "overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
-   "poster_path": "/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
-   "rating": 7.4,
-   "release_date": "2026-10-09",
-   "runtime": 106,
-   "status": "matched",
-   "title": "Animals",
-   "trailer_youtube_key": "mlBfQJ8oxB0"
   }
  },
  "anteneh": {
@@ -327,6 +299,16 @@
    "trailer_youtube_key": "ej8pjisr0Pc"
   }
  },
+ "chelseavsleedsunited": {
+  "first_seen": "2026-11-20T20:08:04+00:00",
+  "last_seen": "2026-11-20T20:08:04+00:00",
+  "thumbnail": {
+   "image": "films/chelseavsleedsunited.jpg",
+   "post_url": "https://t.me/chewatacinema/90",
+   "posted_at": "2026-11-20T20:08:04+00:00"
+  },
+  "title": "Chelsea vs Leeds United"
+ },
  "chelseavsmanunited": {
   "first_seen": "2026-10-31T01:24:06+03:00",
   "last_seen": "2026-10-31T15:36:14+03:00",
@@ -441,7 +423,7 @@
  },
  "dolma": {
   "first_seen": "2026-11-20T02:07:21+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/dolma.jpg",
    "post_url": "https://t.me/alem_cinema/2355",
@@ -539,11 +521,11 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
-   "post_url": "https://t.me/Century_Cinema/2362",
-   "posted_at": "2026-11-21T19:02:12+00:00"
+   "post_url": "https://t.me/GastCinema/4908",
+   "posted_at": "2026-11-22T18:37:22+00:00"
   },
   "title": "Ebenezer",
   "tmdb": {
@@ -567,7 +549,7 @@
  },
  "enetiyu": {
   "first_seen": "2026-11-20T02:07:21+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/enetiyu.jpg",
    "post_url": "https://t.me/alem_cinema/2355",
@@ -659,11 +641,11 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/Century_Cinema/2362",
-   "posted_at": "2026-11-21T19:02:12+00:00"
+   "post_url": "https://t.me/chewatacinema/91",
+   "posted_at": "2026-11-22T19:33:42+00:00"
   },
   "title": "Forgotten Island",
   "tmdb": {
@@ -762,11 +744,11 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-18T23:34:43+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
-   "post_url": "https://t.me/chewatacinema/89",
-   "posted_at": "2026-11-19T19:49:04+00:00"
+   "post_url": "https://t.me/chewatacinema/91",
+   "posted_at": "2026-11-22T19:33:42+00:00"
   },
   "title": "Heart of the Beast",
   "tmdb": {
@@ -790,11 +772,11 @@
  },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
-   "post_url": "https://t.me/Century_Cinema/2362",
-   "posted_at": "2026-11-21T19:02:12+00:00"
+   "post_url": "https://t.me/GastCinema/4908",
+   "posted_at": "2026-11-22T18:37:22+00:00"
   },
   "title": "How To Rob A Bank",
   "tmdb": {
@@ -859,34 +841,6 @@
    "posted_at": "2026-11-01T14:04:00+00:00"
   },
   "title": "Ice Age 6"
- },
- "idiots": {
-  "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-10-23T20:11:01+03:00",
-  "thumbnail": {
-   "image": "films/idiots.jpg",
-   "post_url": "https://t.me/chewatacinema/75",
-   "posted_at": "2026-10-22T10:12:04+00:00"
-  },
-  "title": "Idiots",
-  "tmdb": {
-   "backdrop_path": "/v65hwf9S6mxFtobq4w6SlLnWgLq.jpg",
-   "certification": "R",
-   "checked_at": "2026-10-06T09:24:23+03:00",
-   "genres": [
-    "Comedy",
-    "Crime"
-   ],
-   "id": 445466,
-   "overview": "Two rock-bottom drivers transport a wealthy teen to rehab, but their simple job spirals into a chaotic journey of drugs, danger, and crime as their passenger derails their plans.",
-   "poster_path": "/l1JFNC1SdgyXVr7BaD5ehaYBvOC.jpg",
-   "rating": 6.2,
-   "release_date": "2026-08-20",
-   "runtime": 100,
-   "status": "matched",
-   "title": "Idiots",
-   "trailer_youtube_key": "8MVqh5L93Bs"
-  }
  },
  "insidiousoutofthefurther": {
   "first_seen": "2026-10-05T21:21:37+00:00",
@@ -991,11 +945,11 @@
  },
  "loveofyourlife": {
   "first_seen": "2026-10-15T20:27:14+00:00",
-  "last_seen": "2026-11-05T22:59:31+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/loveofyourlife.jpg",
-   "post_url": "https://t.me/chewatacinema/89",
-   "posted_at": "2026-11-19T19:49:04+00:00"
+   "post_url": "https://t.me/chewatacinema/91",
+   "posted_at": "2026-11-22T19:33:42+00:00"
   },
   "title": "Love of Your Life",
   "tmdb": {
@@ -1017,12 +971,36 @@
    "trailer_youtube_key": "HzGx48E64Xg"
   }
  },
+ "manchestercityvsfulham": {
+  "first_seen": "2026-11-20T20:08:04+00:00",
+  "last_seen": "2026-11-20T20:08:04+00:00",
+  "thumbnail": {
+   "image": "films/manchestercityvsfulham.jpg",
+   "post_url": "https://t.me/chewatacinema/90",
+   "posted_at": "2026-11-20T20:08:04+00:00"
+  },
+  "title": "Manchester City vs Fulham"
+ },
  "manchesterunitedvsafcbournemouth": {
   "first_seen": "2026-10-24T23:52:47+03:00",
   "last_seen": "2026-10-25T23:53:26+03:00",
   "title": "Manchester United vs AFC Bournemouth",
   "tmdb": {
    "checked_at": "2026-10-24T23:52:47+03:00",
+   "status": "none"
+  }
+ },
+ "manchesterunitedvsliverpool": {
+  "first_seen": "2026-11-20T20:08:04+00:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
+  "thumbnail": {
+   "image": "films/manchesterunitedvsliverpool.jpg",
+   "post_url": "https://t.me/chewatacinema/90",
+   "posted_at": "2026-11-20T20:08:04+00:00"
+  },
+  "title": "Manchester United vs Liverpool",
+  "tmdb": {
+   "checked_at": "2026-11-22T22:43:16+03:00",
    "status": "none"
   }
  },
@@ -1241,7 +1219,7 @@
  },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/qenzerafi.jpg",
    "post_url": "https://t.me/alem_cinema/2355",
@@ -1311,11 +1289,11 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
-   "post_url": "https://t.me/chewatacinema/89",
-   "posted_at": "2026-11-19T19:49:04+00:00"
+   "post_url": "https://t.me/chewatacinema/91",
+   "posted_at": "2026-11-22T19:33:42+00:00"
   },
   "title": "Resident Evil",
   "tmdb": {
@@ -1418,13 +1396,13 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-19T10:29:11+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/GastCinema/4904",
-   "posted_at": "2026-11-18T18:51:48+00:00"
+   "post_url": "https://t.me/GastCinema/4908",
+   "posted_at": "2026-11-22T18:37:22+00:00"
   },
-  "title": "Spider Man: Brand New Day",
+  "title": "SPIDER MAN: BRAND NEW DAY",
   "tmdb": {
    "backdrop_path": "/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg",
    "certification": "PG-13",
@@ -1443,6 +1421,37 @@
    "status": "matched",
    "title": "Spider-Man: Brand New Day",
    "trailer_youtube_key": "8TZMtslA3UY"
+  }
+ },
+ "steps": {
+  "first_seen": "2026-11-22T18:37:22+00:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
+  "thumbnail": {
+   "image": "films/steps.jpg",
+   "post_url": "https://t.me/GastCinema/4908",
+   "posted_at": "2026-11-22T18:37:22+00:00"
+  },
+  "title": "STEPS",
+  "tmdb": {
+   "backdrop_path": "/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+   "certification": "PG",
+   "checked_at": "2026-11-22T22:43:16+03:00",
+   "genres": [
+    "Animation",
+    "Family",
+    "Comedy",
+    "Adventure",
+    "Fantasy"
+   ],
+   "id": 1595124,
+   "overview": "After being blamed for disrupting the Royal Ball with a stolen magic wand, a misunderstood stepsister accidentally turns her sister into a frog and must team up with Cinderella and an unlikely ally to save the kingdom and rewrite their fairytale ending.",
+   "poster_path": "/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
+   "rating": 6.8,
+   "release_date": "2026-11-20",
+   "runtime": 107,
+   "status": "matched",
+   "title": "Steps",
+   "trailer_youtube_key": "tNV4i3BqUGY"
   }
  },
  "streetfighter": {
@@ -1473,6 +1482,16 @@
    "trailer_youtube_key": "Xt4X4FvXk2A"
   }
  },
+ "theavengers": {
+  "first_seen": "2026-11-20T15:00:03+00:00",
+  "last_seen": "2026-11-20T15:00:03+00:00",
+  "thumbnail": {
+   "image": "films/theavengers.jpg",
+   "post_url": "https://t.me/garadmulticinema/476",
+   "posted_at": "2026-11-20T15:00:03+00:00"
+  },
+  "title": "The Avengers"
+ },
  "theawakeningeldespertar": {
   "first_seen": "2026-10-28T17:42:57+00:00",
   "last_seen": "2026-10-29T16:05:41+03:00",
@@ -1489,13 +1508,13 @@
  },
  "thebeast": {
   "first_seen": "2026-11-15T19:30:08+00:00",
-  "last_seen": "2026-11-19T10:29:11+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/thebeast.jpg",
-   "post_url": "https://t.me/GastCinema/4904",
-   "posted_at": "2026-11-18T18:51:48+00:00"
+   "post_url": "https://t.me/chewatacinema/91",
+   "posted_at": "2026-11-22T19:33:42+00:00"
   },
-  "title": "The Beast",
+  "title": "THE BEAST",
   "tmdb": {
    "backdrop_path": "/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
    "certification": "R",
@@ -1612,11 +1631,11 @@
  },
  "thelastsunrise": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/thelastsunrise.jpg",
-   "post_url": "https://t.me/chewatacinema/89",
-   "posted_at": "2026-11-19T19:49:04+00:00"
+   "post_url": "https://t.me/chewatacinema/91",
+   "posted_at": "2026-11-22T19:33:42+00:00"
   },
   "title": "The Last Sunrise",
   "tmdb": {
@@ -1696,11 +1715,11 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
-   "post_url": "https://t.me/Century_Cinema/2362",
-   "posted_at": "2026-11-21T19:02:12+00:00"
+   "post_url": "https://t.me/chewatacinema/91",
+   "posted_at": "2026-11-22T19:33:42+00:00"
   },
   "title": "The Odyssey",
   "tmdb": {
@@ -1910,7 +1929,7 @@
  },
  "wengelochastaweqachew": {
   "first_seen": "2026-11-20T02:07:21+00:00",
-  "last_seen": "2026-11-22T09:52:42+03:00",
+  "last_seen": "2026-11-22T22:43:16+03:00",
   "thumbnail": {
    "image": "films/wengelochastaweqachew.jpg",
    "post_url": "https://t.me/alem_cinema/2355",
