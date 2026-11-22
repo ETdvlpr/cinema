@@ -4,8 +4,8 @@
   "last_seen": "2026-11-08T16:28:15+03:00",
   "thumbnail": {
    "image": "films/abalawchesse.jpg",
-   "post_url": "https://t.me/alem_cinema/2341",
-   "posted_at": "2026-11-05T17:31:20+00:00"
+   "post_url": "https://t.me/alem_cinema/2355",
+   "posted_at": "2026-11-20T02:07:21+00:00"
   },
   "title": "Abalaw Chesse",
   "tmdb": {
@@ -90,6 +90,19 @@
    "posted_at": "2026-11-12T18:21:23+00:00"
   },
   "title": "Alfenesho",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "alfetanym": {
+  "first_seen": "2026-11-20T02:07:21+00:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
+  "thumbnail": {
+   "image": "films/alfetanym.jpg",
+   "post_url": "https://t.me/alem_cinema/2355",
+   "posted_at": "2026-11-20T02:07:21+00:00"
+  },
+  "title": "Alfetanym",
   "tmdb": {
    "status": "skipped_amharic"
   }
@@ -213,8 +226,8 @@
   "last_seen": "2026-11-16T05:04:35+00:00",
   "thumbnail": {
    "image": "films/avengersdoomsday.jpg",
-   "post_url": "https://t.me/Century_Cinema/2357",
-   "posted_at": "2026-11-16T05:04:35+00:00"
+   "post_url": "https://t.me/Century_Cinema/2362",
+   "posted_at": "2026-11-21T19:02:12+00:00"
   },
   "title": "AVENGERS DOOMSDAY"
  },
@@ -426,6 +439,19 @@
    "status": "skipped_amharic"
   }
  },
+ "dolma": {
+  "first_seen": "2026-11-20T02:07:21+00:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
+  "thumbnail": {
+   "image": "films/dolma.jpg",
+   "post_url": "https://t.me/alem_cinema/2355",
+   "posted_at": "2026-11-20T02:07:21+00:00"
+  },
+  "title": "Dolma",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "dolomit": {
   "first_seen": "2026-10-26T07:02:13+00:00",
   "last_seen": "2026-10-28T15:58:56+03:00",
@@ -513,13 +539,13 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-19T10:29:11+03:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
-   "post_url": "https://t.me/Century_Cinema/2360",
-   "posted_at": "2026-11-19T06:25:03+00:00"
+   "post_url": "https://t.me/Century_Cinema/2362",
+   "posted_at": "2026-11-21T19:02:12+00:00"
   },
-  "title": "EBENEZER",
+  "title": "Ebenezer",
   "tmdb": {
    "backdrop_path": "/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
    "certification": "PG-13",
@@ -537,6 +563,19 @@
    "status": "matched",
    "title": "Ebenezer",
    "trailer_youtube_key": "A7lyvgnDuDE"
+  }
+ },
+ "enetiyu": {
+  "first_seen": "2026-11-20T02:07:21+00:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
+  "thumbnail": {
+   "image": "films/enetiyu.jpg",
+   "post_url": "https://t.me/alem_cinema/2355",
+   "posted_at": "2026-11-20T02:07:21+00:00"
+  },
+  "title": "Enetiyu",
+  "tmdb": {
+   "status": "skipped_amharic"
   }
  },
  "entelahaye": {
@@ -620,13 +659,13 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-19T10:29:11+03:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/Century_Cinema/2360",
-   "posted_at": "2026-11-19T06:25:03+00:00"
+   "post_url": "https://t.me/Century_Cinema/2362",
+   "posted_at": "2026-11-21T19:02:12+00:00"
   },
-  "title": "FORGOTTEN ISLAND",
+  "title": "Forgotten Island",
   "tmdb": {
    "backdrop_path": "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
    "certification": "PG",
@@ -708,19 +747,6 @@
    "status": "skipped_amharic"
   }
  },
- "gushu": {
-  "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-10-21T20:14:45+03:00",
-  "thumbnail": {
-   "image": "films/gushu.jpg",
-   "post_url": "https://t.me/alem_cinema/2323",
-   "posted_at": "2026-10-18T17:47:52+00:00"
-  },
-  "title": "Gushu",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "hadat": {
   "first_seen": "2026-10-22T17:37:40+00:00",
   "last_seen": "2026-10-25T23:53:26+03:00",
@@ -739,8 +765,8 @@
   "last_seen": "2026-11-18T23:34:43+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
-   "post_url": "https://t.me/chewatacinema/88",
-   "posted_at": "2026-11-15T20:37:01+00:00"
+   "post_url": "https://t.me/chewatacinema/89",
+   "posted_at": "2026-11-19T19:49:04+00:00"
   },
   "title": "Heart of the Beast",
   "tmdb": {
@@ -764,13 +790,13 @@
  },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-19T10:29:11+03:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
-   "post_url": "https://t.me/Century_Cinema/2360",
-   "posted_at": "2026-11-19T06:25:03+00:00"
+   "post_url": "https://t.me/Century_Cinema/2362",
+   "posted_at": "2026-11-21T19:02:12+00:00"
   },
-  "title": "HOW TO ROB A BANK",
+  "title": "How To Rob A Bank",
   "tmdb": {
    "backdrop_path": "/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
    "certification": "R",
@@ -968,8 +994,8 @@
   "last_seen": "2026-11-05T22:59:31+03:00",
   "thumbnail": {
    "image": "films/loveofyourlife.jpg",
-   "post_url": "https://t.me/chewatacinema/81",
-   "posted_at": "2026-11-02T05:38:31+00:00"
+   "post_url": "https://t.me/chewatacinema/89",
+   "posted_at": "2026-11-19T19:49:04+00:00"
   },
   "title": "Love of Your Life",
   "tmdb": {
@@ -1215,26 +1241,13 @@
  },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-18T23:34:43+03:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
   "thumbnail": {
    "image": "films/qenzerafi.jpg",
-   "post_url": "https://t.me/alem_cinema/2349",
-   "posted_at": "2026-11-15T17:10:29+00:00"
+   "post_url": "https://t.me/alem_cinema/2355",
+   "posted_at": "2026-11-20T02:07:21+00:00"
   },
   "title": "Qen Zerafi",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
- "qenzerefa": {
-  "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-10-22T20:13:20+03:00",
-  "thumbnail": {
-   "image": "films/qenzerefa.jpg",
-   "post_url": "https://t.me/alem_cinema/2323",
-   "posted_at": "2026-10-18T17:47:52+00:00"
-  },
-  "title": "Qen Zerefa",
   "tmdb": {
    "status": "skipped_amharic"
   }
@@ -1298,11 +1311,11 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-19T10:29:11+03:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
-   "post_url": "https://t.me/chewatacinema/88",
-   "posted_at": "2026-11-15T20:37:01+00:00"
+   "post_url": "https://t.me/chewatacinema/89",
+   "posted_at": "2026-11-19T19:49:04+00:00"
   },
   "title": "Resident Evil",
   "tmdb": {
@@ -1334,19 +1347,6 @@
    "posted_at": "2026-10-29T17:47:42+00:00"
   },
   "title": "Salayat",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
- "salayt": {
-  "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-10-22T20:13:20+03:00",
-  "thumbnail": {
-   "image": "films/salayt.jpg",
-   "post_url": "https://t.me/alem_cinema/2323",
-   "posted_at": "2026-10-18T17:47:52+00:00"
-  },
-  "title": "Salayt",
   "tmdb": {
    "status": "skipped_amharic"
   }
@@ -1612,11 +1612,11 @@
  },
  "thelastsunrise": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-04T22:47:52+03:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
   "thumbnail": {
    "image": "films/thelastsunrise.jpg",
-   "post_url": "https://t.me/chewatacinema/81",
-   "posted_at": "2026-11-02T05:38:31+00:00"
+   "post_url": "https://t.me/chewatacinema/89",
+   "posted_at": "2026-11-19T19:49:04+00:00"
   },
   "title": "The Last Sunrise",
   "tmdb": {
@@ -1696,13 +1696,13 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-19T10:29:11+03:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
-   "post_url": "https://t.me/Century_Cinema/2360",
-   "posted_at": "2026-11-19T06:25:03+00:00"
+   "post_url": "https://t.me/Century_Cinema/2362",
+   "posted_at": "2026-11-21T19:02:12+00:00"
   },
-  "title": "THE ODYSSEY",
+  "title": "The Odyssey",
   "tmdb": {
    "backdrop_path": "/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
    "certification": "R",
@@ -1834,6 +1834,16 @@
    "status": "skipped_amharic"
   }
  },
+ "tseny": {
+  "first_seen": "2026-11-20T02:07:21+00:00",
+  "last_seen": "2026-11-20T02:07:21+00:00",
+  "thumbnail": {
+   "image": "films/tseny.jpg",
+   "post_url": "https://t.me/alem_cinema/2355",
+   "posted_at": "2026-11-20T02:07:21+00:00"
+  },
+  "title": "Tseny"
+ },
  "unknowncomingsoon1": {
   "first_seen": "2026-10-25T15:00:04+00:00",
   "last_seen": "2026-10-25T15:00:04+00:00",
@@ -1872,19 +1882,6 @@
    "trailer_youtube_key": "xdPMKhjMSFs"
   }
  },
- "wendochualteweledum": {
-  "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-10-22T20:13:20+03:00",
-  "thumbnail": {
-   "image": "films/wendochualteweledum.jpg",
-   "post_url": "https://t.me/alem_cinema/2323",
-   "posted_at": "2026-10-18T17:47:52+00:00"
-  },
-  "title": "Wendochu Alteweledum",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "wengelgnaadaltowal": {
   "first_seen": "2026-11-01T16:53:30+00:00",
   "last_seen": "2026-11-02T18:58:54+03:00",
@@ -1907,6 +1904,19 @@
    "posted_at": "2026-11-05T17:31:20+00:00"
   },
   "title": "Wengelnya Asatweledo",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
+ "wengelochastaweqachew": {
+  "first_seen": "2026-11-20T02:07:21+00:00",
+  "last_seen": "2026-11-22T09:52:42+03:00",
+  "thumbnail": {
+   "image": "films/wengelochastaweqachew.jpg",
+   "post_url": "https://t.me/alem_cinema/2355",
+   "posted_at": "2026-11-20T02:07:21+00:00"
+  },
+  "title": "Wengeloch Astaweqachew",
   "tmdb": {
    "status": "skipped_amharic"
   }
