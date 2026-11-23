@@ -61,16 +61,6 @@
    "status": "skipped_amharic"
   }
  },
- "abariwchese": {
-  "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-10-24T10:42:47+00:00",
-  "thumbnail": {
-   "image": "films/abariwchese.jpg",
-   "post_url": "https://t.me/alem_cinema/2329",
-   "posted_at": "2026-10-24T10:42:47+00:00"
-  },
-  "title": "Abariw Chese"
- },
  "abwarawches": {
   "first_seen": "2026-10-28T16:17:55+00:00",
   "last_seen": "2026-10-28T16:17:55+00:00",
@@ -107,6 +97,19 @@
    "status": "skipped_amharic"
   }
  },
+ "alfetashim": {
+  "first_seen": "2026-11-23T03:39:05+00:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
+  "thumbnail": {
+   "image": "films/alfetashim.jpg",
+   "post_url": "https://t.me/alem_cinema/2358",
+   "posted_at": "2026-11-23T03:39:05+00:00"
+  },
+  "title": "Alfetashim",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "aligwhoizi": {
   "first_seen": "2026-11-12T14:40:51+00:00",
   "last_seen": "2026-11-15T21:53:07+03:00",
@@ -136,11 +139,11 @@
  },
  "anteneh": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-12T22:56:45+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/anteneh.jpg",
-   "post_url": "https://t.me/alem_cinema/2344",
-   "posted_at": "2026-11-08T18:09:04+00:00"
+   "post_url": "https://t.me/alem_cinema/2358",
+   "posted_at": "2026-11-23T03:39:05+00:00"
   },
   "title": "Anteneh",
   "tmdb": {
@@ -258,11 +261,11 @@
  },
  "balochenamistoch": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-19T10:29:11+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/balochenamistoch.jpg",
-   "post_url": "https://t.me/alem_cinema/2349",
-   "posted_at": "2026-11-15T17:10:29+00:00"
+   "post_url": "https://t.me/alem_cinema/2358",
+   "posted_at": "2026-11-23T03:39:05+00:00"
   },
   "title": "Baloch Ena Mistoch",
   "tmdb": {
@@ -486,16 +489,6 @@
    "status": "skipped_amharic"
   }
  },
- "doloviya": {
-  "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-10-24T10:42:47+00:00",
-  "thumbnail": {
-   "image": "films/doloviya.jpg",
-   "post_url": "https://t.me/alem_cinema/2329",
-   "posted_at": "2026-10-24T10:42:47+00:00"
-  },
-  "title": "Doloviya"
- },
  "dorovili": {
   "first_seen": "2026-11-05T17:31:20+00:00",
   "last_seen": "2026-11-08T16:28:15+03:00",
@@ -521,13 +514,13 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
    "post_url": "https://t.me/GastCinema/4908",
    "posted_at": "2026-11-22T18:37:22+00:00"
   },
-  "title": "Ebenezer",
+  "title": "EBENEZER",
   "tmdb": {
    "backdrop_path": "/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
    "certification": "PG-13",
@@ -641,13 +634,13 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
    "post_url": "https://t.me/chewatacinema/91",
    "posted_at": "2026-11-22T19:33:42+00:00"
   },
-  "title": "Forgotten Island",
+  "title": "FORGOTTEN ISLAND",
   "tmdb": {
    "backdrop_path": "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
    "certification": "PG",
@@ -716,6 +709,19 @@
   },
   "title": "Gunch"
  },
+ "gushen": {
+  "first_seen": "2026-11-23T03:39:05+00:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
+  "thumbnail": {
+   "image": "films/gushen.jpg",
+   "post_url": "https://t.me/alem_cinema/2358",
+   "posted_at": "2026-11-23T03:39:05+00:00"
+  },
+  "title": "Gushen",
+  "tmdb": {
+   "status": "skipped_amharic"
+  }
+ },
  "gushn": {
   "first_seen": "2026-11-08T18:09:04+00:00",
   "last_seen": "2026-11-11T22:38:11+03:00",
@@ -744,7 +750,7 @@
  },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -772,13 +778,13 @@
  },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
    "post_url": "https://t.me/GastCinema/4908",
    "posted_at": "2026-11-22T18:37:22+00:00"
   },
-  "title": "How To Rob A Bank",
+  "title": "HOW TO ROB A BANK",
   "tmdb": {
    "backdrop_path": "/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
    "certification": "R",
@@ -842,34 +848,6 @@
   },
   "title": "Ice Age 6"
  },
- "insidiousoutofthefurther": {
-  "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-10-24T23:52:47+03:00",
-  "thumbnail": {
-   "image": "films/insidiousoutofthefurther.jpg",
-   "post_url": "https://t.me/chewatacinema/75",
-   "posted_at": "2026-10-22T10:12:04+00:00"
-  },
-  "title": "Insidious: Out of the Further",
-  "tmdb": {
-   "backdrop_path": "/p40lmrdI4blcAPZQMTPaiy5v5Ym.jpg",
-   "certification": "PG-13",
-   "checked_at": "2026-10-06T09:24:23+03:00",
-   "genres": [
-    "Horror",
-    "Thriller"
-   ],
-   "id": 1291595,
-   "overview": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
-   "poster_path": "/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
-   "rating": 6.5,
-   "release_date": "2026-08-19",
-   "runtime": 106,
-   "status": "matched",
-   "title": "Insidious: Out of the Further",
-   "trailer_youtube_key": "jxU8FU3o75A"
-  }
- },
  "jumanji": {
   "first_seen": "2026-11-01T14:04:00+00:00",
   "last_seen": "2026-11-01T14:04:00+00:00",
@@ -905,16 +883,6 @@
   "tmdb": {
    "status": "skipped_amharic"
   }
- },
- "kenzerafi": {
-  "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-10-24T10:42:47+00:00",
-  "thumbnail": {
-   "image": "films/kenzerafi.jpg",
-   "post_url": "https://t.me/alem_cinema/2329",
-   "posted_at": "2026-10-24T10:42:47+00:00"
-  },
-  "title": "Ken Zerafi"
  },
  "konjo": {
   "first_seen": "2026-10-22T17:37:40+00:00",
@@ -1219,11 +1187,11 @@
  },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/qenzerafi.jpg",
-   "post_url": "https://t.me/alem_cinema/2355",
-   "posted_at": "2026-11-20T02:07:21+00:00"
+   "post_url": "https://t.me/alem_cinema/2358",
+   "posted_at": "2026-11-23T03:39:05+00:00"
   },
   "title": "Qen Zerafi",
   "tmdb": {
@@ -1289,7 +1257,7 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -1396,7 +1364,7 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
    "post_url": "https://t.me/GastCinema/4908",
@@ -1425,7 +1393,7 @@
  },
  "steps": {
   "first_seen": "2026-11-22T18:37:22+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/steps.jpg",
    "post_url": "https://t.me/GastCinema/4908",
@@ -1508,7 +1476,7 @@
  },
  "thebeast": {
   "first_seen": "2026-11-15T19:30:08+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/thebeast.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -1602,36 +1570,9 @@
    "trailer_youtube_key": "NYC0v8xqQdM"
   }
  },
- "thelastfirstwinterk2": {
-  "first_seen": "2026-10-15T20:27:14+00:00",
-  "last_seen": "2026-10-24T23:52:47+03:00",
-  "thumbnail": {
-   "image": "films/thelastfirstwinterk2.jpg",
-   "post_url": "https://t.me/chewatacinema/75",
-   "posted_at": "2026-10-22T10:12:04+00:00"
-  },
-  "title": "The Last First: Winter K2",
-  "tmdb": {
-   "backdrop_path": "/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
-   "certification": "NR",
-   "checked_at": "2026-10-16T00:25:26+03:00",
-   "genres": [
-    "Documentary"
-   ],
-   "id": 1596303,
-   "overview": "A historic race to become the first to summit K2 in winter unravels into tragedy, exposing how ambition, ego, and the pursuit of glory can be as dangerous as the mountain itself.",
-   "poster_path": "/97QpXbNNXj2eQ1MdmhFdGlU0jnW.jpg",
-   "rating": null,
-   "release_date": "2026-10-02",
-   "runtime": 98,
-   "status": "matched",
-   "title": "The Last First: Winter K2",
-   "trailer_youtube_key": "zgGpyr5MFK8"
-  }
- },
  "thelastsunrise": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/thelastsunrise.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -1715,13 +1656,13 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-22T22:43:16+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
    "post_url": "https://t.me/chewatacinema/91",
    "posted_at": "2026-11-22T19:33:42+00:00"
   },
-  "title": "The Odyssey",
+  "title": "THE ODYSSEY",
   "tmdb": {
    "backdrop_path": "/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
    "certification": "R",
@@ -1842,11 +1783,11 @@
  },
  "tsehay": {
   "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-11-15T21:53:07+03:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
   "thumbnail": {
    "image": "films/tsehay.jpg",
-   "post_url": "https://t.me/alem_cinema/2346",
-   "posted_at": "2026-11-12T18:21:23+00:00"
+   "post_url": "https://t.me/alem_cinema/2358",
+   "posted_at": "2026-11-23T03:39:05+00:00"
   },
   "title": "Tsehay",
   "tmdb": {
@@ -1940,16 +1881,6 @@
    "status": "skipped_amharic"
   }
  },
- "wenjechualtweledum": {
-  "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-10-24T10:42:47+00:00",
-  "thumbnail": {
-   "image": "films/wenjechualtweledum.jpg",
-   "post_url": "https://t.me/alem_cinema/2329",
-   "posted_at": "2026-10-24T10:42:47+00:00"
-  },
-  "title": "Wenjechu Altweledum"
- },
  "wenjelualteweledem": {
   "first_seen": "2026-11-08T18:09:04+00:00",
   "last_seen": "2026-11-12T22:56:45+03:00",
@@ -1981,8 +1912,8 @@
   "last_seen": "2026-11-18T23:34:43+03:00",
   "thumbnail": {
    "image": "films/whalefall.jpg",
-   "post_url": "https://t.me/garadmulticinema/469",
-   "posted_at": "2026-11-15T21:00:05+00:00"
+   "post_url": "https://t.me/garadmulticinema/472",
+   "posted_at": "2026-11-18T15:16:46+00:00"
   },
   "title": "Whalefall",
   "tmdb": {
@@ -2001,6 +1932,19 @@
    "status": "matched",
    "title": "Whalefall",
    "trailer_youtube_key": "67ho3OxCmmM"
+  }
+ },
+ "wondochalteweledum": {
+  "first_seen": "2026-11-23T03:39:05+00:00",
+  "last_seen": "2026-11-24T02:55:50+03:00",
+  "thumbnail": {
+   "image": "films/wondochalteweledum.jpg",
+   "post_url": "https://t.me/alem_cinema/2358",
+   "posted_at": "2026-11-23T03:39:05+00:00"
+  },
+  "title": "Wondoch Alteweledum",
+  "tmdb": {
+   "status": "skipped_amharic"
   }
  },
  "wondochualteweledum": {
