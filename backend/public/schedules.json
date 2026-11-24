@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T02:55:50+03:00",
+ "generated_at": "2026-11-24T12:57:01+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-24T02:55:50+03:00",
+   "last_checked": "2026-11-24T12:57:01+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-23T03:39:05+00:00",
    "latest_poster": {
@@ -297,23 +297,206 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-24T02:55:50+03:00",
+   "last_checked": "2026-11-24T12:57:01+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-11-21T19:02:12+00:00",
+   "latest_schedule_posted_at": "2026-11-23T10:00:02+00:00",
    "latest_poster": {
     "image": "posters/century/2363-0.jpg",
     "post_url": "https://t.me/Century_Cinema/2363",
     "posted_at": "2026-11-23T10:00:02+00:00",
-    "status": "error"
+    "status": "ok"
    },
-   "showtimes": []
+   "showtimes": [
+    {
+     "confidence": 0.95,
+     "date": "2026-11-24",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-24",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-24",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-24",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-24",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-24",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-24",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-25",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-25",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-25",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-25",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-25",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-25",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-25",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "19:15",
+     "poster": "posters/century/2363-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2363"
+    }
+   ]
   },
   {
    "id": "gast",
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-24T02:55:50+03:00",
+   "last_checked": "2026-11-24T12:57:01+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-22T18:37:22+00:00",
    "latest_poster": {
@@ -850,7 +1033,7 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-24T02:55:50+03:00",
+   "last_checked": "2026-11-24T12:57:01+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-22T19:33:42+00:00",
    "latest_poster": {
@@ -1062,14 +1245,14 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-24T02:55:50+03:00",
+   "last_checked": "2026-11-24T12:57:01+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-21T15:00:03+00:00",
    "latest_poster": {
-    "image": "posters/garad/480-0.jpg",
-    "post_url": "https://t.me/garadmulticinema/480",
-    "posted_at": "2026-11-23T13:06:14+00:00",
-    "status": "error"
+    "image": "posters/garad/477-0.jpg",
+    "post_url": "https://t.me/garadmulticinema/477",
+    "posted_at": "2026-11-21T15:00:03+00:00",
+    "status": "ok"
    },
    "showtimes": [
     {
