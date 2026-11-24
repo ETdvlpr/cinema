@@ -35,19 +35,6 @@
   },
   "title": "Abalew Chelema"
  },
- "abalewwus": {
-  "first_seen": "2026-10-22T17:37:40+00:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "thumbnail": {
-   "image": "films/abalewwus.jpg",
-   "post_url": "https://t.me/alem_cinema/2328",
-   "posted_at": "2026-10-22T17:37:40+00:00"
-  },
-  "title": "Abalew Wus",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "abarawches": {
   "first_seen": "2026-10-29T17:47:42+00:00",
   "last_seen": "2026-11-01T16:28:28+03:00",
@@ -99,7 +86,7 @@
  },
  "alfetashim": {
   "first_seen": "2026-11-23T03:39:05+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/alfetashim.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
@@ -139,7 +126,7 @@
  },
  "anteneh": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/anteneh.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
@@ -450,19 +437,6 @@
    "status": "skipped_amharic"
   }
  },
- "dolomite": {
-  "first_seen": "2026-10-22T17:37:40+00:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "thumbnail": {
-   "image": "films/dolomite.jpg",
-   "post_url": "https://t.me/alem_cinema/2328",
-   "posted_at": "2026-10-22T17:37:40+00:00"
-  },
-  "title": "Dolomite",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "dolovia": {
   "first_seen": "2026-10-18T17:47:52+00:00",
   "last_seen": "2026-11-12T22:56:45+03:00",
@@ -514,7 +488,7 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
    "post_url": "https://t.me/Century_Cinema/2363",
@@ -562,19 +536,6 @@
    "posted_at": "2026-11-12T18:21:23+00:00"
   },
   "title": "Entelahaye",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
- "enteneh": {
-  "first_seen": "2026-10-22T17:37:40+00:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "thumbnail": {
-   "image": "films/enteneh.jpg",
-   "post_url": "https://t.me/alem_cinema/2328",
-   "posted_at": "2026-10-22T17:37:40+00:00"
-  },
-  "title": "Enteneh",
   "tmdb": {
    "status": "skipped_amharic"
   }
@@ -634,7 +595,7 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
    "post_url": "https://t.me/Century_Cinema/2363",
@@ -711,7 +672,7 @@
  },
  "gushen": {
   "first_seen": "2026-11-23T03:39:05+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/gushen.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
@@ -735,22 +696,9 @@
    "status": "skipped_amharic"
   }
  },
- "hadat": {
-  "first_seen": "2026-10-22T17:37:40+00:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "thumbnail": {
-   "image": "films/hadat.jpg",
-   "post_url": "https://t.me/alem_cinema/2328",
-   "posted_at": "2026-10-22T17:37:40+00:00"
-  },
-  "title": "Hadat",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "heartofthebeast": {
   "first_seen": "2026-10-04T18:38:47+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/heartofthebeast.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -778,7 +726,7 @@
  },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
    "post_url": "https://t.me/Century_Cinema/2363",
@@ -884,19 +832,6 @@
    "status": "skipped_amharic"
   }
  },
- "konjo": {
-  "first_seen": "2026-10-22T17:37:40+00:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "thumbnail": {
-   "image": "films/konjo.jpg",
-   "post_url": "https://t.me/alem_cinema/2337",
-   "posted_at": "2026-10-30T16:33:56+00:00"
-  },
-  "title": "Konjo",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "liverpoolvsarsenal": {
   "first_seen": "2026-10-28T17:42:57+00:00",
   "last_seen": "2026-11-01T16:28:28+03:00",
@@ -948,15 +883,6 @@
    "posted_at": "2026-11-20T20:08:04+00:00"
   },
   "title": "Manchester City vs Fulham"
- },
- "manchesterunitedvsafcbournemouth": {
-  "first_seen": "2026-10-24T23:52:47+03:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "title": "Manchester United vs AFC Bournemouth",
-  "tmdb": {
-   "checked_at": "2026-10-24T23:52:47+03:00",
-   "status": "none"
-  }
  },
  "manchesterunitedvsliverpool": {
   "first_seen": "2026-11-20T20:08:04+00:00",
@@ -1065,19 +991,6 @@
    "status": "none"
   }
  },
- "mendefasatmelew": {
-  "first_seen": "2026-10-22T17:37:40+00:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "thumbnail": {
-   "image": "films/mendefasatmelew.jpg",
-   "post_url": "https://t.me/alem_cinema/2328",
-   "posted_at": "2026-10-22T17:37:40+00:00"
-  },
-  "title": "Mendef Asatmelew",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "minionsandmonsters": {
   "first_seen": "2026-10-09T19:48:18+00:00",
   "last_seen": "2026-10-28T01:16:58+03:00",
@@ -1162,19 +1075,6 @@
    "status": "skipped_amharic"
   }
  },
- "qenzelefi": {
-  "first_seen": "2026-10-22T17:37:40+00:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "thumbnail": {
-   "image": "films/qenzelefi.jpg",
-   "post_url": "https://t.me/alem_cinema/2328",
-   "posted_at": "2026-10-22T17:37:40+00:00"
-  },
-  "title": "Qen Zelefi",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "qenzelele": {
   "first_seen": "2026-10-30T16:33:56+00:00",
   "last_seen": "2026-10-30T16:33:56+00:00",
@@ -1187,7 +1087,7 @@
  },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/qenzerafi.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
@@ -1257,7 +1157,7 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -1307,19 +1207,6 @@
   },
   "title": "Saleyet"
  },
- "selingfit": {
-  "first_seen": "2026-10-22T17:37:40+00:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "thumbnail": {
-   "image": "films/selingfit.jpg",
-   "post_url": "https://t.me/alem_cinema/2328",
-   "posted_at": "2026-10-22T17:37:40+00:00"
-  },
-  "title": "Seling Fit",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "sestfet": {
   "first_seen": "2026-10-26T07:02:13+00:00",
   "last_seen": "2026-11-08T16:28:15+03:00",
@@ -1333,38 +1220,9 @@
    "status": "skipped_amharic"
   }
  },
- "shaunthesheepthebeastofmossybottom": {
-  "first_seen": "2026-10-25T07:17:08+00:00",
-  "last_seen": "2026-10-25T23:53:26+03:00",
-  "thumbnail": {
-   "image": "films/shaunthesheepthebeastofmossybottom.jpg",
-   "post_url": "https://t.me/Century_Cinema/2340",
-   "posted_at": "2026-10-25T07:17:08+00:00"
-  },
-  "title": "SHAUN THE SHEEP: THE BEAST OF MOSSY BOTTOM",
-  "tmdb": {
-   "backdrop_path": "/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
-   "certification": "PG",
-   "checked_at": "2026-10-25T14:34:47+03:00",
-   "genres": [
-    "Animation",
-    "Science Fiction",
-    "Comedy"
-   ],
-   "id": 1477104,
-   "overview": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
-   "poster_path": "/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg",
-   "rating": 7.4,
-   "release_date": "2026-09-17",
-   "runtime": 81,
-   "status": "matched",
-   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-   "trailer_youtube_key": "UZ46Smi6mOw"
-  }
- },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
    "post_url": "https://t.me/GastCinema/4908",
@@ -1393,7 +1251,7 @@
  },
  "steps": {
   "first_seen": "2026-11-22T18:37:22+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/steps.jpg",
    "post_url": "https://t.me/GastCinema/4908",
@@ -1476,7 +1334,7 @@
  },
  "thebeast": {
   "first_seen": "2026-11-15T19:30:08+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/thebeast.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -1572,7 +1430,7 @@
  },
  "thelastsunrise": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/thelastsunrise.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -1656,7 +1514,7 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
    "post_url": "https://t.me/Century_Cinema/2363",
@@ -1753,7 +1611,7 @@
  },
  "tsehay": {
   "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/tsehay.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
@@ -1773,16 +1631,6 @@
    "posted_at": "2026-11-20T02:07:21+00:00"
   },
   "title": "Tseny"
- },
- "unknowncomingsoon1": {
-  "first_seen": "2026-10-25T15:00:04+00:00",
-  "last_seen": "2026-10-25T15:00:04+00:00",
-  "thumbnail": {
-   "image": "films/unknowncomingsoon1.jpg",
-   "post_url": "https://t.me/garadmulticinema/446",
-   "posted_at": "2026-10-25T15:00:04+00:00"
-  },
-  "title": "UNKNOWN COMING SOON 1"
  },
  "verity": {
   "first_seen": "2026-10-05T15:00:04+00:00",
@@ -1906,7 +1754,7 @@
  },
  "wondochalteweledum": {
   "first_seen": "2026-11-23T03:39:05+00:00",
-  "last_seen": "2026-11-24T12:57:01+03:00",
+  "last_seen": "2026-11-25T01:28:57+03:00",
   "thumbnail": {
    "image": "films/wondochalteweledum.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
