@@ -1,6 +1,6 @@
 {
  "cinema_id": "garad",
- "last_checked": "2026-11-25T11:39:08+03:00",
+ "last_checked": "2026-11-26T00:44:05+03:00",
  "last_error": null,
  "posters": {
   "448-0": {
@@ -3887,6 +3887,237 @@
    "rejected": [],
    "showtimes": [],
    "status": "not_schedule"
+  },
+  "481-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-26T00:44:36+03:00",
+   "image": null,
+   "index": 0,
+   "model": "gemini-flash-latest",
+   "notes": "Promotional poster for the film 'Hexed'; does not list screening times.",
+   "post_id": 481,
+   "post_url": "https://t.me/garadmulticinema/481",
+   "posted_at": "2026-11-25T13:03:34+00:00",
+   "processed_at": "2026-11-26T00:44:36+03:00",
+   "rejected": [],
+   "showtimes": [],
+   "status": "not_schedule"
+  },
+  "482-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-26T00:44:19+03:00",
+   "image": "posters/garad/482-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 482,
+   "post_url": "https://t.me/garadmulticinema/482",
+   "posted_at": "2026-11-25T15:00:15+00:00",
+   "processed_at": "2026-11-26T00:44:19+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-27",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "20:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-27",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "20:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-27",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-27",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "The Odyssey",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:15"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "HEXED",
+     "film_title_latin": "Hexed",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-27",
+     "film_title": "HEXED",
+     "film_title_latin": "Hexed",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "HEXED",
+     "film_title_latin": "Hexed",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-27",
+     "film_title": "HEXED",
+     "film_title_latin": "Hexed",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "HEXED",
+     "film_title_latin": "Hexed",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-27",
+     "film_title": "HEXED",
+     "film_title_latin": "Hexed",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "11:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-27",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-26",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-27",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "How to Rob a Bank",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    }
+   ],
+   "status": "ok"
   }
  }
 }

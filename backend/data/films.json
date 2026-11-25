@@ -86,7 +86,7 @@
  },
  "alfetashim": {
   "first_seen": "2026-11-23T03:39:05+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/alfetashim.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
@@ -126,7 +126,7 @@
  },
  "anteneh": {
   "first_seen": "2026-10-18T17:47:52+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/anteneh.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
@@ -468,11 +468,11 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
-   "post_url": "https://t.me/Century_Cinema/2363",
-   "posted_at": "2026-11-23T10:00:02+00:00"
+   "post_url": "https://t.me/GastCinema/4911",
+   "posted_at": "2026-11-25T17:14:34+00:00"
   },
   "title": "EBENEZER",
   "tmdb": {
@@ -573,13 +573,41 @@
    "trailer_youtube_key": "Rsztt5qDj_A"
   }
  },
+ "fockerinlaw": {
+  "first_seen": "2026-11-25T17:14:34+00:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
+  "thumbnail": {
+   "image": "films/fockerinlaw.jpg",
+   "post_url": "https://t.me/GastCinema/4911",
+   "posted_at": "2026-11-25T17:14:34+00:00"
+  },
+  "title": "FOCKER IN-LAW",
+  "tmdb": {
+   "backdrop_path": "/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
+   "certification": "PG-13",
+   "checked_at": "2026-11-26T00:44:05+03:00",
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "id": 1400336,
+   "overview": "Henry, son of Greg and Pam Focker, aims to marry Olivia, a strong-willed former hostage negotiator who appears to be his complete mismatch. To Greg's shock, father-in-law Jack Byrnes takes a liking to Olivia, and her unprecedented rise into his Circle of Trust sparks chaos in the family before Jack's 80th birthday party.",
+   "poster_path": "/iHJhSfqFpDMOyeMc6h6BOeHxse2.jpg",
+   "rating": null,
+   "release_date": "2026-11-21",
+   "runtime": 105,
+   "status": "matched",
+   "title": "Focker In-Law",
+   "trailer_youtube_key": "vyISuWUWcFs"
+  }
+ },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/Century_Cinema/2363",
-   "posted_at": "2026-11-23T10:00:02+00:00"
+   "post_url": "https://t.me/GastCinema/4911",
+   "posted_at": "2026-11-25T17:14:34+00:00"
   },
   "title": "FORGOTTEN ISLAND",
   "tmdb": {
@@ -694,13 +722,44 @@
    "trailer_youtube_key": "JFQcDFhNh4o"
   }
  },
+ "hexed": {
+  "first_seen": "2026-11-25T17:14:34+00:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
+  "thumbnail": {
+   "image": "films/hexed.jpg",
+   "post_url": "https://t.me/GastCinema/4911",
+   "posted_at": "2026-11-25T17:14:34+00:00"
+  },
+  "title": "HEXED",
+  "tmdb": {
+   "backdrop_path": "/wdjW11Tp4w9EfDBxbjyBJvDVHDA.jpg",
+   "certification": "PG",
+   "checked_at": "2026-11-26T00:44:05+03:00",
+   "genres": [
+    "Adventure",
+    "Animation",
+    "Family",
+    "Fantasy",
+    "Comedy"
+   ],
+   "id": 1538497,
+   "overview": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+   "poster_path": "/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
+   "rating": null,
+   "release_date": "2026-11-25",
+   "runtime": 103,
+   "status": "matched",
+   "title": "Hexed",
+   "trailer_youtube_key": "mtC4sjABZNw"
+  }
+ },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
-   "post_url": "https://t.me/Century_Cinema/2363",
-   "posted_at": "2026-11-23T10:00:02+00:00"
+   "post_url": "https://t.me/GastCinema/4911",
+   "posted_at": "2026-11-25T17:14:34+00:00"
   },
   "title": "HOW TO ROB A BANK",
   "tmdb": {
@@ -1057,7 +1116,7 @@
  },
  "qenzerafi": {
   "first_seen": "2026-10-04T15:31:57+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/qenzerafi.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
@@ -1127,7 +1186,7 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -1182,11 +1241,11 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/GastCinema/4908",
-   "posted_at": "2026-11-22T18:37:22+00:00"
+   "post_url": "https://t.me/GastCinema/4911",
+   "posted_at": "2026-11-25T17:14:34+00:00"
   },
   "title": "SPIDER MAN: BRAND NEW DAY",
   "tmdb": {
@@ -1294,11 +1353,11 @@
  },
  "thebeast": {
   "first_seen": "2026-11-15T19:30:08+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/thebeast.jpg",
-   "post_url": "https://t.me/chewatacinema/91",
-   "posted_at": "2026-11-22T19:33:42+00:00"
+   "post_url": "https://t.me/GastCinema/4911",
+   "posted_at": "2026-11-25T17:14:34+00:00"
   },
   "title": "THE BEAST",
   "tmdb": {
@@ -1390,7 +1449,7 @@
  },
  "thelastsunrise": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/thelastsunrise.jpg",
    "post_url": "https://t.me/chewatacinema/91",
@@ -1474,11 +1533,11 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
-   "post_url": "https://t.me/Century_Cinema/2363",
-   "posted_at": "2026-11-23T10:00:02+00:00"
+   "post_url": "https://t.me/GastCinema/4911",
+   "posted_at": "2026-11-25T17:14:34+00:00"
   },
   "title": "THE ODYSSEY",
   "tmdb": {
@@ -1571,7 +1630,7 @@
  },
  "tsehay": {
   "first_seen": "2026-10-24T10:42:47+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/tsehay.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
@@ -1714,7 +1773,7 @@
  },
  "wondochalteweledum": {
   "first_seen": "2026-11-23T03:39:05+00:00",
-  "last_seen": "2026-11-25T11:39:08+03:00",
+  "last_seen": "2026-11-26T00:44:05+03:00",
   "thumbnail": {
    "image": "films/wondochalteweledum.jpg",
    "post_url": "https://t.me/alem_cinema/2358",
