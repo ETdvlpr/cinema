@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T11:38:14+03:00",
+ "generated_at": "2026-11-28T00:20:26+03:00",
  "timezone": "Africa/Addis_Ababa",
  "cinemas": [
   {
@@ -7,7 +7,7 @@
    "name": "Alem Cinema",
    "channel_url": "https://t.me/alem_cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Alem+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-27T11:38:14+03:00",
+   "last_checked": "2026-11-28T00:20:26+03:00",
    "last_error": null,
    "latest_schedule_posted_at": "2026-11-26T16:40:52+00:00",
    "latest_poster": {
@@ -17,110 +17,6 @@
     "status": "ok"
    },
    "showtimes": [
-    {
-     "confidence": 0.95,
-     "date": "2026-11-27",
-     "film_title": "ላቦራ",
-     "film_title_latin": "Labora",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/alem/2361-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2361"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-27",
-     "film_title": "ላቦራ",
-     "film_title_latin": "Labora",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/alem/2361-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2361"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-27",
-     "film_title": "ላቦራ",
-     "film_title_latin": "Labora",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "15:00",
-     "poster": "posters/alem/2361-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2361"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-27",
-     "film_title": "ላቦራ",
-     "film_title_latin": "Labora",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "16:10",
-     "poster": "posters/alem/2361-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2361"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-27",
-     "film_title": "ላቦራ",
-     "film_title_latin": "Labora",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "17:10",
-     "poster": "posters/alem/2361-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2361"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-27",
-     "film_title": "አባላው ጨለማ",
-     "film_title_latin": "Abalew Chelema",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "18:20",
-     "poster": "posters/alem/2361-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2361"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-27",
-     "film_title": "ላቦራ",
-     "film_title_latin": "Labora",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "19:10",
-     "poster": "posters/alem/2361-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2361"
-    },
-    {
-     "confidence": 0.95,
-     "date": "2026-11-27",
-     "film_title": "ላቦራ",
-     "film_title_latin": "Labora",
-     "format": null,
-     "hall": null,
-     "language": null,
-     "price_birr": null,
-     "time": "20:20",
-     "poster": "posters/alem/2361-0.jpg",
-     "post_url": "https://t.me/alem_cinema/2361"
-    },
     {
      "confidence": 0.95,
      "date": "2026-11-28",
@@ -336,35 +232,270 @@
    "name": "Century Cinema",
    "channel_url": "https://t.me/Century_Cinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Century+Cinema%2C+Century+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-27T11:38:14+03:00",
+   "last_checked": "2026-11-28T00:20:26+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-11-25T21:58:22+00:00",
+   "latest_schedule_posted_at": "2026-11-27T16:16:13+00:00",
    "latest_poster": {
-    "image": "posters/century/2364-0.jpg",
-    "post_url": "https://t.me/Century_Cinema/2364",
-    "posted_at": "2026-11-25T21:58:22+00:00",
+    "image": "posters/century/2365-0.jpg",
+    "post_url": "https://t.me/Century_Cinema/2365",
+    "posted_at": "2026-11-27T16:16:13+00:00",
     "status": "ok"
    },
-   "showtimes": []
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "LABORO",
+     "film_title_latin": "LABORO",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "20:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "LABORO",
+     "film_title_latin": "LABORO",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "20:00",
+     "poster": "posters/century/2365-0.jpg",
+     "post_url": "https://t.me/Century_Cinema/2365"
+    }
+   ]
   },
   {
    "id": "gast",
    "name": "GAST Cinema",
    "channel_url": "https://t.me/GastCinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=GAST+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-27T11:38:14+03:00",
+   "last_checked": "2026-11-28T00:20:26+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-11-25T17:14:34+00:00",
+   "latest_schedule_posted_at": "2026-11-27T18:22:42+00:00",
    "latest_poster": {
-    "image": "posters/gast/4911-0.jpg",
-    "post_url": "https://t.me/GastCinema/4911",
-    "posted_at": "2026-11-25T17:14:34+00:00",
+    "image": "posters/gast/4915-0.jpg",
+    "post_url": "https://t.me/GastCinema/4915",
+    "posted_at": "2026-11-27T18:22:42+00:00",
     "status": "ok"
    },
    "showtimes": [
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "FORGOTTEN ISLAND",
      "film_title_latin": "FORGOTTEN ISLAND",
      "format": "2D",
@@ -372,12 +503,12 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "HOW TO ROB A BANK",
      "film_title_latin": "HOW TO ROB A BANK",
      "format": "2D",
@@ -385,12 +516,12 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "SPIDER MAN: BRAND NEW DAY",
      "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
      "format": "2D",
@@ -398,12 +529,12 @@
      "language": null,
      "price_birr": null,
      "time": "12:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "HEXED",
      "film_title_latin": "HEXED",
      "format": "2D",
@@ -411,12 +542,12 @@
      "language": null,
      "price_birr": null,
      "time": "13:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "THE ODYSSEY",
      "film_title_latin": "THE ODYSSEY",
      "format": "2D",
@@ -424,25 +555,12 @@
      "language": null,
      "price_birr": null,
      "time": "13:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "EBENEZER",
-     "film_title_latin": "EBENEZER",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "HEXED",
      "film_title_latin": "HEXED",
      "format": "2D",
@@ -450,12 +568,12 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "HOW TO ROB A BANK",
      "film_title_latin": "HOW TO ROB A BANK",
      "format": "2D",
@@ -463,12 +581,12 @@
      "language": null,
      "price_birr": null,
      "time": "14:15",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "FOCKER IN-LAW",
      "film_title_latin": "FOCKER IN-LAW",
      "format": "2D",
@@ -476,12 +594,12 @@
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "THE ODYSSEY",
      "film_title_latin": "THE ODYSSEY",
      "format": "2D",
@@ -489,12 +607,12 @@
      "language": null,
      "price_birr": null,
      "time": "15:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "FORGOTTEN ISLAND",
      "film_title_latin": "FORGOTTEN ISLAND",
      "format": "2D",
@@ -502,12 +620,12 @@
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "HEXED",
      "film_title_latin": "HEXED",
      "format": "2D",
@@ -515,12 +633,12 @@
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "HOW TO ROB A BANK",
      "film_title_latin": "HOW TO ROB A BANK",
      "format": "2D",
@@ -528,25 +646,38 @@
      "language": null,
      "price_birr": null,
      "time": "16:30",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "FOCKER IN-LAW",
-     "film_title_latin": "FOCKER IN-LAW",
+     "confidence": 0.95,
+     "date": "2026-11-28",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
      "format": "2D",
      "hall": "GOLD 4",
      "language": null,
      "price_birr": null,
      "time": "17:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "HEXED",
      "film_title_latin": "HEXED",
      "format": "2D",
@@ -554,12 +685,12 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "THE ODYSSEY",
      "film_title_latin": "THE ODYSSEY",
      "format": "2D",
@@ -567,25 +698,12 @@
      "language": null,
      "price_birr": null,
      "time": "18:15",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "EBENEZER",
-     "film_title_latin": "EBENEZER",
-     "format": "2D",
-     "hall": "GOLD 2",
-     "language": null,
-     "price_birr": null,
-     "time": "19:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "FOCKER IN-LAW",
      "film_title_latin": "FOCKER IN-LAW",
      "format": "2D",
@@ -593,25 +711,25 @@
      "language": null,
      "price_birr": null,
      "time": "19:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "FORGOTTEN ISLAND",
-     "film_title_latin": "FORGOTTEN ISLAND",
+     "confidence": 0.95,
+     "date": "2026-11-28",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
      "format": "2D",
-     "hall": "GOLD 1",
+     "hall": "GOLD 2",
      "language": null,
      "price_birr": null,
-     "time": "20:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "time": "19:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "FOCKER IN-LAW",
      "film_title_latin": "FOCKER IN-LAW",
      "format": "2D",
@@ -619,12 +737,12 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "HOW TO ROB A BANK",
      "film_title_latin": "HOW TO ROB A BANK",
      "format": "2D",
@@ -632,12 +750,12 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "THE BEAST",
      "film_title_latin": "THE BEAST",
      "format": "2D",
@@ -645,21 +763,307 @@
      "language": null,
      "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     },
     {
-     "confidence": 1.0,
-     "date": "2026-11-27",
+     "confidence": 0.95,
+     "date": "2026-11-28",
      "film_title": "THE ODYSSEY",
      "film_title_latin": "THE ODYSSEY",
      "format": "2D",
      "hall": "GOLD 2",
      "language": null,
      "price_birr": null,
+     "time": "21:15",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "SPIDER MAN: BRAND NEW DAY",
+     "film_title_latin": "SPIDER MAN: BRAND NEW DAY",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "14:15",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "16:30",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "FORGOTTEN ISLAND",
+     "film_title_latin": "FORGOTTEN ISLAND",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "CINEMA 2",
+     "language": null,
+     "price_birr": null,
+     "time": "18:15",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "19:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "GOLD 4",
+     "language": null,
+     "price_birr": null,
      "time": "21:00",
-     "poster": "posters/gast/4911-0.jpg",
-     "post_url": "https://t.me/GastCinema/4911"
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "GOLD 3",
+     "language": null,
+     "price_birr": null,
+     "time": "21:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "THE BEAST",
+     "film_title_latin": "THE BEAST",
+     "format": "2D",
+     "hall": "GOLD 1",
+     "language": null,
+     "price_birr": null,
+     "time": "21:00",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
+    },
+    {
+     "confidence": 0.95,
+     "date": "2026-11-29",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "GOLD 2",
+     "language": null,
+     "price_birr": null,
+     "time": "21:15",
+     "poster": "posters/gast/4915-0.jpg",
+     "post_url": "https://t.me/GastCinema/4915"
     }
    ]
   },
@@ -668,81 +1072,16 @@
    "name": "Laphto Chewata Cinema",
    "channel_url": "https://t.me/chewatacinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Laphto+Mall%2C+Addis+Ababa",
-   "last_checked": "2026-11-27T11:38:14+03:00",
+   "last_checked": "2026-11-28T00:20:26+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-11-26T16:07:01+00:00",
+   "latest_schedule_posted_at": "2026-11-27T19:29:41+00:00",
    "latest_poster": {
-    "image": "posters/chewata/92-0.jpg",
-    "post_url": "https://t.me/chewatacinema/92",
-    "posted_at": "2026-11-26T16:07:01+00:00",
+    "image": "posters/chewata/93-0.jpg",
+    "post_url": "https://t.me/chewatacinema/93",
+    "posted_at": "2026-11-27T19:29:41+00:00",
     "status": "ok"
    },
    "showtimes": [
-    {
-     "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "The Odyssey",
-     "film_title_latin": "The Odyssey",
-     "format": null,
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "Love of Your Life",
-     "film_title_latin": "Love of Your Life",
-     "format": null,
-     "hall": "VIP",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "The Beast",
-     "film_title_latin": "The Beast",
-     "format": null,
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "Resident Evil",
-     "film_title_latin": "Resident Evil",
-     "format": null,
-     "hall": "VIP",
-     "language": null,
-     "price_birr": null,
-     "time": "16:30",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "Wicker",
-     "film_title_latin": "Wicker",
-     "format": null,
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "18:00",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
-    },
     {
      "confidence": 1.0,
      "date": "2026-11-28",
@@ -809,69 +1148,17 @@
      "post_url": "https://t.me/chewatacinema/92"
     },
     {
-     "confidence": 1.0,
+     "confidence": 0.95,
      "date": "2026-11-29",
-     "film_title": "The Odyssey",
-     "film_title_latin": "The Odyssey",
-     "format": null,
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "13:00",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-29",
-     "film_title": "Spider-Man: Brand New Day",
-     "film_title_latin": "Spider-Man: Brand New Day",
-     "format": null,
-     "hall": "VIP",
-     "language": null,
-     "price_birr": null,
-     "time": "14:00",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-29",
-     "film_title": "Resident Evil",
-     "film_title_latin": "Resident Evil",
-     "format": null,
-     "hall": "C1",
-     "language": null,
-     "price_birr": null,
-     "time": "16:00",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-29",
-     "film_title": "Wicker",
-     "film_title_latin": "Wicker",
-     "format": null,
-     "hall": "VIP",
-     "language": null,
-     "price_birr": null,
-     "time": "16:30",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
-    },
-    {
-     "confidence": 1.0,
-     "date": "2026-11-29",
-     "film_title": "Man City vs Arsenal",
-     "film_title_latin": "Man City vs Arsenal",
+     "film_title": "Manchester City VS Arsenal",
+     "film_title_latin": "Manchester City VS Arsenal",
      "format": null,
      "hall": null,
      "language": null,
      "price_birr": null,
      "time": "19:30",
-     "poster": "posters/chewata/92-0.jpg",
-     "post_url": "https://t.me/chewatacinema/92"
+     "poster": "posters/chewata/93-0.jpg",
+     "post_url": "https://t.me/chewatacinema/93"
     }
    ]
   },
@@ -880,19 +1167,19 @@
    "name": "Garad Multi Cinema",
    "channel_url": "https://t.me/garadmulticinema",
    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Garad+Multi+Cinema%2C+Addis+Ababa",
-   "last_checked": "2026-11-27T11:38:14+03:00",
+   "last_checked": "2026-11-28T00:20:26+03:00",
    "last_error": null,
-   "latest_schedule_posted_at": "2026-11-25T15:00:15+00:00",
+   "latest_schedule_posted_at": "2026-11-27T15:00:05+00:00",
    "latest_poster": {
-    "image": "posters/garad/482-0.jpg",
-    "post_url": "https://t.me/garadmulticinema/482",
-    "posted_at": "2026-11-25T15:00:15+00:00",
+    "image": "posters/garad/484-0.jpg",
+    "post_url": "https://t.me/garadmulticinema/484",
+    "posted_at": "2026-11-27T15:00:05+00:00",
     "status": "ok"
    },
    "showtimes": [
     {
      "confidence": 1.0,
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "film_title": "HEXED",
      "film_title_latin": "Hexed",
      "format": "2D",
@@ -900,12 +1187,12 @@
      "language": null,
      "price_birr": null,
      "time": "11:00",
-     "poster": "posters/garad/482-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/482"
+     "poster": "posters/garad/484-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/484"
     },
     {
      "confidence": 1.0,
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "film_title": "THE ODYSSEY",
      "film_title_latin": "The Odyssey",
      "format": "2D",
@@ -913,12 +1200,12 @@
      "language": null,
      "price_birr": null,
      "time": "11:00",
-     "poster": "posters/garad/482-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/482"
+     "poster": "posters/garad/484-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/484"
     },
     {
      "confidence": 1.0,
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "film_title": "HOW TO ROB A BANK",
      "film_title_latin": "How to Rob a Bank",
      "format": "2D",
@@ -926,12 +1213,12 @@
      "language": null,
      "price_birr": null,
      "time": "13:00",
-     "poster": "posters/garad/482-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/482"
+     "poster": "posters/garad/484-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/484"
     },
     {
      "confidence": 1.0,
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "film_title": "HEXED",
      "film_title_latin": "Hexed",
      "format": "2D",
@@ -939,25 +1226,25 @@
      "language": null,
      "price_birr": null,
      "time": "14:00",
-     "poster": "posters/garad/482-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/482"
+     "poster": "posters/garad/484-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/484"
     },
     {
      "confidence": 1.0,
-     "date": "2026-11-27",
-     "film_title": "THE ODYSSEY",
-     "film_title_latin": "The Odyssey",
+     "date": "2026-11-28",
+     "film_title": "AVENGERS : AGE OF ULTRON",
+     "film_title_latin": "Avengers: Age of Ultron",
      "format": "2D",
      "hall": "CINEMA 2",
      "language": null,
      "price_birr": null,
      "time": "15:15",
-     "poster": "posters/garad/482-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/482"
+     "poster": "posters/garad/484-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/484"
     },
     {
      "confidence": 1.0,
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "film_title": "HEXED",
      "film_title_latin": "Hexed",
      "format": "2D",
@@ -965,12 +1252,12 @@
      "language": null,
      "price_birr": null,
      "time": "16:00",
-     "poster": "posters/garad/482-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/482"
+     "poster": "posters/garad/484-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/484"
     },
     {
      "confidence": 1.0,
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "film_title": "HOW TO ROB A BANK",
      "film_title_latin": "How to Rob a Bank",
      "format": "2D",
@@ -978,12 +1265,12 @@
      "language": null,
      "price_birr": null,
      "time": "18:00",
-     "poster": "posters/garad/482-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/482"
+     "poster": "posters/garad/484-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/484"
     },
     {
      "confidence": 1.0,
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "film_title": "THE ODYSSEY",
      "film_title_latin": "The Odyssey",
      "format": "2D",
@@ -991,12 +1278,12 @@
      "language": null,
      "price_birr": null,
      "time": "18:15",
-     "poster": "posters/garad/482-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/482"
+     "poster": "posters/garad/484-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/484"
     },
     {
      "confidence": 1.0,
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "film_title": "THE ODYSSEY",
      "film_title_latin": "The Odyssey",
      "format": "2D",
@@ -1004,16 +1291,16 @@
      "language": null,
      "price_birr": null,
      "time": "20:15",
-     "poster": "posters/garad/482-0.jpg",
-     "post_url": "https://t.me/garadmulticinema/482"
+     "poster": "posters/garad/484-0.jpg",
+     "post_url": "https://t.me/garadmulticinema/484"
     }
    ]
   }
  ],
  "tmdb_image_base": "https://image.tmdb.org/t/p/",
  "films": {
-  "abalewchelema": {
-   "title": "Abalew Chelema",
+  "avengersageofultron": {
+   "title": "Avengers: Age of Ultron",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -1025,7 +1312,7 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/abalewchelema.jpg"
+   "thumbnail": "films/avengersageofultron.jpg"
   },
   "ebenezer": {
    "title": "Ebenezer",
@@ -1169,26 +1456,8 @@
    "backdrop_path": null,
    "thumbnail": "films/labora.jpg"
   },
-  "loveofyourlife": {
-   "title": "Love of Your Life",
-   "overview": "After a chance encounter sparks a sweeping romance, Maya's future is suddenly upended, sending her on an unexpected journey to love and live again.",
-   "release_date": "2026-10-07",
-   "runtime": 109,
-   "genres": [
-    "Romance",
-    "Drama"
-   ],
-   "rating": 6.4,
-   "certification": "R",
-   "tmdb_id": 1381078,
-   "tmdb_url": "https://www.themoviedb.org/movie/1381078",
-   "trailer_url": "https://www.youtube.com/watch?v=HzGx48E64Xg",
-   "poster_path": "/dL3Tcv4FU2K85bgnGRBgLjFSrLr.jpg",
-   "backdrop_path": "/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
-   "thumbnail": "films/loveofyourlife.jpg"
-  },
-  "mancityvsarsenal": {
-   "title": "Man City vs Arsenal",
+  "laboro": {
+   "title": "LABORO",
    "overview": null,
    "release_date": null,
    "runtime": null,
@@ -1200,7 +1469,22 @@
    "trailer_url": null,
    "poster_path": null,
    "backdrop_path": null,
-   "thumbnail": "films/mancityvsarsenal.jpg"
+   "thumbnail": "films/laboro.jpg"
+  },
+  "manchestercityvsarsenal": {
+   "title": "Manchester City VS Arsenal",
+   "overview": null,
+   "release_date": null,
+   "runtime": null,
+   "genres": [],
+   "rating": null,
+   "certification": null,
+   "tmdb_id": null,
+   "tmdb_url": null,
+   "trailer_url": null,
+   "poster_path": null,
+   "backdrop_path": null,
+   "thumbnail": null
   },
   "residentevil": {
    "title": "Resident Evil",
@@ -1294,25 +1578,6 @@
    "poster_path": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
    "backdrop_path": "/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
    "thumbnail": "films/theodyssey.jpg"
-  },
-  "wicker": {
-   "title": "Wicker",
-   "overview": "On the outskirts of a village by the sea, lives a Fisherwoman; smelly, single and perpetually ridiculed. One day, fed up with her stuffy, small-minded neighbours, she commissions herself a husband to be made from wicker. In an otherwise conservative town, this unconventional romance sparks outrage, jealousy and chaos.",
-   "release_date": "2026-10-21",
-   "runtime": 105,
-   "genres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "rating": 7.6,
-   "certification": "R",
-   "tmdb_id": 1195803,
-   "tmdb_url": "https://www.themoviedb.org/movie/1195803",
-   "trailer_url": "https://www.youtube.com/watch?v=HP0BWBWn14I",
-   "poster_path": "/5sVi66aTT9X2uMldmIwu9JW3hZ2.jpg",
-   "backdrop_path": "/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
-   "thumbnail": "films/wicker.jpg"
   }
  }
 }

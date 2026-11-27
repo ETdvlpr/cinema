@@ -51,16 +51,6 @@
    "status": "skipped_amharic"
   }
  },
- "abwarawches": {
-  "first_seen": "2026-10-28T16:17:55+00:00",
-  "last_seen": "2026-10-28T16:17:55+00:00",
-  "thumbnail": {
-   "image": "films/abwarawches.jpg",
-   "post_url": "https://t.me/alem_cinema/2334",
-   "posted_at": "2026-10-28T16:17:55+00:00"
-  },
-  "title": "Abwaraw Ches"
- },
  "alfenesho": {
   "first_seen": "2026-11-12T18:21:23+00:00",
   "last_seen": "2026-11-15T21:53:07+03:00",
@@ -174,6 +164,20 @@
   "title": "Astarakiyu",
   "tmdb": {
    "status": "skipped_amharic"
+  }
+ },
+ "avengersageofultron": {
+  "first_seen": "2026-11-27T15:00:05+00:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
+  "thumbnail": {
+   "image": "films/avengersageofultron.jpg",
+   "post_url": "https://t.me/garadmulticinema/484",
+   "posted_at": "2026-11-27T15:00:05+00:00"
+  },
+  "title": "Avengers: Age of Ultron",
+  "tmdb": {
+   "checked_at": "2026-11-28T00:20:26+03:00",
+   "status": "none"
   }
  },
  "avengersdoomsday": {
@@ -319,6 +323,16 @@
    "status": "none"
   }
  },
+ "comingsoonmovie2": {
+  "first_seen": "2026-11-27T15:00:05+00:00",
+  "last_seen": "2026-11-27T15:00:05+00:00",
+  "thumbnail": {
+   "image": "films/comingsoonmovie2.jpg",
+   "post_url": "https://t.me/garadmulticinema/484",
+   "posted_at": "2026-11-27T15:00:05+00:00"
+  },
+  "title": "Coming Soon Movie 2"
+ },
  "coyotevsacme": {
   "first_seen": "2026-10-04T18:38:47+00:00",
   "last_seen": "2026-11-04T22:47:52+03:00",
@@ -407,19 +421,6 @@
    "status": "skipped_amharic"
   }
  },
- "dolomit": {
-  "first_seen": "2026-10-26T07:02:13+00:00",
-  "last_seen": "2026-10-28T15:58:56+03:00",
-  "thumbnail": {
-   "image": "films/dolomit.jpg",
-   "post_url": "https://t.me/alem_cinema/2331",
-   "posted_at": "2026-10-26T07:02:13+00:00"
-  },
-  "title": "Dolomit",
-  "tmdb": {
-   "status": "skipped_amharic"
-  }
- },
  "dolovia": {
   "first_seen": "2026-10-18T17:47:52+00:00",
   "last_seen": "2026-11-12T22:56:45+03:00",
@@ -471,11 +472,11 @@
  },
  "ebenezer": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/ebenezer.jpg",
-   "post_url": "https://t.me/Century_Cinema/2364",
-   "posted_at": "2026-11-25T21:58:22+00:00"
+   "post_url": "https://t.me/Century_Cinema/2365",
+   "posted_at": "2026-11-27T16:16:13+00:00"
   },
   "title": "EBENEZER",
   "tmdb": {
@@ -578,11 +579,11 @@
  },
  "fockerinlaw": {
   "first_seen": "2026-11-25T17:14:34+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/fockerinlaw.jpg",
-   "post_url": "https://t.me/Century_Cinema/2364",
-   "posted_at": "2026-11-25T21:58:22+00:00"
+   "post_url": "https://t.me/GastCinema/4915",
+   "posted_at": "2026-11-27T18:22:42+00:00"
   },
   "title": "FOCKER IN-LAW",
   "tmdb": {
@@ -606,11 +607,11 @@
  },
  "forgottenisland": {
   "first_seen": "2026-10-27T18:51:13+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/forgottenisland.jpg",
-   "post_url": "https://t.me/chewatacinema/92",
-   "posted_at": "2026-11-26T16:07:01+00:00"
+   "post_url": "https://t.me/GastCinema/4915",
+   "posted_at": "2026-11-27T18:22:42+00:00"
   },
   "title": "FORGOTTEN ISLAND",
   "tmdb": {
@@ -699,7 +700,7 @@
  },
  "guzon": {
   "first_seen": "2026-11-26T16:40:52+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/guzon.jpg",
    "post_url": "https://t.me/alem_cinema/2361",
@@ -740,11 +741,11 @@
  },
  "hexed": {
   "first_seen": "2026-11-25T17:14:34+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/hexed.jpg",
-   "post_url": "https://t.me/Century_Cinema/2364",
-   "posted_at": "2026-11-25T21:58:22+00:00"
+   "post_url": "https://t.me/GastCinema/4915",
+   "posted_at": "2026-11-27T18:22:42+00:00"
   },
   "title": "HEXED",
   "tmdb": {
@@ -771,11 +772,11 @@
  },
  "howtorobabank": {
   "first_seen": "2026-11-11T19:39:50+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/howtorobabank.jpg",
-   "post_url": "https://t.me/Century_Cinema/2364",
-   "posted_at": "2026-11-25T21:58:22+00:00"
+   "post_url": "https://t.me/GastCinema/4915",
+   "posted_at": "2026-11-27T18:22:42+00:00"
   },
   "title": "HOW TO ROB A BANK",
   "tmdb": {
@@ -826,8 +827,8 @@
   "last_seen": "2026-11-03T16:00:05+00:00",
   "thumbnail": {
    "image": "films/iceage.jpg",
-   "post_url": "https://t.me/garadmulticinema/451",
-   "posted_at": "2026-11-03T16:00:05+00:00"
+   "post_url": "https://t.me/garadmulticinema/484",
+   "posted_at": "2026-11-27T15:00:05+00:00"
   },
   "title": "Ice Age"
  },
@@ -879,7 +880,7 @@
  },
  "kiknenteyeqechignlinager": {
   "first_seen": "2026-11-26T16:40:52+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/kiknenteyeqechignlinager.jpg",
    "post_url": "https://t.me/alem_cinema/2361",
@@ -892,7 +893,7 @@
  },
  "labora": {
   "first_seen": "2026-11-26T16:40:52+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/labora.jpg",
    "post_url": "https://t.me/alem_cinema/2361",
@@ -901,6 +902,20 @@
   "title": "Labora",
   "tmdb": {
    "status": "skipped_amharic"
+  }
+ },
+ "laboro": {
+  "first_seen": "2026-11-27T16:16:13+00:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
+  "thumbnail": {
+   "image": "films/laboro.jpg",
+   "post_url": "https://t.me/Century_Cinema/2365",
+   "posted_at": "2026-11-27T16:16:13+00:00"
+  },
+  "title": "LABORO",
+  "tmdb": {
+   "checked_at": "2026-11-28T00:20:26+03:00",
+   "status": "none"
   }
  },
  "liverpoolvsarsenal": {
@@ -943,6 +958,15 @@
    "status": "matched",
    "title": "Love of Your Life",
    "trailer_youtube_key": "HzGx48E64Xg"
+  }
+ },
+ "manchestercityvsarsenal": {
+  "first_seen": "2026-11-28T00:20:26+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
+  "title": "Manchester City VS Arsenal",
+  "tmdb": {
+   "checked_at": "2026-11-28T00:20:26+03:00",
+   "status": "none"
   }
  },
  "manchestercityvsfulham": {
@@ -1091,6 +1115,16 @@
    "trailer_youtube_key": "VczwWXoMKL0"
   }
  },
+ "narnia": {
+  "first_seen": "2026-11-27T15:00:05+00:00",
+  "last_seen": "2026-11-27T15:00:05+00:00",
+  "thumbnail": {
+   "image": "films/narnia.jpg",
+   "post_url": "https://t.me/garadmulticinema/484",
+   "posted_at": "2026-11-27T15:00:05+00:00"
+  },
+  "title": "Narnia"
+ },
  "obsession": {
   "first_seen": "2026-10-30T18:35:46+00:00",
   "last_seen": "2026-11-07T16:05:56+03:00",
@@ -1117,19 +1151,6 @@
    "status": "matched",
    "title": "Obsession",
    "trailer_youtube_key": "gMC8kkwbIQQ"
-  }
- },
- "qenzelaki": {
-  "first_seen": "2026-10-26T07:02:13+00:00",
-  "last_seen": "2026-10-28T15:58:56+03:00",
-  "thumbnail": {
-   "image": "films/qenzelaki.jpg",
-   "post_url": "https://t.me/alem_cinema/2331",
-   "posted_at": "2026-10-26T07:02:13+00:00"
-  },
-  "title": "Qen Zelaki",
-  "tmdb": {
-   "status": "skipped_amharic"
   }
  },
  "qenzelele": {
@@ -1214,7 +1235,7 @@
  },
  "residentevil": {
   "first_seen": "2026-10-05T15:00:04+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/residentevil.jpg",
    "post_url": "https://t.me/chewatacinema/92",
@@ -1269,11 +1290,11 @@
  },
  "spidermanbrandnewday": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/spidermanbrandnewday.jpg",
-   "post_url": "https://t.me/chewatacinema/92",
-   "posted_at": "2026-11-26T16:07:01+00:00"
+   "post_url": "https://t.me/GastCinema/4915",
+   "posted_at": "2026-11-27T18:22:42+00:00"
   },
   "title": "SPIDER MAN: BRAND NEW DAY",
   "tmdb": {
@@ -1381,11 +1402,11 @@
  },
  "thebeast": {
   "first_seen": "2026-11-15T19:30:08+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/thebeast.jpg",
-   "post_url": "https://t.me/chewatacinema/92",
-   "posted_at": "2026-11-26T16:07:01+00:00"
+   "post_url": "https://t.me/GastCinema/4915",
+   "posted_at": "2026-11-27T18:22:42+00:00"
   },
   "title": "THE BEAST",
   "tmdb": {
@@ -1477,7 +1498,7 @@
  },
  "thelastsunrise": {
   "first_seen": "2026-10-05T21:21:37+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/thelastsunrise.jpg",
    "post_url": "https://t.me/chewatacinema/92",
@@ -1561,11 +1582,11 @@
  },
  "theodyssey": {
   "first_seen": "2026-10-04T14:56:09+00:00",
-  "last_seen": "2026-11-27T11:38:14+03:00",
+  "last_seen": "2026-11-28T00:20:26+03:00",
   "thumbnail": {
    "image": "films/theodyssey.jpg",
-   "post_url": "https://t.me/chewatacinema/92",
-   "posted_at": "2026-11-26T16:07:01+00:00"
+   "post_url": "https://t.me/GastCinema/4915",
+   "posted_at": "2026-11-27T18:22:42+00:00"
   },
   "title": "THE ODYSSEY",
   "tmdb": {

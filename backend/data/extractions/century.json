@@ -1,6 +1,6 @@
 {
  "cinema_id": "century",
- "last_checked": "2026-11-27T11:38:14+03:00",
+ "last_checked": "2026-11-28T00:20:26+03:00",
  "last_error": null,
  "posters": {
   "2342-0": {
@@ -2675,6 +2675,221 @@
      "language": null,
      "price_birr": null,
      "time": "14:30"
+    }
+   ],
+   "status": "ok"
+  },
+  "2365-0": {
+   "attempts": 1,
+   "error": null,
+   "first_attempt_at": "2026-11-28T00:22:30+03:00",
+   "image": "posters/century/2365-0.jpg",
+   "index": 0,
+   "model": "gemini-flash-lite-latest",
+   "notes": null,
+   "post_id": 2365,
+   "post_url": "https://t.me/Century_Cinema/2365",
+   "posted_at": "2026-11-27T16:16:13+00:00",
+   "processed_at": "2026-11-28T00:22:30+03:00",
+   "rejected": [],
+   "showtimes": [
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "THE ODYSSEY",
+     "film_title_latin": "THE ODYSSEY",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "17:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "HOW TO ROB A BANK",
+     "film_title_latin": "HOW TO ROB A BANK",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "14:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "13:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "FOCKER IN-LAW",
+     "film_title_latin": "FOCKER IN-LAW",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "19:45"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "12:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "HEXED",
+     "film_title_latin": "HEXED",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "16:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C1",
+     "language": null,
+     "price_birr": null,
+     "time": "15:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "20:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "EBENEZER",
+     "film_title_latin": "EBENEZER",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "20:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-28",
+     "film_title": "LABORO",
+     "film_title_latin": "LABORO",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
+    },
+    {
+     "confidence": 1.0,
+     "date": "2026-11-29",
+     "film_title": "LABORO",
+     "film_title_latin": "LABORO",
+     "format": "2D",
+     "hall": "C3",
+     "language": null,
+     "price_birr": null,
+     "time": "18:00"
     }
    ],
    "status": "ok"
